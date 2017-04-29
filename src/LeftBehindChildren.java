@@ -1,5 +1,7 @@
 import java.awt.EventQueue;
 
+import org.apache.logging.log4j.*;
+
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import java.awt.Color;
@@ -15,6 +17,7 @@ import java.awt.event.ActionEvent;
 public class LeftBehindChildren {
 
 	public static JFrame mainFrame;
+	public static Logger logger = LogManager.getLogger(LeftBehindChildren.class.getName());
 
 	/**
 	 * Launch the application.
@@ -24,8 +27,10 @@ public class LeftBehindChildren {
 			public void run() {
 				try {
 					LeftBehindChildren window = new LeftBehindChildren();
+					logger.info("查看首页");
 					window.mainFrame.setVisible(true);
 				} catch (Exception e) {
+					logger.error("首页错误");
 					e.printStackTrace();
 				}
 			}
