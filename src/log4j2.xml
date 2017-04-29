@@ -14,7 +14,7 @@
 
     <Appenders>
         
-        <!-- 日志级别为info的输出在log。txt文件中，大小超过50MB后压缩为RollingLogFile -->
+        <!-- 日志级别大于info的输出在log.txt文件中，大小超过50MB后压缩为RollingLogFile -->
          <RollingFile name="RollingLogFile" fileName="${LOG_HOME}/log.txt"
                      filePattern="${LOG_HOME}/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.txt.gz">
             <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/>
