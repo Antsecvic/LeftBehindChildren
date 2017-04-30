@@ -1,5 +1,7 @@
 import java.awt.EventQueue;
 
+import org.apache.logging.log4j.*;
+
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import java.awt.Color;
@@ -10,22 +12,52 @@ import java.awt.SystemColor;
 import javax.swing.JScrollPane;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
 
 	public static JFrame mainFrame;
+	public static Logger logger = LogManager.getLogger(LeftBehindChildren.class.getName());
 
 	/**
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		
+		Map<String,News> map = new HashMap<String,News>();
+		Map<String,News> mapClassified = new HashMap<String,News>();
+		Map<String,News> mapNotClassified = new HashMap<String,News>();
+		
+		Dom4j dom4j = new Dom4j();
+//		dom4jDemo.createXml("haha");
+		dom4j.parserXml("assets/guangming.xml",map);
+		
+		for(Entry<String, News> entry : map.entrySet()){
+			News news = entry.getValue();
+			System.out.println(entry.getKey()+":\n"+news.getEncodedContent()); 
+		}
+		
+		for(News value:map.values()){
+			if(!value.getTags().equals("")){
+				mapClassified.put(value.getID(), value);
+			}else{
+				mapNotClassified.put(value.getID(), value);
+			}
+		}
+		
+		dom4j.modifyXml("assets/guangming.xml",map.get("news:23lh^200601161410077(S:193916305)"));
+		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
 					LeftBehindChildren window = new LeftBehindChildren();
+					logger.info("查看首页");
 					window.mainFrame.setVisible(true);
 				} catch (Exception e) {
+					logger.error("首页错误");
 					e.printStackTrace();
 				}
 			}
