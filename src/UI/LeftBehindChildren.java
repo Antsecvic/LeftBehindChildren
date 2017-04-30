@@ -45,7 +45,8 @@ public class LeftBehindChildren {
 			
 		Dom4j dom4j = new Dom4j();
 		dom4j.parserXml("assets/guangming.xml",map);
-		
+		dom4j.parserXml("assets/nanfangdaily.xml",map);
+		dom4j.parserXml("assets/sichuan.xml",map);
 		//遍历以测试数据是否读入map
 //		for(Entry<String, News> entry : map.entrySet()){
 //			News news = entry.getValue();
