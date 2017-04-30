@@ -2,17 +2,14 @@ package XmlData;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.io.Writer;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
-import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
@@ -111,7 +108,7 @@ public class Dom4j implements XmlDocument {
 //				}
 				
 				
-				map.put(news.getID(),news);
+				map.put(news.getTitle(),news);
 			} 
 		} catch (DocumentException e) { 
 			System.out.println(e.getMessage()); 

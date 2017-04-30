@@ -1,30 +1,25 @@
+package UI;
+
+import XmlData.*;
+
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
+import java.awt.Font;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+
 import java.awt.Color;
-import javax.swing.ScrollPaneConstants;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.util.Map;
 import java.awt.event.ActionEvent;
 import java.awt.Label;
 import java.awt.Button;
-import javax.swing.JMenuItem;
-import java.awt.Scrollbar;
-import javax.swing.JMenuBar;
 import java.awt.Choice;
-import javax.swing.JLabel;
-import com.jgoodies.forms.factories.DefaultComponentFactory;
-import java.awt.Checkbox;
-import java.awt.List;
-import java.awt.TextArea;
-import javax.swing.border.MatteBorder;
-import javax.swing.border.TitledBorder;
 import javax.swing.UIManager;
-import javax.swing.JComboBox;
 
 public class NewsContent extends JFrame {
 
@@ -47,7 +42,7 @@ public class NewsContent extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public NewsContent() {
+	public NewsContent(Map<String,News> map,News news) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(300, 50, 1000, 700);
 		contentPane = new JPanel();
@@ -55,24 +50,75 @@ public class NewsContent extends JFrame {
 		contentPane.setBorder(UIManager.getBorder("ComboBox.border"));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+
+		String pre = preKey(map,news);
+		String follow = followKey(map,news);
 		
-		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(5, 5, 600, 600);
-		contentPane.add(scrollPane);
+		//显示新闻内容的版块
+		JTextArea textArea=new JTextArea(news.getTitle(),20,43);
+		textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
+	    textArea.setLineWrap(true);        //激活自动换行功能 
+	    textArea.setWrapStyleWord(true);            // 激活断行不断字功能
+		Font font = new Font("宋体",Font.BOLD,20);
+		textArea.setFont(font);
+		textArea.setEditable(false);
+		textArea.setCaretPosition(0);			//设置光标位置为首行
+		JScrollPane mainBody = new JScrollPane(textArea);
+		mainBody.setBounds(5, 5, 600, 600);
+		contentPane.add(mainBody);
 		
+		
+		//上一页按钮
 		JButton button = new JButton("\u4E0A\u4E00\u7BC7");
+		button.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				setVisible(false);
+				NewsContent newsContent = new NewsContent(map,map.get(pre));
+				newsContent.setVisible(true);
+			}
+		});
 		button.setBounds(631, 22, 93, 23);
 		contentPane.add(button);
 		
+		//首页按钮
 		JButton button_1 = new JButton("\u9996\u9875");
+		button_1.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e) {
+				setVisible(false);
+				LeftBehindChildren window = new LeftBehindChildren();
+				window.mainFrame.setVisible(true);
+			}
+		});
 		button_1.setBounds(746, 22, 93, 23);
 		contentPane.add(button_1);
 		
+		//下一页按钮
 		JButton button_2 = new JButton("\u4E0B\u4E00\u7BC7");
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				setVisible(false);
+				NewsContent newsContent = new NewsContent(map,map.get(follow));
+				newsContent.setVisible(true);
 			}
 		});
+		
+//		JScrollPane scrollPane = new JScrollPane();
+//		scrollPane.setBounds(5, 5, 600, 600);
+//		contentPane.add(scrollPane);
+//		
+//		JButton button = new JButton("\u4E0A\u4E00\u7BC7");
+//		button.setBounds(631, 22, 93, 23);
+//		contentPane.add(button);
+//		
+//		JButton button_1 = new JButton("\u9996\u9875");
+//		button_1.setBounds(746, 22, 93, 23);
+//		contentPane.add(button_1);
+//		
+//		JButton button_2 = new JButton("\u4E0B\u4E00\u7BC7");
+//		button_2.addActionListener(new ActionListener() {
+//			public void actionPerformed(ActionEvent e) {
+//			}
+//		});
 		button_2.setBounds(858, 22, 93, 23);
 		contentPane.add(button_2);
 		
@@ -209,19 +255,18 @@ public class NewsContent extends JFrame {
 		choice.add("事业单位");
 		choice.add("公益团体");
 		choice.add("个人");
-		choice.select("新闻主体");
+		choice.select(0);
 		
 		Choice choice_1 = new Choice();
 		choice_1.setBounds(746, 242, 62, 21);
 		contentPane.add(choice_1);
-		choice.add("具体种类");
-		choice.add("单纯一次捐款捐物");
-		choice.add("旅游活动安排的项目之一");
-		choice.add("免费开放");
-		choice.add("设立长期资助项目");
-		choice.add("其他");
-		choice.select("具体种类");
-		
+		choice_1.add("具体种类");
+		choice_1.add("单纯一次捐款捐物");
+		choice_1.add("旅游活动安排的项目之一");
+		choice_1.add("免费开放");
+		choice_1.add("设立长期资助项目");
+		choice_1.add("其他");
+		choice_1.select(0);
 		
 		Choice choice_2 = new Choice();
 		choice_2.setBounds(814, 242, 62, 21);
@@ -284,11 +329,51 @@ public class NewsContent extends JFrame {
 		JButton button_35 = new JButton("完成");
 		button_35.setBounds(858, 542, 93, 23);
 		contentPane.add(button_35);
-		choice.add("性别");
-		choice.add("男");
-		choice.add("女");
-		choice.select("性别");
+
+		choice_2.add("性别");
+		choice_2.add("男");
+		choice_2.add("女");
+		choice_2.select(0);
 	    
 		setTitle("新闻内容");
+	}
+	
+	//获取前一条新闻的key
+	String preKey(Map<String,News> map,News news){
+		String pre = "";
+		int i = 0;
+		for (String key : map.keySet()) {
+			if(key.equals(news.getTitle())){
+				break;
+			}
+			i++;
+			pre = key;
+		}
+		if(i == 0){
+			return news.getTitle();
+		}
+		return pre;
+	}
+	
+	//获取下一条新闻的key
+	String followKey(Map<String,News> map,News news){
+		String follow = "";
+		boolean tag = false;
+		int i = 0;
+		for (String key : map.keySet()) {
+			if(tag){
+				follow = key;
+				break;
+			}
+			i++;
+			if(i == map.size()){
+				return news.getTitle();
+			}
+			if(key.equals(news.getTitle())){
+				tag = true;
+				continue;
+			}
+		}
+		return follow;
 	}
 }

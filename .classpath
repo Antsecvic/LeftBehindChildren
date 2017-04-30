@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-<<<<<<< HEAD
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="jgoodies-common-1.8.0.jar" sourcepath="jgoodies-common-1.8.0-sources.jar"/>
-	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
-=======
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<accessrules>
 			<accessrule kind="accessible" pattern="**"/>
 		</accessrules>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/eclipseWorkspace/LeftBehindChildren/jar/log4j-core-2.8.2.jar"/>
-	<classpathentry kind="lib" path="D:/eclipseWorkspace/LeftBehindChildren/jar/log4j-api-2.8.2.jar"/>
-	<classpathentry kind="lib" path="D:/eclipseWorkspace/LeftBehindChildren/jar/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar"/>
->>>>>>> 93bcde3e92e145ada5f23f416663b026b164037c
+	<classpathentry exported="true" kind="lib" path="log4j-api-2.8.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="log4j-core-2.8.2.jar"/>
+	<classpathentry kind="lib" path="E:/Java/workspace/LeftBehindChildren/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java/jdk1.8.0_66/jre/lib/rt.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
