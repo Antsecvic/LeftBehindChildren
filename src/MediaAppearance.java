@@ -7,6 +7,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import java.awt.Color;
 
 public class MediaAppearance extends JFrame {
 
@@ -27,6 +28,7 @@ public class MediaAppearance extends JFrame {
 		setTitle("媒介呈现形象统计");
 		
 		JButton button = new JButton("\u8FD4\u56DE\u9996\u9875");
+		button.setBackground(Color.WHITE);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				setVisible(false);
