@@ -127,11 +127,11 @@ public class LeftBehindChildren {
         myJlist.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if(e.getClickCount() == 2){
-                    System.out.println("双击");
+                if(e.getClickCount() == 2){  
                     JList myList = (JList) e.getSource();
                     int index = myList.getSelectedIndex();    //已选项的下标
                     Object obj = myList.getModel().getElementAt(index);  //取出数据
+                    logger.info("首页双击打开未分类新闻--"+obj.toString());
                     mainFrame.setVisible(false);
     				NewsContent newsContent = new NewsContent(mapNotClassified,mapNotClassified.get(obj));
     				newsContent.setVisible(true);
@@ -163,10 +163,10 @@ public class LeftBehindChildren {
             @Override
             public void mouseClicked(MouseEvent e) {
                 if(e.getClickCount() == 2){
-                    System.out.println("双击");
                     JList myList = (JList) e.getSource();
                     int index = myList.getSelectedIndex();    //已选项的下标
                     Object obj = myList.getModel().getElementAt(index);  //取出数据
+                    logger.info("首页双击打开已分类新闻--"+obj.toString());
                     NewsContent newsContent = new NewsContent(mapClassified,mapClassified.get(obj));
     				newsContent.setVisible(true);
                 }

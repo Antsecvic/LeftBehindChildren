@@ -8,6 +8,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -15,6 +17,7 @@ import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 
+import UI.LeftBehindChildren;
 import sun.misc.BASE64Decoder; 
 /** 
 * 
@@ -24,8 +27,10 @@ import sun.misc.BASE64Decoder;
 */ 
 
 public class Dom4j implements XmlDocument { 
+	public static Logger logger = LogManager.getLogger(Dom4j.class.getName());
 	public void modifyXml(String fileName,News modifiedNews){ 
 		try { 
+			logger.info(fileName+" "+modifiedNews.getTitle()+"插入标签");
 			SAXReader sr = new SAXReader();
 	        Document document = sr.read(fileName);
 			Element arrayOfNewsData = document.getRootElement();
@@ -66,13 +71,15 @@ public class Dom4j implements XmlDocument {
 			xmlWriter.write(document); 
 			xmlWriter.close(); 
 		} catch (Exception e) { 
+			logger.error(fileName+" "+modifiedNews.getTitle()+"插入标签失败");
 			System.out.println(e.getMessage()); 
 		}
 	} 
 	public void parserXml(String fileName,Map<String,News> map) { 
 		File inputXml=new File(fileName); 
 		SAXReader saxReader = new SAXReader(); 
-		try { 
+		try {
+			logger.info("解析"+fileName);
 			Document document = saxReader.read(inputXml); 
 			Element arrayOfNewsData = document.getRootElement(); 
 			for(Iterator i = arrayOfNewsData.elementIterator(); i.hasNext();){ 
@@ -110,10 +117,10 @@ public class Dom4j implements XmlDocument {
 				
 				map.put(news.getTitle(),news);
 			} 
-		} catch (DocumentException e) { 
+		} catch (DocumentException e) {
+			logger.error("解析"+fileName+"失败");
 			System.out.println(e.getMessage()); 
 		} 
-		System.out.println("dom4j parserXml"); 
 	}
 	// 解析EncodedContent，使其成为可读字符串
 	  private String decodeContent(String encodedContent) {

@@ -21,8 +21,11 @@ import java.awt.Button;
 import java.awt.Choice;
 import javax.swing.UIManager;
 
-public class NewsContent extends JFrame {
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+public class NewsContent extends JFrame {
+	public static Logger logger = LogManager.getLogger(NewsContent.class.getName());
 	private JPanel contentPane;
 	/*public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -72,6 +75,7 @@ public class NewsContent extends JFrame {
 		JButton button = new JButton("\u4E0A\u4E00\u7BC7");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				logger.info("点击上一页打开新闻--"+pre.toString());
 				setVisible(false);
 				NewsContent newsContent = new NewsContent(map,map.get(pre));
 				newsContent.setVisible(true);
@@ -84,6 +88,7 @@ public class NewsContent extends JFrame {
 		JButton button_1 = new JButton("\u9996\u9875");
 		button_1.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
+				logger.info("返回首页");
 				setVisible(false);
 				LeftBehindChildren window = new LeftBehindChildren();
 				window.mainFrame.setVisible(true);
@@ -96,6 +101,7 @@ public class NewsContent extends JFrame {
 		JButton button_2 = new JButton("\u4E0B\u4E00\u7BC7");
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				logger.info("点击下一页打开新闻--"+follow.toString());
 				setVisible(false);
 				NewsContent newsContent = new NewsContent(map,map.get(follow));
 				newsContent.setVisible(true);
