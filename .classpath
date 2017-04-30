@@ -6,9 +6,9 @@
 			<accessrule kind="accessible" pattern="**"/>
 		</accessrules>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="log4j-api-2.8.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="log4j-core-2.8.2.jar"/>
-	<classpathentry kind="lib" path="E:/Java/jdk1.8.0_66/jre/lib/rt.jar"/>
-	<classpathentry kind="lib" path="D:/eclipseWorkspace/LeftBehindChildren/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipseWorkspace/LeftBehindChildren/jar/log4j-core-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipseWorkspace/LeftBehindChildren/jar/log4j-api-2.8.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipseWorkspace/LeftBehindChildren/jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_45/lib/rt.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

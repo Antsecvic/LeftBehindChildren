@@ -1,6 +1,11 @@
+package UI;
+
 import java.awt.EventQueue;
 
 import org.apache.logging.log4j.*;
+
+import XmlData.Dom4j;
+import XmlData.News;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
