@@ -143,24 +143,45 @@ public class NewsContent extends JFrame {
 		Button button_3 = new Button("光明日报（党一级日报）");
 		button_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				button_3.setBackground(Color.yellow);
 			}
 		});
 		button_3.setBounds(678, 80, 146, 23);
 		contentPane.add(button_3);
 		
 		Button button_4 = new Button("纯净新闻");
+		button_4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				button_4.setBackground(Color.yellow);
+			}
+		});
 		button_4.setBounds(678, 116, 62, 23);
 		contentPane.add(button_4);
 		
 		Button button_5 = new Button("特稿特写");
+		button_5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				button_5.setBackground(Color.yellow);
+			}
+		});
 		button_5.setBounds(746, 116, 62, 23);
 		contentPane.add(button_5);
 		
 		Button button_6 = new Button("评论");
+		button_6.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				button_6.setBackground(Color.yellow);
+			}
+		});
 		button_6.setBounds(814, 116, 62, 23);
 		contentPane.add(button_6);
 		
 		Button button_7 = new Button("其他");
+		button_7.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				button_7.setBackground(Color.yellow);
+			}
+		});
 		button_7.setBounds(882, 116, 62, 23);
 		contentPane.add(button_7);
 		
@@ -170,6 +191,12 @@ public class NewsContent extends JFrame {
 		contentPane.add(label_2);
 		
 		Button button_8 = new Button("帮助关爱");
+		button_8.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				button_8.setBackground(Color.yellow);
+				
+			}
+		});
 		button_8.setBounds(678, 155, 62, 23);
 		contentPane.add(button_8);
 		
@@ -211,6 +238,11 @@ public class NewsContent extends JFrame {
 		contentPane.add(label_4);
 		
 		Button button_17 = new Button("记者");
+		button_17.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				button_17.setBackground(Color.yellow);
+			}
+		});
 		button_17.setBounds(734, 278, 35, 23);
 		contentPane.add(button_17);
 		
@@ -278,6 +310,11 @@ public class NewsContent extends JFrame {
 		contentPane.add(label_5);
 		
 		Button button_25 = new Button("可怜悲惨的形象");
+		button_25.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				button_25.setBackground(Color.yellow);
+			}
+		});
 		button_25.setBounds(706, 339, 102, 23);
 		contentPane.add(button_25);
 		
@@ -303,6 +340,11 @@ public class NewsContent extends JFrame {
 		contentPane.add(label_6);
 		
 		Button button_30 = new Button("无本地户籍难入公立学校");
+		button_30.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				button_30.setBackground(Color.yellow);
+			}
+		});
 		button_30.setBounds(678, 430, 146, 23);
 		contentPane.add(button_30);
 		
