@@ -12,6 +12,9 @@ import java.awt.SystemColor;
 import javax.swing.JScrollPane;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
@@ -23,6 +26,30 @@ public class LeftBehindChildren {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		
+		Map<String,News> map = new HashMap<String,News>();
+		Map<String,News> mapClassified = new HashMap<String,News>();
+		Map<String,News> mapNotClassified = new HashMap<String,News>();
+		
+		Dom4j dom4j = new Dom4j();
+//		dom4jDemo.createXml("haha");
+		dom4j.parserXml("assets/guangming.xml",map);
+		
+		for(Entry<String, News> entry : map.entrySet()){
+			News news = entry.getValue();
+			System.out.println(entry.getKey()+":\n"+news.getEncodedContent()); 
+		}
+		
+		for(News value:map.values()){
+			if(!value.getTags().equals("")){
+				mapClassified.put(value.getID(), value);
+			}else{
+				mapNotClassified.put(value.getID(), value);
+			}
+		}
+		
+		dom4j.modifyXml("assets/guangming.xml",map.get("news:23lh^200601161410077(S:193916305)"));
+		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
