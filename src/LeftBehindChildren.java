@@ -117,5 +117,7 @@ public class LeftBehindChildren {
 		button.setBounds(613, 628, 93, 23);
 		mainFrame.getContentPane().add(button);
 		
+		
+		
 	}
 }
