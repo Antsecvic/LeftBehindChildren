@@ -6,3 +6,73 @@
 2017-05-01 01:17:27 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--贵州省委书记赵克志接受南都专访：贵广铁路明年通车 绝不接收污染转移
 2017-05-01 01:17:30 CST INFO  UI.NewsContent$1 78 actionPerformed - 点击上一页打开新闻--“心连心”服务站方便群衆日常用电
 2017-05-01 01:17:31 CST INFO  UI.NewsContent$2 91 actionPerformed - 返回首页
+2017-05-01 22:01:20 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/guangming.xml
+2017-05-01 22:01:21 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
+2017-05-01 22:01:21 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
+2017-05-01 22:01:22 CST INFO  UI.LeftBehindChildren$1 72 run - 查看首页
+2017-05-01 22:01:30 CST INFO  UI.LeftBehindChildren$2 134 mouseClicked - 首页双击打开未分类新闻--贵州省委书记赵克志接受南都专访：贵广铁路明年通车 绝不接收污染转移
+2017-05-01 22:01:32 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--深入检查指导确保取得实效——中央巡回检查组和各级巡回检查组、指导检查组、巡回指导...
+2017-05-01 23:25:11 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/guangming.xml
+2017-05-01 23:25:12 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
+2017-05-01 23:25:12 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
+2017-05-01 23:25:13 CST INFO  UI.LeftBehindChildren$1 72 run - 查看首页
+2017-05-01 23:25:20 CST INFO  UI.LeftBehindChildren$2 134 mouseClicked - 首页双击打开未分类新闻--加快发展农村文化事业
+2017-05-01 23:25:39 CST INFO  UI.NewsContent$2 91 actionPerformed - 返回首页
+2017-05-02 10:13:50 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/guangming.xml
+2017-05-02 10:13:50 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
+2017-05-02 10:13:51 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
+2017-05-02 10:13:52 CST INFO  UI.LeftBehindChildren$1 72 run - 查看首页
+2017-05-02 10:19:05 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/guangming.xml
+2017-05-02 10:19:06 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
+2017-05-02 10:19:06 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
+2017-05-02 10:19:07 CST INFO  UI.LeftBehindChildren$1 72 run - 查看首页
+2017-05-02 10:20:29 CST INFO  UI.LeftBehindChildren$2 134 mouseClicked - 首页双击打开未分类新闻--“心连心”服务站方便群衆日常用电
+2017-05-02 10:20:51 CST INFO  UI.NewsContent$2 91 actionPerformed - 返回首页
+2017-05-02 10:21:05 CST INFO  UI.LeftBehindChildren$2 134 mouseClicked - 首页双击打开未分类新闻--贵州省委书记赵克志接受南都专访：贵广铁路明年通车 绝不接收污染转移
+2017-05-02 10:21:08 CST INFO  UI.NewsContent$1 78 actionPerformed - 点击上一页打开新闻--“心连心”服务站方便群衆日常用电
+2017-05-02 10:21:09 CST INFO  UI.NewsContent$1 78 actionPerformed - 点击上一页打开新闻--“心连心”服务站方便群衆日常用电
+2017-05-02 10:21:10 CST INFO  UI.NewsContent$1 78 actionPerformed - 点击上一页打开新闻--“心连心”服务站方便群衆日常用电
+2017-05-02 10:21:10 CST INFO  UI.NewsContent$1 78 actionPerformed - 点击上一页打开新闻--“心连心”服务站方便群衆日常用电
+2017-05-02 10:21:10 CST INFO  UI.NewsContent$1 78 actionPerformed - 点击上一页打开新闻--“心连心”服务站方便群衆日常用电
+2017-05-02 10:21:11 CST INFO  UI.NewsContent$1 78 actionPerformed - 点击上一页打开新闻--“心连心”服务站方便群衆日常用电
+2017-05-02 10:21:11 CST INFO  UI.NewsContent$1 78 actionPerformed - 点击上一页打开新闻--“心连心”服务站方便群衆日常用电
+2017-05-02 10:21:12 CST INFO  UI.NewsContent$1 78 actionPerformed - 点击上一页打开新闻--“心连心”服务站方便群衆日常用电
+2017-05-02 10:21:13 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--贵州省委书记赵克志接受南都专访：贵广铁路明年通车 绝不接收污染转移
+2017-05-02 10:21:14 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--深入检查指导确保取得实效——中央巡回检查组和各级巡回检查组、指导检查组、巡回指导...
+2017-05-02 10:21:14 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--１０乐山儿童 中山过新年 留守儿童面试结果公布，有孩子１３年未和父母一起过年
+2017-05-02 10:21:14 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--加快发展农村文化事业
+2017-05-02 10:21:15 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--孙蓉：能帮到别人就很幸福
+2017-05-02 10:21:15 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--“爱的路上，我们从来不孤单”——无锡商院师生携手无锡九院共助延安残疾儿童王敬泽的...
+2017-05-02 10:21:16 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--学前教育要注重公益性
+2017-05-02 10:21:17 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--贵州江西湖南积极应对低温冰冻天气
+2017-05-02 10:21:17 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--世相 留守孩子 和转型代价
+2017-05-02 10:21:18 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--南江3万妇女开展感恩活动
+2017-05-02 10:21:18 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--我们不是慈善家，只是在旅途中释放心灵
+2017-05-02 10:21:19 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--学习观
+2017-05-02 10:21:20 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--愿出二十万解决户口问题 女儿六岁时随父母来深，户口与考学问题让家人费尽心思 珠宝...
+2017-05-02 10:21:20 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--文化志愿服务捧回10项大奖
+2017-05-02 10:21:21 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--舒心日子从好社区开始
+2017-05-02 10:21:21 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--学前教育 痛在学费
+2017-05-02 10:21:22 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--启事
+2017-05-02 10:21:22 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--30年民生路的演进
+2017-05-02 10:21:23 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--2014年全民阅读活动继续深入开展
+2017-05-02 10:21:23 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--懂爱的孩子
+2017-05-02 10:21:23 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--16幼儿园集体涨价
+2017-05-02 10:21:24 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--祥和与节俭：马年春节变奏曲
+2017-05-02 10:21:24 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--统筹城乡促跨越　科学发展见实效
+2017-05-02 10:21:24 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--大爱合江“最美群体”传递真善美
+2017-05-02 10:21:25 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--聘儿童辅导员建留守儿童之家
+2017-05-02 10:21:25 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--父母流泪认错 拒绝社会救助
+2017-05-02 10:21:26 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--中共四川省委关於制定国民经济和社会发展第十三个五年规划的建议
+2017-05-02 10:21:26 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--“Beijing2008我的梦想”明信片邮寄活动启动
+2017-05-02 10:21:27 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--环境公益诉讼缘何热于贵州？与该省密集立案7起相对应的是，新环保法实施半年来，其他...
+2017-05-02 10:21:27 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--解决留守儿童问题需从体系建设着手
+2017-05-02 10:21:27 CST INFO  UI.NewsContent$3 104 actionPerformed - 点击下一页打开新闻--悲欢跋涉
+2017-05-02 10:52:38 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/guangming.xml
+2017-05-02 10:52:39 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
+2017-05-02 10:52:39 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
+2017-05-02 10:52:40 CST INFO  UI.LeftBehindChildren$1 72 run - 查看首页
+2017-05-02 10:55:07 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/guangming.xml
+2017-05-02 10:55:08 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
+2017-05-02 10:55:08 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
+2017-05-02 10:55:09 CST INFO  UI.LeftBehindChildren$1 72 run - 查看首页

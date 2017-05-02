@@ -1,9 +1,11 @@
-package XmlData;
+package Test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import XmlData.News;
 
 public class NewsTest {
 	
