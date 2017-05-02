@@ -25,39 +25,52 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
 
-	private static Map<String,News> map = new HashMap<String,News>();
-	private static Map<String,News> mapClassified = new HashMap<String,News>();
-	private static Map<String,News> mapNotClassified = new HashMap<String,News>();
+	private static List<News> newsList = new ArrayList<>();
+	private static List<News> classifiedNews = new ArrayList<>();
+	private static List<News> notClassifiedNews = new ArrayList<>();
+	private static List<String> classifiedTitle = new ArrayList<>();
+	private static List<String> notClassifiedTitle = new ArrayList<>();
+	
+	private static LeftBehindChildren leftBehindChildren = new LeftBehindChildren();
 	
 	public static JFrame mainFrame;
 	public static Logger logger = LogManager.getLogger(LeftBehindChildren.class.getName());
 
+	/**
+	 * Create the application.
+	 */
+	private LeftBehindChildren() {
+		initialize();
+	}
+	
+	public static LeftBehindChildren getInstance(){
+		return leftBehindChildren;
+	}
 	/**
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
 			
 		Dom4j dom4j = new Dom4j();
-		dom4j.parserXml("assets/guangming.xml",map);
-		dom4j.parserXml("assets/nanfangdaily.xml",map);
-		dom4j.parserXml("assets/sichuan.xml",map);
-		//遍历以测试数据是否读入map
-//		for(Entry<String, News> entry : map.entrySet()){
-//			News news = entry.getValue();
-//			System.out.println(entry.getKey()+":\n"+news.getEncodedContent()); 
-//		}
+		dom4j.parserXml("assets/guangming.xml",newsList);
+		dom4j.parserXml("assets/nanfangdaily.xml",newsList);
+		dom4j.parserXml("assets/sichuan.xml",newsList);
 		
-		for(News value:map.values()){
-			if(!value.getTags().equals("")){
-				mapClassified.put(value.getTitle(), value);
+		for(News news : newsList){
+			if(!news.getTags().equals("")){
+				classifiedNews.add(news);
+				classifiedTitle.add(news.getTitle());
 			}else{
-				mapNotClassified.put(value.getTitle(), value);
+				notClassifiedNews.add(news);
+				notClassifiedTitle.add(news.getTitle());
 			}
 		}
 /*	
@@ -77,13 +90,6 @@ public class LeftBehindChildren {
 				}
 			}
 		});
-	}
-
-	/**
-	 * Create the application.
-	 */
-	public LeftBehindChildren() {
-		initialize();
 	}
 
 	/**
@@ -121,19 +127,18 @@ public class LeftBehindChildren {
 		JScrollPane scrollPane_1 = new JScrollPane();
 		scrollPane_1.setBounds(10, 396, 568,266);
 //        jScrollPane1.setPreferredSize(new java.awt.Dimension(218, 164));
-        ListModel jList1Model =  new DefaultComboBoxModel(mapNotClassified.keySet().toArray());
+        ListModel jList1Model =  new DefaultComboBoxModel(notClassifiedTitle.toArray());
         JList myJlist = new JList();
         myJlist.setModel(jList1Model);            //设置数据
         myJlist.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if(e.getClickCount() == 2){  
+                if(e.getClickCount() == 1){  
                     JList myList = (JList) e.getSource();
                     int index = myList.getSelectedIndex();    //已选项的下标
                     Object obj = myList.getModel().getElementAt(index);  //取出数据
-                    logger.info("首页双击打开未分类新闻--"+obj.toString());
-                    mainFrame.setVisible(false);
-    				NewsContent newsContent = new NewsContent(mapNotClassified,mapNotClassified.get(obj));
+                    logger.info("首页点击打开未分类新闻--"+obj.toString());
+    				NewsContent newsContent = NewsContent.getInstance(notClassifiedNews,index);
     				newsContent.setVisible(true);
                 }
             }
@@ -156,18 +161,18 @@ public class LeftBehindChildren {
 		// 用来显示已分类的新闻标题
 		JScrollPane scrollPane_3 = new JScrollPane();
 		scrollPane_3.setBounds(613, 65, 349, 508);
-		ListModel jList1Model2 =  new DefaultComboBoxModel(mapClassified.keySet().toArray());
+		ListModel jList1Model2 =  new DefaultComboBoxModel(classifiedTitle.toArray());
         JList myJlist2 = new JList();
         myJlist2.setModel(jList1Model2);            //设置数据
         myJlist2.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if(e.getClickCount() == 2){
+                if(e.getClickCount() == 1){
                     JList myList = (JList) e.getSource();
                     int index = myList.getSelectedIndex();    //已选项的下标
                     Object obj = myList.getModel().getElementAt(index);  //取出数据
-                    logger.info("首页双击打开已分类新闻--"+obj.toString());
-                    NewsContent newsContent = new NewsContent(mapClassified,mapClassified.get(obj));
+                    logger.info("首页点击打开已分类新闻--"+obj.toString());
+    				NewsContent newsContent = NewsContent.getInstance(classifiedNews,index);
     				newsContent.setVisible(true);
                 }
             }

@@ -75,7 +75,7 @@ public class Dom4j implements XmlDocument {
 			System.out.println(e.getMessage()); 
 		}
 	} 
-	public void parserXml(String fileName,Map<String,News> map) { 
+	public void parserXml(String fileName,List<News> newsList) { 
 		File inputXml=new File(fileName); 
 		SAXReader saxReader = new SAXReader(); 
 		try {
@@ -115,7 +115,7 @@ public class Dom4j implements XmlDocument {
 //				}
 				
 				
-				map.put(news.getTitle(),news);
+				newsList.add(news);
 			} 
 		} catch (DocumentException e) {
 			logger.error("½âÎö"+fileName+"Ê§°Ü");

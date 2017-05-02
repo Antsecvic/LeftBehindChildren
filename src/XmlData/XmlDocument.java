@@ -1,6 +1,6 @@
 package XmlData;
 
-import java.util.Map;
+import java.util.List;
 
 /**  
 *  
@@ -16,5 +16,5 @@ public interface XmlDocument {
 	* 解析XML文档  
 	* @param fileName 文件全路径名称  
 	*/   
-	public void parserXml(String fileName,Map<String,News> map);   
+	public void parserXml(String fileName,List<News> newsList);   
 }   
