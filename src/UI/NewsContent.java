@@ -27,20 +27,20 @@ import org.apache.logging.log4j.Logger;
 public class NewsContent extends JFrame {
 	public static Logger logger = LogManager.getLogger(NewsContent.class.getName());
 	private JPanel contentPane;
-	/*public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					NewsContent window = new NewsContent();
-					window.mainFrame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}*/
+	private JTextArea textArea;
+	String pre;
+	String follow;
 	
-	
+	public void showNewsDetails(News news){
+	    textArea.setLineWrap(true);        //激活自动换行功能 
+	    textArea.setWrapStyleWord(true);            // 激活断行不断字功能
+		Font font = new Font("宋体",Font.BOLD,20);
+		textArea.setFont(font);
+		textArea.setEditable(false);
+		textArea.setCaretPosition(0);			//设置光标位置为首行
+		textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
+
+	}
 
 	/**
 	 * Create the frame.
@@ -54,31 +54,23 @@ public class NewsContent extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 
-		String pre = preKey(map,news);
-		String follow = followKey(map,news);
+		pre = preKey(map,news);
+		follow = followKey(map,news);
 		
 		//显示新闻内容的版块
-		JTextArea textArea=new JTextArea(news.getTitle(),20,43);
-		textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
-	    textArea.setLineWrap(true);        //激活自动换行功能 
-	    textArea.setWrapStyleWord(true);            // 激活断行不断字功能
-		Font font = new Font("宋体",Font.BOLD,20);
-		textArea.setFont(font);
-		textArea.setEditable(false);
-		textArea.setCaretPosition(0);			//设置光标位置为首行
+		textArea=new JTextArea(news.getTitle(),20,43);
+
 		JScrollPane mainBody = new JScrollPane(textArea);
 		mainBody.setBounds(5, 5, 600, 600);
 		contentPane.add(mainBody);
-		
 		
 		//上一页按钮
 		JButton button = new JButton("\u4E0A\u4E00\u7BC7");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				logger.info("点击上一页打开新闻--"+pre.toString());
-				setVisible(false);
-				NewsContent newsContent = new NewsContent(map,map.get(pre));
-				newsContent.setVisible(true);
+				NewsContent.this.showNewsDetails(map.get(pre));
+				pre = preKey(map,map.get(pre));
 			}
 		});
 		button.setBounds(631, 22, 93, 23);
