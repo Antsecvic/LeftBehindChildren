@@ -291,3 +291,7 @@
 2017-05-02 12:53:46 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
 2017-05-02 12:53:46 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
 2017-05-02 12:53:47 CST INFO  UI.LeftBehindChildren$1 72 run - 查看首页
+2017-05-02 12:57:04 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/guangming.xml
+2017-05-02 12:57:05 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
+2017-05-02 12:57:05 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
+2017-05-02 12:57:06 CST INFO  UI.LeftBehindChildren$1 72 run - 查看首页

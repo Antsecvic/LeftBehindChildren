@@ -47,7 +47,7 @@ public class StatisticsBin extends JFrame {
 		contentPane.add(back);
 		
 		button_1 = new JButton("\u76F8\u5173\u65B0\u95FB\u6570\u91CF\u7EDF\u8BA1");
-		button_1.setBackground(Color.WHITE);
+		button_1.setBackground(Color.YELLOW);
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				button_1.setBackground(Color.YELLOW);
