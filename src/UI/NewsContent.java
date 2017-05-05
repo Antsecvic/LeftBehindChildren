@@ -35,6 +35,7 @@ public class NewsContent extends JFrame {
 	private JScrollPane mainBody;
 	private List<News> newsList;
 	private int position;
+	private JButton showExternalNews = new JButton("\u52A0\u8F7D\u5916\u90E8\u65B0\u95FB");
 
 	public NewsContent(List<News> newsList,int position) {
 		this.newsList = newsList;
@@ -44,14 +45,15 @@ public class NewsContent extends JFrame {
 	
 	//更新新闻显示内容
 	public void showNewsDetails(News news){
+		
 		if (news.getEncodedContent().equals(""))
 		{
-			
-			String url = news.getTrueUrl();
-			BareBonesBrowserLaunch.openURL(url);
+			showExternalNews.setEnabled(true);
 		}
 		else
 		{
+	
+			showExternalNews.setEnabled(false);
 			textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
 		    textArea.setLineWrap(true);                 //激活自动换行功能 
 		    textArea.setWrapStyleWord(true);            // 激活断行不断字功能
@@ -374,6 +376,16 @@ public class NewsContent extends JFrame {
 		JButton button_35 = new JButton("完成");
 		button_35.setBounds(858, 542, 93, 23);
 		contentPane.add(button_35);
+		
+		
+		showExternalNews.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				String url = newsList.get(position).getTrueUrl();
+				BareBonesBrowserLaunch.openURL(url);
+			}
+		});
+		showExternalNews.setBounds(706, 542, 118, 23);
+		contentPane.add(showExternalNews);
 
 		choice_2.add("性别");
 		choice_2.add("男");

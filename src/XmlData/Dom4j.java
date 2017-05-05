@@ -28,7 +28,9 @@ import sun.misc.BASE64Decoder;
 */ 
 
 public class Dom4j implements XmlDocument { 
+	
 	public static Logger logger = LogManager.getLogger(Dom4j.class.getName());
+	
 	public void initXml(String fileName){ 
 		try { 
 			logger.info(fileName+" "+"初始化xml数据");
