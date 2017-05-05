@@ -1185,3 +1185,6 @@
 2017-05-05 10:54:02 CST INFO  UI.LeftBehindChildren$1 85 run - 查看首页
 2017-05-05 10:54:03 CST INFO  UI.LeftBehindChildren$2 140 mouseClicked - 首页点击打开未分类新闻--关爱留守儿童宝马车主捐赠图书1.4万余册
 2017-05-05 10:54:05 CST INFO  UI.NewsContent$2 113 actionPerformed - 返回首页
+2017-05-05 10:54:29 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
+2017-05-05 10:54:30 CST INFO  UI.LeftBehindChildren$1 85 run - 查看首页
+2017-05-05 10:54:31 CST INFO  UI.LeftBehindChildren$2 140 mouseClicked - 首页点击打开未分类新闻--绵阳师范学院：以师德建设助推学校跨越发展
