@@ -63,16 +63,13 @@ public class LeftBehindChildren {
 		//dom4j.parserXml("assets/guangming.xml",newsList);
 		//dom4j.parserXml("assets/nanfangdaily.xml",newsList);
 		dom4j.parserXml("assets/sichuan.xml",newsList);
+
 		
-		for(News news : newsList){
-			if(!news.getTags().equals("")){
-				classifiedNews.add(news);
-				classifiedTitle.add(news.getTitle());
-			}else{
-				notClassifiedNews.add(news);
-				notClassifiedTitle.add(news.getTitle());
-			}
-		}
+//		for(News news : newsList){
+//			System.out.println(news.getTitle());
+//		}
+		
+
 /*	
 		//修改xml文件
 		dom4j.modifyXml("assets/guangming.xml",map.get("news:23lh^200601161410077(S:193916305)"));
@@ -81,7 +78,7 @@ public class LeftBehindChildren {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					LeftBehindChildren window = new LeftBehindChildren();
+					LeftBehindChildren window = getInstance();
 					logger.info("查看首页");
 					window.mainFrame.setVisible(true);
 				} catch (Exception e) {
@@ -96,6 +93,26 @@ public class LeftBehindChildren {
 	 * Initialize the contents of the mainFrame.
 	 */
 	private void initialize() {
+		
+		Dom4j dom4j = new Dom4j();
+		dom4j.initXml("assets/guangming.xml");
+		dom4j.parserXml("assets/guangming.xml",newsList);
+		
+	//	dom4j.parserXml("assets/nanfangdaily.xml",newsList);
+	//	dom4j.parserXml("assets/sichuan.xml",newsList);
+		
+		for(News news : newsList){
+			if(!news.getTagIts().equals("false")){
+				classifiedNews.add(news);
+				classifiedTitle.add(news.getTitle());
+				System.out.println(news.getTagIts());
+			}else{
+				notClassifiedNews.add(news);
+				notClassifiedTitle.add(news.getTitle());
+//				System.out.println(news.getTagIts());
+			}
+		}
+		
 		mainFrame = new JFrame();
 		mainFrame.getContentPane().setBackground(Color.BLACK);
 		mainFrame.setBounds(300, 50, 1000, 700);
@@ -128,6 +145,9 @@ public class LeftBehindChildren {
 		scrollPane_1.setBounds(10, 396, 568,266);
 //        jScrollPane1.setPreferredSize(new java.awt.Dimension(218, 164));
         ListModel jList1Model =  new DefaultComboBoxModel(notClassifiedTitle.toArray());
+		for(String news : notClassifiedTitle){
+			System.out.println(news);
+		}
         JList myJlist = new JList();
         myJlist.setModel(jList1Model);            //设置数据
         myJlist.addMouseListener(new MouseAdapter() {
@@ -138,7 +158,7 @@ public class LeftBehindChildren {
                     int index = myList.getSelectedIndex();    //已选项的下标
                     Object obj = myList.getModel().getElementAt(index);  //取出数据
                     logger.info("首页点击打开未分类新闻--"+obj.toString());
-    				NewsContent newsContent = NewsContent.getInstance(notClassifiedNews,index);
+    				NewsContent newsContent = new NewsContent(notClassifiedNews,index);
     				newsContent.setVisible(true);
                 }
             }
@@ -172,7 +192,7 @@ public class LeftBehindChildren {
                     int index = myList.getSelectedIndex();    //已选项的下标
                     Object obj = myList.getModel().getElementAt(index);  //取出数据
                     logger.info("首页点击打开已分类新闻--"+obj.toString());
-    				NewsContent newsContent = NewsContent.getInstance(classifiedNews,index);
+    				NewsContent newsContent = new NewsContent(classifiedNews,index);
     				newsContent.setVisible(true);
                 }
             }

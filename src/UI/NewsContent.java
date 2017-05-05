@@ -29,25 +29,17 @@ import javax.swing.JEditorPane;
 
 public class NewsContent extends JFrame {
 	public static Logger logger = LogManager.getLogger(NewsContent.class.getName());
-	public static JPanel contentPane;
+	public JPanel contentPane;
 	private JTextArea textArea;
 	private JButton browse;
-	private static List<News> newsList;
-	private static int position;
 	private JScrollPane mainBody;
+	private List<News> newsList;
+	private int position;
 
-	private NewsContent() {
+	public NewsContent(List<News> newsList,int position) {
+		this.newsList = newsList;
+		this.position = position;
 		initialize();
-	}
-	
-	public static NewsContent getInstance(List<News> newsList,int position){
-		NewsContent.newsList = newsList;
-		NewsContent.position = position;
-		return Nested.newsContent;
-	}
-	
-	static class Nested{
-		private static NewsContent newsContent = new NewsContent();
 	}
 	
 	//更新新闻显示内容
@@ -112,8 +104,9 @@ public class NewsContent extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				logger.info("返回首页");
 				setVisible(false);
+				dispose();
 				LeftBehindChildren window = LeftBehindChildren.getInstance();
-				window.mainFrame.setVisible(true);
+				window.mainFrame.setVisible(true);				
 			}
 		});
 		contentPane.add(button_1);

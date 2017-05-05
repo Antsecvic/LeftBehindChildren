@@ -112,12 +112,12 @@ public class NewsTest {
 	}
 
 
-
-	@Test
-	public void testSetTags() {
-		test.setTags(a);
-		assertEquals(a,test.getTags());
-	}
+//
+//	@Test
+//	public void testSetTags() {
+//		test.setTags(a);
+//		assertEquals(a,test.getTags());
+//	}
 
 	@Test
 	public void testSetEncodedContent() {

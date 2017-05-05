@@ -12,6 +12,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
+import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
@@ -28,6 +29,45 @@ import sun.misc.BASE64Decoder;
 
 public class Dom4j implements XmlDocument { 
 	public static Logger logger = LogManager.getLogger(Dom4j.class.getName());
+	public void initXml(String fileName){ 
+		try { 
+			logger.info(fileName+" "+"初始化xml数据");
+			SAXReader sr = new SAXReader();
+	        Document document = sr.read(fileName);
+			Element arrayOfNewsData = document.getRootElement();
+	        List newsList = arrayOfNewsData.elements();
+	        Element news = null;
+	        for (int i = 0; i < newsList.size(); i++) {
+	            news = (Element) newsList.get(i);
+	            for (Iterator it = news.elementIterator(); it.hasNext();) {
+	                Element node = (Element) it.next();
+	                String type = node.getName();
+	                if(type.equals("TagIts")){
+	                	node.setText("false");
+	                }
+	                if (type.equals("Tags")) {
+	                	if(node.elements().size() == 0){
+	                		node.addElement("Theme");
+							node.addElement("Source");
+							node.addElement("Showing");
+							node.addElement("Reason");
+							node.addElement("MainBody");
+							node.addElement("HelpType");
+							node.addElement("Gender");
+	                	}
+	                }
+	            }
+	        }
+			OutputFormat format = OutputFormat.createPrettyPrint();  
+			format.setEncoding("UTF-8");//应和xml文档的编码格式一致  			  
+			XMLWriter xmlWriter = new XMLWriter(new FileOutputStream(fileName), format);
+			xmlWriter.write(document); 
+			xmlWriter.close(); 
+		} catch (Exception e) { 
+			logger.error(fileName+" "+"初始化失败");
+			System.out.println(e.getMessage()); 
+		}
+	} 
 	public void modifyXml(String fileName,News modifiedNews){ 
 		try { 
 			logger.info(fileName+" "+modifiedNews.getTitle()+"插入标签");
@@ -55,14 +95,34 @@ public class Dom4j implements XmlDocument {
 	        for (Iterator it = news.elementIterator(); it.hasNext();) {
 	            Element node = (Element) it.next();
 	            String type = node.getName();
-	            if ("Tags".equals(type)) {
-	      
-	            	
-	            	
+	            if ("TagIts".equals(type)){
+	            	//将TagIts标签写入xml文件,用于指示是否已分类
+	            	node.setText(modifiedNews.getTagIts());
+	            }else if("IsDeleted".equals(type)){
+	            	//将IsDeleted标签写入xml文件,用于指示是否已删除
+	            	node.setText(modifiedNews.getIsDeleted());
+	            }else if("Tags".equals(type)){
 	            	//将标签写入xml文件
-	                node.setText(modifiedNews.getTags());
-	                
-	       
+	            	Element tags = (Element)node.elements().get(0);
+	            	for (Iterator i = tags.elementIterator(); i.hasNext();){
+	            		Element tagNode = (Element)i.next();
+	            		String tagType = tagNode.getName();
+	            		if ("Theme".equals(type)){
+	    	            	node.setText(modifiedNews.getTags().getTheme());
+	    	            }else if("Source".equals(type)){
+	    	            	node.setText(modifiedNews.getTags().getSource());
+	    	            }else if("Showing".equals(type)){
+	    	            	node.setText(modifiedNews.getTags().getShowing());
+	    	            }else if("Reason".equals(type)){
+	    	            	node.setText(modifiedNews.getTags().getReason());
+	    	            }else if("MainBody".equals(type)){
+	    	            	node.setText(modifiedNews.getTags().getMainBody());
+	    	            }else if("HelpType".equals(type)){
+	    	            	node.setText(modifiedNews.getTags().getHelpType());
+	    	            }else if("Gender".equals(type)){
+	    	            	node.setText(modifiedNews.getTags().getGender());
+	    	            }
+	            	}
 	            }
 	        }
 			OutputFormat format = OutputFormat.createPrettyPrint();  
@@ -86,12 +146,20 @@ public class Dom4j implements XmlDocument {
 				News news = new News();
 				Element newsData = (Element) i.next(); 
 				news.setNewsData(newsData.getText());
-				String[] temp = new String[14];
+				String[] temp = new String[20];
 				int k = 0;
 				for(Iterator j = newsData.elementIterator(); j.hasNext();){ 
 					Element node=(Element) j.next(); 
-					temp[k]=node.getText();
-					k++;
+					if(node.getName().equals("Tags")){
+						for(Iterator l = node.elementIterator();l.hasNext();){
+							Element tagNode = (Element)l.next();
+							temp[k] = tagNode.getText();
+							k++;
+						}
+					}else{
+						temp[k]=node.getText();
+						k++;
+					}
 //					System.out.println(node.getName()+":"+node.getText()); 
 				} 
 				news.setTagIts(temp[0]);
@@ -106,8 +174,18 @@ public class Dom4j implements XmlDocument {
 				news.setWordCount(temp[9]);
 				news.setID(temp[10]);
 				news.setTrueUrl(temp[11]);
-				news.setTags(temp[12]);
-				news.setEncodedContent(decodeContent(temp[13]));
+				
+				Tags tempTags = new Tags();
+				tempTags.setTheme(temp[12]);
+				tempTags.setSource(temp[13]);
+				tempTags.setShowing(temp[14]);
+				tempTags.setReason(temp[15]);
+				tempTags.setMainBody(temp[16]);
+				tempTags.setHelpType(temp[17]);
+				tempTags.setGender(temp[18]);
+				news.setTags(tempTags);
+				
+				news.setEncodedContent(decodeContent(temp[19]));
 				
 				//IsLoad的作用尚不清楚，先注释掉
 //				if(news.getEncodedContent().equals("")){

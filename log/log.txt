@@ -736,6 +736,7 @@
 2017-05-02 21:08:42 CST INFO  UI.NewsContent$1 83 actionPerformed - 点击上一篇打开新闻--好政策播种新希望——记湖北省农村教师资助行动计划
 2017-05-02 21:08:44 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
 2017-05-02 21:08:45 CST INFO  UI.LeftBehindChildren$2 140 mouseClicked - 首页点击打开未分类新闻--17部委领导慰问在京流动人口子女和农村留守儿童
+<<<<<<< HEAD
 2017-05-02 21:19:11 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/guangming.xml
 2017-05-02 21:19:12 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
 2017-05-02 21:19:12 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
@@ -1188,3 +1189,154 @@
 2017-05-05 10:54:29 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
 2017-05-05 10:54:30 CST INFO  UI.LeftBehindChildren$1 85 run - 查看首页
 2017-05-05 10:54:31 CST INFO  UI.LeftBehindChildren$2 140 mouseClicked - 首页点击打开未分类新闻--绵阳师范学院：以师德建设助推学校跨越发展
+=======
+2017-05-05 08:31:13 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/guangming.xml
+2017-05-05 08:31:16 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
+2017-05-05 08:31:23 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
+2017-05-05 08:59:30 CST INFO  XmlData.Dom4j 117 parserXml - 解析assets/guangming.xml
+2017-05-05 09:00:59 CST INFO  XmlData.Dom4j 117 parserXml - 解析assets/guangming.xml
+2017-05-05 09:01:51 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:01:52 CST INFO  XmlData.Dom4j 117 parserXml - 解析assets/guangming.xml
+2017-05-05 09:01:55 CST INFO  UI.LeftBehindChildren$1 86 run - 查看首页
+2017-05-05 09:07:16 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:07:17 CST INFO  XmlData.Dom4j 120 parserXml - 解析assets/guangming.xml
+2017-05-05 09:08:29 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:08:30 CST INFO  XmlData.Dom4j 120 parserXml - 解析assets/guangming.xml
+2017-05-05 09:08:33 CST INFO  UI.LeftBehindChildren$1 86 run - 查看首页
+2017-05-05 09:09:55 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:09:55 CST INFO  XmlData.Dom4j 120 parserXml - 解析assets/guangming.xml
+2017-05-05 09:10:00 CST INFO  UI.LeftBehindChildren$1 86 run - 查看首页
+2017-05-05 09:10:03 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--在田间读“万卷书”——南通大学学生投身新农村建设纪实
+2017-05-05 09:10:09 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--在田间读“万卷书”——南通大学学生投身新农村建设纪实
+2017-05-05 09:10:09 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--汇集社会力量实施关爱工程河南各界给留守儿童更多关爱
+2017-05-05 09:10:13 CST INFO  UI.NewsContent$1 83 actionPerformed - 点击上一篇打开新闻--西政志愿者：爱心铺就支教路
+2017-05-05 09:10:15 CST INFO  UI.NewsContent$3 109 actionPerformed - 点击下一篇打开新闻--汇集社会力量实施关爱工程河南各界给留守儿童更多关爱
+2017-05-05 09:10:15 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 09:10:17 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-05 09:18:56 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:18:57 CST INFO  XmlData.Dom4j 129 parserXml - 解析assets/guangming.xml
+2017-05-05 09:19:00 CST INFO  UI.LeftBehindChildren$1 86 run - 查看首页
+2017-05-05 09:19:02 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-05 09:19:06 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 09:19:07 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-05 09:19:09 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 09:19:10 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--农村学生辍学问题受关注周济坦言新形势下义务教育工作面临新挑战
+2017-05-05 09:19:11 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 09:19:12 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--17部委领导慰问在京流动人口子女和农村留守儿童
+2017-05-05 09:19:14 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 09:19:15 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--陈至立强调全面推进保障机制改革提高农村义务教育水平
+2017-05-05 09:19:17 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 09:19:18 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--汇集社会力量实施关爱工程河南各界给留守儿童更多关爱
+2017-05-05 09:38:42 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:38:43 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 09:38:47 CST INFO  UI.LeftBehindChildren$1 86 run - 查看首页
+2017-05-05 09:40:03 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-05 09:40:05 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 09:40:06 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-05 09:40:08 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 09:40:10 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--农村学生辍学问题受关注周济坦言新形势下义务教育工作面临新挑战
+2017-05-05 09:40:15 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 09:40:17 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-05 09:40:19 CST INFO  UI.NewsContent$1 83 actionPerformed - 点击上一篇打开新闻--17部委领导慰问在京流动人口子女和农村留守儿童
+2017-05-05 09:40:20 CST INFO  UI.NewsContent$3 109 actionPerformed - 点击下一篇打开新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-05 09:40:22 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 09:40:23 CST INFO  UI.LeftBehindChildren$2 141 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-05 09:43:48 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:43:49 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 09:43:52 CST INFO  UI.LeftBehindChildren$1 86 run - 查看首页
+2017-05-05 09:47:18 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:47:19 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 09:47:20 CST INFO  UI.LeftBehindChildren$1 90 run - 查看首页
+2017-05-05 09:52:09 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:52:10 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 09:52:11 CST INFO  UI.LeftBehindChildren$1 90 run - 查看首页
+2017-05-05 09:56:22 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:56:23 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 09:56:24 CST INFO  UI.LeftBehindChildren$1 91 run - 查看首页
+2017-05-05 09:57:06 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 09:57:07 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 09:57:11 CST INFO  UI.LeftBehindChildren$1 92 run - 查看首页
+2017-05-05 10:00:31 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:00:32 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:00:34 CST INFO  UI.LeftBehindChildren$1 87 run - 查看首页
+2017-05-05 10:02:12 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:02:12 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:02:14 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 10:02:20 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-05 10:02:24 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 10:02:24 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-05 10:02:26 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 10:02:27 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-05 10:02:32 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 10:02:33 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--农村学生辍学问题受关注周济坦言新形势下义务教育工作面临新挑战
+2017-05-05 10:02:34 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 10:02:36 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--农村留守儿童教育亟待加强
+2017-05-05 10:02:37 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
+2017-05-05 10:17:55 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:17:55 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:18:22 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:18:23 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:18:25 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 10:18:36 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-05 10:18:41 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--好政策播种新希望——记湖北省农村教师资助行动计划
+2017-05-05 10:18:41 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-05 10:18:42 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--好政策播种新希望——记湖北省农村教师资助行动计划
+2017-05-05 10:18:43 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-05 10:18:43 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--好政策播种新希望——记湖北省农村教师资助行动计划
+2017-05-05 10:19:14 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:19:15 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:19:30 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:19:31 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:19:33 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 10:19:34 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-05 10:21:36 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:21:37 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:21:39 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 10:21:41 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--不能忽视农村留守儿童
+2017-05-05 10:24:17 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:24:18 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:24:20 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 10:24:21 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-05 10:24:23 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--农村学生辍学问题受关注周济坦言新形势下义务教育工作面临新挑战
+2017-05-05 10:25:03 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:25:04 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:25:05 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 10:25:07 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-05 10:25:09 CST INFO  UI.NewsContent$2 97 actionPerformed - 返回首页
+2017-05-05 10:25:09 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-05 10:25:12 CST INFO  UI.NewsContent$2 97 actionPerformed - 返回首页
+2017-05-05 10:25:13 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-05 10:25:14 CST INFO  UI.NewsContent$2 97 actionPerformed - 返回首页
+2017-05-05 10:30:02 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:30:03 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:30:04 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 10:30:06 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--不能忽视农村留守儿童
+2017-05-05 10:30:08 CST INFO  UI.NewsContent$2 87 actionPerformed - 返回首页
+2017-05-05 10:30:09 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-05 10:30:10 CST INFO  UI.NewsContent$2 87 actionPerformed - 返回首页
+2017-05-05 10:30:11 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--农村留守儿童教育亟待加强
+2017-05-05 10:30:13 CST INFO  UI.NewsContent$2 87 actionPerformed - 返回首页
+2017-05-05 10:30:39 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:30:40 CST INFO  XmlData.Dom4j 140 parserXml - 解析assets/guangming.xml
+2017-05-05 10:36:41 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:36:42 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 10:41:33 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:41:34 CST ERROR XmlData.Dom4j 67 initXml - assets/guangming.xml 初始化失败
+2017-05-05 10:41:34 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 10:41:46 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:41:46 CST ERROR XmlData.Dom4j 67 initXml - assets/guangming.xml 初始化失败
+2017-05-05 10:41:46 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 10:42:58 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:42:59 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 10:43:00 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 10:44:15 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:44:16 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 10:44:18 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 10:44:20 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-05 10:44:24 CST INFO  UI.NewsContent$2 87 actionPerformed - 返回首页
+2017-05-05 10:44:25 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--农村留守儿童教育亟待加强
+2017-05-05 10:44:37 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 10:44:38 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 10:44:40 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 10:44:41 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--不能忽视农村留守儿童
+>>>>>>> 3feb942a7e34b60badad2d4232a38160488656e0
