@@ -736,7 +736,6 @@
 2017-05-02 21:08:42 CST INFO  UI.NewsContent$1 83 actionPerformed - 点击上一篇打开新闻--好政策播种新希望——记湖北省农村教师资助行动计划
 2017-05-02 21:08:44 CST INFO  UI.NewsContent$2 95 actionPerformed - 返回首页
 2017-05-02 21:08:45 CST INFO  UI.LeftBehindChildren$2 140 mouseClicked - 首页点击打开未分类新闻--17部委领导慰问在京流动人口子女和农村留守儿童
-<<<<<<< HEAD
 2017-05-02 21:19:11 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/guangming.xml
 2017-05-02 21:19:12 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/nanfangdaily.xml
 2017-05-02 21:19:12 CST INFO  XmlData.Dom4j 82 parserXml - 解析assets/sichuan.xml
@@ -1339,6 +1338,31 @@
 2017-05-05 10:44:38 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
 2017-05-05 10:44:40 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
 2017-05-05 10:44:41 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--不能忽视农村留守儿童
+<<<<<<< HEAD
+2017-05-05 11:02:25 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 11:02:26 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 11:02:27 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 11:02:39 CST INFO  UI.LeftBehindChildren$2 149 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-05 11:02:41 CST INFO  UI.NewsContent$2 87 actionPerformed - 返回首页
+2017-05-05 11:02:41 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 11:02:41 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 11:02:43 CST INFO  UI.LeftBehindChildren$2 149 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-05 11:03:11 CST INFO  UI.NewsContent$2 87 actionPerformed - 返回首页
+2017-05-05 11:03:11 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 11:03:11 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 11:05:05 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 11:05:06 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 11:05:07 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 11:05:08 CST INFO  UI.LeftBehindChildren$2 149 mouseClicked - 首页点击打开未分类新闻--不能忽视农村留守儿童
+2017-05-05 11:08:59 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 11:09:00 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 11:09:01 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 11:09:06 CST INFO  UI.LeftBehindChildren$2 149 mouseClicked - 首页点击打开未分类新闻--不能忽视农村留守儿童
+2017-05-05 11:09:41 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 11:09:42 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 11:09:43 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 11:09:44 CST INFO  UI.LeftBehindChildren$2 149 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+=======
 >>>>>>> 3feb942a7e34b60badad2d4232a38160488656e0
 2017-05-05 11:05:10 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
 2017-05-05 11:05:11 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
@@ -1472,3 +1496,4 @@
 2017-05-05 11:21:22 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/sichuan.xml
 2017-05-05 11:21:22 CST INFO  UI.LeftBehindChildren$1 83 run - 查看首页
 2017-05-05 11:21:27 CST INFO  UI.LeftBehindChildren$2 161 mouseClicked - 首页点击打开未分类新闻--你好，2016
+

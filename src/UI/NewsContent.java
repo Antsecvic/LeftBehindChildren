@@ -106,7 +106,7 @@ public class NewsContent extends JFrame {
 				logger.info("·µ»ØÊ×Ò³");
 				setVisible(false);
 				dispose();
-				LeftBehindChildren window = LeftBehindChildren.getInstance();
+				LeftBehindChildren window = new LeftBehindChildren();
 				window.mainFrame.setVisible(true);				
 			}
 		});
