@@ -14,6 +14,7 @@ import javax.swing.JTextArea;
 import java.awt.Color;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.awt.event.ActionEvent;
@@ -24,13 +25,16 @@ import javax.swing.UIManager;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import javax.swing.JEditorPane;
 
 public class NewsContent extends JFrame {
 	public static Logger logger = LogManager.getLogger(NewsContent.class.getName());
 	public static JPanel contentPane;
 	private JTextArea textArea;
+	private JButton browse;
 	private static List<News> newsList;
 	private static int position;
+	private JScrollPane mainBody;
 
 	private NewsContent() {
 		initialize();
@@ -48,13 +52,22 @@ public class NewsContent extends JFrame {
 	
 	//更新新闻显示内容
 	public void showNewsDetails(News news){
-		textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
-	    textArea.setLineWrap(true);                 //激活自动换行功能 
-	    textArea.setWrapStyleWord(true);            // 激活断行不断字功能
-		Font font = new Font("宋体",Font.BOLD,20);
-		textArea.setFont(font);
-		textArea.setEditable(false);
-		textArea.setCaretPosition(0);			//设置光标位置为首行
+		if (news.getEncodedContent().equals(""))
+		{
+			
+			String url = news.getTrueUrl();
+			BareBonesBrowserLaunch.openURL(url);
+		}
+		else
+		{
+			textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
+		    textArea.setLineWrap(true);                 //激活自动换行功能 
+		    textArea.setWrapStyleWord(true);            // 激活断行不断字功能
+			Font font = new Font("宋体",Font.BOLD,20);
+			textArea.setFont(font);
+			textArea.setEditable(false);
+			textArea.setCaretPosition(0);		//设置光标位置为首行
+		}
 	}
 	
 	//初始化界面和按钮
@@ -65,18 +78,23 @@ public class NewsContent extends JFrame {
 		contentPane.setBackground(Color.LIGHT_GRAY);
 		contentPane.setBorder(UIManager.getBorder("ComboBox.border"));
 		setContentPane(contentPane);
-		contentPane.setLayout(null);
 		
 		//显示新闻内容的版块
 		textArea=new JTextArea(newsList.get(position).getTitle(),20,43);
 		showNewsDetails(newsList.get(position));
+		contentPane.setLayout(null);
 		
-		JScrollPane mainBody = new JScrollPane(textArea);
+		mainBody = new JScrollPane(textArea);
 		mainBody.setBounds(5, 5, 600, 600);
+		
 		contentPane.add(mainBody);
+		
+		
+		
 		
 		//上一篇按钮
 		JButton button = new JButton("上一篇");
+		button.setBounds(631, 22, 93, 23);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(position != 0){
@@ -85,11 +103,11 @@ public class NewsContent extends JFrame {
 				}
 			}
 		});
-		button.setBounds(631, 22, 93, 23);
 		contentPane.add(button);
 		
 		//首页按钮
 		JButton button_1 = new JButton("首页");
+		button_1.setBounds(746, 22, 93, 23);
 		button_1.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
 				logger.info("返回首页");
@@ -98,11 +116,11 @@ public class NewsContent extends JFrame {
 				window.mainFrame.setVisible(true);
 			}
 		});
-		button_1.setBounds(746, 22, 93, 23);
 		contentPane.add(button_1);
 		
 		//下一篇按钮
 		JButton button_2 = new JButton("下一篇");
+		button_2.setBounds(858, 22, 93, 23);
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(position != newsList.size()-1){
@@ -111,8 +129,6 @@ public class NewsContent extends JFrame {
 				}
 			}
 		});
-		
-		button_2.setBounds(858, 22, 93, 23);
 		contentPane.add(button_2);
 		
 		JScrollPane scrollPane_1 = new JScrollPane();
@@ -124,73 +140,73 @@ public class NewsContent extends JFrame {
 		contentPane.add(label);
 		
 		Label label_1 = new Label("报纸类别");
-		label_1.setBackground(Color.WHITE);
 		label_1.setBounds(621, 80, 51, 23);
+		label_1.setBackground(Color.WHITE);
 		contentPane.add(label_1);
 		
 		Label label_3 = new Label("报纸类型");
-		label_3.setBackground(Color.WHITE);
 		label_3.setBounds(621, 116, 51, 23);
+		label_3.setBackground(Color.WHITE);
 		contentPane.add(label_3);
 		
 		Button button_3 = new Button("光明日报（党一级日报）");
+		button_3.setBounds(678, 80, 146, 23);
 		button_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				button_3.setBackground(Color.yellow);
 			}
 		});
-		button_3.setBounds(678, 80, 146, 23);
 		contentPane.add(button_3);
 		
 		Button button_4 = new Button("纯净新闻");
+		button_4.setBounds(678, 116, 62, 23);
 		button_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				button_4.setBackground(Color.yellow);
 			}
 		});
-		button_4.setBounds(678, 116, 62, 23);
 		contentPane.add(button_4);
 		
 		Button button_5 = new Button("特稿特写");
+		button_5.setBounds(746, 116, 62, 23);
 		button_5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				button_5.setBackground(Color.yellow);
 			}
 		});
-		button_5.setBounds(746, 116, 62, 23);
 		contentPane.add(button_5);
 		
 		Button button_6 = new Button("评论");
+		button_6.setBounds(814, 116, 62, 23);
 		button_6.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				button_6.setBackground(Color.yellow);
 			}
 		});
-		button_6.setBounds(814, 116, 62, 23);
 		contentPane.add(button_6);
 		
 		Button button_7 = new Button("其他");
+		button_7.setBounds(882, 116, 62, 23);
 		button_7.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				button_7.setBackground(Color.yellow);
 			}
 		});
-		button_7.setBounds(882, 116, 62, 23);
 		contentPane.add(button_7);
 		
 		Label label_2 = new Label("报道主题");
-		label_2.setBackground(Color.WHITE);
 		label_2.setBounds(621, 155, 51, 23);
+		label_2.setBackground(Color.WHITE);
 		contentPane.add(label_2);
 		
 		Button button_8 = new Button("帮助关爱");
+		button_8.setBounds(678, 155, 62, 23);
 		button_8.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				button_8.setBackground(Color.yellow);
 				
 			}
 		});
-		button_8.setBounds(678, 155, 62, 23);
 		contentPane.add(button_8);
 		
 		Button button_9 = new Button("表彰鼓励");
@@ -226,17 +242,17 @@ public class NewsContent extends JFrame {
 		contentPane.add(button_16);
 		
 		Label label_4 = new Label("新闻报道消息来源");
-		label_4.setBackground(Color.WHITE);
 		label_4.setBounds(621, 278, 103, 23);
+		label_4.setBackground(Color.WHITE);
 		contentPane.add(label_4);
 		
 		Button button_17 = new Button("记者");
+		button_17.setBounds(734, 278, 35, 23);
 		button_17.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				button_17.setBackground(Color.yellow);
 			}
 		});
-		button_17.setBounds(734, 278, 35, 23);
 		contentPane.add(button_17);
 		
 		Button button_18 = new Button("政府");
@@ -248,11 +264,11 @@ public class NewsContent extends JFrame {
 		contentPane.add(button_19);
 		
 		Button button_20 = new Button("事业单位");
+		button_20.setBounds(855, 278, 62, 23);
 		button_20.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		button_20.setBounds(855, 278, 62, 23);
 		contentPane.add(button_20);
 		
 		Button button_21 = new Button("公益团体");
@@ -298,17 +314,17 @@ public class NewsContent extends JFrame {
 		contentPane.add(choice_2);
 		
 		Label label_5 = new Label("媒体形象呈现");
-		label_5.setBackground(Color.WHITE);
 		label_5.setBounds(621, 339, 79, 23);
+		label_5.setBackground(Color.WHITE);
 		contentPane.add(label_5);
 		
 		Button button_25 = new Button("可怜悲惨的形象");
+		button_25.setBounds(706, 339, 102, 23);
 		button_25.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				button_25.setBackground(Color.yellow);
 			}
 		});
-		button_25.setBounds(706, 339, 102, 23);
 		contentPane.add(button_25);
 		
 		Button button_26 = new Button("沐恩幸福的形象");
@@ -328,17 +344,17 @@ public class NewsContent extends JFrame {
 		contentPane.add(button_29);
 		
 		Label label_6 = new Label("农民工子女不能留在城市读书的原因");
-		label_6.setBackground(Color.WHITE);
 		label_6.setBounds(621, 403, 195, 23);
+		label_6.setBackground(Color.WHITE);
 		contentPane.add(label_6);
 		
 		Button button_30 = new Button("无本地户籍难入公立学校");
+		button_30.setBounds(678, 430, 146, 23);
 		button_30.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				button_30.setBackground(Color.yellow);
 			}
 		});
-		button_30.setBounds(678, 430, 146, 23);
 		contentPane.add(button_30);
 		
 		Button button_31 = new Button("私立学校学费高");
