@@ -9,6 +9,7 @@ import javax.swing.JPopupMenu;
 import javax.swing.border.EmptyBorder;
 
 import XmlData.Dom4j;
+import XmlData.News;
 
 import javax.swing.JList;
 import javax.swing.JMenuItem;
@@ -24,6 +25,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.List;
 import java.awt.event.ActionEvent;
 
 public class RecycleBin extends JFrame {
@@ -34,7 +36,7 @@ public class RecycleBin extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public RecycleBin() {
+	public RecycleBin(List<News> deletedNews,List<String> deletedTitle) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(300, 50, 1000, 700);
 		setTitle("ªÿ ’’æ");
@@ -53,11 +55,16 @@ public class RecycleBin extends JFrame {
 		scrollPane.setBounds(10, 55, 600, 2);
 		contentPane.add(scrollPane);
 		
+		
+		
 		JScrollPane scrollPane_1 = new JScrollPane();
 		scrollPane_1.setBounds(10, 86, 600, 300);
-		ListModel jListModel =  new DefaultComboBoxModel(LeftBehindChildren.deletedTitle.toArray());
+		ListModel jListModel =  new DefaultComboBoxModel(deletedTitle.toArray());
 		JList myJlist = new JList();
 		myJlist.setModel(jListModel); 
+//		myJlist.set
+		
+//		System.out.println("cishu");
 		
 		myJlist.addMouseListener(new MouseAdapter() {
             @Override
@@ -70,7 +77,7 @@ public class RecycleBin extends JFrame {
                     JMenuItem item1 = new JMenuItem("ª÷∏¥");
                     item1.addMouseListener(new MouseAdapter(){
                     	public void mouseReleased(MouseEvent e) {
-                    		dom4j.restoreNews(LeftBehindChildren.deletedNews.get(index));
+                    		dom4j.restoreNews(deletedNews.get(index));
                     		
                     	}
                     });
@@ -90,9 +97,9 @@ public class RecycleBin extends JFrame {
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setVisible(false);
+				dispose();
 				LeftBehindChildren leftBehindChildren = new LeftBehindChildren();
 				leftBehindChildren.mainFrame.setVisible(true);
-				dispose();
 			}
 		});
 		button.setBounds(10, 420, 93, 23);

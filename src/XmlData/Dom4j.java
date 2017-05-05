@@ -49,6 +49,7 @@ public class Dom4j implements XmlDocument {
 	                }
 	                if (type.equals("Tags")) {
 	                	if(node.elements().size() == 0){
+	                		node.addElement("Type");
 	                		node.addElement("Theme");
 							node.addElement("Source");
 							node.addElement("Showing");
@@ -118,9 +119,11 @@ public class Dom4j implements XmlDocument {
 	            	for (Iterator i = tags.elementIterator(); i.hasNext();){
 	            		Element tagNode = (Element)i.next();
 	            		String tagType = tagNode.getName();
-	            		if ("Theme".equals(type)){
-	    	            	node.setText(modifiedNews.getTags().getTheme());
-	    	            }else if("Source".equals(type)){
+	            		if("Type".equals(modifiedNews.getTags().getType())){
+	            			node.setText(modifiedNews.getTags().getType());
+	            		}else if ("Theme".equals(modifiedNews.getTags().getTheme())){
+	            			node.setText(modifiedNews.getTags().getTheme());
+	            		}else if("Source".equals(type)){
 	    	            	node.setText(modifiedNews.getTags().getSource());
 	    	            }else if("Showing".equals(type)){
 	    	            	node.setText(modifiedNews.getTags().getShowing());
@@ -157,7 +160,7 @@ public class Dom4j implements XmlDocument {
 				News news = new News();
 				Element newsData = (Element) i.next(); 
 				news.setNewsData(newsData.getText());
-				String[] temp = new String[20];
+				String[] temp = new String[21];
 				int k = 0;
 				for(Iterator j = newsData.elementIterator(); j.hasNext();){ 
 					Element node=(Element) j.next(); 
@@ -187,16 +190,17 @@ public class Dom4j implements XmlDocument {
 				news.setTrueUrl(temp[11]);
 				
 				Tags tempTags = new Tags();
-				tempTags.setTheme(temp[12]);
-				tempTags.setSource(temp[13]);
-				tempTags.setShowing(temp[14]);
-				tempTags.setReason(temp[15]);
-				tempTags.setMainBody(temp[16]);
-				tempTags.setHelpType(temp[17]);
-				tempTags.setGender(temp[18]);
+				tempTags.setType(temp[12]);
+				tempTags.setTheme(temp[13]);
+				tempTags.setSource(temp[14]);
+				tempTags.setShowing(temp[15]);
+				tempTags.setReason(temp[16]);
+				tempTags.setMainBody(temp[17]);
+				tempTags.setHelpType(temp[18]);
+				tempTags.setGender(temp[19]);
 				news.setTags(tempTags);
 				
-				news.setEncodedContent(decodeContent(temp[19]));
+				news.setEncodedContent(decodeContent(temp[20]));
 				
 				//IsLoad的作用尚不清楚，先注释掉
 //				if(news.getEncodedContent().equals("")){

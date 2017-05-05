@@ -1,6 +1,7 @@
 package XmlData;
 
 public class Tags {
+	private String type;
 	private String theme;
 	private String source;
 	private String showing;
@@ -8,6 +9,13 @@ public class Tags {
 	private String mainBody;
 	private String helpType;
 	private String gender;
+	
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
 	
 	public String getTheme() {
 		return theme;

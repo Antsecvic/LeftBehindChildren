@@ -38,13 +38,13 @@ import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
 
-	private static List<News> newsList = new ArrayList<>();
+	private List<News> newsList = new ArrayList<>();
 	private List<News> classifiedNews = new ArrayList<>();
 	private List<News> notClassifiedNews = new ArrayList<>();
 	private List<String> classifiedTitle = new ArrayList<>();
 	private List<String> notClassifiedTitle = new ArrayList<>();
-	public static List<News> deletedNews = new ArrayList<>();
-	public static List<String> deletedTitle = new ArrayList<>();
+	public List<News> deletedNews = new ArrayList<>();
+	public List<String> deletedTitle = new ArrayList<>();
 	
 //	private LeftBehindChildren leftBehindChildren;
 	
@@ -89,13 +89,12 @@ public class LeftBehindChildren {
 	 * Initialize the contents of the mainFrame.
 	 */
 	private void initialize() {
-		
+
 		Dom4j dom4j = new Dom4j();
 		dom4j.initXml("assets/sichuan.xml");
 		//dom4j.parserXml("assets/guangming.xml",newsList);
 		//dom4j.parserXml("assets/nanfangdaily.xml",newsList);
 		dom4j.parserXml("assets/sichuan.xml",newsList);
-		
 		for(News news : newsList){
 			if(!news.getIsDeleted().equals("true")){
 				if(!news.getTags().equals("")){
@@ -110,6 +109,11 @@ public class LeftBehindChildren {
 				deletedTitle.add(news.getTitle());
 			}
 		}
+//		System.out.println(deletedNews.size()+" "+deletedTitle.size());
+//		for(News news : deletedNews){
+//			System.out.println(news.getTitle()+" "+news.getIsDeleted());
+//		}
+
 		
 		mainFrame = new JFrame();
 		mainFrame.getContentPane().setBackground(Color.BLACK);
@@ -164,6 +168,7 @@ public class LeftBehindChildren {
                     item1.addMouseListener(new MouseAdapter(){
                     	public void mouseReleased(MouseEvent e) {
                     		dom4j.deleteNews(notClassifiedNews.get(index));
+                    		System.out.println("test");
 //                    		this.mainFrame.reload();
 //                    		LeftBehindChildren.mainFrame.validate();
                     	}
@@ -177,17 +182,6 @@ public class LeftBehindChildren {
            
         });
 
-//        menu.addMenuKeyListener(l);(new PopupMenuAdapter(){
-        	
-//        	@Override
-//            public void mouseClicked(MouseEvent e) {
-//        		System.out.println("test");
-//        		if(e.getClickCount() == 1){
-//        			
-//        		}
-//        		
-//        	}
-//        });
         scrollPane_1.setViewportView(myJlist);    //不能直接add
 		mainFrame.getContentPane().add(scrollPane_1);
 		
@@ -242,10 +236,11 @@ public class LeftBehindChildren {
 		mainFrame.getContentPane().add(scrollPane_4);
 		
 		JButton button = new JButton("\u56DE\u6536\u7AD9");
+//		RecycleBin recycle = new RecycleBin();
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				mainFrame.setVisible(false);
-				RecycleBin recycle = new RecycleBin();
+				RecycleBin recycle = new RecycleBin(deletedNews,deletedTitle);
 				recycle.setVisible(true);
 				
 			}
