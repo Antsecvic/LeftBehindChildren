@@ -18,7 +18,7 @@ public class News implements Serializable{
 	private String wordCount;
 	private String ID;
 	private String trueUrl;
-	private String tags;
+	private Tags tags;
 	private String encodedContent;
 	
 	public String getNewsData() {
@@ -99,10 +99,10 @@ public class News implements Serializable{
 	public void setTrueUrl(String trueUrl) {
 		this.trueUrl = trueUrl;
 	}
-	public String getTags() {
+	public Tags getTags() {
 		return tags;
 	}
-	public void setTags(String tags) {
+	public void setTags(Tags tags) {
 		this.tags = tags;
 	}
 	public String getEncodedContent() {
