@@ -1497,3 +1497,17 @@
 2017-05-05 11:21:22 CST INFO  UI.LeftBehindChildren$1 83 run - 查看首页
 2017-05-05 11:21:27 CST INFO  UI.LeftBehindChildren$2 161 mouseClicked - 首页点击打开未分类新闻--你好，2016
 
+2017-05-05 11:28:48 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 11:28:49 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/sichuan.xml
+2017-05-05 11:28:49 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-05 11:28:49 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/guangming.xml
+2017-05-05 11:28:50 CST INFO  UI.LeftBehindChildren$1 77 run - 查看首页
+2017-05-05 11:29:07 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 11:30:42 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/nanfangdaily.xml
+2017-05-05 11:30:42 CST ERROR UI.LeftBehindChildren$1 74 run - 首页错误
+2017-05-05 11:30:55 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/nanfangdaily.xml
+2017-05-05 11:30:55 CST ERROR UI.LeftBehindChildren$1 74 run - 首页错误
+2017-05-05 11:31:35 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 11:31:36 CST INFO  XmlData.Dom4j 142 parserXml - 解析assets/sichuan.xml
+2017-05-05 11:31:37 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 11:31:40 CST INFO  UI.LeftBehindChildren$2 149 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例

@@ -33,7 +33,7 @@ import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
 
-	private List<News> newsList = new ArrayList<>();
+	private static List<News> newsList = new ArrayList<>();
 	private List<News> classifiedNews = new ArrayList<>();
 	private List<News> notClassifiedNews = new ArrayList<>();
 	private List<String> classifiedTitle = new ArrayList<>();
@@ -59,12 +59,6 @@ public class LeftBehindChildren {
 	 */
 	public static void main(String[] args) {
 			
-		Dom4j dom4j = new Dom4j();
-		dom4j.initXml("assets/sichuan.xml");
-		//dom4j.parserXml("assets/guangming.xml",newsList);
-		//dom4j.parserXml("assets/nanfangdaily.xml",newsList);
-		dom4j.parserXml("assets/sichuan.xml",newsList);
-
 		
 //		for(News news : newsList){
 //			System.out.println(news.getTitle());
@@ -90,11 +84,11 @@ public class LeftBehindChildren {
 	private void initialize() {
 		
 		Dom4j dom4j = new Dom4j();
-		dom4j.initXml("assets/guangming.xml");
-		dom4j.parserXml("assets/guangming.xml",newsList);
+		dom4j.initXml("assets/sichuan.xml");
+		//dom4j.parserXml("assets/guangming.xml",newsList);
 		
-	//	dom4j.parserXml("assets/nanfangdaily.xml",newsList);
-	//	dom4j.parserXml("assets/sichuan.xml",newsList);
+		//dom4j.parserXml("assets/nanfangdaily.xml",newsList);
+		dom4j.parserXml("assets/sichuan.xml",newsList);
 		
 		for(News news : newsList){
 			if(!news.getTagIts().equals("false")){
