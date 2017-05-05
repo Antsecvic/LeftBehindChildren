@@ -70,9 +70,18 @@ public class Dom4j implements XmlDocument {
 			System.out.println(e.getMessage()); 
 		}
 	} 
-	public void modifyXml(String fileName,News modifiedNews){ 
+	public void modifyXml(News modifiedNews){ 
+		String fileName = "null";
 		try { 
-			logger.info(fileName+" "+modifiedNews.getTitle()+"插入标签");
+			if(modifiedNews.getLocation().contains("光明日报")) {
+				fileName = "assets/guangming.xml";
+			}else if(modifiedNews.getLocation().contains("南方日报")) {
+				fileName = "assets/nanfangdaily.xml";
+			}else if(modifiedNews.getLocation().contains("四川日报")) {
+				fileName = "assets/sichuan.xml";
+			}else {
+				logger.error("新闻--"+modifiedNews.getTitle()+"找不到源xml文件");
+			}
 			SAXReader sr = new SAXReader();
 	        Document document = sr.read(fileName);
 			Element arrayOfNewsData = document.getRootElement();
@@ -230,5 +239,21 @@ public class Dom4j implements XmlDocument {
 	    str = str.replace("<body>", "").replace("</body>", "").replace("<P>", "").replace("</P>", "");
 	    str = str.replace("<html>", "").replace("</html>", "");
 	    return str;
+	  }
+	  
+	// 把新闻IsDelete属性置为true
+	  public void deleteNews(News modifiedNews) {
+		  if(modifiedNews.getIsDeleted().equals("") || modifiedNews.getIsDeleted().equals("flase")) {
+			  modifiedNews.setIsDeleted("true");
+			  this.modifyXml(modifiedNews);
+		  }
+	  }
+	  
+	  // 把新闻IsDelete属性置为false
+	  public void restoreNews(News modifiedNews) {
+		  if(modifiedNews.getIsDeleted().equals("true")) {
+			  modifiedNews.setIsDeleted("false");
+			  this.modifyXml(modifiedNews);
+		  }
 	  }
 }

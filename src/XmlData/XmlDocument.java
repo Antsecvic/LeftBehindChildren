@@ -13,7 +13,7 @@ public interface XmlDocument {
 	* 修改XML文档  
 	* @param fileName 文件全路径名称  
 	*/   
-	public void modifyXml(String fileName,News modifiedNews);   
+	public void modifyXml(News modifiedNews);   
 	/**  
 	* 解析XML文档  
 	* @param fileName 文件全路径名称  

@@ -4,12 +4,16 @@ import java.awt.EventQueue;
 
 import org.apache.logging.log4j.*;
 
+import com.sun.glass.ui.Menu;
+
 import XmlData.Dom4j;
 import XmlData.News;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JList;
+import javax.swing.JMenuItem;
+import javax.swing.JPopupMenu;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -21,6 +25,7 @@ import java.awt.Label;
 import java.awt.SystemColor;
 import javax.swing.JScrollPane;
 import javax.swing.ListModel;
+import javax.swing.event.PopupMenuListener;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
@@ -38,6 +43,8 @@ public class LeftBehindChildren {
 	private List<News> notClassifiedNews = new ArrayList<>();
 	private List<String> classifiedTitle = new ArrayList<>();
 	private List<String> notClassifiedTitle = new ArrayList<>();
+	public static List<News> deletedNews = new ArrayList<>();
+	public static List<String> deletedTitle = new ArrayList<>();
 	
 //	private LeftBehindChildren leftBehindChildren;
 	
@@ -90,14 +97,17 @@ public class LeftBehindChildren {
 		dom4j.parserXml("assets/sichuan.xml",newsList);
 		
 		for(News news : newsList){
-			if(!news.getTagIts().equals("false")){
-				classifiedNews.add(news);
-				classifiedTitle.add(news.getTitle());
-				System.out.println(news.getTagIts());
+			if(!news.getIsDeleted().equals("true")){
+				if(!news.getTags().equals("")){
+					notClassifiedNews.add(news);
+					notClassifiedTitle.add(news.getTitle());
+				}else{
+					classifiedNews.add(news);
+					classifiedTitle.add(news.getTitle());
+				}
 			}else{
-				notClassifiedNews.add(news);
-				notClassifiedTitle.add(news.getTitle());
-//				System.out.println(news.getTagIts());
+				deletedNews.add(news);
+				deletedTitle.add(news.getTitle());
 			}
 		}
 		
@@ -133,25 +143,51 @@ public class LeftBehindChildren {
 		scrollPane_1.setBounds(10, 396, 568,266);
 //        jScrollPane1.setPreferredSize(new java.awt.Dimension(218, 164));
         ListModel jList1Model =  new DefaultComboBoxModel(notClassifiedTitle.toArray());
-		for(String news : notClassifiedTitle){
-			System.out.println(news);
-		}
         JList myJlist = new JList();
         myJlist.setModel(jList1Model);            //设置数据
         myJlist.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if(e.getClickCount() == 1){  
-                    JList myList = (JList) e.getSource();
-                    int index = myList.getSelectedIndex();    //已选项的下标
-                    Object obj = myList.getModel().getElementAt(index);  //取出数据
+            	int index = myJlist.locationToIndex(e.getPoint());    //已选项的下标
+            	myJlist.setSelectedIndex(index);
+                if(e.getClickCount() == 1 && e.getButton() == 1){  
+                    Object obj = myJlist.getModel().getElementAt(index);  //取出数据
                     logger.info("首页点击打开未分类新闻--"+obj.toString());
                     LeftBehindChildren.mainFrame.dispose();
     				NewsContent newsContent = new NewsContent(notClassifiedNews,index);
     				newsContent.setVisible(true);
                 }
+                if(e.isMetaDown()) {
+            		//设置右键菜单
+            		JPopupMenu menu = new JPopupMenu();
+                    JMenuItem item1 = new JMenuItem("删除");
+                    item1.addMouseListener(new MouseAdapter(){
+                    	public void mouseReleased(MouseEvent e) {
+                    		dom4j.deleteNews(notClassifiedNews.get(index));
+//                    		this.mainFrame.reload();
+//                    		LeftBehindChildren.mainFrame.validate();
+                    	}
+                    });
+                    menu.add(item1);
+                    menu.show(myJlist,e.getX(),e.getY());
+                    myJlist.setComponentPopupMenu(menu);//将按钮与右键菜单关联
+                	
+                }
             }
+           
         });
+
+//        menu.addMenuKeyListener(l);(new PopupMenuAdapter(){
+        	
+//        	@Override
+//            public void mouseClicked(MouseEvent e) {
+//        		System.out.println("test");
+//        		if(e.getClickCount() == 1){
+//        			
+//        		}
+//        		
+//        	}
+//        });
         scrollPane_1.setViewportView(myJlist);    //不能直接add
 		mainFrame.getContentPane().add(scrollPane_1);
 		
@@ -211,6 +247,7 @@ public class LeftBehindChildren {
 				mainFrame.setVisible(false);
 				RecycleBin recycle = new RecycleBin();
 				recycle.setVisible(true);
+				
 			}
 		});
 		button.setBounds(613, 628, 93, 23);

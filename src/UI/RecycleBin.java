@@ -5,20 +5,31 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JPopupMenu;
 import javax.swing.border.EmptyBorder;
+
+import XmlData.Dom4j;
+
+import javax.swing.JList;
+import javax.swing.JMenuItem;
+
 import java.awt.CardLayout;
 import java.awt.Label;
 import java.awt.Font;
 import java.awt.SystemColor;
 import javax.swing.JScrollPane;
+import javax.swing.ListModel;
+import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.event.ActionEvent;
 
 public class RecycleBin extends JFrame {
 
 	private JPanel contentPane;
-
+	Dom4j dom4j = new Dom4j();
 	
 	/**
 	 * Create the frame.
@@ -44,13 +55,44 @@ public class RecycleBin extends JFrame {
 		
 		JScrollPane scrollPane_1 = new JScrollPane();
 		scrollPane_1.setBounds(10, 86, 600, 300);
+		ListModel jListModel =  new DefaultComboBoxModel(LeftBehindChildren.deletedTitle.toArray());
+		JList myJlist = new JList();
+		myJlist.setModel(jListModel); 
+		
+		myJlist.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+            	int index = myJlist.locationToIndex(e.getPoint());    //已选项的下标
+            	myJlist.setSelectedIndex(index);
+                if(e.isMetaDown()) {
+            		//设置右键菜单
+            		JPopupMenu menu = new JPopupMenu();
+                    JMenuItem item1 = new JMenuItem("恢复");
+                    item1.addMouseListener(new MouseAdapter(){
+                    	public void mouseReleased(MouseEvent e) {
+                    		dom4j.restoreNews(LeftBehindChildren.deletedNews.get(index));
+                    		
+                    	}
+                    });
+                    menu.add(item1);
+                    menu.show(myJlist,e.getX(),e.getY());
+                    myJlist.setComponentPopupMenu(menu);//将按钮与右键菜单关联
+                	
+                }
+            }
+           
+        });
+        
+        scrollPane_1.setViewportView(myJlist);    //不能直接add
 		contentPane.add(scrollPane_1);
 		
 		JButton button = new JButton("\u8FD4\u56DE\u9996\u9875");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				setVisible(false);
-				LeftBehindChildren.mainFrame.setVisible(true);
+				LeftBehindChildren leftBehindChildren = new LeftBehindChildren();
+				leftBehindChildren.mainFrame.setVisible(true);
+				dispose();
 			}
 		});
 		button.setBounds(10, 420, 93, 23);
