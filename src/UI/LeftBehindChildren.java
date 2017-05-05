@@ -58,6 +58,12 @@ public class LeftBehindChildren {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+			
+		Dom4j dom4j = new Dom4j();
+		dom4j.initXml("assets/sichuan.xml");
+		//dom4j.parserXml("assets/guangming.xml",newsList);
+		//dom4j.parserXml("assets/nanfangdaily.xml",newsList);
+		dom4j.parserXml("assets/sichuan.xml",newsList);
 
 		
 //		for(News news : newsList){
