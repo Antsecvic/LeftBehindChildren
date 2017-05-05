@@ -2100,3 +2100,144 @@
 2017-05-05 18:16:33 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
 2017-05-05 18:16:35 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
 2017-05-05 18:16:37 CST INFO  UI.LeftBehindChildren$1 78 run - 查看首页
+=======
+2017-05-05 14:47:12 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 14:47:13 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 14:47:14 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 14:47:18 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 14:47:36 CST INFO  UI.NewsContent$2 108 actionPerformed - 返回首页
+2017-05-05 14:47:36 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 14:47:36 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 14:47:41 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--网友与人民代表心连心——省十届人大四次会议议案建议点击
+2017-05-05 14:47:45 CST INFO  UI.NewsContent$2 108 actionPerformed - 返回首页
+2017-05-05 14:47:45 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 14:47:45 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 14:47:48 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 14:48:53 CST INFO  UI.NewsContent$2 108 actionPerformed - 返回首页
+2017-05-05 14:48:53 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 14:48:54 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 14:59:04 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 14:59:05 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 14:59:06 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 14:59:08 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 14:59:13 CST INFO  UI.NewsContent$2 108 actionPerformed - 返回首页
+2017-05-05 14:59:13 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 14:59:14 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 14:59:16 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--网友与人民代表心连心——省十届人大四次会议议案建议点击
+2017-05-05 14:59:20 CST INFO  UI.NewsContent$2 108 actionPerformed - 返回首页
+2017-05-05 14:59:20 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 14:59:20 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 14:59:21 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--绵阳市仙海水利风景区 民生为重 建成幸福美丽的“生态後花园”
+2017-05-05 16:13:30 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:13:31 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:13:32 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:19:23 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:19:24 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:19:25 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:19:26 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--绵阳市仙海水利风景区 民生为重 建成幸福美丽的“生态後花园”
+2017-05-05 16:19:45 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:19:46 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:19:47 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:19:48 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 16:29:39 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:29:40 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:29:41 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:30:03 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:30:03 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:30:04 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:30:05 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 16:31:19 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:31:20 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:31:21 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:31:22 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 16:33:37 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:33:37 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:33:38 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:33:39 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 16:34:06 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:34:06 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:34:08 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:34:10 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 16:36:03 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:36:04 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:36:05 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:36:06 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 16:36:41 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:36:41 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:36:42 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:36:44 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 16:39:06 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:39:07 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:39:07 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:39:09 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 16:42:19 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:42:20 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:42:21 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:42:22 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--绵阳师范学院：以师德建设助推学校跨越发展
+2017-05-05 16:52:01 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:52:01 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:52:02 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:52:03 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 16:52:33 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 16:52:34 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 16:52:34 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 16:52:36 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:00:31 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:00:32 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:00:33 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:00:34 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:08:15 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:08:16 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:08:17 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:08:18 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:13:46 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:13:47 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:13:48 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:13:52 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:26:14 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:26:15 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:26:16 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:26:17 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--绵阳市仙海水利风景区 民生为重 建成幸福美丽的“生态後花园”
+2017-05-05 17:30:32 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:30:33 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:30:34 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:30:36 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:32:46 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:32:47 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:32:48 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:32:49 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:37:20 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:37:21 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:37:22 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:37:30 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:37:31 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:37:32 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:37:33 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:37:49 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:37:50 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:37:51 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:37:53 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:38:12 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:38:13 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:38:14 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:38:15 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:38:23 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:38:24 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:38:25 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:38:26 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:38:36 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:38:36 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:38:37 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:38:39 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 17:47:35 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:47:36 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:47:37 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:47:38 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--绵阳市仙海水利风景区 民生为重 建成幸福美丽的“生态後花园”
+2017-05-05 17:52:27 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:52:27 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:52:28 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:52:30 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--绵阳市仙海水利风景区 民生为重 建成幸福美丽的“生态後花园”
+2017-05-05 17:56:52 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 17:56:52 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
+2017-05-05 17:56:53 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
+2017-05-05 17:56:54 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
