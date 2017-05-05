@@ -12,8 +12,12 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 import java.awt.Color;
+
+import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -26,8 +30,9 @@ import javax.swing.UIManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import javax.swing.JEditorPane;
+import javax.swing.JRadioButton;
 
-public class NewsContent extends JFrame {
+public class NewsContent extends JFrame{
 	public static Logger logger = LogManager.getLogger(NewsContent.class.getName());
 	public JPanel contentPane;
 	private JTextArea textArea;
@@ -35,7 +40,13 @@ public class NewsContent extends JFrame {
 	private JScrollPane mainBody;
 	private List<News> newsList;
 	private int position;
-	private JButton showExternalNews = new JButton("\u52A0\u8F7D\u5916\u90E8\u65B0\u95FB");
+	private JButton showExternalNews = new JButton("åŠ è½½å¤–éƒ¨æ–°é—»");
+	
+	private Choice choice;
+	private Choice choice_1;
+	private Choice choice_2;
+	
+	
 
 	public NewsContent(List<News> newsList,int position) {
 		this.newsList = newsList;
@@ -43,7 +54,7 @@ public class NewsContent extends JFrame {
 		initialize();
 	}
 	
-	//¸üĞÂĞÂÎÅÏÔÊ¾ÄÚÈİ
+	//æ›´æ–°æ–°é—»æ˜¾ç¤ºå†…å®¹
 	public void showNewsDetails(News news){
 		
 		if (news.getEncodedContent().equals(""))
@@ -55,16 +66,16 @@ public class NewsContent extends JFrame {
 	
 			showExternalNews.setEnabled(false);
 			textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
-		    textArea.setLineWrap(true);                 //¼¤»î×Ô¶¯»»ĞĞ¹¦ÄÜ 
-		    textArea.setWrapStyleWord(true);            // ¼¤»î¶ÏĞĞ²»¶Ï×Ö¹¦ÄÜ
-			Font font = new Font("ËÎÌå",Font.BOLD,20);
+		    textArea.setLineWrap(true);                 //æ¿€æ´»è‡ªåŠ¨æ¢è¡ŒåŠŸèƒ½ 
+		    textArea.setWrapStyleWord(true);            // æ¿€æ´»æ–­è¡Œä¸æ–­å­—åŠŸèƒ½
+			Font font = new Font("å®‹ä½“",Font.BOLD,20);
 			textArea.setFont(font);
 			textArea.setEditable(false);
-			textArea.setCaretPosition(0);		//ÉèÖÃ¹â±êÎ»ÖÃÎªÊ×ĞĞ
+			textArea.setCaretPosition(0);		//è®¾ç½®å…‰æ ‡ä½ç½®ä¸ºé¦–è¡Œ
 		}
 	}
 	
-	//³õÊ¼»¯½çÃæºÍ°´Å¥
+	//åˆå§‹åŒ–ç•Œé¢å’ŒæŒ‰é’®
 	public void initialize(){
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(300, 50, 1000, 700);
@@ -73,7 +84,7 @@ public class NewsContent extends JFrame {
 		contentPane.setBorder(UIManager.getBorder("ComboBox.border"));
 		setContentPane(contentPane);
 		
-		//ÏÔÊ¾ĞÂÎÅÄÚÈİµÄ°æ¿é
+		//æ˜¾ç¤ºæ–°é—»å†…å®¹çš„ç‰ˆå—
 		textArea=new JTextArea(newsList.get(position).getTitle(),20,43);
 		textArea.setEditable(false);
 		showNewsDetails(newsList.get(position));
@@ -87,25 +98,25 @@ public class NewsContent extends JFrame {
 		
 		
 		
-		//ÉÏÒ»Æª°´Å¥
-		JButton button = new JButton("ÉÏÒ»Æª");
+		//ä¸Šä¸€ç¯‡æŒ‰é’®
+		JButton button = new JButton("ä¸Šä¸€ç¯‡");
 		button.setBounds(631, 22, 93, 23);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(position != 0){
-					logger.info("µã»÷ÉÏÒ»Æª´ò¿ªĞÂÎÅ--"+newsList.get(position-1).getTitle());
+					logger.info("ç‚¹å‡»ä¸Šä¸€ç¯‡æ‰“å¼€æ–°é—»--"+newsList.get(position-1).getTitle());
 					showNewsDetails(newsList.get(--position));
 				}
 			}
 		});
 		contentPane.add(button);
 		
-		//Ê×Ò³°´Å¥
-		JButton button_1 = new JButton("Ê×Ò³");
+		//é¦–é¡µæŒ‰é’®
+		JButton button_1 = new JButton("é¦–é¡µ");
 		button_1.setBounds(746, 22, 93, 23);
 		button_1.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
-				logger.info("·µ»ØÊ×Ò³");
+				logger.info("è¿”å›é¦–é¡µ");
 				setVisible(false);
 				dispose();
 				LeftBehindChildren window = new LeftBehindChildren();
@@ -114,13 +125,13 @@ public class NewsContent extends JFrame {
 		});
 		contentPane.add(button_1);
 		
-		//ÏÂÒ»Æª°´Å¥
-		JButton button_2 = new JButton("ÏÂÒ»Æª");
+		//ä¸‹ä¸€ç¯‡æŒ‰é’®
+		JButton button_2 = new JButton("ä¸‹ä¸€ç¯‡");
 		button_2.setBounds(858, 22, 93, 23);
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(position != newsList.size()-1){
-					logger.info("µã»÷ÏÂÒ»Æª´ò¿ªĞÂÎÅ--"+newsList.get(position+1).getTitle());
+					logger.info("ç‚¹å‡»ä¸‹ä¸€ç¯‡æ‰“å¼€æ–°é—»--"+newsList.get(position+1).getTitle());
 					showNewsDetails(newsList.get(++position));
 				}
 			}
@@ -131,21 +142,21 @@ public class NewsContent extends JFrame {
 		scrollPane_1.setBounds(611, 68, 400, 2);
 		contentPane.add(scrollPane_1);
 		
-		Label label = new Label("Îª´ËÎÄÕÂÑ¡Ôñ±êÇ©");
+		Label label = new Label("ä¸ºæ­¤æ–‡ç« é€‰æ‹©æ ‡ç­¾");
 		label.setBounds(611, 51, 103, 23);
 		contentPane.add(label);
 		
-		Label label_1 = new Label("±¨Ö½Àà±ğ");
+		Label label_1 = new Label("æŠ¥çº¸ç±»åˆ«");
 		label_1.setBounds(621, 80, 51, 23);
 		label_1.setBackground(Color.WHITE);
 		contentPane.add(label_1);
 		
-		Label label_3 = new Label("±¨Ö½ÀàĞÍ");
+		Label label_3 = new Label("æŠ¥çº¸ç±»å‹");
 		label_3.setBounds(621, 116, 51, 23);
 		label_3.setBackground(Color.WHITE);
 		contentPane.add(label_3);
 		
-		Button button_3 = new Button("¹âÃ÷ÈÕ±¨£¨µ³Ò»¼¶ÈÕ±¨£©");
+		Button button_3 = new Button("å…‰æ˜æ—¥æŠ¥ï¼ˆå…šä¸€çº§æ—¥æŠ¥ï¼‰");
 		button_3.setBounds(678, 80, 146, 23);
 		button_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -154,226 +165,60 @@ public class NewsContent extends JFrame {
 		});
 		contentPane.add(button_3);
 		
-		Button button_4 = new Button("´¿¾»ĞÂÎÅ");
-		button_4.setBounds(678, 116, 62, 23);
-		button_4.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				button_4.setBackground(Color.yellow);
-			}
-		});
-		contentPane.add(button_4);
-		
-		Button button_5 = new Button("ÌØ¸åÌØĞ´");
-		button_5.setBounds(746, 116, 62, 23);
-		button_5.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				button_5.setBackground(Color.yellow);
-			}
-		});
-		contentPane.add(button_5);
-		
-		Button button_6 = new Button("ÆÀÂÛ");
-		button_6.setBounds(814, 116, 62, 23);
-		button_6.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				button_6.setBackground(Color.yellow);
-			}
-		});
-		contentPane.add(button_6);
-		
-		Button button_7 = new Button("ÆäËû");
-		button_7.setBounds(882, 116, 62, 23);
-		button_7.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				button_7.setBackground(Color.yellow);
-			}
-		});
-		contentPane.add(button_7);
-		
-		Label label_2 = new Label("±¨µÀÖ÷Ìâ");
+		Label label_2 = new Label("æŠ¥é“ä¸»é¢˜");
 		label_2.setBounds(621, 155, 51, 23);
 		label_2.setBackground(Color.WHITE);
 		contentPane.add(label_2);
 		
-		Button button_8 = new Button("°ïÖú¹Ø°®");
-		button_8.setBounds(678, 155, 62, 23);
-		button_8.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				button_8.setBackground(Color.yellow);
-				
-			}
-		});
-		contentPane.add(button_8);
-		
-		Button button_9 = new Button("±íÕÃ¹ÄÀø");
-		button_9.setBounds(746, 155, 62, 23);
-		contentPane.add(button_9);
-		
-		Button button_10 = new Button("½¨Òé¿´·¨");
-		button_10.setBounds(678, 184, 62, 23);
-		contentPane.add(button_10);
-		
-		Button button_11 = new Button("ÁôÊØ¶ùÍ¯Å¬Á¦ÏòÉÏ");
-		button_11.setBounds(814, 155, 103, 23);
-		contentPane.add(button_11);
-		
-		Button button_12 = new Button("´ò¹¤¸¸Ä¸¼èÄÑÉú»î");
-		button_12.setBounds(746, 184, 103, 23);
-		contentPane.add(button_12);
-		
-		Button button_13 = new Button("ÁôÊØ¶ùÍ¯ÔâĞÔÇÖ");
-		button_13.setBounds(861, 184, 103, 23);
-		contentPane.add(button_13);
-		
-		Button button_14 = new Button("ÁôÊØ¶ùÍ¯Ôâ±©Á¦");
-		button_14.setBounds(678, 213, 103, 23);
-		contentPane.add(button_14);
-		
-		Button button_15 = new Button("ÁôÊØ¶ùÍ¯·¸×ï");
-		button_15.setBounds(787, 213, 86, 23);
-		contentPane.add(button_15);
-		
-		Button button_16 = new Button("ÆäËû");
-		button_16.setBounds(882, 213, 68, 23);
-		contentPane.add(button_16);
-		
-		Label label_4 = new Label("ĞÂÎÅ±¨µÀÏûÏ¢À´Ô´");
+		Label label_4 = new Label("æ–°é—»æŠ¥é“æ¶ˆæ¯æ¥æº");
 		label_4.setBounds(621, 278, 103, 23);
 		label_4.setBackground(Color.WHITE);
 		contentPane.add(label_4);
 		
-		Button button_17 = new Button("¼ÇÕß");
-		button_17.setBounds(734, 278, 35, 23);
-		button_17.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				button_17.setBackground(Color.yellow);
-			}
-		});
-		contentPane.add(button_17);
-		
-		Button button_18 = new Button("Õş¸®");
-		button_18.setBounds(773, 278, 35, 23);
-		contentPane.add(button_18);
-		
-		Button button_19 = new Button("ÆóÒµ");
-		button_19.setBounds(814, 278, 35, 23);
-		contentPane.add(button_19);
-		
-		Button button_20 = new Button("ÊÂÒµµ¥Î»");
-		button_20.setBounds(855, 278, 62, 23);
-		button_20.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
-		contentPane.add(button_20);
-		
-		Button button_21 = new Button("¹«ÒæÍÅÌå");
-		button_21.setBounds(678, 307, 62, 23);
-		contentPane.add(button_21);
-		
-		Button button_22= new Button("×¨¼ÒÑ§Õß");
-		button_22.setBounds(746, 307, 62, 23);
-		contentPane.add(button_22);
-		
-		Button button_23 = new Button("Õş¸®Áìµ¼");
-		button_23.setBounds(814, 307, 62, 23);
-		contentPane.add(button_23);
-		
-		Button button_24 = new Button("ÆäËû");
-		button_24.setBounds(882, 307, 62, 23);
-		contentPane.add(button_24);
-		
-		Choice choice = new Choice();
+		choice = new Choice();
 		choice.setBounds(678, 242, 62, 21);
 		contentPane.add(choice);
-		choice.add("ĞÂÎÅÖ÷Ìå");
-		choice.add("Õş¸®²¿ÃÅ");
-		choice.add("ÆóÒµ");
-		choice.add("ÊÂÒµµ¥Î»");
-		choice.add("¹«ÒæÍÅÌå");
-		choice.add("¸öÈË");
+		choice.add("æ–°é—»ä¸»ä½“");
+		choice.add("æ”¿åºœéƒ¨é—¨");
+		choice.add("ä¼ä¸š");
+		choice.add("äº‹ä¸šå•ä½");
+		choice.add("å…¬ç›Šå›¢ä½“");
+		choice.add("ä¸ªäºº");
 		choice.select(0);
+		choice.setEnabled(false);
 		
-		Choice choice_1 = new Choice();
+		choice_1 = new Choice();
 		choice_1.setBounds(746, 242, 62, 21);
 		contentPane.add(choice_1);
-		choice_1.add("¾ßÌåÖÖÀà");
-		choice_1.add("µ¥´¿Ò»´Î¾è¿î¾èÎï");
-		choice_1.add("ÂÃÓÎ»î¶¯°²ÅÅµÄÏîÄ¿Ö®Ò»");
-		choice_1.add("Ãâ·Ñ¿ª·Å");
-		choice_1.add("ÉèÁ¢³¤ÆÚ×ÊÖúÏîÄ¿");
-		choice_1.add("ÆäËû");
+		choice_1.add("å…·ä½“ç§ç±»");
+		choice_1.add("å•çº¯ä¸€æ¬¡ææ¬¾æç‰©");
+		choice_1.add("æ—…æ¸¸æ´»åŠ¨å®‰æ’çš„é¡¹ç›®ä¹‹ä¸€");
+		choice_1.add("å…è´¹å¼€æ”¾");
+		choice_1.add("è®¾ç«‹é•¿æœŸèµ„åŠ©é¡¹ç›®");
+		choice_1.add("å…¶ä»–");
 		choice_1.select(0);
+		choice_1.setEnabled(false);
 		
-		Choice choice_2 = new Choice();
+		choice_2 = new Choice();
 		choice_2.setBounds(814, 242, 62, 21);
 		contentPane.add(choice_2);
+		choice_2.setEnabled(false);
 		
-		Label label_5 = new Label("Ã½ÌåĞÎÏó³ÊÏÖ");
+		Label label_5 = new Label("åª’ä½“å½¢è±¡å‘ˆç°");
 		label_5.setBounds(621, 339, 79, 23);
 		label_5.setBackground(Color.WHITE);
 		contentPane.add(label_5);
 		
-		Button button_25 = new Button("¿ÉÁ¯±¯²ÒµÄĞÎÏó");
-		button_25.setBounds(706, 339, 102, 23);
-		button_25.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				button_25.setBackground(Color.yellow);
-			}
-		});
-		contentPane.add(button_25);
-		
-		Button button_26 = new Button("ãå¶÷ĞÒ¸£µÄĞÎÏó");
-		button_26.setBounds(824, 339, 102, 23);
-		contentPane.add(button_26);
-		
-		Button button_27 = new Button("»ı¼«½¡¿µµÄĞÎÏó");
-		button_27.setBounds(678, 368, 102, 23);
-		contentPane.add(button_27);
-		
-		Button button_28 = new Button("ÎÊÌâ¶ùÍ¯µÄĞÎÏó");
-		button_28.setBounds(787, 368, 102, 23);
-		contentPane.add(button_28);
-		
-		Button button_29 = new Button("ÆäËû");
-		button_29.setBounds(895, 368, 35, 23);
-		contentPane.add(button_29);
-		
-		Label label_6 = new Label("Å©Ãñ¹¤×ÓÅ®²»ÄÜÁôÔÚ³ÇÊĞ¶ÁÊéµÄÔ­Òò");
+		Label label_6 = new Label("å†œæ°‘å·¥å­å¥³ä¸èƒ½ç•™åœ¨åŸå¸‚è¯»ä¹¦çš„åŸå› ");
 		label_6.setBounds(621, 403, 195, 23);
 		label_6.setBackground(Color.WHITE);
 		contentPane.add(label_6);
-		
-		Button button_30 = new Button("ÎŞ±¾µØ»§¼®ÄÑÈë¹«Á¢Ñ§Ğ£");
-		button_30.setBounds(678, 430, 146, 23);
-		button_30.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				button_30.setBackground(Color.yellow);
-			}
-		});
-		contentPane.add(button_30);
-		
-		Button button_31 = new Button("Ë½Á¢Ñ§Ğ£Ñ§·Ñ¸ß");
-		button_31.setBounds(834, 430, 102, 23);
-		contentPane.add(button_31);
-		
-		Button button_32 = new Button("Ô½À´Ô½¶àĞ¡ĞÍË½Á¢Ñ§Ğ£±»È¡Ïû°ìÑ§×Ê¸ñ");
-		button_32.setBounds(678, 459, 211, 23);
-		contentPane.add(button_32);
-		
-		Button button_33 = new Button("Ë½Á¢Ñ§Ğ£½ÌÑ§ÖÊÁ¿Ã»±£ÕÏ");
-		button_33.setBounds(679, 488, 145, 23);
-		contentPane.add(button_33);
-		
-		Button button_34 = new Button("ÆäËû");
-		button_34.setBounds(834, 488, 102, 23);
-		contentPane.add(button_34);
 		
 		JScrollPane scrollPane_2 = new JScrollPane();
 		scrollPane_2.setBounds(615, 531, 400, 2);
 		contentPane.add(scrollPane_2);
 		
-		JButton button_35 = new JButton("Íê³É");
+		JButton button_35 = new JButton("å®Œæˆ");
 		button_35.setBounds(858, 542, 93, 23);
 		contentPane.add(button_35);
 		
@@ -386,12 +231,315 @@ public class NewsContent extends JFrame {
 		});
 		showExternalNews.setBounds(706, 542, 118, 23);
 		contentPane.add(showExternalNews);
+		
+		JRadioButton type1 = new JRadioButton("çº¯å‡€æ–°é—»");
+		type1.setBounds(678, 116, 79, 23);
+		contentPane.add(type1);
+		
+		JRadioButton type2 = new JRadioButton("ç‰¹ç¨¿ç‰¹å†™");
+		type2.setBounds(759, 116, 73, 23);
+		contentPane.add(type2);
+		
+		JRadioButton type3 = new JRadioButton("è¯„è®º");
+		type3.setBounds(834, 116, 51, 23);
+		contentPane.add(type3);
+		
+		JRadioButton type4 = new JRadioButton("å…¶ä»–");
+		type4.setBounds(889, 116, 62, 23);
+		contentPane.add(type4);
+		
+		ButtonGroup typeGroup = new ButtonGroup();
+		typeGroup.add(type1);
+		typeGroup.add(type2);
+		typeGroup.add(type3);
+		typeGroup.add(type4);
+		
+		type1.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				
+			}
+		});
 
-		choice_2.add("ĞÔ±ğ");
-		choice_2.add("ÄĞ");
-		choice_2.add("Å®");
+		type2.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				System.out.println("é¦™é¦™");
+			}
+		});
+		
+		JRadioButton theme1 = new JRadioButton("å¸®åŠ©å…³çˆ±");
+		theme1.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		theme1.setBounds(678, 155, 79, 23);
+		contentPane.add(theme1);
+		theme1.addActionListener(new ActionListener()
+				{
+					public void actionPerformed(ActionEvent e)
+					{
+						choice.setEnabled(true);
+						choice_1.setEnabled(true);
+						choice_2.setEnabled(false);
+					}
+			
+				});
+		
+		JRadioButton theme2 = new JRadioButton("è¡¨å½°é¼“åŠ±");
+		theme2.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		theme2.setBounds(759, 155, 79, 23);
+		contentPane.add(theme2);
+		theme2.addActionListener(new ActionListener()
+				{
+					public void actionPerformed(ActionEvent e)
+					{
+						choice.setEnabled(true);
+						choice_1.setEnabled(false);
+						choice_2.setEnabled(false);
+					}
+					
+				});
+		
+		JRadioButton theme3 = new JRadioButton("ç•™å®ˆå„¿ç«¥åŠªåŠ›å‘ä¸Š");
+		theme3.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		theme3.setBounds(843, 155, 121, 23);
+		contentPane.add(theme3);
+		theme3.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				choice.setEnabled(false);
+				choice_1.setEnabled(false);
+				choice_2.setEnabled(false);
+			}
+			
+		});
+		
+		JRadioButton theme4 = new JRadioButton("å»ºè®®çœ‹æ³•");
+		theme4.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		theme4.setBounds(678, 184, 79, 23);
+		contentPane.add(theme4);
+		theme4.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				choice.setEnabled(false);
+				choice_1.setEnabled(false);
+				choice_2.setEnabled(false);
+			}
+			
+		});
+		
+		JRadioButton theme5 = new JRadioButton("æ‰“å·¥çˆ¶æ¯è‰°éš¾ç”Ÿæ´»");
+		theme5.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		theme5.setBounds(759, 184, 113, 23);
+		contentPane.add(theme5);
+		theme5.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				choice.setEnabled(false);
+				choice_1.setEnabled(false);
+				choice_2.setEnabled(false);
+			}
+			
+		});
+		
+		JRadioButton theme6 = new JRadioButton("ç•™å®ˆå„¿ç«¥æ€§ä¾µ");
+		theme6.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		theme6.setBounds(875, 184, 93, 23);
+		contentPane.add(theme6);
+		theme6.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				choice.setEnabled(false);
+				choice_1.setEnabled(false);
+				choice_2.setEnabled(true);
+			}
+			
+		});
+		
+		JRadioButton theme7 = new JRadioButton("ç•™å®ˆå„¿ç«¥é­æš´åŠ›");
+		theme7.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		theme7.setBounds(678, 213, 103, 23);
+		contentPane.add(theme7);
+		theme7.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				choice.setEnabled(false);
+				choice_1.setEnabled(false);
+				choice_2.setEnabled(true);
+			}
+			
+		});
+		
+		JRadioButton theme8 = new JRadioButton("ç•™å®ˆå„¿ç«¥çŠ¯ç½ª");
+		theme8.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		theme8.setBounds(783, 213, 93, 23);
+		contentPane.add(theme8);
+		theme8.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				choice.setEnabled(false);
+				choice_1.setEnabled(false);
+				choice_2.setEnabled(true);
+			}
+			
+		});
+		
+		JRadioButton theme9 = new JRadioButton("å…¶ä»–");
+		theme9.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		theme9.setBounds(882, 212, 51, 23);
+		contentPane.add(theme9);
+		theme9.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				choice.setEnabled(false);
+				choice_1.setEnabled(false);
+				choice_2.setEnabled(false);
+			}
+			
+		});
+		
+		ButtonGroup themeGroup = new ButtonGroup();
+		themeGroup.add(theme1);
+		themeGroup.add(theme2);
+		themeGroup.add(theme3);
+		themeGroup.add(theme4);
+		themeGroup.add(theme5);
+		themeGroup.add(theme6);
+		themeGroup.add(theme7);
+		themeGroup.add(theme8);
+		themeGroup.add(theme9);
+		
+		JRadioButton resoure1 = new JRadioButton("è®°è€…");
+		resoure1.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		resoure1.setBounds(728, 278, 51, 23);
+		contentPane.add(resoure1);
+		
+		JRadioButton resoure2 = new JRadioButton("æ”¿åºœ");
+		resoure2.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		resoure2.setBounds(781, 278, 47, 23);
+		contentPane.add(resoure2);
+		
+		JRadioButton resoure3 = new JRadioButton("ä¼ä¸š");
+		resoure3.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		resoure3.setBounds(830, 278, 51, 23);
+		contentPane.add(resoure3);
+		
+		JRadioButton resoure4 = new JRadioButton("äº‹ä¸šå•ä½");
+		resoure4.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		resoure4.setBounds(882, 278, 73, 23);
+		contentPane.add(resoure4);
+		
+		JRadioButton resoure5 = new JRadioButton("å…¬ç›Šå•ä½");
+		resoure5.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		resoure5.setBounds(670, 307, 73, 23);
+		contentPane.add(resoure5);
+		
+		JRadioButton resoure6 = new JRadioButton("ä¸“å®¶å­¦è€…");
+		resoure6.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		resoure6.setBounds(746, 307, 73, 23);
+		contentPane.add(resoure6);
+		
+		JRadioButton resoure7 = new JRadioButton("æ”¿åºœé¢†å¯¼");
+		resoure7.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		resoure7.setBounds(823, 307, 73, 23);
+		contentPane.add(resoure7);
+		
+		JRadioButton resoure8 = new JRadioButton("å…¶ä»–");
+		resoure8.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		resoure8.setBounds(906, 306, 51, 23);
+		contentPane.add(resoure8);
+		
+		ButtonGroup resourceGroup = new ButtonGroup();
+		resourceGroup.add(resoure1);
+		resourceGroup.add(resoure2);
+		resourceGroup.add(resoure3);
+		resourceGroup.add(resoure4);
+		resourceGroup.add(resoure5);
+		resourceGroup.add(resoure6);
+		resourceGroup.add(resoure7);
+		resourceGroup.add(resoure8);
+		
+		JRadioButton mediaImage1 = new JRadioButton("å¯æ€œæ‚²æƒ¨çš„å½¢è±¡");
+		mediaImage1.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		mediaImage1.setBounds(703, 339, 103, 23);
+		contentPane.add(mediaImage1);
+		
+		JRadioButton mediaImage2 = new JRadioButton("æ²æ©å¹¸ç¦çš„å½¢è±¡");
+		mediaImage2.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		mediaImage2.setBounds(830, 339, 121, 23);
+		contentPane.add(mediaImage2);
+		
+		JRadioButton mediaImage3 = new JRadioButton("ç§¯æå¥åº·çš„å½¢è±¡");
+		mediaImage3.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		mediaImage3.setBounds(650, 368, 113, 23);
+		contentPane.add(mediaImage3);
+		
+		JRadioButton mediaImage4 = new JRadioButton("é—®é¢˜å„¿ç«¥çš„å½¢è±¡");
+		mediaImage4.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		mediaImage4.setBounds(768, 368, 103, 23);
+		contentPane.add(mediaImage4);
+		
+		JRadioButton mediaImage5 = new JRadioButton("å…¶ä»–");
+		mediaImage5.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		mediaImage5.setBounds(875, 367, 62, 23);
+		contentPane.add(mediaImage5);
+		
+		ButtonGroup mediaImageGroup = new ButtonGroup();
+		mediaImageGroup.add(mediaImage1);
+		mediaImageGroup.add(mediaImage2);
+		mediaImageGroup.add(mediaImage3);
+		mediaImageGroup.add(mediaImage4);
+		mediaImageGroup.add(mediaImage5);
+		
+		JRadioButton reason1 = new JRadioButton("æ— æœ¬åœ°æˆ·ç±éš¾å…¥å…¬ç«‹å­¦æ ¡");
+		reason1.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		reason1.setBounds(674, 430, 150, 23);
+		contentPane.add(reason1);
+		
+		JRadioButton reason2 = new JRadioButton("ç§ç«‹å­¦æ ¡å­¦è´¹é«˜");
+		reason2.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		reason2.setBounds(830, 429, 103, 23);
+		contentPane.add(reason2);
+		
+		JRadioButton reason3 = new JRadioButton("è¶Šæ¥è¶Šå¤šå°å‹ç§ç«‹å­¦æ ¡è¢«å–æ¶ˆåŠå­¦èµ„æ ¼");
+		reason3.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		reason3.setBounds(678, 459, 218, 23);
+		contentPane.add(reason3);
+		
+		JRadioButton reason4 = new JRadioButton("ç§ç«‹å­¦æ ¡åŠå­¦è´¨é‡æ²¡ä¿éšœ");
+		reason4.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		reason4.setBounds(678, 488, 146, 23);
+		contentPane.add(reason4);
+		
+		JRadioButton reason5 = new JRadioButton("å…¶ä»–");
+		reason5.setFont(new Font("å®‹ä½“", Font.PLAIN, 11));
+		reason5.setBounds(834, 488, 62, 23);
+		contentPane.add(reason5);
+		
+		ButtonGroup reasonGroup = new ButtonGroup();
+		reasonGroup.add(reason1);
+		reasonGroup.add(reason2);
+		reasonGroup.add(reason3);
+		reasonGroup.add(reason4);
+		reasonGroup.add(reason5);
+		
+		
+
+		choice_2.add("æ€§åˆ«");
+		choice_2.add("ç”·");
+		choice_2.add("å¥³");
 		choice_2.select(0);
 	    
-		setTitle("ĞÂÎÅÄÚÈİ");
+		setTitle("æ–°é—»å†…å®¹");
+			
 	}
+	
 }
+
