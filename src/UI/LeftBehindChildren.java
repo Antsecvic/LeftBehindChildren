@@ -33,13 +33,13 @@ import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
 
-	private static List<News> newsList = new ArrayList<>();
-	private static List<News> classifiedNews = new ArrayList<>();
-	private static List<News> notClassifiedNews = new ArrayList<>();
-	private static List<String> classifiedTitle = new ArrayList<>();
-	private static List<String> notClassifiedTitle = new ArrayList<>();
+	private List<News> newsList = new ArrayList<>();
+	private List<News> classifiedNews = new ArrayList<>();
+	private List<News> notClassifiedNews = new ArrayList<>();
+	private List<String> classifiedTitle = new ArrayList<>();
+	private List<String> notClassifiedTitle = new ArrayList<>();
 	
-	private static LeftBehindChildren leftBehindChildren = new LeftBehindChildren();
+//	private LeftBehindChildren leftBehindChildren;
 	
 	public static JFrame mainFrame;
 	public static Logger logger = LogManager.getLogger(LeftBehindChildren.class.getName());
@@ -47,13 +47,13 @@ public class LeftBehindChildren {
 	/**
 	 * Create the application.
 	 */
-	private LeftBehindChildren() {
+	public LeftBehindChildren() {
 		initialize();
 	}
 	
-	public static LeftBehindChildren getInstance(){
-		return leftBehindChildren;
-	}
+//	public static LeftBehindChildren getInstance(){
+//		return leftBehindChildren;
+//	}
 	/**
 	 * Launch the application.
 	 */
@@ -64,16 +64,10 @@ public class LeftBehindChildren {
 //			System.out.println(news.getTitle());
 //		}
 		
-
-/*	
-		//修改xml文件
-		dom4j.modifyXml("assets/guangming.xml",map.get("news:23lh^200601161410077(S:193916305)"));
-		
-*/
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					LeftBehindChildren window = getInstance();
+					LeftBehindChildren window = new LeftBehindChildren();
 					logger.info("查看首页");
 					window.mainFrame.setVisible(true);
 				} catch (Exception e) {
@@ -153,6 +147,7 @@ public class LeftBehindChildren {
                     int index = myList.getSelectedIndex();    //已选项的下标
                     Object obj = myList.getModel().getElementAt(index);  //取出数据
                     logger.info("首页点击打开未分类新闻--"+obj.toString());
+                    LeftBehindChildren.mainFrame.dispose();
     				NewsContent newsContent = new NewsContent(notClassifiedNews,index);
     				newsContent.setVisible(true);
                 }
@@ -187,6 +182,7 @@ public class LeftBehindChildren {
                     int index = myList.getSelectedIndex();    //已选项的下标
                     Object obj = myList.getModel().getElementAt(index);  //取出数据
                     logger.info("首页点击打开已分类新闻--"+obj.toString());
+                    LeftBehindChildren.mainFrame.dispose();
     				NewsContent newsContent = new NewsContent(classifiedNews,index);
     				newsContent.setVisible(true);
                 }
