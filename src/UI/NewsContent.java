@@ -73,6 +73,7 @@ public class NewsContent extends JFrame {
 		
 		//显示新闻内容的版块
 		textArea=new JTextArea(newsList.get(position).getTitle(),20,43);
+		textArea.setEditable(false);
 		showNewsDetails(newsList.get(position));
 		contentPane.setLayout(null);
 		
