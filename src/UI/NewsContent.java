@@ -14,8 +14,10 @@ import java.awt.Color;
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
+
 import java.util.List;
 import java.awt.event.ActionEvent;
 import java.awt.Label;
@@ -27,10 +29,11 @@ import org.apache.logging.log4j.Logger;
 import javax.swing.JRadioButton;
 
 public class NewsContent extends JFrame implements ActionListener{
+
+	private static final long serialVersionUID = 1L;
 	public static Logger logger = LogManager.getLogger(NewsContent.class.getName());
 	public JPanel contentPane;
 	private JTextArea textArea;
-	private JButton browse;
 	private JScrollPane mainBody;
 	private List<News> newsList;
 	private int position;
@@ -55,10 +58,13 @@ public class NewsContent extends JFrame implements ActionListener{
 		if (news.getEncodedContent().equals(""))
 		{
 			showExternalNews.setEnabled(true);
+			textArea.setText(news.getTitle());
+			Font font = new Font("宋体",Font.BOLD,20);
+			textArea.setFont(font);
+			textArea.setCaretPosition(0);		//设置光标位置为首行
 		}
 		else
 		{
-	
 			showExternalNews.setEnabled(false);
 			textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
 		    textArea.setLineWrap(true);                 //激活自动换行功能 
@@ -111,10 +117,10 @@ public class NewsContent extends JFrame implements ActionListener{
 		button_1.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
 				logger.info("返回首页");
+				new LeftBehindChildren();
+				LeftBehindChildren.mainFrame.setVisible(true);
 				setVisible(false);
-				dispose();
-				LeftBehindChildren window = new LeftBehindChildren();
-				window.mainFrame.setVisible(true);				
+				dispose();				
 			}
 		});
 		contentPane.add(button_1);
@@ -251,6 +257,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		//点击打开外部新闻
 		showExternalNews.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				logger.info("加载外部新闻--"+newsList.get(position).getTitle());
 				String url = newsList.get(position).getTrueUrl();
 				BareBonesBrowserLaunch.openURL(url);
 			}
@@ -621,22 +628,15 @@ public class NewsContent extends JFrame implements ActionListener{
 		finish.setBounds(858, 542, 93, 23);
 		contentPane.add(finish);
 		
-//		if(tags.getType().isEmpty()||tags.getTheme().isEmpty()||tags.getSource().isEmpty()||
-//				tags.getShowing().isEmpty()||tags.getReason().isEmpty()){
-//			finish.setEnabled(false);
-//		}else{
-//			finish.setEnabled(true);
-//		}
 		finish.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO 自动生成的方法存根				
-//				System.out.println(tags.getType() + tags.getTheme() + tags.getMainBody() + tags.getGender()
-//				+tags.getHelpType()+tags.getShowing()+tags.getReason()+tags.getSource());				
+				// TODO 自动生成的方法存根							
 				Dom4j dom4j = new Dom4j();
 				newsList.get(position).setTags(tags);
 				newsList.get(position).setTagIts("true");
 				dom4j.modifyXml(newsList.get(position));
+				
 				dispose();
 				ListData listData = new ListData();
 				ClassifiedNewsContent newsContent = 

@@ -1,20 +1,15 @@
 package UI;
 
-import java.awt.Choice;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Label;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
 import java.util.List;
 
-import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.UIManager;
@@ -27,11 +22,11 @@ import XmlData.Dom4j;
 import XmlData.News;
 import XmlData.Tags;
 
+@SuppressWarnings("serial")
 public class ClassifiedNewsContent extends JFrame{
 	public static Logger logger = LogManager.getLogger(ClassifiedNewsContent.class.getName());
 	public JPanel contentPane;
 	private JTextArea textArea;
-	private JButton browse;
 	private JScrollPane mainBody;
 	private List<News> newsList;
 	private int position;
@@ -42,6 +37,8 @@ public class ClassifiedNewsContent extends JFrame{
 	public ClassifiedNewsContent(List<News> newsList,int position) {
 		this.newsList = newsList;
 		this.position = position;
+		tags = new Tags();
+		tags = newsList.get(position).getTags();
 		initialize();
 	}
 	
@@ -76,8 +73,6 @@ public class ClassifiedNewsContent extends JFrame{
 		contentPane.setBorder(UIManager.getBorder("ComboBox.border"));
 		setContentPane(contentPane);
 		
-		tags = new Tags();
-		tags = newsList.get(position).getTags();
 		
 		//显示新闻内容的版块
 		textArea=new JTextArea(newsList.get(position).getTitle(),20,43);
@@ -111,8 +106,8 @@ public class ClassifiedNewsContent extends JFrame{
 				logger.info("返回首页");
 				setVisible(false);
 				dispose();
-				LeftBehindChildren window = new LeftBehindChildren();
-				window.mainFrame.setVisible(true);				
+				new LeftBehindChildren();
+				LeftBehindChildren.mainFrame.setVisible(true);			
 			}
 		});
 		contentPane.add(button_1);
@@ -240,6 +235,7 @@ public class ClassifiedNewsContent extends JFrame{
 		
 		Label reason = new Label(tags.getReason());
 //		reason.setFont(new Font("宋体", Font.PLAIN, 11));
+		System.out.println(tags.getReason());
 		reason.setBounds(820, 360, 150, 23);
 		contentPane.add(reason);
 		
