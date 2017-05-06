@@ -44,9 +44,6 @@ public class Dom4j implements XmlDocument {
 	            for (Iterator it = news.elementIterator(); it.hasNext();) {
 	                Element node = (Element) it.next();
 	                String type = node.getName();
-	                if(type.equals("TagIts")){
-	                	node.setText("false");
-	                }
 	                if (type.equals("Tags")) {
 	                	if(node.elements().size() == 0){
 	                		node.addElement("Type");
@@ -115,26 +112,27 @@ public class Dom4j implements XmlDocument {
 	            	node.setText(modifiedNews.getIsDeleted());
 	            }else if("Tags".equals(type)){
 	            	//将标签写入xml文件
-	            	Element tags = (Element)node.elements().get(0);
-	            	for (Iterator i = tags.elementIterator(); i.hasNext();){
+	            	
+	            	for (Iterator i = node.elementIterator(); i.hasNext();){	
+	            		
 	            		Element tagNode = (Element)i.next();
 	            		String tagType = tagNode.getName();
-	            		if("Type".equals(modifiedNews.getTags().getType())){
-	            			node.setText(modifiedNews.getTags().getType());
-	            		}else if ("Theme".equals(modifiedNews.getTags().getTheme())){
-	            			node.setText(modifiedNews.getTags().getTheme());
-	            		}else if("Source".equals(type)){
-	    	            	node.setText(modifiedNews.getTags().getSource());
-	    	            }else if("Showing".equals(type)){
-	    	            	node.setText(modifiedNews.getTags().getShowing());
-	    	            }else if("Reason".equals(type)){
-	    	            	node.setText(modifiedNews.getTags().getReason());
-	    	            }else if("MainBody".equals(type)){
-	    	            	node.setText(modifiedNews.getTags().getMainBody());
-	    	            }else if("HelpType".equals(type)){
-	    	            	node.setText(modifiedNews.getTags().getHelpType());
-	    	            }else if("Gender".equals(type)){
-	    	            	node.setText(modifiedNews.getTags().getGender());
+	            		if("Type".equals(tagType)){
+	            			tagNode.setText(modifiedNews.getTags().getType());
+	            		}else if ("Theme".equals(tagType)){
+	            			tagNode.setText(modifiedNews.getTags().getTheme());
+	            		}else if("Source".equals(tagType)){
+	            			tagNode.setText(modifiedNews.getTags().getSource());
+	    	            }else if("Showing".equals(tagType)){
+	    	            	tagNode.setText(modifiedNews.getTags().getShowing());
+	    	            }else if("Reason".equals(tagType)){
+	    	            	tagNode.setText(modifiedNews.getTags().getReason());
+	    	            }else if("MainBody".equals(tagType)){
+	    	            	tagNode.setText(modifiedNews.getTags().getMainBody());
+	    	            }else if("HelpType".equals(tagType)){
+	    	            	tagNode.setText(modifiedNews.getTags().getHelpType());
+	    	            }else if("Gender".equals(tagType)){
+	    	            	tagNode.setText(modifiedNews.getTags().getGender());
 	    	            }
 	            	}
 	            }

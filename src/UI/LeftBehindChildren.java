@@ -37,17 +37,8 @@ import java.util.Map;
 import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
-
-	private List<News> newsList = new ArrayList<>();
-	private List<News> classifiedNews = new ArrayList<>();
-	private List<News> notClassifiedNews = new ArrayList<>();
-	private List<String> classifiedTitle = new ArrayList<>();
-	private List<String> notClassifiedTitle = new ArrayList<>();
-	public List<News> deletedNews = new ArrayList<>();
-	public List<String> deletedTitle = new ArrayList<>();
 	
-//	private LeftBehindChildren leftBehindChildren;
-	
+	private ListData listData;
 	public static JFrame mainFrame;
 	public static Logger logger = LogManager.getLogger(LeftBehindChildren.class.getName());
 
@@ -57,10 +48,6 @@ public class LeftBehindChildren {
 	public LeftBehindChildren() {
 		initialize();
 	}
-	
-//	public static LeftBehindChildren getInstance(){
-//		return leftBehindChildren;
-//	}
 	/**
 	 * Launch the application.
 	 */
@@ -84,36 +71,14 @@ public class LeftBehindChildren {
 			}
 		});
 	}
-
+	
 	/**
 	 * Initialize the contents of the mainFrame.
 	 */
 	private void initialize() {
-
+		
+		listData = new ListData();
 		Dom4j dom4j = new Dom4j();
-		dom4j.initXml("assets/sichuan.xml");
-		//dom4j.parserXml("assets/guangming.xml",newsList);
-		//dom4j.parserXml("assets/nanfangdaily.xml",newsList);
-		dom4j.parserXml("assets/sichuan.xml",newsList);
-		for(News news : newsList){
-			if(!news.getIsDeleted().equals("true")){
-				if(!news.getTags().equals("")){
-					notClassifiedNews.add(news);
-					notClassifiedTitle.add(news.getTitle());
-				}else{
-					classifiedNews.add(news);
-					classifiedTitle.add(news.getTitle());
-				}
-			}else{
-				deletedNews.add(news);
-				deletedTitle.add(news.getTitle());
-			}
-		}
-//		System.out.println(deletedNews.size()+" "+deletedTitle.size());
-//		for(News news : deletedNews){
-//			System.out.println(news.getTitle()+" "+news.getIsDeleted());
-//		}
-
 		
 		mainFrame = new JFrame();
 		mainFrame.getContentPane().setBackground(Color.BLACK);
@@ -146,7 +111,7 @@ public class LeftBehindChildren {
 		JScrollPane scrollPane_1 = new JScrollPane();
 		scrollPane_1.setBounds(10, 396, 568,266);
 //        jScrollPane1.setPreferredSize(new java.awt.Dimension(218, 164));
-        ListModel jList1Model =  new DefaultComboBoxModel(notClassifiedTitle.toArray());
+        ListModel jList1Model =  new DefaultComboBoxModel(listData.notClassifiedTitle.toArray());
         JList myJlist = new JList();
         myJlist.setModel(jList1Model);            //设置数据
         myJlist.addMouseListener(new MouseAdapter() {
@@ -158,7 +123,7 @@ public class LeftBehindChildren {
                     Object obj = myJlist.getModel().getElementAt(index);  //取出数据
                     logger.info("首页点击打开未分类新闻--"+obj.toString());
                     LeftBehindChildren.mainFrame.dispose();
-    				NewsContent newsContent = new NewsContent(notClassifiedNews,index);
+    				NewsContent newsContent = new NewsContent(listData.notClassifiedNews,index);
     				newsContent.setVisible(true);
                 }
                 if(e.isMetaDown()) {
@@ -167,7 +132,7 @@ public class LeftBehindChildren {
                     JMenuItem item1 = new JMenuItem("删除");
                     item1.addMouseListener(new MouseAdapter(){
                     	public void mouseReleased(MouseEvent e) {
-                    		dom4j.deleteNews(notClassifiedNews.get(index));
+                    		dom4j.deleteNews(listData.notClassifiedNews.get(index));
                     		System.out.println("test");
 //                    		this.mainFrame.reload();
 //                    		LeftBehindChildren.mainFrame.validate();
@@ -200,7 +165,7 @@ public class LeftBehindChildren {
 		// 用来显示已分类的新闻标题
 		JScrollPane scrollPane_3 = new JScrollPane();
 		scrollPane_3.setBounds(613, 65, 349, 508);
-		ListModel jList1Model2 =  new DefaultComboBoxModel(classifiedTitle.toArray());
+		ListModel jList1Model2 =  new DefaultComboBoxModel(listData.classifiedTitle.toArray());
         JList myJlist2 = new JList();
         myJlist2.setModel(jList1Model2);            //设置数据
         myJlist2.addMouseListener(new MouseAdapter() {
@@ -212,7 +177,7 @@ public class LeftBehindChildren {
                     Object obj = myList.getModel().getElementAt(index);  //取出数据
                     logger.info("首页点击打开已分类新闻--"+obj.toString());
                     LeftBehindChildren.mainFrame.dispose();
-    				NewsContent newsContent = new NewsContent(classifiedNews,index);
+    				ClassifiedNewsContent newsContent = new ClassifiedNewsContent(listData.classifiedNews,index);
     				newsContent.setVisible(true);
                 }
             }
@@ -240,7 +205,7 @@ public class LeftBehindChildren {
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				mainFrame.setVisible(false);
-				RecycleBin recycle = new RecycleBin(deletedNews,deletedTitle);
+				RecycleBin recycle = new RecycleBin(listData.deletedNews,listData.deletedTitle);
 				recycle.setVisible(true);
 				
 			}
