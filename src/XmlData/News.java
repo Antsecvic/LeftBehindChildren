@@ -5,6 +5,10 @@ import java.io.Serializable;
 
 
 public class News implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String newsData;
 	private String tagIts;
 	private String isLoad;

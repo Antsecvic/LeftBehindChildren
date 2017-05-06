@@ -21,7 +21,7 @@ public class BareBonesBrowserLaunch {
 		if (osName.startsWith("Max OS"))
 		{
 			// 苹果的打开方式
-			Class fileMgr = Class.forName("com.apple.eio.FileManager");
+			Class<?> fileMgr = Class.forName("com.apple.eio.FileManager");
 			Method openURL = fileMgr.getDeclaredMethod("openURL",new Class[] {String.class});
 			openURL.invoke(null, new Object[] { url }); 
 		}

@@ -2,8 +2,6 @@ package UI;
 
 import XmlData.*;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
 import java.awt.Font;
 
 import javax.swing.JFrame;
@@ -16,11 +14,7 @@ import java.awt.Color;
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 import java.awt.event.ActionEvent;
 import java.awt.Label;
 import java.awt.Button;
@@ -29,14 +23,16 @@ import javax.swing.UIManager;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import javax.swing.JEditorPane;
 import javax.swing.JRadioButton;
 
 public class NewsContent extends JFrame{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	public static Logger logger = LogManager.getLogger(NewsContent.class.getName());
 	public JPanel contentPane;
 	private JTextArea textArea;
-	private JButton browse;
 	private JScrollPane mainBody;
 	private List<News> newsList;
 	private int position;
@@ -60,10 +56,13 @@ public class NewsContent extends JFrame{
 		if (news.getEncodedContent().equals(""))
 		{
 			showExternalNews.setEnabled(true);
+			textArea.setText(news.getTitle());
+			Font font = new Font("宋体",Font.BOLD,20);
+			textArea.setFont(font);
+			textArea.setCaretPosition(0);		//设置光标位置为首行
 		}
 		else
 		{
-	
 			showExternalNews.setEnabled(false);
 			textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
 		    textArea.setLineWrap(true);                 //激活自动换行功能 
@@ -117,10 +116,10 @@ public class NewsContent extends JFrame{
 		button_1.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
 				logger.info("返回首页");
+				new LeftBehindChildren();
+				LeftBehindChildren.mainFrame.setVisible(true);
 				setVisible(false);
-				dispose();
-				LeftBehindChildren window = new LeftBehindChildren();
-				window.mainFrame.setVisible(true);				
+				dispose();				
 			}
 		});
 		contentPane.add(button_1);
@@ -225,6 +224,7 @@ public class NewsContent extends JFrame{
 		
 		showExternalNews.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				logger.info("加载外部新闻--"+newsList.get(position).getTitle());
 				String url = newsList.get(position).getTrueUrl();
 				BareBonesBrowserLaunch.openURL(url);
 			}

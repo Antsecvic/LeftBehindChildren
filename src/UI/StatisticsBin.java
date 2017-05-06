@@ -1,8 +1,6 @@
 package UI;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -13,6 +11,10 @@ import java.awt.event.ActionEvent;
 
 public class StatisticsBin extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JButton back;       //返回首页
 	private JButton button_1;   //相关数量统计
