@@ -1,0 +1,70 @@
+2017-05-07 12:08:52 CST INFO  UI.LeftBehindChildren$1 54 run - ï¿½é¿´ï¿½ï¿½Ò³
+2017-05-07 12:08:52 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml ï¿½ï¿½Ê¼ï¿½ï¿½xmlï¿½ï¿½ï¿½ï¿½
+2017-05-07 12:08:53 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml ï¿½ï¿½Ê¼ï¿½ï¿½xmlï¿½ï¿½ï¿½ï¿½
+2017-05-07 12:08:54 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml ï¿½ï¿½Ê¼ï¿½ï¿½xmlï¿½ï¿½ï¿½ï¿½
+2017-05-07 12:08:54 CST INFO  XmlData.Dom4j 157 parserXml - ï¿½ï¿½ï¿½ï¿½assets/guangming.xml
+2017-05-07 12:08:55 CST INFO  XmlData.Dom4j 157 parserXml - ï¿½ï¿½ï¿½ï¿½assets/nanfangdaily.xml
+2017-05-07 12:08:56 CST INFO  XmlData.Dom4j 157 parserXml - ï¿½ï¿½ï¿½ï¿½assets/sichuan.xml
+2017-05-07 12:09:41 CST INFO  UI.LeftBehindChildren$2 115 mouseClicked - ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½--å…¨å›½æ”¿ååå±Šå››æ¬¡ä¼šè®®ä¸¾è¡Œç¬¬ä¸‰æ¬¡å…¨ä½“ä¼šè®®è´¾åº†æ—å‡ºå¸­12ä½å§”å‘˜å›´ç»•ç§‘æ•™æ–‡è¡ç­‰ç¤¾ä¼šäº‹ä¸š...
+2017-05-07 12:09:47 CST ERROR XmlData.Dom4j 81 modifyXml - ï¿½ï¿½ï¿½ï¿½--å…¨å›½æ”¿ååå±Šå››æ¬¡ä¼šè®®ä¸¾è¡Œç¬¬ä¸‰æ¬¡å…¨ä½“ä¼šè®®è´¾åº†æ—å‡ºå¸­12ä½å§”å‘˜å›´ç»•ç§‘æ•™æ–‡è¡ç­‰ç¤¾ä¼šäº‹ä¸š...ï¿½Ò²ï¿½ï¿½ï¿½Ô´xmlï¿½Ä¼ï¿½
+2017-05-07 12:09:47 CST ERROR XmlData.Dom4j 148 modifyXml - null å…¨å›½æ”¿ååå±Šå››æ¬¡ä¼šè®®ä¸¾è¡Œç¬¬ä¸‰æ¬¡å…¨ä½“ä¼šè®®è´¾åº†æ—å‡ºå¸­12ä½å§”å‘˜å›´ç»•ç§‘æ•™æ–‡è¡ç­‰ç¤¾ä¼šäº‹ä¸š...ï¿½ï¿½ï¿½ï¿½ï¿½Ç©Ê§ï¿½ï¿½
+2017-05-07 12:09:47 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml ï¿½ï¿½Ê¼ï¿½ï¿½xmlï¿½ï¿½ï¿½ï¿½
+2017-05-07 12:09:47 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml ï¿½ï¿½Ê¼ï¿½ï¿½xmlï¿½ï¿½ï¿½ï¿½
+2017-05-07 12:09:48 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml ï¿½ï¿½Ê¼ï¿½ï¿½xmlï¿½ï¿½ï¿½ï¿½
+2017-05-07 12:09:48 CST INFO  XmlData.Dom4j 157 parserXml - ï¿½ï¿½ï¿½ï¿½assets/guangming.xml
+2017-05-07 12:09:48 CST INFO  XmlData.Dom4j 157 parserXml - ï¿½ï¿½ï¿½ï¿½assets/nanfangdaily.xml
+2017-05-07 12:09:49 CST INFO  XmlData.Dom4j 157 parserXml - ï¿½ï¿½ï¿½ï¿½assets/sichuan.xml
+2017-05-07 12:30:59 CST INFO  XmlData.Dom4j 34 initXml - textFile ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 12:30:59 CST ERROR XmlData.Dom4j 65 initXml - textFile ³õÊ¼»¯Ê§°Ü
+2017-05-07 12:40:14 CST INFO  XmlData.Dom4j 34 initXml - textFile ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 12:40:14 CST ERROR XmlData.Dom4j 65 initXml - textFile ³õÊ¼»¯Ê§°Ü
+2017-05-07 12:40:43 CST INFO  XmlData.Dom4j 34 initXml - textFile ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 12:40:43 CST ERROR XmlData.Dom4j 65 initXml - textFile ³õÊ¼»¯Ê§°Ü
+2017-05-07 12:42:34 CST INFO  XmlData.Dom4j 34 initXml - textFile ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 12:42:34 CST ERROR XmlData.Dom4j 65 initXml - textFile ³õÊ¼»¯Ê§°Ü
+2017-05-07 12:45:37 CST INFO  XmlData.Dom4j 34 initXml - textFile ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 12:45:37 CST ERROR XmlData.Dom4j 65 initXml - textFile ³õÊ¼»¯Ê§°Ü
+2017-05-07 12:46:19 CST INFO  XmlData.Dom4j 34 initXml - textFile ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 12:46:20 CST ERROR XmlData.Dom4j 65 initXml - textFile ³õÊ¼»¯Ê§°Ü
+2017-05-07 12:49:16 CST INFO  XmlData.Dom4j 34 initXml - textFile ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 12:49:16 CST ERROR XmlData.Dom4j 65 initXml - textFile ³õÊ¼»¯Ê§°Ü
+2017-05-07 12:50:46 CST INFO  XmlData.Dom4j 34 initXml - textFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 12:50:46 CST ERROR XmlData.Dom4j 65 initXml - textFile.xml ³õÊ¼»¯Ê§°Ü
+2017-05-07 12:51:44 CST INFO  XmlData.Dom4j 34 initXml - /Users/heyilun/git/LeftBehindChildren/src/XmlData/textFile.xml  ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 12:51:44 CST ERROR XmlData.Dom4j 65 initXml - /Users/heyilun/git/LeftBehindChildren/src/XmlData/textFile.xml  ³õÊ¼»¯Ê§°Ü
+2017-05-07 13:13:15 CST INFO  XmlData.Dom4j 34 initXml - textFile ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:13:15 CST ERROR XmlData.Dom4j 65 initXml - textFile ³õÊ¼»¯Ê§°Ü
+2017-05-07 13:16:49 CST INFO  XmlData.Dom4j 34 initXml - textFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:16:49 CST ERROR XmlData.Dom4j 65 initXml - textFile.xml ³õÊ¼»¯Ê§°Ü
+2017-05-07 13:17:03 CST INFO  XmlData.Dom4j 34 initXml - textFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:17:04 CST ERROR XmlData.Dom4j 65 initXml - textFile.xml ³õÊ¼»¯Ê§°Ü
+2017-05-07 13:19:44 CST INFO  XmlData.Dom4j 34 initXml - textFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:19:44 CST ERROR XmlData.Dom4j 65 initXml - textFile.xml ³õÊ¼»¯Ê§°Ü
+2017-05-07 13:22:30 CST INFO  XmlData.Dom4j 34 initXml - assessets/textFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:22:30 CST ERROR XmlData.Dom4j 65 initXml - assessets/textFile.xml ³õÊ¼»¯Ê§°Ü
+2017-05-07 13:25:32 CST INFO  XmlData.Dom4j 34 initXml - assessets/guangming.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:25:32 CST ERROR XmlData.Dom4j 65 initXml - assessets/guangming.xml ³õÊ¼»¯Ê§°Ü
+2017-05-07 13:26:02 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:26:33 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:35:10 CST INFO  XmlData.Dom4j 34 initXml - assets/NewFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:35:11 CST ERROR XmlData.Dom4j 65 initXml - assets/NewFile.xml ³õÊ¼»¯Ê§°Ü
+2017-05-07 13:36:54 CST INFO  XmlData.Dom4j 34 initXml - assets/NewFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:36:54 CST ERROR XmlData.Dom4j 65 initXml - assets/NewFile.xml ³õÊ¼»¯Ê§°Ü
+2017-05-07 13:39:15 CST INFO  XmlData.Dom4j 34 initXml - assets/NewFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 13:54:21 CST ERROR XmlData.Dom4j 148 modifyXml - assets/guangming.xml null²åÈë±êÇ©Ê§°Ü
+2017-05-07 13:54:21 CST INFO  XmlData.Dom4j 34 initXml - assets/NewFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 14:31:47 CST ERROR XmlData.Dom4j 148 modifyXml - assets/guangming.xml null²åÈë±êÇ©Ê§°Ü
+2017-05-07 14:31:47 CST INFO  XmlData.Dom4j 157 parserXml - ½âÎöassest/NewFile
+2017-05-07 14:31:47 CST ERROR XmlData.Dom4j 215 parserXml - ½âÎöassest/NewFileÊ§°Ü
+2017-05-07 14:31:47 CST INFO  XmlData.Dom4j 34 initXml - assets/NewFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 14:32:24 CST INFO  XmlData.Dom4j 157 parserXml - ½âÎöassests/NewFile.xml
+2017-05-07 14:32:24 CST ERROR XmlData.Dom4j 215 parserXml - ½âÎöassests/NewFile.xmlÊ§°Ü
+2017-05-07 14:33:06 CST ERROR XmlData.Dom4j 148 modifyXml - assets/guangming.xml null²åÈë±êÇ©Ê§°Ü
+2017-05-07 14:33:06 CST INFO  XmlData.Dom4j 157 parserXml - ½âÎöassets/NewFile.xml
+2017-05-07 14:33:06 CST INFO  XmlData.Dom4j 34 initXml - assets/NewFile.xml ³õÊ¼»¯xmlÊı¾İ
+2017-05-07 14:51:21 CST ERROR XmlData.Dom4j 148 modifyXml - null null²åÈë±êÇ©Ê§°Ü
+2017-05-07 14:52:20 CST ERROR XmlData.Dom4j 148 modifyXml - assets/guangming.xml null²åÈë±êÇ©Ê§°Ü
+2017-05-07 14:52:20 CST INFO  XmlData.Dom4j 157 parserXml - ½âÎöassets/NewFile.xml
+2017-05-07 14:52:20 CST ERROR XmlData.Dom4j 148 modifyXml - null null²åÈë±êÇ©Ê§°Ü
+2017-05-07 14:52:20 CST ERROR XmlData.Dom4j 148 modifyXml - null null²åÈë±êÇ©Ê§°Ü
+2017-05-07 14:52:20 CST INFO  XmlData.Dom4j 34 initXml - assets/NewFile.xml ³õÊ¼»¯xmlÊı¾İ
