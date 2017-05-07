@@ -2241,3 +2241,42 @@
 2017-05-05 17:56:52 CST INFO  XmlData.Dom4j 144 parserXml - 解析assets/sichuan.xml
 2017-05-05 17:56:53 CST INFO  UI.LeftBehindChildren$1 71 run - 查看首页
 2017-05-05 17:56:54 CST INFO  UI.LeftBehindChildren$2 148 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 18:24:05 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 18:24:05 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-05 18:24:06 CST INFO  UI.LeftBehindChildren$1 78 run - 查看首页
+2017-05-05 18:24:08 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 18:26:11 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 18:26:11 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-05 18:26:12 CST INFO  UI.LeftBehindChildren$1 78 run - 查看首页
+2017-05-05 18:26:20 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--绵阳市仙海水利风景区 民生为重 建成幸福美丽的“生态後花园”
+2017-05-05 18:26:22 CST INFO  UI.NewsContent$2 119 actionPerformed - 返回首页
+2017-05-05 18:26:22 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 18:26:22 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-05 18:26:29 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 18:26:29 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-05 18:38:22 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 18:38:22 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-05 18:38:23 CST INFO  UI.LeftBehindChildren$1 78 run - 查看首页
+2017-05-05 18:38:26 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-05 18:38:34 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-05 18:38:35 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-05 18:38:35 CST INFO  UI.LeftBehindChildren$1 78 run - 查看首页
+2017-05-05 18:38:37 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--村级小项目也要招标
+2017-05-07 08:20:45 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-07 08:20:46 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-07 08:20:47 CST INFO  UI.LeftBehindChildren$1 78 run - 查看首页
+2017-05-07 08:20:50 CST INFO  UI.LeftBehindChildren$2 155 mouseClicked - 首页点击打开未分类新闻--我省检察机关首次公布未成年人保护典型案例
+2017-05-07 08:21:11 CST INFO  UI.NewsContent$2 119 actionPerformed - 返回首页
+2017-05-07 08:21:11 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-07 08:21:11 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-07 08:21:17 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-07 08:21:17 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-07 08:21:19 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-07 08:21:20 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-07 08:21:33 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-07 08:21:33 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-07 08:21:34 CST INFO  UI.LeftBehindChildren$1 78 run - 查看首页
+2017-05-07 08:21:39 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-07 08:21:39 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
+2017-05-07 08:21:41 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-07 08:21:41 CST INFO  XmlData.Dom4j 153 parserXml - 解析assets/sichuan.xml
