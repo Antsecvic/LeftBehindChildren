@@ -1,19 +1,19 @@
 package UI;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JPopupMenu;
 import javax.swing.border.EmptyBorder;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import XmlData.Dom4j;
+import XmlData.News;
 
 import javax.swing.JList;
 import javax.swing.JMenuItem;
 
-import java.awt.CardLayout;
 import java.awt.Label;
 import java.awt.Font;
 import java.awt.SystemColor;
@@ -24,17 +24,23 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.List;
 import java.awt.event.ActionEvent;
 
 public class RecycleBin extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
+	public static Logger logger = LogManager.getLogger(RecycleBin.class.getName());
 	Dom4j dom4j = new Dom4j();
 	
 	/**
 	 * Create the frame.
 	 */
-	public RecycleBin() {
+	public RecycleBin(List<News> deletedNews,List<String> deletedTitle) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(300, 50, 1000, 700);
 		setTitle("回收站");
@@ -52,12 +58,21 @@ public class RecycleBin extends JFrame {
 		JScrollPane scrollPane = new JScrollPane();
 		scrollPane.setBounds(10, 55, 600, 2);
 		contentPane.add(scrollPane);
+//		int count=0;
+//		for(News news : deletedNews){
+//			
+//			System.out.println(count++);
+//		}
+//		
 		
 		JScrollPane scrollPane_1 = new JScrollPane();
 		scrollPane_1.setBounds(10, 86, 600, 300);
-		ListModel jListModel =  new DefaultComboBoxModel(LeftBehindChildren.deletedTitle.toArray());
-		JList myJlist = new JList();
+		ListModel<Object> jListModel =  new DefaultComboBoxModel<>(deletedTitle.toArray());
+		JList<Object> myJlist = new JList<>();
 		myJlist.setModel(jListModel); 
+//		myJlist.set
+		
+//		System.out.println("cishu");
 		
 		myJlist.addMouseListener(new MouseAdapter() {
             @Override
@@ -70,7 +85,13 @@ public class RecycleBin extends JFrame {
                     JMenuItem item1 = new JMenuItem("恢复");
                     item1.addMouseListener(new MouseAdapter(){
                     	public void mouseReleased(MouseEvent e) {
-                    		dom4j.restoreNews(LeftBehindChildren.deletedNews.get(index));
+                    		logger.info("恢复新闻--"+deletedNews.get(index).getTitle());
+                    		dom4j.restoreNews(deletedNews.get(index));
+                    		deletedTitle.remove(index);//在数据列表中删除该新闻标题
+                    		deletedNews.remove(index);//在数据列表中删除该新闻
+                    		ListModel<Object> jList1Model1 =  new DefaultComboBoxModel<>(deletedTitle.toArray());//重新绑定列表模型数据
+                    		myJlist.setModel(jList1Model1);//重新绑定列表模型
+                    		myJlist.updateUI();//更新列表
                     		
                     	}
                     });
@@ -89,9 +110,9 @@ public class RecycleBin extends JFrame {
 		JButton button = new JButton("\u8FD4\u56DE\u9996\u9875");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+			    new LeftBehindChildren();
+				LeftBehindChildren.mainFrame.setVisible(true);
 				setVisible(false);
-				LeftBehindChildren leftBehindChildren = new LeftBehindChildren();
-				leftBehindChildren.mainFrame.setVisible(true);
 				dispose();
 			}
 		});
