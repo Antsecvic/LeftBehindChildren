@@ -15,6 +15,7 @@ import javax.swing.JList;
 import javax.swing.JMenuItem;
 
 import java.awt.Label;
+import java.awt.Point;
 import java.awt.Font;
 import java.awt.SystemColor;
 import javax.swing.JScrollPane;
@@ -68,7 +69,24 @@ public class RecycleBin extends JFrame {
 		JScrollPane scrollPane_1 = new JScrollPane();
 		scrollPane_1.setBounds(10, 86, 600, 300);
 		ListModel<Object> jListModel =  new DefaultComboBoxModel<>(deletedTitle.toArray());
-		JList<Object> myJlist = new JList<>();
+		JList<Object> myJlist = new JList<Object>() {
+			
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public int locationToIndex(Point location) {
+				int index = super.locationToIndex(location);
+                if (index != -1 && !getCellBounds(index, index).contains(location)) {
+                    return -1;
+                }
+                else {
+                    return index;
+                }
+			}
+		};
 		myJlist.setModel(jListModel); 
 //		myJlist.set
 		
@@ -78,30 +96,28 @@ public class RecycleBin extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
             	int index = myJlist.locationToIndex(e.getPoint());    //已选项的下标
-            	myJlist.setSelectedIndex(index);
-                if(e.isMetaDown()) {
-            		//设置右键菜单
-            		JPopupMenu menu = new JPopupMenu();
-                    JMenuItem item1 = new JMenuItem("恢复");
-                    item1.addMouseListener(new MouseAdapter(){
-                    	public void mouseReleased(MouseEvent e) {
-                    		logger.info("恢复新闻--"+deletedNews.get(index).getTitle());
-                    		dom4j.restoreNews(deletedNews.get(index));
-                    		deletedTitle.remove(index);//在数据列表中删除该新闻标题
-                    		deletedNews.remove(index);//在数据列表中删除该新闻
-                    		ListModel<Object> jList1Model1 =  new DefaultComboBoxModel<>(deletedTitle.toArray());//重新绑定列表模型数据
-                    		myJlist.setModel(jList1Model1);//重新绑定列表模型
-                    		myJlist.updateUI();//更新列表
-                    		
-                    	}
-                    });
-                    menu.add(item1);
-                    menu.show(myJlist,e.getX(),e.getY());
-                    myJlist.setComponentPopupMenu(menu);//将按钮与右键菜单关联
-                	
-                }
-            }
-           
+            	if(index != -1){
+            		myJlist.setSelectedIndex(index);
+                    if(e.isMetaDown()) {
+                    	JPopupMenu menu = new JPopupMenu();
+                        JMenuItem item1 = new JMenuItem("恢复");
+                        item1.addMouseListener(new MouseAdapter(){
+                        	public void mouseReleased(MouseEvent e) {
+                        		logger.info("恢复新闻--"+deletedNews.get(index).getTitle());
+                        		dom4j.restoreNews(deletedNews.get(index));
+                        		deletedTitle.remove(index);//在数据列表中删除该新闻标题
+                        		deletedNews.remove(index);//在数据列表中删除该新闻
+                        		ListModel<Object> jList1Model1 =  new DefaultComboBoxModel<>(deletedTitle.toArray());//重新绑定列表模型数据
+                        		myJlist.setModel(jList1Model1);//重新绑定列表模型
+                        		myJlist.updateUI();//更新列表
+                        	}
+                        });
+                        menu.add(item1);
+                        menu.show(myJlist,e.getX(),e.getY());
+//                        myJlist.setComponentPopupMenu(menu);//将按钮与右键菜单关联
+                    }
+            	}
+            }  
         });
         
         scrollPane_1.setViewportView(myJlist);    //不能直接add
