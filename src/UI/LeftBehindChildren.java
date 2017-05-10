@@ -4,6 +4,7 @@ import java.awt.EventQueue;
 
 import org.apache.logging.log4j.*;
 import XmlData.Dom4j;
+import XmlData.SaveToXml;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -17,6 +18,7 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.ImageIcon;
 import java.awt.Font;
 import java.awt.Label;
+import java.awt.Point;
 import java.awt.SystemColor;
 import javax.swing.JScrollPane;
 import javax.swing.ListModel;
@@ -24,6 +26,8 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
@@ -67,8 +71,7 @@ public class LeftBehindChildren {
 	 */
 	private void initialize() {
 		
-		listData = new ListData();
-		Dom4j dom4j = new Dom4j();
+		listData = ListData.getInstance();
 		
 		mainFrame = new JFrame();
 		mainFrame.getContentPane().setBackground(Color.BLACK);
@@ -103,46 +106,70 @@ public class LeftBehindChildren {
 //        jScrollPane1.setPreferredSize(new java.awt.Dimension(218, 164));
 
         ListModel<Object> jList1Model =  new DefaultComboBoxModel<>(listData.notClassifiedTitle.toArray());
-        JList<Object> myJlist = new JList<>();
+        
+        // 重写获取列表位置的方法，使点击列表空白处不出现选中最后一项的问题
+        JList<Object> myJlist = new JList<Object>() {
+			
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public int locationToIndex(Point location) {
+				int index = super.locationToIndex(location);
+                if (index != -1 && !getCellBounds(index, index).contains(location)) {
+                    return -1;
+                }
+                else {
+                    return index;
+                }
+			}
+		};
 
         myJlist.setModel(jList1Model);            //设置数据
+        
+        //鼠标监听器
         myJlist.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
             	int index = myJlist.locationToIndex(e.getPoint());    //已选项的下标
-            	myJlist.setSelectedIndex(index);
-                if(e.getClickCount() == 1 && e.getButton() == 1){  
-                    logger.info("首页点击打开未分类新闻--"+listData.notClassifiedNews.get(index).getTitle());
-    				NewsContent newsContent = new NewsContent(listData.notClassifiedNews,index);
-    				newsContent.setVisible(true);
-                    LeftBehindChildren.mainFrame.dispose();
-                }
-                if(e.isMetaDown()) {
-            		//设置右键菜单
-            		JPopupMenu menu = new JPopupMenu();
-                    JMenuItem item1 = new JMenuItem("删除");
-                    item1.addMouseListener(new MouseAdapter(){
-                    	public void mouseReleased(MouseEvent e) {
-                    		
-                    		logger.info("删除未分类新闻--"+listData.notClassifiedNews.get(index).getTitle());
-                    		dom4j.deleteNews(listData.notClassifiedNews.get(index));
-                    		listData.notClassifiedTitle.remove(index);//在数据列表中删除该新闻标题
-                    		listData.notClassifiedNews.remove(index);//在数据列表中删除该新闻
-    						listData.deletedNews.add(listData.notClassifiedNews.get(index));
-    						listData.deletedTitle.add(listData.notClassifiedNews.get(index).getTitle());
-                    		ListModel<Object> jList1Model1 =  new DefaultComboBoxModel<>(listData.notClassifiedTitle.toArray());//重新绑定列表模型数据
-                    		myJlist.setModel(jList1Model1);//重新绑定列表模型
-                    		myJlist.updateUI();//更新列表
-                    	}
-                    });
-                    menu.add(item1);
-                    menu.show(myJlist,e.getX(),e.getY());
-                    myJlist.setComponentPopupMenu(menu);//将按钮与右键菜单关联
-                	
-                }
+            	if(index != -1){
+            		myJlist.setSelectedIndex(index);
+                    if(e.getClickCount() == 1 && e.getButton() == 1){  
+                        logger.info("首页点击打开未分类新闻--"+listData.notClassifiedNews.get(index).getTitle());
+        				NewsContent newsContent = new NewsContent(listData.notClassifiedNews,index);
+        				newsContent.setVisible(true);
+                        LeftBehindChildren.mainFrame.dispose();
+                    }
+                    if(e.isMetaDown()) {
+//                		设置右键菜单
+                		JPopupMenu menu = new JPopupMenu();
+                        JMenuItem item1 = new JMenuItem("删除");
+                      //鼠标监听器
+                        item1.addMouseListener(new MouseAdapter(){
+                        	public void mouseReleased(MouseEvent e) {
+                        		logger.info("删除未分类新闻--"+listData.notClassifiedNews.get(index).getTitle());
+                        		
+//                        		dom4j.deleteNews(listData.notClassifiedNews.get(index));
+                        		listData.notClassifiedNews.get(index).setIsDeleted("true");
+                        		
+                        		listData.deletedNews.add(listData.notClassifiedNews.get(index));
+        						listData.deletedTitle.add(listData.notClassifiedNews.get(index).getTitle());
+                        		listData.notClassifiedTitle.remove(index);//在数据列表中删除该新闻标题
+                        		listData.notClassifiedNews.remove(index);//在数据列表中删除该新闻
+                        		ListModel<Object> jList1Model1 =  new DefaultComboBoxModel<>(listData.notClassifiedTitle.toArray());//重新绑定列表模型数据
+                        		myJlist.setModel(jList1Model1);//重新绑定列表模型
+                        		myJlist.updateUI();//更新列表
+                        	}
+                        });
+                        menu.add(item1);
+                        menu.show(myJlist,e.getX(),e.getY());
+//                        myJlist.setComponentPopupMenu(menu);//将按钮与右键菜单关联
+                    }
+            	}
             }
-           
-        });
+        });      
 
         scrollPane_1.setViewportView(myJlist);    //不能直接add
 		mainFrame.getContentPane().add(scrollPane_1);
@@ -163,44 +190,70 @@ public class LeftBehindChildren {
 		JScrollPane scrollPane_3 = new JScrollPane();
 		scrollPane_3.setBounds(613, 65, 349, 508);
 		ListModel<Object> jList1Model2 =  new DefaultComboBoxModel<>(listData.classifiedTitle.toArray());
-        JList<Object> myJlist2 = new JList<>();
+		
+		// 重写获取列表位置的方法，使点击列表空白处不出现选中最后一项的问题
+		JList<Object> myJlist2 = new JList<Object>() {
+			
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public int locationToIndex(Point location) {
+				int index = super.locationToIndex(location);
+                if (index != -1 && !getCellBounds(index, index).contains(location)) {
+                    return -1;
+                }
+                else {
+                    return index;
+                }
+			}
+		};
+		
         myJlist2.setModel(jList1Model2);            //设置数据
+        
+      //鼠标监听器
         myJlist2.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
             	int index = myJlist2.locationToIndex(e.getPoint());    //已选项的下标
-            	myJlist2.setSelectedIndex(index);
-                if(e.getClickCount() == 1 && e.getButton() == 1){  
-//                    Object obj = myJlist.getModel().getElementAt(index);  //取出数据
-                    logger.info("首页点击打开已分类新闻--"+listData.classifiedNews.get(index).getTitle());
-                    ClassifiedNewsContent newsContent = new ClassifiedNewsContent(listData.classifiedNews,index);
-    				newsContent.setVisible(true);
-                    LeftBehindChildren.mainFrame.dispose();
-                }
-                if(e.isMetaDown()) {
-            		//设置右键菜单
-            		JPopupMenu menu = new JPopupMenu();
-                    JMenuItem item1 = new JMenuItem("删除");
-                    item1.addMouseListener(new MouseAdapter(){
-                    	public void mouseReleased(MouseEvent e) {
-                    		logger.info("删除已分类新闻--"+listData.classifiedNews.get(index).getTitle());
-                    		dom4j.deleteNews(listData.classifiedNews.get(index));
-                    		listData.classifiedTitle.remove(index);//在数据列表中删除该新闻标题
-                    		listData.classifiedNews.remove(index);//在数据列表中删除该新闻
-                    		listData.deletedNews.add(listData.classifiedNews.get(index));
-    						listData.deletedTitle.add(listData.classifiedNews.get(index).getTitle());
-                    		ListModel<Object> jList1Model3 =  new DefaultComboBoxModel<>(listData.classifiedTitle.toArray());//重新绑定列表模型数据
-                    		myJlist2.setModel(jList1Model3);//重新绑定列表模型
-                    		myJlist2.updateUI();//更新列表
-                    	}
-                    });
-                    menu.add(item1);
-                    menu.show(myJlist2,e.getX(),e.getY());
-                    myJlist2.setComponentPopupMenu(menu);//将按钮与右键菜单关联
-                	
-                }
+            	if(index != -1){
+            		myJlist2.setSelectedIndex(index);
+                    if(e.getClickCount() == 1 && e.getButton() == 1){  
+//                        Object obj = myJlist.getModel().getElementAt(index);  //取出数据
+                        logger.info("首页点击打开已分类新闻--"+listData.classifiedNews.get(index).getTitle());
+                        ClassifiedNewsContent newsContent = new ClassifiedNewsContent(listData.classifiedNews,index);
+        				newsContent.setVisible(true);
+                        LeftBehindChildren.mainFrame.dispose();
+                    }
+                    if(e.isMetaDown()) {
+                		//设置右键菜单
+                		JPopupMenu menu = new JPopupMenu();
+                        JMenuItem item1 = new JMenuItem("删除");
+                      //鼠标监听器
+                        item1.addMouseListener(new MouseAdapter(){
+                        	public void mouseReleased(MouseEvent e) {
+                        		logger.info("删除已分类新闻--"+listData.classifiedNews.get(index).getTitle());
+                        		
+//                        		dom4j.deleteNews(listData.classifiedNews.get(index));
+                        		listData.classifiedNews.get(index).setIsDeleted("true");
+                        		
+                        		listData.deletedNews.add(listData.classifiedNews.get(index));
+        						listData.deletedTitle.add(listData.classifiedNews.get(index).getTitle());
+                        		listData.classifiedTitle.remove(index);//在数据列表中删除该新闻标题
+                        		listData.classifiedNews.remove(index);//在数据列表中删除该新闻
+                        		ListModel<Object> jList1Model3 =  new DefaultComboBoxModel<>(listData.classifiedTitle.toArray());//重新绑定列表模型数据
+                        		myJlist2.setModel(jList1Model3);//重新绑定列表模型
+                        		myJlist2.updateUI();//更新列表
+                        	}
+                        });
+                        menu.add(item1);
+                        menu.show(myJlist2,e.getX(),e.getY());
+//                        myJlist2.setComponentPopupMenu(menu);//将按钮与右键菜单关联
+                    }
+            	}
             }
-           
         });
         
         scrollPane_3.setViewportView(myJlist2);    //不能直接add
@@ -231,6 +284,14 @@ public class LeftBehindChildren {
 		});
 		button.setBounds(613, 628, 93, 23);
 		mainFrame.getContentPane().add(button);
+		
+		mainFrame.addWindowListener(new WindowAdapter() {  
+			  
+			public void windowClosing(WindowEvent e) {  
+				super.windowClosing(e);  
+				SaveToXml saveToXml = new SaveToXml();
+			}
+		});
 	}
 }
 

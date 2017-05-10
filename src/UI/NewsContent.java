@@ -17,7 +17,8 @@ import java.awt.event.ActionListener;
 
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
-
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.util.List;
 import java.awt.event.ActionEvent;
 import java.awt.Label;
@@ -42,6 +43,7 @@ public class NewsContent extends JFrame implements ActionListener{
 	private Choice choice;
 	private Choice choice_1;
 	private Choice choice_2;
+	private ListData listData = ListData.getInstance();
 	
 	
 
@@ -77,7 +79,7 @@ public class NewsContent extends JFrame implements ActionListener{
 	}
 	
 	//初始化界面和按钮
-	public void initialize(){	
+	public void initialize(){		
 		setTitle("新闻内容");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(300, 50, 1000, 700);
@@ -103,6 +105,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		button.setBounds(631, 22, 93, 23);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
 				if(position != 0){
 					logger.info("点击上一篇打开新闻--"+newsList.get(position-1).getTitle());
 					showNewsDetails(newsList.get(--position));
@@ -631,20 +634,26 @@ public class NewsContent extends JFrame implements ActionListener{
 		finish.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO 自动生成的方法存根							
-				Dom4j dom4j = new Dom4j();
-				newsList.get(position).setTags(tags);
-				newsList.get(position).setTagIts("true");
-				dom4j.modifyXml(newsList.get(position));
-				
+				// TODO 自动生成的方法存根				
+				String id = newsList.get(position).getID();
+				modifyList();
 				dispose();
-				ListData listData = new ListData();
-				ClassifiedNewsContent newsContent = 
+				ClassifiedNewsContent classifiedNewsContent = 
 						new ClassifiedNewsContent(listData.classifiedNews,
-								listData.findPosition(listData.classifiedNews, newsList.get(position)));
-				newsContent.setVisible(true);
+								listData.findPosition(listData.classifiedNews, id));
+
+				classifiedNewsContent.setVisible(true);				
 			}			
 		});
+		
+		this.addWindowListener(new WindowAdapter() {  
+			  
+			public void windowClosing(WindowEvent e) {  
+				super.windowClosing(e);  
+				SaveToXml saveToXml = new SaveToXml();
+			}
+		});
+		
 	}
 
 	@Override
@@ -666,5 +675,14 @@ public class NewsContent extends JFrame implements ActionListener{
 			tags.setReason(str);
 		}		
 	}	
+	
+	public void modifyList(){
+		newsList.get(position).setTags(tags);
+		newsList.get(position).setTagIts("true");
+		listData.classifiedTitle.add(newsList.get(position).getTitle());
+		listData.classifiedNews.add(newsList.get(position));
+		listData.notClassifiedTitle.remove(newsList.get(position).getTitle());
+		listData.notClassifiedNews.remove(newsList.get(position));
+	}
 }
 

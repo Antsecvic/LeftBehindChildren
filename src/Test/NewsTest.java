@@ -12,14 +12,10 @@ public class NewsTest {
 	public static String a="null";
 	
 	private static News test=new News();
-	//声明测试实例
-	
-	//本次待测单元不需要设置FIXTURE
 	@Before
 	public void setUp() throws Exception {
 	}
 	
-	//测试代码
 	
 
 	@Test
@@ -27,9 +23,6 @@ public class NewsTest {
 		test.setNewsData(a);
 		assertEquals(a,test.getNewsData());
 	}
-
-
-
 
 	@Test
 	public void testSetTagIts() {
@@ -42,7 +35,6 @@ public class NewsTest {
 		test.setIsLoad(a);
 		assertEquals(a,test.getIsLoad());
 	}
-	
 
 	@Test
 	public void testSetIsDeleted() {
@@ -68,7 +60,6 @@ public class NewsTest {
 		assertEquals(a,test.getDate());
 		
 	}
-	
 
 	@Test
 	public void testSetLocation() {
@@ -101,23 +92,12 @@ public class NewsTest {
 		test.setID(a);
 		assertEquals(a,test.getID());
 	}
-	
-
-
 
 	@Test
 	public void testSetTrueUrl() {
 		test.setTrueUrl(a);
 		assertEquals(a,test.getTrueUrl());
 	}
-
-
-//
-//	@Test
-//	public void testSetTags() {
-//		test.setTags(a);
-//		assertEquals(a,test.getTags());
-//	}
 
 	@Test
 	public void testSetEncodedContent() {

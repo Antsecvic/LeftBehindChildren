@@ -5,6 +5,8 @@ import java.awt.Font;
 import java.awt.Label;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.util.List;
 
 import javax.swing.JButton;
@@ -20,6 +22,7 @@ import org.apache.logging.log4j.Logger;
 import XmlData.BareBonesBrowserLaunch;
 import XmlData.Dom4j;
 import XmlData.News;
+import XmlData.SaveToXml;
 import XmlData.Tags;
 
 @SuppressWarnings("serial")
@@ -32,13 +35,17 @@ public class ClassifiedNewsContent extends JFrame{
 	private int position;
 	private JButton showExternalNews = new JButton("加载外部新闻");
 	private Tags tags;
+	private ListData listData;
 	
 
 	public ClassifiedNewsContent(List<News> newsList,int position) {
 		this.newsList = newsList;
 		this.position = position;
 		tags = new Tags();
-		tags = newsList.get(position).getTags();
+		listData = ListData.getInstance();
+		if(newsList.get(position).getTagIts().equals("true")){
+			tags = newsList.get(position).getTags();
+		}
 		initialize();
 	}
 	
@@ -235,7 +242,6 @@ public class ClassifiedNewsContent extends JFrame{
 		
 		Label reason = new Label(tags.getReason());
 //		reason.setFont(new Font("宋体", Font.PLAIN, 11));
-		System.out.println(tags.getReason());
 		reason.setBounds(820, 360, 150, 23);
 		contentPane.add(reason);
 		
@@ -247,7 +253,7 @@ public class ClassifiedNewsContent extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO 自动生成的方法存根								
-				Dom4j dom4j = new Dom4j();
+				String id = newsList.get(position).getID();
 				tags.setType("");
 				tags.setTheme("");
 				tags.setSource("");
@@ -256,16 +262,31 @@ public class ClassifiedNewsContent extends JFrame{
 				tags.setMainBody("");
 				tags.setHelpType("");
 				tags.setGender("");
-				newsList.get(position).setTags(tags);
-				newsList.get(position).setTagIts("false");
-				dom4j.modifyXml(newsList.get(position));
+				modifyList();
 				dispose();
-				ListData listData = new ListData();
 				NewsContent newsContent = 
 						new NewsContent(listData.notClassifiedNews,
-								listData.findPosition(listData.notClassifiedNews, newsList.get(position)));
+								listData.findPosition(listData.notClassifiedNews, id));
 				newsContent.setVisible(true);
 			}			
 		});
+		
+		this.addWindowListener(new WindowAdapter() {  
+			public void windowClosing(WindowEvent e) {  
+				super.windowClosing(e);  
+				SaveToXml saveToXml = new SaveToXml();
+			}
+		});
+	}
+	public void modifyList(){
+		Dom4j dom4j = new Dom4j();
+		newsList.get(position).setTags(tags);
+		newsList.get(position).setTagIts("false");
+		dom4j.modifyXml(newsList.get(position));
+		listData.notClassifiedTitle.add(newsList.get(position).getTitle());
+		listData.notClassifiedNews.add(newsList.get(position));
+		listData.classifiedTitle.remove(newsList.get(position).getTitle());
+		listData.classifiedNews.remove(newsList.get(position));
+
 	}
 }
