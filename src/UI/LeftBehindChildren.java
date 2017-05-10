@@ -4,6 +4,7 @@ import java.awt.EventQueue;
 
 import org.apache.logging.log4j.*;
 import XmlData.Dom4j;
+import XmlData.SaveToXml;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -25,6 +26,8 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
@@ -68,8 +71,7 @@ public class LeftBehindChildren {
 	 */
 	private void initialize() {
 		
-		listData = new ListData();
-		Dom4j dom4j = new Dom4j();
+		listData = ListData.getInstance();
 		
 		mainFrame = new JFrame();
 		mainFrame.getContentPane().setBackground(Color.BLACK);
@@ -148,7 +150,10 @@ public class LeftBehindChildren {
                         item1.addMouseListener(new MouseAdapter(){
                         	public void mouseReleased(MouseEvent e) {
                         		logger.info("删除未分类新闻--"+listData.notClassifiedNews.get(index).getTitle());
-                        		dom4j.deleteNews(listData.notClassifiedNews.get(index));
+                        		
+//                        		dom4j.deleteNews(listData.notClassifiedNews.get(index));
+                        		listData.notClassifiedNews.get(index).setIsDeleted("true");
+                        		
                         		listData.deletedNews.add(listData.notClassifiedNews.get(index));
         						listData.deletedTitle.add(listData.notClassifiedNews.get(index).getTitle());
                         		listData.notClassifiedTitle.remove(index);//在数据列表中删除该新闻标题
@@ -230,7 +235,10 @@ public class LeftBehindChildren {
                         item1.addMouseListener(new MouseAdapter(){
                         	public void mouseReleased(MouseEvent e) {
                         		logger.info("删除已分类新闻--"+listData.classifiedNews.get(index).getTitle());
-                        		dom4j.deleteNews(listData.classifiedNews.get(index));
+                        		
+//                        		dom4j.deleteNews(listData.classifiedNews.get(index));
+                        		listData.classifiedNews.get(index).setIsDeleted("true");
+                        		
                         		listData.deletedNews.add(listData.classifiedNews.get(index));
         						listData.deletedTitle.add(listData.classifiedNews.get(index).getTitle());
                         		listData.classifiedTitle.remove(index);//在数据列表中删除该新闻标题
@@ -276,6 +284,14 @@ public class LeftBehindChildren {
 		});
 		button.setBounds(613, 628, 93, 23);
 		mainFrame.getContentPane().add(button);
+		
+		mainFrame.addWindowListener(new WindowAdapter() {  
+			  
+			public void windowClosing(WindowEvent e) {  
+				super.windowClosing(e);  
+				SaveToXml saveToXml = new SaveToXml();
+			}
+		});
 	}
 }
 

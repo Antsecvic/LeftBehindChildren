@@ -14,9 +14,14 @@ public class ListData {
 	public List<String> notClassifiedTitle = new ArrayList<>();
 	public List<News> deletedNews = new ArrayList<>();
 	public List<String> deletedTitle = new ArrayList<>();
+	private static ListData listData = new ListData();
 	
-	public ListData(){
+	private ListData(){
 		init();
+	}
+	
+	public static ListData getInstance(){
+		return listData;
 	}
 	
 	public void init(){
@@ -42,10 +47,10 @@ public class ListData {
 			}
 		}
 	}
-	public int findPosition(List<News> newsList,News news){
+	public int findPosition(List<News> newsList,String id){
 		int position = 0;
 		for(;position < newsList.size();position++){
-			if(newsList.get(position).getID().equals(news.getID())){
+			if(newsList.get(position).getID().equals(id)){
 				return position;
 			}
 		}
