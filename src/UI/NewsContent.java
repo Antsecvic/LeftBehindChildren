@@ -51,6 +51,14 @@ public class NewsContent extends JFrame implements ActionListener{
 		this.newsList = newsList;
 		this.position = position;
 		tags = new Tags();
+		tags.setType("");
+		tags.setTheme("");
+		tags.setSource("");
+		tags.setShowing("");
+		tags.setReason("");
+		tags.setMainBody("");
+		tags.setHelpType("");
+		tags.setGender("");
 		initialize();
 	}
 	
@@ -99,47 +107,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		mainBody.setBounds(5, 5, 600, 600);
 		
 		contentPane.add(mainBody);
-				
-		//上一篇按钮
-		JButton button = new JButton("上一篇");
-		button.setBounds(631, 22, 93, 23);
-		button.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				
-				if(position != 0){
-					logger.info("点击上一篇打开新闻--"+newsList.get(position-1).getTitle());
-					showNewsDetails(newsList.get(--position));
-				}
-			}
-		});
-		contentPane.add(button);
 		
-		//首页按钮
-		JButton button_1 = new JButton("首页");
-		button_1.setBounds(746, 22, 93, 23);
-		button_1.addActionListener(new ActionListener(){
-			public void actionPerformed(ActionEvent e) {
-				logger.info("返回首页");
-				new LeftBehindChildren();
-				LeftBehindChildren.mainFrame.setVisible(true);
-				setVisible(false);
-				dispose();				
-			}
-		});
-		contentPane.add(button_1);
-		
-		//下一篇按钮
-		JButton button_2 = new JButton("下一篇");
-		button_2.setBounds(858, 22, 93, 23);
-		button_2.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				if(position != newsList.size()-1){
-					logger.info("点击下一篇打开新闻--"+newsList.get(position+1).getTitle());
-					showNewsDetails(newsList.get(++position));
-				}
-			}
-		});
-		contentPane.add(button_2);
 				
 		JScrollPane scrollPane_1 = new JScrollPane();
 		scrollPane_1.setBounds(611, 68, 400, 2);
@@ -169,8 +137,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		label_2.setBounds(621, 155, 51, 23);
 		label_2.setBackground(Color.WHITE);
 		contentPane.add(label_2);
-		
-		
+				
 		choice = new Choice();
 		choice.setBounds(678, 242, 62, 21);
 		contentPane.add(choice);
@@ -188,6 +155,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				// TODO 自动生成的方法存根
 				if(e.getItem()!="新闻主体"){
 					tags.setMainBody(e.getItem().toString());
+					newsList.get(position).setTagIts("true");
 				}else{
 					tags.setMainBody("");
 				}
@@ -211,6 +179,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				// TODO 自动生成的方法存根
 				if(e.getItem()!="具体种类"){
 					tags.setHelpType(e.getItem().toString());
+					newsList.get(position).setTagIts("true");
 				}else{
 					tags.setHelpType("");
 				}
@@ -231,6 +200,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				// TODO 自动生成的方法存根
 				if(e.getItem()!="性别"){
 					tags.setGender(e.getItem().toString());
+					newsList.get(position).setTagIts("true");
 				}else{
 					tags.setGender("");
 				}
@@ -297,6 +267,7 @@ public class NewsContent extends JFrame implements ActionListener{
 			public void actionPerformed(ActionEvent e)
 			{
 				tags.setType(type4.getActionCommand());
+				newsList.get(position).setTagIts("true");
 			}
 		});
 		
@@ -314,6 +285,7 @@ public class NewsContent extends JFrame implements ActionListener{
 						choice_2.setEnabled(false);
 						tags.setTheme(theme1.getActionCommand());
 						tags.setGender("");
+						newsList.get(position).setTagIts("true");
 					}
 				});
 		
@@ -331,8 +303,8 @@ public class NewsContent extends JFrame implements ActionListener{
 						tags.setTheme(theme2.getActionCommand());
 						tags.setHelpType("");
 						tags.setGender("");
-					}
-					
+						newsList.get(position).setTagIts("true");
+					}					
 				});
 		
 		JRadioButton theme3 = new JRadioButton("留守儿童努力向上");
@@ -350,6 +322,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				tags.setMainBody("");
 				tags.setHelpType("");
 				tags.setGender("");
+				newsList.get(position).setTagIts("true");
 			}
 			
 		});
@@ -369,6 +342,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				tags.setMainBody("");
 				tags.setHelpType("");
 				tags.setGender("");
+				newsList.get(position).setTagIts("true");
 			}
 			
 		});
@@ -388,6 +362,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				tags.setMainBody("");
 				tags.setHelpType("");
 				tags.setGender("");
+				newsList.get(position).setTagIts("true");
 			}
 			
 		});
@@ -407,6 +382,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				tags.setMainBody("");
 				tags.setHelpType("");
 				tags.setGender("");
+				newsList.get(position).setTagIts("true");
 			}
 			
 		});
@@ -426,6 +402,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				tags.setMainBody("");
 				tags.setHelpType("");
 				tags.setGender("");
+				newsList.get(position).setTagIts("true");
 			}
 			
 		});
@@ -444,6 +421,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				tags.setTheme(theme8.getActionCommand());
 				tags.setMainBody("");
 				tags.setHelpType("");
+				newsList.get(position).setTagIts("true");
 			}			
 		});
 		
@@ -462,6 +440,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				tags.setMainBody("");
 				tags.setHelpType("");
 				tags.setGender("");
+				newsList.get(position).setTagIts("true");
 			}
 			
 		});
@@ -529,6 +508,7 @@ public class NewsContent extends JFrame implements ActionListener{
 			public void actionPerformed(ActionEvent e)
 			{
 				tags.setSource(e.getActionCommand());
+				newsList.get(position).setTagIts("true");
 			}			
 		});
 		
@@ -575,6 +555,7 @@ public class NewsContent extends JFrame implements ActionListener{
 			public void actionPerformed(ActionEvent e)
 			{
 				tags.setShowing(e.getActionCommand());
+				newsList.get(position).setTagIts("true");
 			}			
 		});
 		
@@ -618,6 +599,7 @@ public class NewsContent extends JFrame implements ActionListener{
 			public void actionPerformed(ActionEvent e)
 			{
 				tags.setReason(e.getActionCommand());
+				newsList.get(position).setTagIts("true");
 			}			
 		});
 		
@@ -626,7 +608,68 @@ public class NewsContent extends JFrame implements ActionListener{
 		reasonGroup.add(reason2);
 		reasonGroup.add(reason3);
 		reasonGroup.add(reason4);
-		reasonGroup.add(reason5);		
+		reasonGroup.add(reason5);	
+		
+		
+		//上一篇按钮
+		JButton button = new JButton("上一篇");
+		button.setBounds(631, 22, 93, 23);
+		button.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(newsList.get(position).getTagIts().equals("true")){
+					modifyList();
+				}				
+				if(position != 0){
+					logger.info("点击上一篇打开新闻--"+newsList.get(position-1).getTitle());
+					typeGroup.clearSelection();
+					themeGroup.clearSelection();
+					sourceGroup.clearSelection();
+					mediaImageGroup.clearSelection();
+					reasonGroup.clearSelection();
+					showNewsDetails(newsList.get(--position));
+				}
+			}
+		});
+		contentPane.add(button);
+		
+		//首页按钮
+		JButton button_1 = new JButton("首页");
+		button_1.setBounds(746, 22, 93, 23);
+		button_1.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e) {
+				if(newsList.get(position).getTagIts().equals("true")){
+					modifyList();
+				}
+				logger.info("返回首页");
+				new LeftBehindChildren();
+				LeftBehindChildren.mainFrame.setVisible(true);
+				setVisible(false);
+				dispose();				
+			}
+		});
+		contentPane.add(button_1);
+		
+		//下一篇按钮
+		JButton button_2 = new JButton("下一篇");
+		button_2.setBounds(858, 22, 93, 23);
+		button_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(newsList.get(position).getTagIts().equals("true")){
+					modifyList();
+				}
+				if(position != newsList.size()-1){
+					logger.info("点击下一篇打开新闻--"+newsList.get(position+1).getTitle());
+					typeGroup.clearSelection();
+					themeGroup.clearSelection();
+					sourceGroup.clearSelection();
+					mediaImageGroup.clearSelection();
+					reasonGroup.clearSelection();
+					showNewsDetails(newsList.get(++position));
+				}
+			}
+		});
+		contentPane.add(button_2);
+		
 		JButton finish = new JButton("完成");
 		finish.setBounds(858, 542, 93, 23);
 		contentPane.add(finish);
@@ -636,24 +679,25 @@ public class NewsContent extends JFrame implements ActionListener{
 			public void actionPerformed(ActionEvent e) {
 				// TODO 自动生成的方法存根				
 				String id = newsList.get(position).getID();
+				newsList.get(position).setTagIts("true");
 				modifyList();
 				dispose();
 				ClassifiedNewsContent classifiedNewsContent = 
 						new ClassifiedNewsContent(listData.classifiedNews,
 								listData.findPosition(listData.classifiedNews, id));
-
 				classifiedNewsContent.setVisible(true);				
 			}			
 		});
 		
-		this.addWindowListener(new WindowAdapter() {  
-			  
+		this.addWindowListener(new WindowAdapter() {  			  
 			public void windowClosing(WindowEvent e) {  
 				super.windowClosing(e);  
+				if(newsList.get(position).getTagIts().equals("true")){
+					modifyList();
+				}
 				SaveToXml saveToXml = new SaveToXml();
 			}
-		});
-		
+		});	
 	}
 
 	@Override
@@ -661,24 +705,27 @@ public class NewsContent extends JFrame implements ActionListener{
 		// TODO 自动生成的方法存根
 		String str = e.getActionCommand();
 		if(str.equals("纯净新闻")||str.equals("特稿特写")||str.equals("评论")){
+			newsList.get(position).setTagIts("true");
 			tags.setType(str);
 		}else if(str.equals("记者")||str.equals("政府")||str.equals("企业")||
 				str.equals("政府")||str.equals("事业单位")||str.equals("公益单位")||
 				str.equals("专家学者")||str.equals("政府领导")){
+			newsList.get(position).setTagIts("true");
 			tags.setSource(str);
 		}else if(str.equals("可怜悲惨的形象")||str.equals("沐恩幸福的形象")||
 				str.equals("积极健康的形象")||str.equals("问题儿童的形象")){
+			newsList.get(position).setTagIts("true");
 			tags.setShowing(str);
 		}else if(str.equals("无本地户籍难入公立学校")||str.equals("私立学校学费高")||
 				str.equals("越来越多小型私立学校被取消办学资格")||
 				str.equals("私立学校办学质量没保障")){
+			newsList.get(position).setTagIts("true");
 			tags.setReason(str);
 		}		
 	}	
 	
 	public void modifyList(){
 		newsList.get(position).setTags(tags);
-		newsList.get(position).setTagIts("true");
 		listData.classifiedTitle.add(newsList.get(position).getTitle());
 		listData.classifiedNews.add(newsList.get(position));
 		listData.notClassifiedTitle.remove(newsList.get(position).getTitle());

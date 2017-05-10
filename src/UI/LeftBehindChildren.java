@@ -52,10 +52,6 @@ public class LeftBehindChildren {
 //			System.out.println(news.getTitle());
 //		}
 		
-//		for(News news : newsList){
-//			System.out.println(news.getTitle());
-//		}
-		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
