@@ -67,6 +67,7 @@ public class Dom4j implements XmlDocument {
 		}
 	} 
 	
+	
 	@SuppressWarnings("rawtypes")
 	public void modifyXml(News modifiedNews){ 
 		String fileName = null;
@@ -149,6 +150,7 @@ public class Dom4j implements XmlDocument {
 			System.out.println(e.getMessage()); 
 		}
 	} 
+	
 	@SuppressWarnings("unchecked")
 	public void parserXml(String fileName,List<News> newsList) { 
 		File inputXml=new File(fileName); 
@@ -171,7 +173,16 @@ public class Dom4j implements XmlDocument {
 							temp[k] = tagNode.getText();
 							k++;
 						}
-					}else{
+					}else if(node.getName().equals("TagIts")){
+//						System.out.println(node.getText().equals(""));
+						if(node.getText().equals("")){
+							temp[k]="";
+						}else{
+							temp[k]=node.getText();
+						}
+						k++;
+					}
+					else{
 						temp[k]=node.getText();
 						k++;
 					}
@@ -245,18 +256,10 @@ public class Dom4j implements XmlDocument {
 	    str = str.replace("<html>", "").replace("</html>", "");
 	    return str;
 	  }
-	  
-	// 把新闻IsDelete属性置为true
-	  public void deleteNews(News modifiedNews) {      
-		  modifiedNews.setIsDeleted("true");
-		  this.modifyXml(modifiedNews);
-	  }
-	  
-	  // 把新闻IsDelete属性置为false
-	  public void restoreNews(News modifiedNews) {
-		  if(modifiedNews.getIsDeleted().equals("true")) {
-			  modifiedNews.setIsDeleted("false");
-			  this.modifyXml(modifiedNews);
+	  	  
+	  public void modifyAll(List<News> listNews){
+		  for(News news : listNews){
+			  modifyXml(news);
 		  }
 	  }
 }

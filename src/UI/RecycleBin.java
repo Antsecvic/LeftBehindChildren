@@ -10,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 
 import XmlData.Dom4j;
 import XmlData.News;
+import XmlData.SaveToXml;
 
 import javax.swing.JList;
 import javax.swing.JMenuItem;
@@ -25,6 +26,8 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.util.List;
 import java.awt.event.ActionEvent;
 
@@ -36,7 +39,7 @@ public class RecycleBin extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	public static Logger logger = LogManager.getLogger(RecycleBin.class.getName());
-	Dom4j dom4j = new Dom4j();
+	private ListData listData = ListData.getInstance();
 	
 	/**
 	 * Create the frame.
@@ -104,7 +107,15 @@ public class RecycleBin extends JFrame {
                         item1.addMouseListener(new MouseAdapter(){
                         	public void mouseReleased(MouseEvent e) {
                         		logger.info("恢复新闻--"+deletedNews.get(index).getTitle());
-                        		dom4j.restoreNews(deletedNews.get(index));
+//                        		dom4j.restoreNews(deletedNews.get(index));
+                        		deletedNews.get(index).setIsDeleted("false");
+                        		if(deletedNews.get(index).getTagIts().equals("true")){
+                        			listData.classifiedTitle.add(deletedNews.get(index).getTitle());
+                        			listData.classifiedNews.add(deletedNews.get(index));
+                        		}else{
+                        			listData.notClassifiedTitle.add(deletedNews.get(index).getTitle());
+                        			listData.notClassifiedNews.add(deletedNews.get(index));
+                        		}
                         		deletedTitle.remove(index);//在数据列表中删除该新闻标题
                         		deletedNews.remove(index);//在数据列表中删除该新闻
                         		ListModel<Object> jList1Model1 =  new DefaultComboBoxModel<>(deletedTitle.toArray());//重新绑定列表模型数据
@@ -135,5 +146,12 @@ public class RecycleBin extends JFrame {
 		button.setBounds(10, 420, 93, 23);
 		contentPane.add(button);
 		
+		this.addWindowListener(new WindowAdapter() {  
+			  
+			public void windowClosing(WindowEvent e) {  
+				super.windowClosing(e);  
+				SaveToXml saveToXml = new SaveToXml();
+			}
+		});
 	}
 }
