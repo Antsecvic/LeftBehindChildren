@@ -3118,4 +3118,33 @@
 2017-05-07 10:29:32 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
 2017-05-07 10:29:33 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/guangming.xml
 2017-05-07 10:29:33 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/nanfangdaily.xml
-2017-05-07 10:29:33 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/sichuan.xml
+2017-05-07 10:29:33 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/sichuan.xml2017-05-08 22:53:08 CST INFO  UI.LeftBehindChildren$1 54 run - 查看首页
+2017-05-08 22:53:08 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-08 22:53:09 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-08 22:53:09 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-08 22:53:10 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/guangming.xml
+2017-05-08 22:53:10 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/nanfangdaily.xml
+2017-05-08 22:53:11 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/sichuan.xml
+2017-05-08 22:53:13 CST INFO  UI.LeftBehindChildren$2 115 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-08 22:53:19 CST INFO  UI.NewsContent$2 119 actionPerformed - 返回首页
+2017-05-08 22:53:19 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-08 22:53:19 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-08 22:53:19 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-08 22:53:19 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/guangming.xml
+2017-05-08 22:53:19 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/nanfangdaily.xml
+2017-05-08 22:53:20 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/sichuan.xml
+2017-05-08 22:53:20 CST INFO  UI.LeftBehindChildren$3 175 mouseClicked - 首页点击打开已分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-08 22:53:23 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-08 22:53:23 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-08 22:53:23 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-08 22:53:23 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/guangming.xml
+2017-05-08 22:53:24 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/nanfangdaily.xml
+2017-05-08 22:53:24 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/sichuan.xml
+2017-05-08 22:53:25 CST INFO  UI.NewsContent$2 119 actionPerformed - 返回首页
+2017-05-08 22:53:25 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-08 22:53:25 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-08 22:53:25 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-08 22:53:26 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/guangming.xml
+2017-05-08 22:53:26 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/nanfangdaily.xml
+2017-05-08 22:53:26 CST INFO  XmlData.Dom4j 157 parserXml - 解析assets/sichuan.xml
+2017-05-08 22:53:27 CST INFO  UI.LeftBehindChildren$2 115 mouseClicked - 首页点击打开未分类新闻--好政策播种新希望——记湖北省农村教师资助行动计划
