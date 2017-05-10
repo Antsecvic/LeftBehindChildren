@@ -340,3 +340,77 @@
 2017-05-10 23:50:25 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
 2017-05-10 23:50:25 CST ERROR XmlData.Dom4j 65 initXml - assets/sichuan.xml 初始化失败
 2017-05-10 23:50:25 CST INFO  XmlData.Dom4j 159 parserXml - 解析assets/guangming.xml
+2017-05-10 23:56:20 CST INFO  UI.LeftBehindChildren$1 62 run - 查看首页
+2017-05-10 23:56:20 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-10 23:56:20 CST ERROR XmlData.Dom4j 65 initXml - assets/guangming.xml 初始化失败
+2017-05-10 23:56:20 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-10 23:56:20 CST ERROR XmlData.Dom4j 65 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-10 23:56:20 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-10 23:56:20 CST ERROR XmlData.Dom4j 65 initXml - assets/sichuan.xml 初始化失败
+2017-05-10 23:56:20 CST INFO  XmlData.Dom4j 159 parserXml - 解析assets/guangming.xml
+2017-05-10 23:56:45 CST INFO  UI.LeftBehindChildren$1 62 run - 查看首页
+2017-05-10 23:56:45 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-10 23:56:45 CST ERROR XmlData.Dom4j 65 initXml - assets/guangming.xml 初始化失败
+2017-05-10 23:56:45 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-10 23:56:45 CST ERROR XmlData.Dom4j 65 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-10 23:56:45 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-10 23:56:45 CST ERROR XmlData.Dom4j 65 initXml - assets/sichuan.xml 初始化失败
+2017-05-10 23:56:45 CST INFO  XmlData.Dom4j 159 parserXml - 解析assets/guangming.xml
+2017-05-10 23:57:03 CST INFO  UI.LeftBehindChildren$1 62 run - 查看首页
+2017-05-10 23:57:03 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-10 23:57:03 CST ERROR XmlData.Dom4j 65 initXml - assets/guangming.xml 初始化失败
+2017-05-10 23:57:03 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-10 23:57:03 CST ERROR XmlData.Dom4j 65 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-10 23:57:03 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-10 23:57:03 CST ERROR XmlData.Dom4j 65 initXml - assets/sichuan.xml 初始化失败
+2017-05-10 23:57:03 CST INFO  XmlData.Dom4j 159 parserXml - 解析assets/guangming.xml
+2017-05-10 23:57:11 CST INFO  UI.LeftBehindChildren$1 62 run - 查看首页
+2017-05-10 23:57:12 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-10 23:57:12 CST ERROR XmlData.Dom4j 65 initXml - assets/guangming.xml 初始化失败
+2017-05-10 23:57:12 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-10 23:57:12 CST ERROR XmlData.Dom4j 65 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-10 23:57:12 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-10 23:57:12 CST ERROR XmlData.Dom4j 65 initXml - assets/sichuan.xml 初始化失败
+2017-05-10 23:57:12 CST INFO  XmlData.Dom4j 159 parserXml - 解析assets/guangming.xml
+2017-05-10 23:57:29 CST INFO  UI.LeftBehindChildren$1 62 run - 查看首页
+2017-05-10 23:57:29 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-10 23:57:29 CST ERROR XmlData.Dom4j 65 initXml - assets/guangming.xml 初始化失败
+2017-05-10 23:57:29 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-10 23:57:29 CST ERROR XmlData.Dom4j 65 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-10 23:57:29 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-10 23:57:29 CST ERROR XmlData.Dom4j 65 initXml - assets/sichuan.xml 初始化失败
+2017-05-10 23:57:29 CST INFO  XmlData.Dom4j 159 parserXml - 解析assets/guangming.xml
+2017-05-10 23:58:14 CST INFO  UI.LeftBehindChildren$1 62 run - 查看首页
+2017-05-10 23:58:14 CST ERROR UI.LeftBehindChildren$1 66 run - 首页错误
+2017-05-10 23:58:37 CST INFO  UI.LeftBehindChildren$1 62 run - 查看首页
+2017-05-10 23:58:37 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-10 23:58:37 CST ERROR XmlData.Dom4j 65 initXml - assets/guangming.xml 初始化失败
+2017-05-10 23:58:37 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-10 23:58:37 CST ERROR XmlData.Dom4j 65 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-10 23:58:37 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-10 23:58:37 CST ERROR XmlData.Dom4j 65 initXml - assets/sichuan.xml 初始化失败
+2017-05-10 23:58:37 CST INFO  XmlData.Dom4j 159 parserXml - 解析assets/guangming.xml
+2017-05-10 23:59:00 CST INFO  UI.LeftBehindChildren$1 62 run - 查看首页
+2017-05-10 23:59:00 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-10 23:59:00 CST ERROR XmlData.Dom4j 65 initXml - assets/guangming.xml 初始化失败
+2017-05-10 23:59:00 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-10 23:59:00 CST ERROR XmlData.Dom4j 65 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-10 23:59:00 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-10 23:59:00 CST ERROR XmlData.Dom4j 65 initXml - assets/sichuan.xml 初始化失败
+2017-05-10 23:59:00 CST INFO  XmlData.Dom4j 159 parserXml - 解析assets/guangming.xml
+2017-05-10 23:59:18 CST INFO  UI.LeftBehindChildren$1 62 run - 查看首页
+2017-05-10 23:59:18 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-10 23:59:18 CST ERROR XmlData.Dom4j 65 initXml - assets/guangming.xml 初始化失败
+2017-05-10 23:59:18 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-10 23:59:18 CST ERROR XmlData.Dom4j 65 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-10 23:59:18 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-10 23:59:18 CST ERROR XmlData.Dom4j 65 initXml - assets/sichuan.xml 初始化失败
+2017-05-10 23:59:18 CST INFO  XmlData.Dom4j 159 parserXml - 解析assets/guangming.xml
+2017-05-11 00:03:45 CST INFO  UI.LeftBehindChildren$1 62 run - 查看首页
+2017-05-11 00:03:45 CST INFO  XmlData.Dom4j 34 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 00:03:45 CST ERROR XmlData.Dom4j 65 initXml - assets/guangming.xml 初始化失败
+2017-05-11 00:03:45 CST INFO  XmlData.Dom4j 34 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 00:03:45 CST ERROR XmlData.Dom4j 65 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 00:03:45 CST INFO  XmlData.Dom4j 34 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 00:03:45 CST ERROR XmlData.Dom4j 65 initXml - assets/sichuan.xml 初始化失败
+2017-05-11 00:03:45 CST INFO  XmlData.Dom4j 159 parserXml - 解析assets/guangming.xml
