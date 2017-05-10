@@ -8,7 +8,6 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import java.awt.Panel;
 
 public class StatisticsBin extends JFrame {
 
@@ -24,7 +23,6 @@ public class StatisticsBin extends JFrame {
 	private JButton button_4;   //报道主题统计
 	private JButton button_5;   //新闻消息来源统计
 	private JButton button_6;   //媒介呈现形象统计
-	Panel panel =  new Panel();;
 	
 
 	/**
@@ -38,8 +36,6 @@ public class StatisticsBin extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		setTitle("三报相关新闻总数量统计图");
-		panel.add(new BarChart().getChartPanel());
-		panel.validate();
 		
 		back = new JButton("\u8FD4\u56DE\u9996\u9875");
 		back.addActionListener(new ActionListener() {
@@ -56,15 +52,12 @@ public class StatisticsBin extends JFrame {
 		button_1.setBackground(Color.YELLOW);
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				panel.removeAll();
 				button_1.setBackground(Color.YELLOW);
 				button_2.setBackground(Color.WHITE);
 				button_3.setBackground(Color.WHITE);
 				button_4.setBackground(Color.WHITE);
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.WHITE);
-				panel.add(new BarChart().getChartPanel());
-				panel.validate();
 				setTitle("三报相关新闻总数量统计图");
 			}
 		});
@@ -75,7 +68,6 @@ public class StatisticsBin extends JFrame {
 		button_2.setBackground(Color.WHITE);
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				panel.removeAll();
 				button_1.setBackground(Color.WHITE);
 				button_2.setBackground(Color.YELLOW);
 				button_3.setBackground(Color.WHITE);
@@ -83,9 +75,6 @@ public class StatisticsBin extends JFrame {
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.WHITE);
 				setTitle("农民工子女无法城市读书统计");
-				panel.add(new PieChart().getPieChartPanel());
-				panel.validate();
-				
 			}
 		});
 		button_2.setBounds(336, 26, 225, 23);
@@ -127,7 +116,6 @@ public class StatisticsBin extends JFrame {
 		button_5.setBackground(Color.WHITE);
 		button_5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				panel.removeAll();
 				button_1.setBackground(Color.WHITE);
 				button_2.setBackground(Color.WHITE);
 				button_3.setBackground(Color.WHITE);
@@ -135,8 +123,6 @@ public class StatisticsBin extends JFrame {
 				button_5.setBackground(Color.YELLOW);
 				button_6.setBackground(Color.WHITE);
 				setTitle("新闻报道来源统计");
-				panel.add(new BarChart().getChartPanel());
-				panel.validate();
 			}
 		});
 		button_5.setBounds(336, 78, 188, 23);
@@ -158,9 +144,6 @@ public class StatisticsBin extends JFrame {
 		button_6.setBounds(586, 78, 188, 23);
 		contentPane.add(button_6);
 		
-//		panel = new Panel();
-		panel.setBounds(25, 165, 749, 486);
-		contentPane.add(panel);
-		
 	}
+
 }
