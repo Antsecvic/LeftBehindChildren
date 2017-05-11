@@ -46,7 +46,10 @@ public class StatisticsBin extends JFrame {
 	private int[] reason;
 	private int[] mainBody;
 	private int[] helpType;
-	private int[] gender;
+	private int[] sexualAssaultGender;
+	private int[] violenceGender;
+	private int[] crimeGender;
+	private int[] positiveHealthGender;
 	private Map<String,Integer> sum = new HashMap<String,Integer>();
 	
 	
@@ -64,7 +67,10 @@ public class StatisticsBin extends JFrame {
 		reason = statistics.getReason();
 		mainBody = statistics.getMainBody();
 		helpType = statistics.getHelpType();
-		gender = statistics.getGender();
+		sexualAssaultGender = statistics.getSexualAssaultGender();
+		violenceGender = statistics.getViolenceGender();
+		crimeGender = statistics.getCrimeGender();
+		positiveHealthGender = statistics.getPositiveHealthGender();
 		sum = statistics.getSum();
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
