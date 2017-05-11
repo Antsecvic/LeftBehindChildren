@@ -16,7 +16,12 @@ public class Statistics {
 	private int[] reason = new int[5];
 	private int[] mainBody = new int[5];
 	private int[] helpType = new int[5];
-	private int[] gender = new int[2];
+//	private int[] gender = new int[2];
+	
+	private int[] sexualAssaultGender = new int[2];
+	private int[] violenceGender = new int[2];
+	private int[] crimeGender = new int[2];
+	private int[] positiveHealthGender = new int[2];
 	
 	private String typeStr;
 	private String themeStr;
@@ -73,10 +78,25 @@ public class Statistics {
 			}else if(themeStr.equals("打工父母艰难生活")){
 				theme[4]++;
 			}else if(themeStr.equals("留守儿童性侵")){
+				if(genderStr.equals("男")){
+					sexualAssaultGender[0]++;
+				}else if(genderStr.equals("女")){
+					sexualAssaultGender[1]++;
+				}
 				theme[5]++;
 			}else if(themeStr.equals("留守儿童遭暴力")){
+				if(genderStr.equals("男")){
+					violenceGender[0]++;
+				}else if(genderStr.equals("女")){
+					violenceGender[1]++;
+				}
 				theme[6]++;
 			}else if(themeStr.equals("留守儿童犯罪")){
+				if(genderStr.equals("男")){
+					crimeGender[0]++;
+				}else if(genderStr.equals("女")){
+					crimeGender[1]++;
+				}
 				theme[7]++;
 			}else if(themeStr.equals("其他")){
 				theme[8]++;
@@ -107,6 +127,11 @@ public class Statistics {
 			}else if(showingStr.equals("沐恩幸福的形象")){
 				showing[1]++;
 			}else if(showingStr.equals("积极健康的形象")){
+				if(genderStr.equals("男")){
+					positiveHealthGender[0]++;
+				}else if(genderStr.equals("女")){
+					positiveHealthGender[1]++;
+				}
 				showing[2]++;
 			}else if(showingStr.equals("问题儿童的形象")){
 				showing[3]++;
@@ -153,12 +178,12 @@ public class Statistics {
 				helpType[4]++;
 			}
 			
-			//统计性别
-			if(genderStr.equals("男")){
-				gender[0]++;
-			}else if(genderStr.equals("女")){
-				gender[1]++;
-			}
+//			//统计性别
+//			if(genderStr.equals("男")){
+//				gender[0]++;
+//			}else if(genderStr.equals("女")){
+//				gender[1]++;
+//			}
 		}
 	}
 
@@ -194,7 +219,20 @@ public class Statistics {
 		return helpType;
 	}
 	
-	public int[] getGender(){
-		return gender;
+	public int[] getSexualAssaultGender(){
+		return sexualAssaultGender;
 	}
+	
+	public int[] getViolenceGender(){
+		return violenceGender;
+	}
+	
+	public int[] getCrimeGender(){
+		return crimeGender;
+	}
+	
+	public int[] getPositiveHealthGender(){
+		return positiveHealthGender;
+	}
+
 }
