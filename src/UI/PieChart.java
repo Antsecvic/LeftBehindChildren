@@ -4,14 +4,11 @@ import java.awt.Font;
 import java.text.DecimalFormat;  
 import java.text.NumberFormat;  
   
-import javax.swing.JPanel;  
-  
 import org.jfree.chart.ChartFactory;  
 import org.jfree.chart.ChartPanel;  
 import org.jfree.chart.JFreeChart;  
 import org.jfree.chart.labels.StandardPieSectionLabelGenerator;  
 import org.jfree.chart.plot.PiePlot;
-import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;  
 
 public class PieChart {

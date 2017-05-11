@@ -313,6 +313,7 @@ public class LeftBehindChildren {
 			  
 			public void windowClosing(WindowEvent e) {  
 				super.windowClosing(e);  
+				@SuppressWarnings("unused")
 				SaveToXml saveToXml = new SaveToXml();
 			}
 		});

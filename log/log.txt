@@ -2289,3 +2289,164 @@
 2017-05-11 17:08:30 CST INFO  UI.ClassifiedNewsContent$2 116 actionPerformed - 返回首页
 2017-05-11 17:08:30 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
 >>>>>>> ada054ecb9f84917410d9506f4bbe3b240c48884
+2017-05-11 22:43:09 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 22:43:09 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 22:43:10 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 22:43:10 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 22:43:10 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 22:43:11 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 22:43:12 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 22:43:12 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 22:43:12 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 22:43:20 CST INFO  UI.LeftBehindChildren$3 148 mouseClicked - 首页点击打开未分类新闻--中国人民公安大学治安系教授王太元：就地解决还是增加留守儿童
+2017-05-11 22:43:29 CST INFO  UI.NewsContent$19 701 actionPerformed - 返回首页
+2017-05-11 22:43:30 CST INFO  UI.LeftBehindChildren$5 241 mouseClicked - 首页点击打开已分类新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 22:54:58 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 22:54:58 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 22:54:59 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 22:54:59 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 22:54:59 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 22:55:01 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 22:55:01 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 22:55:01 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 22:55:01 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 22:55:06 CST INFO  UI.LeftBehindChildren$5 241 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 23:00:04 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:00:04 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:00:05 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:00:05 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:00:05 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:00:06 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:00:07 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:00:07 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:00:07 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:00:11 CST INFO  UI.LeftBehindChildren$5 241 mouseClicked - 首页点击打开已分类新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 23:00:15 CST INFO  UI.ClassifiedNewsContent$1 116 actionPerformed - 点击上一篇打开新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 23:00:18 CST INFO  UI.ClassifiedNewsContent$1 116 actionPerformed - 点击上一篇打开新闻--好政策播种新希望——记湖北省农村教师资助行动计划
+2017-05-11 23:00:22 CST INFO  UI.ClassifiedNewsContent$3 145 actionPerformed - 点击下一篇打开新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 23:00:22 CST INFO  UI.ClassifiedNewsContent$3 145 actionPerformed - 点击下一篇打开新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 23:00:45 CST INFO  UI.ClassifiedNewsContent$1 116 actionPerformed - 点击上一篇打开新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 23:00:48 CST INFO  UI.ClassifiedNewsContent$1 116 actionPerformed - 点击上一篇打开新闻--好政策播种新希望——记湖北省农村教师资助行动计划
+2017-05-11 23:00:51 CST INFO  UI.ClassifiedNewsContent$1 116 actionPerformed - 点击上一篇打开新闻--对农村“留守儿童”问题的理性思考
+2017-05-11 23:05:13 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-11 23:09:18 CST INFO  UI.LeftBehindChildren$3 148 mouseClicked - 首页点击打开未分类新闻--农村学生辍学问题受关注周济坦言新形势下义务教育工作面临新挑战
+2017-05-11 23:10:18 CST INFO  UI.NewsContent$19 701 actionPerformed - 返回首页
+2017-05-11 23:16:11 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:16:11 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:16:13 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:16:13 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:16:13 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:16:14 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:16:15 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:16:15 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:16:15 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:16:18 CST INFO  UI.LeftBehindChildren$5 241 mouseClicked - 首页点击打开已分类新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 23:16:22 CST INFO  UI.ClassifiedNewsContent$2 127 actionPerformed - 返回首页
+2017-05-11 23:19:54 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:19:54 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:19:56 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:19:56 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:19:56 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:19:57 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:19:58 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:19:58 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:19:58 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:23:23 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:23:23 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:23:25 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:23:25 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:23:25 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:23:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:23:27 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:23:27 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:23:27 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:28:29 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:28:29 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:28:31 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:28:31 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:28:31 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:28:32 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:28:33 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:28:33 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:28:33 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:29:18 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:29:18 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:29:20 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:29:20 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:29:20 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:29:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:29:22 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:29:22 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:29:22 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:30:39 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:30:39 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:30:41 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:30:41 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:30:41 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:30:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:30:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:30:42 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:30:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:32:41 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:32:41 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:32:43 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:32:43 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:32:43 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:32:44 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:32:45 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:32:45 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:32:45 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:42:55 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:42:55 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:42:57 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:42:57 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:42:57 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:42:58 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:42:58 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:42:58 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:42:58 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:44:07 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:44:07 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:44:09 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:44:09 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:44:09 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:44:10 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:44:12 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:44:12 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:44:12 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:45:22 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:45:22 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:45:24 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:45:24 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:45:24 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:45:25 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:45:27 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:45:27 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:45:27 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:46:01 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:46:01 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:46:03 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:46:03 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:46:03 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:46:04 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:46:06 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:46:06 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:46:06 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:46:42 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:46:42 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:46:43 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:46:43 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:46:43 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:46:44 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:46:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:46:46 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:46:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 23:47:22 CST INFO  UI.LeftBehindChildren$1 60 run - 查看首页
+2017-05-11 23:47:22 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 23:47:23 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 23:47:23 CST ERROR XmlData.Dom4j 69 initXml - assets/nanfangdaily.xml 初始化失败
+2017-05-11 23:47:23 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 23:47:25 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 23:47:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 23:47:26 CST ERROR XmlData.Dom4j 232 parserXml - 解析assets/nanfangdaily.xml失败
+2017-05-11 23:47:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml

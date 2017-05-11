@@ -254,7 +254,7 @@
   <NewsData> 
     <TagIts>true</TagIts>  
     <IsLoad>true</IsLoad>  
-    <IsDeleted></IsDeleted>  
+    <IsDeleted/>  
     <Memo/>  
     <Title>江苏“七彩夏日”点亮精彩暑假</Title>  
     <Date>2006-07-24</Date>  
@@ -265,14 +265,14 @@
     <ID>news:2302^200607241410052(S:193916305)</ID>  
     <TrueUrl/>  
     <Tags> 
-      <Type></Type>  
+      <Type/>  
       <Theme>其他</Theme>  
-      <Source></Source>  
-      <Showing></Showing>  
-      <Reason></Reason>  
-      <MainBody></MainBody>  
-      <HelpType></HelpType>  
-      <Gender></Gender> 
+      <Source/>  
+      <Showing/>  
+      <Reason/>  
+      <MainBody/>  
+      <HelpType/>  
+      <Gender/> 
     </Tags>  
     <EncodedContent>PABoAHQAbQBsAD4APABiAG8AZAB5AD4APABQAD4ALGelYldTrE43AAhnMgAzAOVlNXUoALCLBYDRkEtmI54akK+LWFQBTvpec14pAF9sz4IBd9GP5WVjaw9fL1SoUmhRAXcyADAAMAA2AHRepl4cIANOaV+Edg9Z5WUUIBQgFCAqZxBidF66TpFmH2f7fBdSO22oUh0gAjANAAoAPABQAD4AX2zPggF3034IVMePu1OEds9+jJosAMpOdF6RZh9nRVEGUnRlCFREjZBuLADGli1OqGP6UTIAMAAwADYAdF6mXhwgA05pX4R2D1nlZR0gA04nWUyIqFIsAHNTHCBeZQBfJ1nolSwA5WKxYmlbUFsUIBQgFCA+eRpPbFHKdjpXQGJNUSgAz1EpADmNAF8+ZUyIqFIdIDsAHCDleiOMJ1m2WzFVLADrX1BONE8QYn+VHSAUIBQgFCAKMLBl5XojjAswqGN/XiBPMVVMiKhSOwAcIAxUKFfdhClZC04sADpkS2JxURBif5UUIBQgFCDOV2FOKmcQYnReuk4+eRpPc1ExckyIqFIdIDsAHCCifoaY/l0OTklRY4MMVEyIHSAUIBQgFCAtTg9cZlsfdT55Gk+eW/WN+1u/i0yIqFI7ABwgU2IAX3qCL2dLTuiVHSAUIBQgFCAYT8B5EVw/UYdleoJcT8FUVVwUb0yIqFI7ABwgkGx0bQNOaV8zlklRLADrX1BOzk7DXwBfy1kdIBQgFCAUIFKXEVx0XquOw19lULdedVSkYkyIqFI7ABwgiU5aUGlbUFuEdn1ZC2fLUwEwfVkBgAheATB9WZxpN2gdIBQgFCAUICpnEGJ0XrpOWWWygAWAIH0ojdBjR1NMiKhSAjANAAoAPABQAD4AbmOJYCwAX2zPgspOdF4GXNuPAE5la2liJ1kqZxBidF66TpFmH2c7bahShHbCUw5OYpcBMIaJ1nZil4xU4GDKU2KXLAD5W5xRUWdZdYhbP1HlegEw24/OV6FS5V2cURFs5V1QW3NZATDOVwJe8Fa+lrZbrV5QW3NZATBVU7JOtlutXlBbc1kBMItrvnURXHReP1Hlekl7eXKKaypnEGJ0XrpOpH9TT4R2kWYfZzttqFLZfohO9GYaWYR2c1HobCwA2I8GXDpOMgAwADAAMAANVM+CLU4BMM+CF1OcUVFnWXWIWz9R5XoBMGRbi2s/UeV6ATDbj85XoVLlXbpOWFRQW3NZATBBbWptQW1jZT9R5XoAX76LD1nkTiWEAjAgADwALwBQAD4APAAvAGIAbwBkAHkAPgA8AC8AaAB0AG0AbAA+AA==</EncodedContent> 
   </NewsData>  

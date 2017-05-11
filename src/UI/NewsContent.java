@@ -803,6 +803,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				if(newsList.get(position).getTagIts().equals("true")){
 					modifyList();
 				}
+				@SuppressWarnings("unused")
 				SaveToXml saveToXml = new SaveToXml();
 			}
 		});	

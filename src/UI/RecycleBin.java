@@ -164,6 +164,7 @@ public class RecycleBin extends JFrame {
 			  
 			public void windowClosing(WindowEvent e) {  
 				super.windowClosing(e);  
+				@SuppressWarnings("unused")
 				SaveToXml saveToXml = new SaveToXml();
 			}
 		});
