@@ -10,14 +10,15 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;  
 import org.jfree.chart.JFreeChart;  
 import org.jfree.chart.labels.StandardPieSectionLabelGenerator;  
-import org.jfree.chart.plot.PiePlot;  
+import org.jfree.chart.plot.PiePlot;
+import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;  
 
 public class PieChart {
 	ChartPanel frame1;  
-    public PieChart(){  
-          DefaultPieDataset data = getDataSet();  
-          JFreeChart chart = ChartFactory.createPieChart3D("水果产量",data,true,false,false);  
+    public PieChart(DefaultPieDataset set,String title){  
+          DefaultPieDataset data = getDataSet(set);  
+          JFreeChart chart = ChartFactory.createPieChart3D(title,data,true,false,false);  
         //设置百分比  
           PiePlot pieplot = (PiePlot) chart.getPlot();  
           DecimalFormat df = new DecimalFormat("0.00%");//获得一个DecimalFormat对象，主要是设置小数问题  
@@ -38,13 +39,13 @@ public class PieChart {
           piePlot.setLabelFont(new Font("宋体",Font.BOLD,10));//解决乱码  
           chart.getLegend().setItemFont(new Font("黑体",Font.BOLD,10));  
     }  
-    private static DefaultPieDataset getDataSet() {  
-        DefaultPieDataset dataset = new DefaultPieDataset();  
-        dataset.setValue("苹果",100);  
-        dataset.setValue("梨子",200);  
-        dataset.setValue("葡萄",300);  
-        dataset.setValue("香蕉",400);  
-        dataset.setValue("荔枝",500);  
+    private static DefaultPieDataset getDataSet(DefaultPieDataset dataset) {  
+//        DefaultPieDataset dataset = new DefaultPieDataset();  
+//        dataset.setValue("苹果",100);  
+//        dataset.setValue("梨子",200);  
+//        dataset.setValue("葡萄",300);  
+//        dataset.setValue("香蕉",400);  
+//        dataset.setValue("荔枝",500);  
         return dataset;  
 }  
     public ChartPanel getPieChartPanel(){  

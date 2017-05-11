@@ -143,7 +143,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		contentPane.add(label_2);
 				
 		choice = new Choice();
-		choice.setBounds(678, 242, 62, 21);
+		choice.setBounds(678, 242, 79, 21);
 		contentPane.add(choice);
 		choice.add("新闻主体");
 		choice.add("政府部门");
@@ -167,7 +167,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		});
 		
 		choice_1 = new Choice();
-		choice_1.setBounds(746, 242, 62, 21);
+		choice_1.setBounds(763, 242, 133, 21);
 		contentPane.add(choice_1);
 		choice_1.add("具体种类");
 		choice_1.add("单纯一次捐款捐物");
@@ -191,7 +191,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		});
 		
 		choice_2 = new Choice();
-		choice_2.setBounds(814, 242, 62, 21);
+		choice_2.setBounds(902, 242, 62, 21);
 		contentPane.add(choice_2);
 		choice_2.setEnabled(false);
 		choice_2.add("性别");
@@ -621,6 +621,12 @@ public class NewsContent extends JFrame implements ActionListener{
 					sourceGroup.clearSelection();
 					mediaImageGroup.clearSelection();
 					reasonGroup.clearSelection();
+					choice.select(0);
+					choice_1.select(0);
+					choice_2.select(0);
+					choice.setEnabled(false);
+					choice_1.setEnabled(false);
+					choice_2.setEnabled(false);
 					showNewsDetails(newsList.get(--position));
 				}
 			}
@@ -660,6 +666,12 @@ public class NewsContent extends JFrame implements ActionListener{
 					sourceGroup.clearSelection();
 					mediaImageGroup.clearSelection();
 					reasonGroup.clearSelection();
+					choice.select(0);
+					choice_1.select(0);
+					choice_2.select(0);
+					choice.setEnabled(false);
+					choice_1.setEnabled(false);
+					choice_2.setEnabled(false);
 					showNewsDetails(newsList.get(++position));
 				}
 			}
@@ -682,6 +694,46 @@ public class NewsContent extends JFrame implements ActionListener{
 						new ClassifiedNewsContent(listData.classifiedNews,
 								listData.findPosition(listData.classifiedNews, id));
 				classifiedNewsContent.setVisible(true);				
+			}			
+		});
+		
+		JButton reset = new JButton("重置标签");
+		reset.setBounds(858, 580, 93, 23);
+		contentPane.add(reset);
+		
+		reset.addActionListener(new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO 自动生成的方法存根								
+				String id = newsList.get(position).getID();
+				if(newsList.get(position).getTagIts().equals("true")){
+					tags.setType("");
+					tags.setTheme("");
+					tags.setSource("");
+					tags.setShowing("");
+					tags.setReason("");
+					tags.setMainBody("");
+					tags.setHelpType("");
+					tags.setGender("");
+					Dom4j dom4j = new Dom4j();
+					newsList.get(position).setTags(tags);
+					newsList.get(position).setTagIts("false");
+					dom4j.modifyXml(newsList.get(position));
+					listData.classifiedTitle.remove(newsList.get(position).getTitle());
+					listData.classifiedNews.remove(newsList.get(position));
+					typeGroup.clearSelection();
+					themeGroup.clearSelection();
+					sourceGroup.clearSelection();
+					mediaImageGroup.clearSelection();
+					reasonGroup.clearSelection();
+					choice.select(0);
+					choice_1.select(0);
+					choice_2.select(0);
+					choice.setEnabled(false);
+					choice_1.setEnabled(false);
+					choice_2.setEnabled(false);
+					position = listData.findPosition(listData.notClassifiedNews,id);
+				}
 			}			
 		});
 		

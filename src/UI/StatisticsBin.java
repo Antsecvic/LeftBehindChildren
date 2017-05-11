@@ -5,9 +5,18 @@ import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import org.jfree.data.category.DefaultCategoryDataset;
+import org.jfree.data.general.DefaultPieDataset;
+
+import XmlData.Statistics;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.util.HashMap;
+import java.util.Map;
 import java.awt.event.ActionEvent;
+import javax.swing.JScrollPane;
 
 public class StatisticsBin extends JFrame {
 
@@ -23,12 +32,34 @@ public class StatisticsBin extends JFrame {
 	private JButton button_4;   //报道主题统计
 	private JButton button_5;   //新闻消息来源统计
 	private JButton button_6;   //媒介呈现形象统计
+	private JPanel panel; 
 	
-
+	private Statistics statistics;
+	private int[] type;
+	private int[] theme;
+	private int[] source;
+	private int[] showing;
+	private int[] reason;
+	private int[] mainBody;
+	private int[] helpType;
+	private int[] gender;
+	private Map<String,Integer> sum = new HashMap<String,Integer>();
 	/**
 	 * Create the frame.
 	 */
 	public StatisticsBin() {
+		
+		statistics = new Statistics();
+		type = statistics.getType();
+		theme = statistics.getTheme();
+		source = statistics.getSource();
+		showing = statistics.getShowing();
+		reason = statistics.getReason();
+		mainBody = statistics.getMainBody();
+		helpType = statistics.getHelpType();
+		gender = statistics.getGender();
+		sum = statistics.getSum();
+		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(300, 50, 1000, 700);
 		contentPane = new JPanel();
@@ -52,6 +83,7 @@ public class StatisticsBin extends JFrame {
 		button_1.setBackground(Color.YELLOW);
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				panel.removeAll();
 				button_1.setBackground(Color.YELLOW);
 				button_2.setBackground(Color.WHITE);
 				button_3.setBackground(Color.WHITE);
@@ -59,6 +91,15 @@ public class StatisticsBin extends JFrame {
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.WHITE);
 				setTitle("三报相关新闻总数量统计图");
+				DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+				for (int i = 0;i < 10;i ++)
+				{
+					dataset.addValue(sum.get(2006+i+""), 2006+i+"", 2006+i+"");
+				}
+				
+				BarChart barchart = new BarChart(dataset,"三报相关新闻总数量统计图");
+				panel.add(barchart.getChartPanel());
+				panel.validate();
 			}
 		});
 		button_1.setBounds(160, 26, 129, 23);
@@ -68,6 +109,7 @@ public class StatisticsBin extends JFrame {
 		button_2.setBackground(Color.WHITE);
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				panel.removeAll();
 				button_1.setBackground(Color.WHITE);
 				button_2.setBackground(Color.YELLOW);
 				button_3.setBackground(Color.WHITE);
@@ -75,6 +117,15 @@ public class StatisticsBin extends JFrame {
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.WHITE);
 				setTitle("农民工子女无法城市读书统计");
+				DefaultPieDataset data = new DefaultPieDataset();
+				data.setValue("无本地户籍难入公立学校", reason[0]);
+				data.setValue("私立学校学费高", reason[1]);
+				data.setValue("越来越多小型私立学校被取消办学资格", reason[2]);
+				data.setValue("私立学校办学质量没保障", reason[3]);
+				data.setValue("其他", reason[4]);
+				PieChart piechart = new PieChart(data,"农民工子女无法城市读书原因统计");
+				panel.add(piechart.getPieChartPanel());
+				panel.validate();
 			}
 		});
 		button_2.setBounds(336, 26, 225, 23);
@@ -84,6 +135,7 @@ public class StatisticsBin extends JFrame {
 		button_3.setBackground(Color.WHITE);
 		button_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				panel.removeAll();
 				button_1.setBackground(Color.WHITE);
 				button_2.setBackground(Color.WHITE);
 				button_3.setBackground(Color.YELLOW);
@@ -91,6 +143,14 @@ public class StatisticsBin extends JFrame {
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.WHITE);
 				setTitle("新闻类型统计");
+				DefaultPieDataset data = new DefaultPieDataset();
+				data.setValue("纯净新闻", type[0]);
+				data.setValue("特稿特写", type[1]);
+				data.setValue("评论", type[2]);
+				data.setValue("其他", type[3]);
+				PieChart piechart = new PieChart(data,"新闻类型统计");
+				panel.add(piechart.getPieChartPanel());
+				panel.validate();
 			}
 		});
 		button_3.setBounds(586, 26, 225, 23);
@@ -100,6 +160,7 @@ public class StatisticsBin extends JFrame {
 		button_4.setBackground(Color.WHITE);
 		button_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				panel.removeAll();
 				button_1.setBackground(Color.WHITE);
 				button_2.setBackground(Color.WHITE);
 				button_3.setBackground(Color.WHITE);
@@ -107,6 +168,19 @@ public class StatisticsBin extends JFrame {
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.WHITE);
 				setTitle("报道主题统计");
+				DefaultPieDataset data = new DefaultPieDataset();
+				data.setValue("帮助关爱", theme[0]);
+				data.setValue("表彰鼓励", theme[1]);
+				data.setValue("留守儿童努力向上", theme[2]);
+				data.setValue("建议看法", theme[3]);
+				data.setValue("打工父母艰难生活", theme[4]);
+				data.setValue("留守儿童性侵", theme[5]);
+				data.setValue("留守儿童遭暴力", theme[6]);
+				data.setValue("留守儿童犯罪", theme[7]);
+				data.setValue("其他", theme[8]);
+				PieChart piechart = new PieChart(data,"报道主题统计");
+				panel.add(piechart.getPieChartPanel());
+				panel.validate();
 			}
 		});
 		button_4.setBounds(160, 78, 129, 23);
@@ -116,6 +190,7 @@ public class StatisticsBin extends JFrame {
 		button_5.setBackground(Color.WHITE);
 		button_5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				panel.removeAll();
 				button_1.setBackground(Color.WHITE);
 				button_2.setBackground(Color.WHITE);
 				button_3.setBackground(Color.WHITE);
@@ -123,6 +198,17 @@ public class StatisticsBin extends JFrame {
 				button_5.setBackground(Color.YELLOW);
 				button_6.setBackground(Color.WHITE);
 				setTitle("新闻报道来源统计");
+				DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+				dataset.addValue(source[0],"记者", "记者");
+				dataset.addValue(source[1],"政府", "政府");
+				dataset.addValue(source[2],"企业", "企业");
+				dataset.addValue(source[3],"事业单位", "事业单位");
+				dataset.addValue(source[4],"公益团体", "公益团体");
+				dataset.addValue(source[5],"专家学者", "专家学者");
+				dataset.addValue(source[6],"其他", "其他");
+				BarChart barchart = new BarChart(dataset,"新闻报道消息来源统计图");
+				panel.add(barchart.getChartPanel());
+				panel.validate();
 			}
 		});
 		button_5.setBounds(336, 78, 188, 23);
@@ -144,6 +230,9 @@ public class StatisticsBin extends JFrame {
 		button_6.setBounds(586, 78, 188, 23);
 		contentPane.add(button_6);
 		
+		panel = new JPanel();
+		panel.setBounds(25, 145, 786, 507);
+		contentPane.add(panel);
+		
 	}
-
 }

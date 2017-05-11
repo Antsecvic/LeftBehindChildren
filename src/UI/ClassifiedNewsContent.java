@@ -19,7 +19,6 @@ import javax.swing.UIManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import XmlData.BareBonesBrowserLaunch;
 import XmlData.Dom4j;
 import XmlData.News;
 import XmlData.SaveToXml;
@@ -196,15 +195,7 @@ public class ClassifiedNewsContent extends JFrame{
 		contentPane.add(scrollPane_2);
 		
 		
-		//点击打开外部新闻
-		showExternalNews.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				String url = newsList.get(position).getTrueUrl();
-				BareBonesBrowserLaunch.openURL(url);
-			}
-		});
-		showExternalNews.setBounds(706, 542, 118, 23);
-		contentPane.add(showExternalNews);
+		
 		
 		Label type = new Label(tags.getType());
 		type.setBounds(678, 115, 100, 23);
