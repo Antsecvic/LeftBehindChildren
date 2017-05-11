@@ -8,7 +8,7 @@ import javax.swing.border.EmptyBorder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import XmlData.Dom4j;
+//import XmlData.Dom4j;
 import XmlData.News;
 import XmlData.SaveToXml;
 
@@ -17,8 +17,11 @@ import javax.swing.JMenuItem;
 
 import java.awt.Label;
 import java.awt.Point;
+import java.awt.Color;
 import java.awt.Font;
 import java.awt.SystemColor;
+import java.awt.Toolkit;
+
 import javax.swing.JScrollPane;
 import javax.swing.ListModel;
 import javax.swing.DefaultComboBoxModel;
@@ -46,10 +49,15 @@ public class RecycleBin extends JFrame {
 	 */
 	public RecycleBin(List<News> deletedNews,List<String> deletedTitle) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(300, 50, 1000, 700);
+//		setBounds(300, 50, 1000, 700);
 		setTitle("ªÿ ’’æ");
+		setLocation((int)(Toolkit.getDefaultToolkit().getScreenSize().
+                getWidth()-1000)/2,(int)(Toolkit.getDefaultToolkit().getScreenSize().
+                        getHeight()-700)/2);
+		setSize(1000, 700);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setBackground(Color.BLACK);
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
@@ -60,7 +68,7 @@ public class RecycleBin extends JFrame {
 		contentPane.add(label);
 		
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(10, 55, 600, 2);
+		scrollPane.setBounds(10, 55, 600, 1);
 		contentPane.add(scrollPane);
 //		int count=0;
 //		for(News news : deletedNews){
@@ -71,6 +79,9 @@ public class RecycleBin extends JFrame {
 		
 		JScrollPane scrollPane_1 = new JScrollPane();
 		scrollPane_1.setBounds(10, 86, 600, 300);
+		scrollPane_1.setBackground(Color.BLACK);
+		scrollPane_1.getVerticalScrollBar().setUI(null);
+		
 		ListModel<Object> jListModel =  new DefaultComboBoxModel<>(deletedTitle.toArray());
 		JList<Object> myJlist = new JList<Object>() {
 			
@@ -91,7 +102,8 @@ public class RecycleBin extends JFrame {
 			}
 		};
 		myJlist.setModel(jListModel); 
-//		myJlist.set
+		myJlist.setBackground(Color.black);
+		myJlist.setForeground(Color.white);
 		
 //		System.out.println("cishu");
 		
@@ -135,6 +147,8 @@ public class RecycleBin extends JFrame {
 		contentPane.add(scrollPane_1);
 		
 		JButton button = new JButton("\u8FD4\u56DE\u9996\u9875");
+		button.setBackground(Color.black);
+		button.setForeground(Color.white);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			    new LeftBehindChildren();

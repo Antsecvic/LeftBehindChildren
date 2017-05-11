@@ -7,7 +7,7 @@ import java.awt.Font;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
+//import javax.swing.JTextArea;
 
 import java.awt.Color;
 
@@ -25,6 +25,7 @@ import java.io.IOException;
 import java.util.List;
 import java.awt.event.ActionEvent;
 import java.awt.Label;
+import java.awt.Toolkit;
 import java.awt.Choice;
 import javax.swing.UIManager;
 
@@ -72,17 +73,21 @@ public class NewsContent extends JFrame implements ActionListener{
 		
 		if (news.getEncodedContent().equals(""))
 		{
+			textArea.setContentType("text/html");
+			System.out.println(2);
 			textArea.setText(news.getTitle()+"\n\n"+ getNewsFromUrl(news.getTrueUrl()));
-			Font font = new Font("宋体",Font.BOLD,20);
+			Font font = new Font("宋体",Font.BOLD,18);
 			textArea.setFont(font);
 			textArea.setCaretPosition(0);		//设置光标位置为首行
 		}
 		else
 		{
+			textArea.setContentType("text/plain");
+//			System.out.println(1);
 			textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
 //		    textArea.setLineWrap(true);                 //激活自动换行功能 
 //		    textArea.setWrapStyleWord(true);            // 激活断行不断字功能
-			Font font = new Font("宋体",Font.BOLD,20);
+			Font font = new Font("宋体",Font.BOLD,18);
 			textArea.setFont(font);
 			textArea.setEditable(false);
 			textArea.setCaretPosition(0);		//设置光标位置为首行
@@ -93,9 +98,13 @@ public class NewsContent extends JFrame implements ActionListener{
 	public void initialize(){		
 		setTitle("新闻内容");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setBounds(300, 50, 1000, 700);
+//		setBounds(300, 50, 1000, 700);
+		setLocation((int)(Toolkit.getDefaultToolkit().getScreenSize().
+                getWidth()-1000)/2,(int)(Toolkit.getDefaultToolkit().getScreenSize().
+                        getHeight()-700)/2);
+		setSize(1000, 700);
 		contentPane = new JPanel();
-		contentPane.setBackground(Color.LIGHT_GRAY);
+		contentPane.setBackground(Color.DARK_GRAY);
 		contentPane.setBorder(UIManager.getBorder("ComboBox.border"));
 		setContentPane(contentPane);
 		
@@ -103,46 +112,58 @@ public class NewsContent extends JFrame implements ActionListener{
 		//显示新闻内容的版块
 		textArea=new JEditorPane();
 		textArea.setEditable(false);
-		textArea.setContentType("text/html");
+//		textArea.setContentType("text/html");
 		showNewsDetails(newsList.get(position));
+		textArea.setBackground(Color.lightGray);
+//		textArea.setForeground(Color.white);
 		contentPane.setLayout(null);
 		
 		mainBody = new JScrollPane(textArea);
 		mainBody.setBounds(5, 5, 600, 600);
+		mainBody.setBackground(Color.LIGHT_GRAY);
+		mainBody.getVerticalScrollBar().setUI(null);
+		mainBody.getHorizontalScrollBar().setUI(null);
 		
 		contentPane.add(mainBody);
 		
 				
 		JScrollPane scrollPane_1 = new JScrollPane();
-		scrollPane_1.setBounds(611, 68, 400, 2);
+		scrollPane_1.setBounds(611, 72, 400, 1);
 		contentPane.add(scrollPane_1);
 		
 		Label label = new Label("为此文章选择标签");
 		label.setBounds(611, 51, 103, 23);
+		label.setForeground(Color.white);
 		contentPane.add(label);
 		
 		//显示报纸类别（三种报纸）
 		Label label_1 = new Label("报纸类别");
 		label_1.setBounds(621, 80, 51, 23);
-		label_1.setBackground(Color.WHITE);
+		label_1.setBackground(Color.gray);
+		label_1.setForeground(Color.white);
 		contentPane.add(label_1);
 		Label location = new Label(newsList.get(position).getLocation());
+		location.setForeground(Color.white);
 		location.setBounds(678, 80, 146, 23);
 		contentPane.add(location);
 		
 		//显示报纸类型
 		Label label_3 = new Label("报纸类型");
 		label_3.setBounds(621, 116, 51, 23);
-		label_3.setBackground(Color.WHITE);
+		label_3.setBackground(Color.gray);
+		label_3.setForeground(Color.white);
 		contentPane.add(label_3);
 		
 		//显示报道主题
 		Label label_2 = new Label("报道主题");
 		label_2.setBounds(621, 155, 51, 23);
-		label_2.setBackground(Color.WHITE);
+		label_2.setBackground(Color.gray);
+		label_2.setForeground(Color.white);
 		contentPane.add(label_2);
 				
 		choice = new Choice();
+//		choice.setBackground(Color.darkGray);
+//		choice.setForeground(Color.white);
 		choice.setBounds(678, 242, 79, 21);
 		contentPane.add(choice);
 		choice.add("新闻主体");
@@ -167,6 +188,8 @@ public class NewsContent extends JFrame implements ActionListener{
 		});
 		
 		choice_1 = new Choice();
+//		choice_1.setBackground(Color.darkGray);
+//		choice_1.setForeground(Color.white);
 		choice_1.setBounds(763, 242, 133, 21);
 		contentPane.add(choice_1);
 		choice_1.add("具体种类");
@@ -191,6 +214,8 @@ public class NewsContent extends JFrame implements ActionListener{
 		});
 		
 		choice_2 = new Choice();
+//		choice_2.setBackground(Color.darkGray);
+//		choice_2.setForeground(Color.white);
 		choice_2.setBounds(902, 242, 62, 21);
 		contentPane.add(choice_2);
 		choice_2.setEnabled(false);
@@ -213,40 +238,56 @@ public class NewsContent extends JFrame implements ActionListener{
 		
 		Label label_4 = new Label("新闻报道消息来源");
 		label_4.setBounds(621, 278, 103, 23);
-		label_4.setBackground(Color.WHITE);
+		label_4.setBackground(Color.gray);
+		label_4.setForeground(Color.white);
 		contentPane.add(label_4);
 		
 		Label label_5 = new Label("媒体形象呈现");
 		label_5.setBounds(621, 339, 79, 23);
-		label_5.setBackground(Color.WHITE);
+		label_5.setBackground(Color.gray);
+		label_5.setForeground(Color.white);
 		contentPane.add(label_5);
 		
 		Label label_6 = new Label("农民工子女不能留在城市读书的原因");
 		label_6.setBounds(621, 403, 195, 23);
-		label_6.setBackground(Color.WHITE);
+		label_6.setBackground(Color.gray);
+		label_6.setForeground(Color.white);
 		contentPane.add(label_6);
 		
 		JScrollPane scrollPane_2 = new JScrollPane();
-		scrollPane_2.setBounds(615, 531, 400, 2);
+		scrollPane_2.setBounds(615, 531, 400, 1);
 		contentPane.add(scrollPane_2);
 		
 		
 		
 		
 		JRadioButton type1 = new JRadioButton("纯净新闻");
+		type1.setFont(new Font("宋体", Font.PLAIN, 11));
 		type1.setBounds(678, 116, 79, 23);
+//		type1.setBackground(Color.black);
+//		type1.setForeground(Color.white);
 		contentPane.add(type1);
 		
 		JRadioButton type2 = new JRadioButton("特稿特写");
+		type2.setFont(new Font("宋体", Font.PLAIN, 11));
 		type2.setBounds(759, 116, 73, 23);
+//		type2.setBackground(Color.black);
+//		type2.setForeground(Color.white);
 		contentPane.add(type2);
 		
 		JRadioButton type3 = new JRadioButton("评论");
+		type3.setFont(new Font("宋体", Font.PLAIN, 11));
 		type3.setBounds(834, 116, 51, 23);
+//		type3.setBackground(Color.black);
+//		type3.setForeground(Color.white);
+		
 		contentPane.add(type3);
 		
 		JRadioButton type4 = new JRadioButton("其他");
+		type3.setFont(new Font("宋体", Font.PLAIN, 11));
 		type4.setBounds(889, 116, 62, 23);
+//		type4.setBackground(Color.black);
+//		type4.setForeground(Color.white);
 		contentPane.add(type4);
 		
 		ButtonGroup typeGroup = new ButtonGroup();
@@ -609,6 +650,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		//上一篇按钮
 		JButton button = new JButton("上一篇");
 		button.setBounds(631, 22, 93, 23);
+		button.setBackground(Color.LIGHT_GRAY);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(newsList.get(position).getTagIts().equals("true")){
@@ -636,6 +678,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		//首页按钮
 		JButton button_1 = new JButton("首页");
 		button_1.setBounds(746, 22, 93, 23);
+		button_1.setBackground(Color.LIGHT_GRAY);
 		button_1.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e) {
 				if(newsList.get(position).getTagIts().equals("true")){
@@ -653,6 +696,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		//下一篇按钮
 		JButton button_2 = new JButton("下一篇");
 		button_2.setBounds(858, 22, 93, 23);
+		button_2.setBackground(Color.LIGHT_GRAY);
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(newsList.get(position).getTagIts().equals("true")){
@@ -680,6 +724,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		
 		JButton finish = new JButton("完成");
 		finish.setBounds(858, 542, 93, 23);
+		finish.setBackground(Color.LIGHT_GRAY);
 		contentPane.add(finish);
 		
 		finish.addActionListener(new ActionListener(){
@@ -699,6 +744,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		
 		JButton reset = new JButton("重置标签");
 		reset.setBounds(858, 580, 93, 23);
+		reset.setBackground(Color.LIGHT_GRAY);
 		contentPane.add(reset);
 		
 		reset.addActionListener(new ActionListener(){

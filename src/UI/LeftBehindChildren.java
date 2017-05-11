@@ -3,7 +3,7 @@ package UI;
 import java.awt.EventQueue;
 
 import org.apache.logging.log4j.*;
-import XmlData.Dom4j;
+//import XmlData.Dom4j;
 import XmlData.SaveToXml;
 
 import javax.swing.JFrame;
@@ -20,6 +20,8 @@ import java.awt.Font;
 import java.awt.Label;
 import java.awt.Point;
 import java.awt.SystemColor;
+import java.awt.Toolkit;
+
 import javax.swing.JScrollPane;
 import javax.swing.ListModel;
 import javax.swing.JButton;
@@ -73,7 +75,11 @@ public class LeftBehindChildren {
 		
 		mainFrame = new JFrame();
 		mainFrame.getContentPane().setBackground(Color.BLACK);
-		mainFrame.setBounds(300, 50, 1000, 700);
+//		mainFrame.setBounds(0, 0, 1000, 700);
+		mainFrame.setLocation((int)(Toolkit.getDefaultToolkit().getScreenSize().
+                getWidth()-1000)/2,(int)(Toolkit.getDefaultToolkit().getScreenSize().
+                        getHeight()-700)/2);
+		mainFrame.setSize(1000,700);
 		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		mainFrame.getContentPane().setLayout(null);
 		mainFrame.setTitle("留守儿童舆情调查软件");
@@ -90,18 +96,20 @@ public class LeftBehindChildren {
 		Label label = new Label("\u65B0\u95FB  \u5C1A\u672A\u5206\u7C7B");
 		label.setFont(new Font("Dialog", Font.BOLD, 20));
 		label.setForeground(SystemColor.activeCaptionBorder);
-		label.setBounds(10, 345, 174, 23);
+		label.setBounds(10, 326, 174, 23);
 		mainFrame.getContentPane().add(label);
 		
 		// 用做水平分割线
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(10, 374, 568, 2);
+		scrollPane.setBounds(10, 355, 568, 1);
 		mainFrame.getContentPane().add(scrollPane);
 		
 		// 用来显示未分类的新闻标题
 		JScrollPane scrollPane_1 = new JScrollPane();
-		scrollPane_1.setBounds(10, 396, 568,266);
-//        jScrollPane1.setPreferredSize(new java.awt.Dimension(218, 164));
+		scrollPane_1.setBounds(10, 357, 568,310);
+		scrollPane_1.setBackground(Color.BLACK);
+		scrollPane_1.getVerticalScrollBar().setUI(null);
+		scrollPane_1.setBorder(null);
 
         ListModel<Object> jList1Model =  new DefaultComboBoxModel<>(listData.notClassifiedTitle.toArray());
         
@@ -126,6 +134,8 @@ public class LeftBehindChildren {
 		};
 
         myJlist.setModel(jList1Model);            //设置数据
+        myJlist.setBackground(Color.black);
+        myJlist.setForeground(Color.white);
         
         //鼠标监听器
         myJlist.addMouseListener(new MouseAdapter() {
@@ -176,17 +186,23 @@ public class LeftBehindChildren {
 		Label label_1 = new Label("\u65B0\u95FB  \u5DF2\u5206\u7C7B");
 		label_1.setForeground(SystemColor.activeCaptionBorder);
 		label_1.setFont(new Font("Dialog", Font.BOLD, 20));
-		label_1.setBounds(613, 10, 174, 23);
+		label_1.setBounds(600, 10, 174, 23);
 		mainFrame.getContentPane().add(label_1);
 		
 		// 用做水平分割线
 		JScrollPane scrollPane_2 = new JScrollPane();
-		scrollPane_2.setBounds(613, 39, 349, 2);
+		scrollPane_2.setBounds(600, 39, 370, 1);
 		mainFrame.getContentPane().add(scrollPane_2);
 		
 		// 用来显示已分类的新闻标题
 		JScrollPane scrollPane_3 = new JScrollPane();
-		scrollPane_3.setBounds(613, 65, 349, 508);
+		scrollPane_3.setBounds(600, 41, 370, 537);
+		scrollPane_3.setBackground(Color.BLACK);
+		scrollPane_3.getVerticalScrollBar().setUI(null);
+		scrollPane_3.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollPane_3.setBorder(null);
+		
+		
 		ListModel<Object> jList1Model2 =  new DefaultComboBoxModel<>(listData.classifiedTitle.toArray());
 		
 		// 重写获取列表位置的方法，使点击列表空白处不出现选中最后一项的问题
@@ -210,6 +226,8 @@ public class LeftBehindChildren {
 		};
 		
         myJlist2.setModel(jList1Model2);            //设置数据
+        myJlist2.setBackground(Color.black);
+        myJlist2.setForeground(Color.white);
         
       //鼠标监听器
         myJlist2.addMouseListener(new MouseAdapter() {
@@ -257,7 +275,13 @@ public class LeftBehindChildren {
         scrollPane_3.setViewportView(myJlist2);    //不能直接add
 		mainFrame.getContentPane().add(scrollPane_3);
 		
+		JScrollPane scrollPane_5 = new JScrollPane();
+		scrollPane_5.setBounds(600, 585, 370, 1);
+		mainFrame.getContentPane().add(scrollPane_5);
+		
 		JButton btnNewButton = new JButton("\u7EDF\u8BA1\u7AD9");
+		btnNewButton.setBackground(Color.black);
+		btnNewButton.setForeground(Color.white);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				StatisticsBin statics = new StatisticsBin();
@@ -265,14 +289,16 @@ public class LeftBehindChildren {
 				mainFrame.setVisible(false);
 			}
 		});
-		btnNewButton.setBounds(613, 583, 93, 23);
+		btnNewButton.setBounds(600, 596, 93, 23);
 		mainFrame.getContentPane().add(btnNewButton);
 		
 		JScrollPane scrollPane_4 = new JScrollPane();
-		scrollPane_4.setBounds(613, 616, 93, 2);
+		scrollPane_4.setBounds(600, 629, 93, 1);
 		mainFrame.getContentPane().add(scrollPane_4);
 		
 		JButton button = new JButton("\u56DE\u6536\u7AD9");
+		button.setBackground(Color.black);
+		button.setForeground(Color.white);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				RecycleBin recycle = new RecycleBin(listData.deletedNews,listData.deletedTitle);
@@ -280,7 +306,7 @@ public class LeftBehindChildren {
 				LeftBehindChildren.mainFrame.dispose();
 			}
 		});
-		button.setBounds(613, 628, 93, 23);
+		button.setBounds(600, 640, 93, 23);
 		mainFrame.getContentPane().add(button);
 		
 		mainFrame.addWindowListener(new WindowAdapter() {  
