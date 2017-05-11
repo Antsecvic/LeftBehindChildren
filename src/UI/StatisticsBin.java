@@ -5,6 +5,9 @@ import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import XmlData.Statistics;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -24,11 +27,30 @@ public class StatisticsBin extends JFrame {
 	private JButton button_5;   //新闻消息来源统计
 	private JButton button_6;   //媒介呈现形象统计
 	
-
+	private Statistics statistics;
+	private int[] type;
+	private int[] theme;
+	private int[] source;
+	private int[] showing;
+	private int[] reason;
+	private int[] mainBody;
+	private int[] helpType;
+	private int[] gender;
 	/**
 	 * Create the frame.
 	 */
 	public StatisticsBin() {
+		
+		statistics = new Statistics();
+		type = statistics.getType();
+		theme = statistics.getTheme();
+		source = statistics.getSource();
+		showing = statistics.getShowing();
+		reason = statistics.getReason();
+		mainBody = statistics.getMainBody();
+		helpType = statistics.getHelpType();
+		gender = statistics.getGender();
+		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(300, 50, 1000, 700);
 		contentPane = new JPanel();
