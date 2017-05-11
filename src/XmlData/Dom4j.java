@@ -35,8 +35,8 @@ public class Dom4j implements XmlDocument {
 		try { 
 			logger.info(fileName+" "+"初始化xml数据");
 			SAXReader sr = new SAXReader();
-			File f = new File(fileName);
-			InputStream in = new FileInputStream(f);
+	        File f = new File(fileName);  
+	        InputStream in = new FileInputStream(f);  
 	        Document document = sr.read(in);
 			Element arrayOfNewsData = document.getRootElement();
 	        List<News> newsList = arrayOfNewsData.elements();
@@ -87,7 +87,9 @@ public class Dom4j implements XmlDocument {
 			}
 			if(!fileName.equals(null)){
 				SAXReader sr = new SAXReader();
-		        Document document = sr.read(fileName);
+				File f = new File(fileName);  
+		        InputStream in = new FileInputStream(f);  
+		        Document document = sr.read(in);
 				Element arrayOfNewsData = document.getRootElement();
 		        List newsList = arrayOfNewsData.elements();
 		        boolean ifFinded = false;
