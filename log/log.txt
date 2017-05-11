@@ -190,3 +190,10 @@
 2017-05-11 08:30:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
 2017-05-11 08:30:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
 2017-05-11 08:30:47 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 09:54:26 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 09:54:26 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 09:54:27 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 09:54:27 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 09:54:27 CST INFO  XmlData.Dom4j 163 parserXml - 解析assets/guangming.xml
+2017-05-11 09:54:28 CST INFO  XmlData.Dom4j 163 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 09:54:28 CST INFO  XmlData.Dom4j 163 parserXml - 解析assets/sichuan.xml
