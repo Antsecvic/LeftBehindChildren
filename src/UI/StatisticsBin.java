@@ -17,6 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.awt.event.ActionEvent;
 import javax.swing.JScrollPane;
+import java.awt.Button;
 
 public class StatisticsBin extends JFrame {
 
@@ -32,6 +33,9 @@ public class StatisticsBin extends JFrame {
 	private JButton button_4;   //报道主题统计
 	private JButton button_5;   //新闻消息来源统计
 	private JButton button_6;   //媒介呈现形象统计
+	private JButton button_7;   //新闻主体统计
+	private JButton button_8;   //性别统计
+	private JButton button_9;   //新闻具体种类统计
 	private JPanel panel; 
 	
 	private Statistics statistics;
@@ -44,6 +48,9 @@ public class StatisticsBin extends JFrame {
 	private int[] helpType;
 	private int[] gender;
 	private Map<String,Integer> sum = new HashMap<String,Integer>();
+	
+	
+	
 	/**
 	 * Create the frame.
 	 */
@@ -90,6 +97,9 @@ public class StatisticsBin extends JFrame {
 				button_4.setBackground(Color.WHITE);
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.WHITE);
+				button_7.setBackground(Color.WHITE);
+				button_8.setBackground(Color.WHITE);
+				button_9.setBackground(Color.WHITE);
 				setTitle("三报相关新闻总数量统计图");
 				DefaultCategoryDataset dataset = new DefaultCategoryDataset();
 				for (int i = 0;i < 10;i ++)
@@ -116,6 +126,9 @@ public class StatisticsBin extends JFrame {
 				button_4.setBackground(Color.WHITE);
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.WHITE);
+				button_7.setBackground(Color.WHITE);
+				button_8.setBackground(Color.WHITE);
+				button_9.setBackground(Color.WHITE);
 				setTitle("农民工子女无法城市读书统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("无本地户籍难入公立学校", reason[0]);
@@ -142,6 +155,9 @@ public class StatisticsBin extends JFrame {
 				button_4.setBackground(Color.WHITE);
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.WHITE);
+				button_7.setBackground(Color.WHITE);
+				button_8.setBackground(Color.WHITE);
+				button_9.setBackground(Color.WHITE);
 				setTitle("新闻类型统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("纯净新闻", type[0]);
@@ -167,6 +183,9 @@ public class StatisticsBin extends JFrame {
 				button_4.setBackground(Color.YELLOW);
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.WHITE);
+				button_7.setBackground(Color.WHITE);
+				button_8.setBackground(Color.WHITE);
+				button_9.setBackground(Color.WHITE);
 				setTitle("报道主题统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("帮助关爱", theme[0]);
@@ -197,6 +216,9 @@ public class StatisticsBin extends JFrame {
 				button_4.setBackground(Color.WHITE);
 				button_5.setBackground(Color.YELLOW);
 				button_6.setBackground(Color.WHITE);
+				button_7.setBackground(Color.WHITE);
+				button_8.setBackground(Color.WHITE);
+				button_9.setBackground(Color.WHITE);
 				setTitle("新闻报道来源统计");
 				DefaultCategoryDataset dataset = new DefaultCategoryDataset();
 				dataset.addValue(source[0],"记者", "记者");
@@ -218,21 +240,119 @@ public class StatisticsBin extends JFrame {
 		button_6.setBackground(Color.WHITE);
 		button_6.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				panel.removeAll();
 				button_1.setBackground(Color.WHITE);
 				button_2.setBackground(Color.WHITE);
 				button_3.setBackground(Color.WHITE);
 				button_4.setBackground(Color.WHITE);
 				button_5.setBackground(Color.WHITE);
 				button_6.setBackground(Color.YELLOW);
+				button_7.setBackground(Color.WHITE);
+				button_8.setBackground(Color.WHITE);
+				button_9.setBackground(Color.WHITE);
 				setTitle("媒介呈现形象统计");
+				DefaultPieDataset data = new DefaultPieDataset();
+				data.setValue("可怜悲惨的形象", showing[0]);
+				data.setValue("沐恩幸福的形象", showing[1]);
+				data.setValue("积极健康的形象", showing[2]);
+				data.setValue("问题儿童的形象", showing[3]);
+				data.setValue("其他", showing[4]);
+				PieChart piechart = new PieChart(data,"媒介形象统计");
+				panel.add(piechart.getPieChartPanel());
+				panel.validate();
 			}
 		});
 		button_6.setBounds(586, 78, 188, 23);
 		contentPane.add(button_6);
 		
 		panel = new JPanel();
-		panel.setBounds(25, 145, 786, 507);
+		panel.setBounds(24, 187, 787, 465);
 		contentPane.add(panel);
+		
+		button_7 = new JButton("新闻主体统计");
+		button_7.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				panel.removeAll();
+				button_1.setBackground(Color.WHITE);
+				button_2.setBackground(Color.WHITE);
+				button_3.setBackground(Color.WHITE);
+				button_4.setBackground(Color.WHITE);
+				button_5.setBackground(Color.WHITE);
+				button_6.setBackground(Color.WHITE);
+				button_7.setBackground(Color.YELLOW);
+				button_8.setBackground(Color.WHITE);
+				button_9.setBackground(Color.WHITE);
+				setTitle("新闻主体统计");
+				DefaultPieDataset data = new DefaultPieDataset();
+				data.setValue("政府部门", mainBody[0]);
+				data.setValue("企业", mainBody[1]);
+				data.setValue("事业单位", mainBody[2]);
+				data.setValue("公益团体", mainBody[3]);
+				data.setValue("其他", mainBody[4]);
+				PieChart piechart = new PieChart(data,"新闻主体统计");
+				panel.add(piechart.getPieChartPanel());
+				panel.validate();
+			}
+		});
+		button_7.setBackground(Color.WHITE);
+		button_7.setBounds(160, 123, 129, 23);
+		contentPane.add(button_7);
+		
+		button_8 = new JButton("性别统计");
+		button_8.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				panel.removeAll();
+				button_1.setBackground(Color.WHITE);
+				button_2.setBackground(Color.WHITE);
+				button_3.setBackground(Color.WHITE);
+				button_4.setBackground(Color.WHITE);
+				button_5.setBackground(Color.WHITE);
+				button_6.setBackground(Color.WHITE);
+				button_7.setBackground(Color.WHITE);
+				button_8.setBackground(Color.YELLOW);
+				button_9.setBackground(Color.WHITE);
+				setTitle("性别统计");
+				DefaultPieDataset data = new DefaultPieDataset();
+				data.setValue("男", gender[0]);
+				data.setValue("女", gender[1]);
+				PieChart piechart = new PieChart(data,"性别统计");
+				panel.add(piechart.getPieChartPanel());
+				panel.validate();
+			}
+		});
+		button_8.setBackground(Color.WHITE);
+		button_8.setBounds(336, 123, 129, 23);
+		contentPane.add(button_8);
+		
+		button_9 = new JButton("新闻具体种类统计");
+		button_9.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				panel.removeAll();
+				button_1.setBackground(Color.WHITE);
+				button_2.setBackground(Color.WHITE);
+				button_3.setBackground(Color.WHITE);
+				button_4.setBackground(Color.WHITE);
+				button_5.setBackground(Color.WHITE);
+				button_6.setBackground(Color.WHITE);
+				button_7.setBackground(Color.WHITE);
+				button_8.setBackground(Color.WHITE);
+				button_9.setBackground(Color.YELLOW);
+				setTitle("新闻具体种类统计");
+				DefaultPieDataset data = new DefaultPieDataset();
+				data.setValue("单纯一次捐款捐物", helpType[0]);
+				data.setValue("旅游活动安排的项目之一", helpType[1]);
+				data.setValue("免费开放", helpType[2]);
+				data.setValue("设立长期资助项目", helpType[3]);
+				data.setValue("其他", helpType[4]);
+				PieChart piechart = new PieChart(data,"新闻具体种类统计");
+				panel.add(piechart.getPieChartPanel());
+				panel.validate();
+			}
+		});
+		button_9.setBackground(Color.WHITE);
+		button_9.setBounds(532, 123, 129, 23);
+		contentPane.add(button_9);
+		
 		
 	}
 }
