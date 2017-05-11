@@ -472,10 +472,10 @@ public class NewsContent extends JFrame implements ActionListener{
 				choice.setEnabled(false);
 				choice_1.setEnabled(false);
 				choice_2.setEnabled(false);
-				tags.setTheme(theme9.getActionCommand());
 				tags.setMainBody("");
 				tags.setHelpType("");
 				tags.setGender("");
+				tags.setTheme(theme9.getActionCommand());
 				newsList.get(position).setTagIts("true");
 			}
 			
@@ -573,8 +573,16 @@ public class NewsContent extends JFrame implements ActionListener{
 		JRadioButton mediaImage3 = new JRadioButton("积极健康的形象");
 		mediaImage3.setFont(new Font("宋体", Font.PLAIN, 11));
 		mediaImage3.setBounds(650, 368, 113, 23);
+		mediaImage3.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				choice_2.setEnabled(true);
+				tags.setShowing(mediaImage3.getActionCommand());
+				newsList.get(position).setTagIts("true");
+			}			
+		});
 		contentPane.add(mediaImage3);
-		mediaImage3.addActionListener(this);
 		
 		JRadioButton mediaImage4 = new JRadioButton("问题儿童的形象");
 		mediaImage4.setFont(new Font("宋体", Font.PLAIN, 11));
@@ -590,6 +598,12 @@ public class NewsContent extends JFrame implements ActionListener{
 		{
 			public void actionPerformed(ActionEvent e)
 			{
+				choice.setEnabled(false);
+				choice_1.setEnabled(false);
+				choice_2.setEnabled(false);
+				tags.setMainBody("");
+				tags.setHelpType("");
+				tags.setGender("");
 				tags.setShowing(e.getActionCommand());
 				newsList.get(position).setTagIts("true");
 			}			
@@ -807,7 +821,13 @@ public class NewsContent extends JFrame implements ActionListener{
 			newsList.get(position).setTagIts("true");
 			tags.setSource(str);
 		}else if(str.equals("可怜悲惨的形象")||str.equals("沐恩幸福的形象")||
-				str.equals("积极健康的形象")||str.equals("问题儿童的形象")){
+				str.equals("问题儿童的形象")){
+			choice.setEnabled(false);
+			choice_1.setEnabled(false);
+			choice_2.setEnabled(false);
+			tags.setMainBody("");
+			tags.setHelpType("");
+			tags.setGender("");
 			newsList.get(position).setTagIts("true");
 			tags.setShowing(str);
 		}else if(str.equals("无本地户籍难入公立学校")||str.equals("私立学校学费高")||

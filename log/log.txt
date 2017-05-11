@@ -190,6 +190,13 @@
 2017-05-11 08:30:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
 2017-05-11 08:30:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
 2017-05-11 08:30:47 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 09:54:26 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 09:54:26 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 09:54:27 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 09:54:27 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 09:54:27 CST INFO  XmlData.Dom4j 163 parserXml - 解析assets/guangming.xml
+2017-05-11 09:54:28 CST INFO  XmlData.Dom4j 163 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 09:54:28 CST INFO  XmlData.Dom4j 163 parserXml - 解析assets/sichuan.xml
 2017-05-11 08:38:57 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
 2017-05-11 08:38:57 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
 2017-05-11 08:38:57 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
@@ -299,6 +306,7 @@
 2017-05-11 09:44:24 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
 2017-05-11 09:44:25 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
 2017-05-11 09:44:31 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+<<<<<<< HEAD
 2017-05-11 10:33:41 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
 2017-05-11 10:33:41 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
 2017-05-11 10:33:43 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
@@ -1786,3 +1794,498 @@
 2017-05-11 22:29:30 CST INFO  UI.NewsContent$18 687 actionPerformed - 返回首页
 2017-05-11 22:29:33 CST ERROR XmlData.Dom4j 86 modifyXml - 新闻--公益行动奖 让贫瘠土地 长出壮芽找不到源xml文件
 2017-05-11 22:29:33 CST ERROR XmlData.Dom4j 155 modifyXml - null 公益行动奖 让贫瘠土地 长出壮芽插入标签失败
+=======
+2017-05-11 09:58:40 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 09:58:40 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 09:58:40 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 09:58:41 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 09:58:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 09:58:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 09:58:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 09:58:47 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 09:58:49 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--确保农民工子女享受国家政策
+2017-05-11 09:58:49 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 09:58:50 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--不能忽视农村留守儿童
+2017-05-11 09:58:50 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 10:04:02 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 10:04:02 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 10:04:02 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 10:04:03 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 10:04:03 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 10:04:04 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 10:04:04 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 10:04:06 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:04:07 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--确保农民工子女享受国家政策
+2017-05-11 10:04:08 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 10:04:08 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--不能忽视农村留守儿童
+2017-05-11 10:04:09 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--对农村“留守儿童”问题的理性思考
+2017-05-11 10:04:10 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--好政策播种新希望——记湖北省农村教师资助行动计划
+2017-05-11 10:04:10 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--和谐社会视野下的教育公平
+2017-05-11 10:04:11 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--农村学生辍学问题受关注周济坦言新形势下义务教育工作面临新挑战
+2017-05-11 10:04:12 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--农村留守儿童教育亟待加强
+2017-05-11 10:04:13 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--17部委领导慰问在京流动人口子女和农村留守儿童
+2017-05-11 10:04:13 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 10:04:14 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--高校：新农村建设的生力军——华中师大服务新农村侧记
+2017-05-11 10:27:24 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 10:27:24 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 10:27:24 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 10:27:25 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 10:27:25 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 10:27:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 10:27:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 10:27:28 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:27:30 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 10:28:49 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 10:28:49 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 10:28:50 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 10:28:50 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 10:28:50 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 10:28:51 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 10:28:51 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 10:28:53 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:28:55 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 10:31:14 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 10:31:14 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 10:31:15 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 10:31:15 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 10:31:16 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 10:31:16 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 10:31:16 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 10:37:24 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 10:37:24 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 10:37:25 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 10:37:25 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 10:37:25 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 10:37:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 10:37:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 10:38:04 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:38:17 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 10:38:18 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:38:20 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:40:08 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:40:25 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 10:40:26 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:40:29 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:40:45 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 10:40:45 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 10:40:45 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 10:40:46 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 10:40:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 10:40:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 10:40:47 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 10:40:57 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:41:00 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 10:41:30 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 10:41:30 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 10:41:30 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 10:41:31 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 10:41:31 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 10:41:31 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 10:41:32 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 10:41:46 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:41:49 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--确保农民工子女享受国家政策
+2017-05-11 10:41:50 CST INFO  UI.NewsContent$19 663 actionPerformed - 点击下一篇打开新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 10:41:52 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 10:42:01 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:42:03 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--确保农民工子女享受国家政策
+2017-05-11 10:42:03 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 10:42:04 CST INFO  UI.ClassifiedNewsContent$1 100 actionPerformed - 点击上一篇打开新闻--确保农民工子女享受国家政策
+2017-05-11 10:42:04 CST INFO  UI.ClassifiedNewsContent$1 100 actionPerformed - 点击上一篇打开新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:42:05 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:42:07 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:42:13 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 10:42:14 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-11 10:42:23 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:42:23 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:42:24 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:42:25 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-11 10:42:26 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:42:26 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 10:42:32 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:42:33 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:42:34 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:42:34 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-11 10:42:35 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:42:36 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 10:42:36 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:53:19 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 10:53:19 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 10:53:20 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 10:53:20 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 10:53:20 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 10:53:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 10:53:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 10:53:25 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--不能忽视农村留守儿童
+2017-05-11 10:53:34 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:53:35 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--农村留守儿童教育亟待加强
+2017-05-11 10:53:41 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:53:41 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--不能忽视农村留守儿童
+2017-05-11 10:53:43 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:53:43 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 10:53:52 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:53:53 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--西政志愿者：爱心铺就支教路
+2017-05-11 10:53:57 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 10:53:58 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--农村“急速城镇化”态势应加以控制
+2017-05-11 10:54:02 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 11:01:31 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:01:31 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:01:32 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:01:32 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:01:33 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:01:33 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:01:34 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:01:35 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 11:01:43 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 11:02:36 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:02:36 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:02:37 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:02:37 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:02:38 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:02:38 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:02:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:03:59 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:03:59 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:03:59 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:04:00 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:04:00 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:04:01 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:04:01 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:04:38 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:04:38 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:04:38 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:04:39 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:04:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:04:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:04:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:06:10 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:06:10 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:06:10 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:06:11 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:06:11 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:06:12 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:06:12 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:06:14 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 11:06:16 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 11:09:31 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:09:31 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:09:31 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:09:32 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:09:32 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:09:33 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:09:33 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:10:12 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:10:12 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:10:13 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:10:13 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:10:14 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:10:14 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:10:14 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:10:59 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:10:59 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:10:59 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:11:00 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:11:00 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:11:00 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:11:01 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:11:16 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:11:16 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:11:16 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:11:17 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:11:17 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:11:18 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:11:18 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:16:39 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:16:39 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:16:39 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:16:40 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:16:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:16:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:16:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:17:41 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:17:41 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:17:41 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:17:42 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:17:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:17:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:17:43 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:18:04 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-11 11:18:08 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 11:18:09 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--好政策播种新希望——记湖北省农村教师资助行动计划
+2017-05-11 11:18:13 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 11:30:17 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:30:17 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:30:18 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:30:18 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:30:19 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:30:19 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:30:20 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:32:14 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:32:14 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:32:15 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:32:15 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:32:15 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:32:16 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:32:16 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:32:25 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 11:32:28 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 11:36:14 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:36:14 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:36:14 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:36:15 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:36:15 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:36:16 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:36:16 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:36:54 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:36:54 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:36:54 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:36:55 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:36:55 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:36:55 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:36:56 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:37:07 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:37:07 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:37:08 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:37:08 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:37:09 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:37:09 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:37:10 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:37:38 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:37:38 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:37:39 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:37:39 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:37:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:37:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:37:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:37:54 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-11 11:37:59 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 11:38:33 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:38:33 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:38:33 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:38:34 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:38:34 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:38:35 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:38:35 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:39:20 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:39:20 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:39:21 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:39:21 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:39:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:39:22 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:39:22 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:39:24 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--不能忽视农村留守儿童
+2017-05-11 11:39:26 CST INFO  UI.NewsContent$18 644 actionPerformed - 返回首页
+2017-05-11 11:44:20 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:44:20 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:44:20 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:44:21 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:44:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:44:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:44:22 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 11:45:26 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 11:45:26 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 11:45:27 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 11:45:27 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 11:45:28 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 11:45:28 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 11:45:28 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 12:50:22 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 12:50:22 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 12:50:22 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 12:50:23 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 12:50:23 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 12:50:23 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 12:50:24 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 13:04:49 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 13:04:49 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 13:04:49 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 13:04:50 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 13:04:50 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 13:04:51 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 13:04:51 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 13:04:53 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 13:05:15 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 13:05:32 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 13:05:43 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 13:08:03 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 13:08:03 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 13:08:03 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 13:08:04 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 13:08:04 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 13:08:05 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 13:08:05 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 13:15:38 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 13:15:38 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 13:15:38 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 13:15:39 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 13:15:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 13:15:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 13:15:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 14:56:00 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 14:56:00 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 14:56:00 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 14:56:01 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 14:56:02 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 14:56:02 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 14:56:03 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 14:57:39 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 14:57:39 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 14:57:40 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 14:57:40 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 14:57:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 14:57:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 14:57:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 14:57:46 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 14:57:55 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 14:57:56 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 14:58:04 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 14:58:05 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--农村留守儿童教育亟待加强
+2017-05-11 14:58:20 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 14:58:20 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 14:58:21 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 14:58:21 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 14:58:22 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 14:58:22 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 14:58:22 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 14:58:25 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--分成十个课题组走访八十三个村安徽大学百名学生撰写“新农村档案”
+2017-05-11 14:58:28 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 14:58:31 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--致青川县姚渡镇中心小学校的一封信
+2017-05-11 14:58:35 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 15:04:04 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 15:04:04 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 15:04:04 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 15:04:05 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 15:04:05 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 15:04:06 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 15:04:07 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 15:04:17 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 15:08:57 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 15:08:57 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 15:08:58 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 15:08:59 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 15:08:59 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 15:09:00 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 15:09:00 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 15:09:06 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--“火得不得了”背後是“脏得不得了”
+2017-05-11 15:09:16 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 15:09:18 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-11 15:09:21 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 15:09:22 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 15:09:23 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 15:09:24 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-11 15:09:25 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 15:09:26 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 15:09:27 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 15:09:28 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-11 15:09:29 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 15:09:31 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--不能忽视农村留守儿童
+2017-05-11 15:10:27 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 15:10:27 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 15:10:28 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 15:10:32 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--绵阳师范学院：以师德建设助推学校跨越发展
+2017-05-11 15:10:36 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 15:10:37 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--邛崃1300名环卫工喝上热腾腾的羊肉汤
+2017-05-11 15:10:44 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 15:10:45 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 15:11:29 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 15:11:30 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 15:12:24 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 15:13:27 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 15:13:27 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 15:13:27 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 15:13:28 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 15:13:28 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 15:13:29 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 15:13:29 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 15:13:32 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 15:13:34 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 15:13:37 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--加大经费保障提供重点扶持福建基础教育资源向农村倾斜
+2017-05-11 15:15:23 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 15:22:38 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--高校：新农村建设的生力军——华中师大服务新农村侧记
+2017-05-11 15:23:06 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+
+2017-05-11 17:01:54 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 17:01:54 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 17:01:54 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 17:01:55 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 17:01:55 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 17:01:55 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 17:01:56 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 17:02:23 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 17:02:27 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--确保农民工子女享受国家政策
+2017-05-11 17:02:28 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 17:02:28 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--不能忽视农村留守儿童
+2017-05-11 17:02:29 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--对农村“留守儿童”问题的理性思考
+2017-05-11 17:02:30 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--好政策播种新希望——记湖北省农村教师资助行动计划
+2017-05-11 17:02:31 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 17:02:31 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 17:02:33 CST INFO  UI.ClassifiedNewsContent$1 100 actionPerformed - 点击上一篇打开新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 17:02:34 CST INFO  UI.ClassifiedNewsContent$1 100 actionPerformed - 点击上一篇打开新闻--好政策播种新希望——记湖北省农村教师资助行动计划
+2017-05-11 17:02:35 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:02:36 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-11 17:02:37 CST INFO  UI.NewsContent$20 677 actionPerformed - 点击下一篇打开新闻--农村学生辍学问题受关注周济坦言新形势下义务教育工作面临新挑战
+2017-05-11 17:02:38 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 17:02:39 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 17:02:40 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--确保农民工子女享受国家政策
+2017-05-11 17:02:41 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 17:02:41 CST INFO  UI.ClassifiedNewsContent$3 127 actionPerformed - 点击下一篇打开新闻--不能忽视农村留守儿童
+2017-05-11 17:02:42 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:02:43 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 17:02:44 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:02:44 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-11 17:02:46 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:02:46 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 17:02:47 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:02:48 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--不能忽视农村留守儿童
+2017-05-11 17:02:49 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:02:50 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 17:02:51 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:02:52 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--对农村“留守儿童”问题的理性思考
+2017-05-11 17:02:55 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:02:56 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--好政策播种新希望——记湖北省农村教师资助行动计划
+2017-05-11 17:02:58 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:02:58 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 17:02:59 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:03:00 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 17:03:02 CST INFO  UI.ClassifiedNewsContent$2 112 actionPerformed - 返回首页
+2017-05-11 17:05:40 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 17:05:40 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 17:05:40 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 17:05:41 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 17:05:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 17:05:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 17:05:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 17:05:44 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-11 17:05:46 CST INFO  UI.ClassifiedNewsContent$2 114 actionPerformed - 返回首页
+2017-05-11 17:05:47 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 17:05:48 CST INFO  UI.ClassifiedNewsContent$2 114 actionPerformed - 返回首页
+2017-05-11 17:05:49 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-11 17:05:50 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 17:05:51 CST INFO  UI.LeftBehindChildren$3 138 mouseClicked - 首页点击打开未分类新闻--农村留守儿童教育亟待加强
+2017-05-11 17:05:53 CST INFO  UI.NewsContent$19 658 actionPerformed - 返回首页
+2017-05-11 17:05:53 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 17:05:55 CST INFO  UI.ClassifiedNewsContent$2 114 actionPerformed - 返回首页
+2017-05-11 17:05:55 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 17:06:00 CST INFO  UI.ClassifiedNewsContent$2 114 actionPerformed - 返回首页
+2017-05-11 17:06:00 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--不能忽视农村留守儿童
+2017-05-11 17:06:02 CST INFO  UI.ClassifiedNewsContent$2 114 actionPerformed - 返回首页
+2017-05-11 17:06:03 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-11 17:06:06 CST INFO  UI.ClassifiedNewsContent$2 114 actionPerformed - 返回首页
+2017-05-11 17:08:02 CST INFO  UI.LeftBehindChildren$1 58 run - 查看首页
+2017-05-11 17:08:02 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-11 17:08:02 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-11 17:08:02 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-11 17:08:03 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-11 17:08:03 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-11 17:08:04 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-11 17:08:06 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 17:08:09 CST INFO  UI.ClassifiedNewsContent$2 116 actionPerformed - 返回首页
+2017-05-11 17:08:10 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--江苏“七彩夏日”点亮精彩暑假
+2017-05-11 17:08:12 CST INFO  UI.ClassifiedNewsContent$2 116 actionPerformed - 返回首页
+2017-05-11 17:08:13 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--“三句话”道出川商返乡兴业动因
+2017-05-11 17:08:21 CST INFO  UI.ClassifiedNewsContent$2 116 actionPerformed - 返回首页
+2017-05-11 17:08:22 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-11 17:08:26 CST INFO  UI.ClassifiedNewsContent$2 116 actionPerformed - 返回首页
+2017-05-11 17:08:28 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-11 17:08:30 CST INFO  UI.ClassifiedNewsContent$2 116 actionPerformed - 返回首页
+2017-05-11 17:08:30 CST INFO  UI.LeftBehindChildren$5 223 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+>>>>>>> ada054ecb9f84917410d9506f4bbe3b240c48884
