@@ -1,8 +1,10 @@
 package XmlData;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.Iterator;
 import java.util.List;
@@ -33,7 +35,9 @@ public class Dom4j implements XmlDocument {
 		try { 
 			logger.info(fileName+" "+"初始化xml数据");
 			SAXReader sr = new SAXReader();
-	        Document document = sr.read(fileName);
+			File f = new File(fileName);
+			InputStream in = new FileInputStream(f);
+	        Document document = sr.read(in);
 			Element arrayOfNewsData = document.getRootElement();
 	        List<News> newsList = arrayOfNewsData.elements();
 	        Element news = null;
