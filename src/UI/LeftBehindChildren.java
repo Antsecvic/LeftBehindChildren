@@ -32,7 +32,7 @@ import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
 	
-	private ListData listData;
+	private ListData listData = ListData.getInstance();
 	public static JFrame mainFrame;
 	public static Logger logger = LogManager.getLogger(LeftBehindChildren.class.getName());
 
@@ -70,8 +70,6 @@ public class LeftBehindChildren {
 	 * Initialize the contents of the mainFrame.
 	 */
 	private void initialize() {
-		
-		listData = ListData.getInstance();
 		
 		mainFrame = new JFrame();
 		mainFrame.getContentPane().setBackground(Color.BLACK);

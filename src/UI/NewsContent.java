@@ -656,6 +656,7 @@ public class NewsContent extends JFrame implements ActionListener{
 			public void actionPerformed(ActionEvent e) {
 				if(newsList.get(position).getTagIts().equals("true")){
 					modifyList();
+					--position;
 				}
 				if(position != newsList.size()-1){
 					logger.info("点击下一篇打开新闻--"+newsList.get(position+1).getTitle());
