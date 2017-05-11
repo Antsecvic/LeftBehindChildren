@@ -13,12 +13,15 @@ import java.awt.Color;
 
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
+import javax.swing.JEditorPane;
+
 import java.awt.event.ActionListener;
 
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.IOException;
 import java.util.List;
 import java.awt.event.ActionEvent;
 import java.awt.Label;
@@ -27,6 +30,9 @@ import javax.swing.UIManager;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jsoup.Jsoup;
+import org.jsoup.select.Elements;
+
 import javax.swing.JRadioButton;
 
 public class NewsContent extends JFrame implements ActionListener{
@@ -34,11 +40,10 @@ public class NewsContent extends JFrame implements ActionListener{
 	private static final long serialVersionUID = 1L;
 	public static Logger logger = LogManager.getLogger(NewsContent.class.getName());
 	public JPanel contentPane;
-	private JTextArea textArea;
+	private JEditorPane textArea;
 	private JScrollPane mainBody;
 	private List<News> newsList;
 	private int position;
-	private JButton showExternalNews = new JButton("加载外部新闻");
 	private Tags tags;
 	private Choice choice;
 	private Choice choice_1;
@@ -67,18 +72,16 @@ public class NewsContent extends JFrame implements ActionListener{
 		
 		if (news.getEncodedContent().equals(""))
 		{
-			showExternalNews.setEnabled(true);
-			textArea.setText(news.getTitle());
+			textArea.setText(news.getTitle()+"\n\n"+ getNewsFromUrl(news.getTrueUrl()));
 			Font font = new Font("宋体",Font.BOLD,20);
 			textArea.setFont(font);
 			textArea.setCaretPosition(0);		//设置光标位置为首行
 		}
 		else
 		{
-			showExternalNews.setEnabled(false);
 			textArea.setText(news.getTitle()+"\n\n"+news.getEncodedContent());
-		    textArea.setLineWrap(true);                 //激活自动换行功能 
-		    textArea.setWrapStyleWord(true);            // 激活断行不断字功能
+//		    textArea.setLineWrap(true);                 //激活自动换行功能 
+//		    textArea.setWrapStyleWord(true);            // 激活断行不断字功能
 			Font font = new Font("宋体",Font.BOLD,20);
 			textArea.setFont(font);
 			textArea.setEditable(false);
@@ -98,8 +101,9 @@ public class NewsContent extends JFrame implements ActionListener{
 		
 		
 		//显示新闻内容的版块
-		textArea=new JTextArea(newsList.get(position).getTitle(),20,43);
+		textArea=new JEditorPane();
 		textArea.setEditable(false);
+		textArea.setContentType("text/html");
 		showNewsDetails(newsList.get(position));
 		contentPane.setLayout(null);
 		
@@ -227,16 +231,7 @@ public class NewsContent extends JFrame implements ActionListener{
 		contentPane.add(scrollPane_2);
 		
 		
-		//点击打开外部新闻
-		showExternalNews.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				logger.info("加载外部新闻--"+newsList.get(position).getTitle());
-				String url = newsList.get(position).getTrueUrl();
-				BareBonesBrowserLaunch.openURL(url);
-			}
-		});
-		showExternalNews.setBounds(706, 542, 118, 23);
-		contentPane.add(showExternalNews);
+		
 		
 		JRadioButton type1 = new JRadioButton("纯净新闻");
 		type1.setBounds(678, 116, 79, 23);
@@ -784,5 +779,25 @@ public class NewsContent extends JFrame implements ActionListener{
 		listData.notClassifiedTitle.remove(newsList.get(position).getTitle());
 		listData.notClassifiedNews.remove(newsList.get(position));
 	}
+	
+	// 从url抓取新闻数据的p标签中的内容
+	private String getNewsFromUrl(String trueUrl){
+		try {
+			org.jsoup.nodes.Document doc = Jsoup.connect(trueUrl).get();
+			Elements pData = doc.getElementsByTag("p");
+			StringBuilder newsContent = new StringBuilder("<html><body>");
+			for(org.jsoup.nodes.Element element: pData){
+				newsContent.append("\n<p>"+element.text()+"</p>");
+			}
+			newsContent.append("</body></html>");
+			return newsContent.toString();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+	
 }
 
