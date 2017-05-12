@@ -671,7 +671,7 @@ public class NewsContent extends JFrame implements ActionListener{
 					modifyList();
 				}				
 				if(position != 0){
-					logger.info("点击上一篇打开新闻--"+newsList.get(position-1).getTitle());
+					logger.info("点击上一篇打开未分类新闻--"+newsList.get(position-1).getTitle());
 					typeGroup.clearSelection();
 					themeGroup.clearSelection();
 					sourceGroup.clearSelection();
@@ -718,7 +718,7 @@ public class NewsContent extends JFrame implements ActionListener{
 					--position;
 				}
 				if(position != newsList.size()-1){
-					logger.info("点击下一篇打开新闻--"+newsList.get(position+1).getTitle());
+					logger.info("点击下一篇打开未分类新闻--"+newsList.get(position+1).getTitle());
 					typeGroup.clearSelection();
 					themeGroup.clearSelection();
 					sourceGroup.clearSelection();
@@ -744,7 +744,8 @@ public class NewsContent extends JFrame implements ActionListener{
 		finish.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO 自动生成的方法存根				
+				// TODO 自动生成的方法存根	
+				logger.info("完成分类新闻--"+newsList.get(position).getTitle());
 				String id = newsList.get(position).getID();
 				newsList.get(position).setTagIts("true");
 				modifyList();
@@ -764,7 +765,8 @@ public class NewsContent extends JFrame implements ActionListener{
 		reset.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO 自动生成的方法存根								
+				// TODO 自动生成的方法存根							
+				logger.info("重置未分类新闻--"+newsList.get(position).getTitle()+"--的标签");
 				String id = newsList.get(position).getID();
 				if(newsList.get(position).getTagIts().equals("true")){
 					tags.setType("");

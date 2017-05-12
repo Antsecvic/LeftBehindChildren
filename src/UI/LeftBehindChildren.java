@@ -284,6 +284,7 @@ public class LeftBehindChildren {
 		btnNewButton.setForeground(Color.white);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				logger.info("进入统计站，进行三报相关新闻总数量统计");
 				StatisticsBin statics = new StatisticsBin();
 				statics.setVisible(true);
 				mainFrame.setVisible(false);
@@ -301,6 +302,7 @@ public class LeftBehindChildren {
 		button.setForeground(Color.white);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				logger.info("进入回收站");
 				RecycleBin recycle = new RecycleBin(listData.deletedNews,listData.deletedTitle);
 				recycle.setVisible(true);
 				LeftBehindChildren.mainFrame.dispose();

@@ -7,6 +7,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;
 
@@ -24,6 +26,7 @@ public class StatisticsBin extends JFrame {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	public static Logger logger = LogManager.getLogger(RecycleBin.class.getName());
 	private JPanel contentPane;
 	private JButton back;       //返回首页
 	private JButton button_1;   //相关数量统计
@@ -94,6 +97,7 @@ public class StatisticsBin extends JFrame {
 		back = new JButton("\u8FD4\u56DE\u9996\u9875");
 		back.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				logger.info("返回首页");
 				setVisible(false);
 				LeftBehindChildren.mainFrame.setVisible(true);
 			}
@@ -137,6 +141,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("三报相关新闻总数量统计图");
+				logger.info("三报相关新闻总数量统计");
 				DefaultCategoryDataset dataset = new DefaultCategoryDataset();
 				for (int i = 0;i < 10;i ++)
 				{
@@ -170,6 +175,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("农民工子女无法城市读书统计");
+				logger.info("农民工子女无法城市读书统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("无本地户籍难入公立学校", reason[0]);
 				data.setValue("私立学校学费高", reason[1]);
@@ -203,6 +209,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("新闻类型统计");
+				logger.info("新闻类型统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("纯净新闻", type[0]);
 				data.setValue("特稿特写", type[1]);
@@ -235,6 +242,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("报道主题统计");
+				logger.info("报道主题统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("帮助关爱", theme[0]);
 				data.setValue("表彰鼓励", theme[1]);
@@ -272,6 +280,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("新闻报道来源统计");
+				logger.info("新闻报道来源统计");
 				DefaultCategoryDataset dataset = new DefaultCategoryDataset();
 				dataset.addValue(source[0],"记者", "记者");
 				dataset.addValue(source[1],"政府", "政府");
@@ -307,6 +316,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("媒介呈现形象统计");
+				logger.info("媒介呈现形象统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("可怜悲惨的形象", showing[0]);
 				data.setValue("沐恩幸福的形象", showing[1]);
@@ -339,6 +349,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("新闻主体统计");
+				logger.info("新闻主体统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("政府部门", mainBody[0]);
 				data.setValue("企业", mainBody[1]);
@@ -372,6 +383,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("留守儿童遭性侵性别统计");
+				logger.info("留守儿童遭性侵性别统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("男", sexualAssaultGender[0]);
 				data.setValue("女", sexualAssaultGender[1]);
@@ -402,6 +414,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("新闻具体种类统计");
+				logger.info("新闻具体种类统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("单纯一次捐款捐物", helpType[0]);
 				data.setValue("旅游活动安排的项目之一", helpType[1]);
@@ -435,6 +448,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("留守儿童遭受暴力性别统计");
+				logger.info("留守儿童遭受暴力性别统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("男", violenceGender[0]);
 				data.setValue("女", violenceGender[1]);
@@ -465,6 +479,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.lightGray);
 				button_12.setBackground(Color.darkGray);
 				setTitle("留守儿童犯罪性别统计");
+				logger.info("留守儿童犯罪性别统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("男", crimeGender[0]);
 				data.setValue("女", crimeGender[1]);
@@ -495,6 +510,7 @@ public class StatisticsBin extends JFrame {
 				button_11.setBackground(Color.darkGray);
 				button_12.setBackground(Color.lightGray);
 				setTitle("积极健康形象性别统计");
+				logger.info("积极健康形象性别统计");
 				DefaultPieDataset data = new DefaultPieDataset();
 				data.setValue("男", positiveHealthGender[0]);
 				data.setValue("女", positiveHealthGender[1]);

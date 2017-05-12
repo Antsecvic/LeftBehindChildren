@@ -111,7 +111,7 @@ public class ClassifiedNewsContent extends JFrame{
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(position != 0){
-					logger.info("点击上一篇打开新闻--"+newsList.get(position-1).getTitle());
+					logger.info("点击上一篇打开已分类新闻--"+newsList.get(position-1).getTitle());
 					showNewsDetails(newsList.get(--position));
 				}
 			}
@@ -140,7 +140,7 @@ public class ClassifiedNewsContent extends JFrame{
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(position != newsList.size()-1){
-					logger.info("点击下一篇打开新闻--"+newsList.get(position+1).getTitle());
+					logger.info("点击下一篇打开已分类新闻--"+newsList.get(position+1).getTitle());
 					showNewsDetails(newsList.get(++position));
 				}
 			}
@@ -279,7 +279,8 @@ public class ClassifiedNewsContent extends JFrame{
 		reset.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO 自动生成的方法存根								
+				// TODO 自动生成的方法存根					
+				logger.info("重置已分类新闻--"+newsList.get(position).getTitle()+"--的标签");
 				String id = newsList.get(position).getID();
 				tags.setType("");
 				tags.setTheme("");

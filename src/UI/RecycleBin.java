@@ -151,6 +151,7 @@ public class RecycleBin extends JFrame {
 		button.setForeground(Color.white);
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				logger.info("·µ»ØÊ×Ò³");
 			    new LeftBehindChildren();
 				LeftBehindChildren.mainFrame.setVisible(true);
 				setVisible(false);
