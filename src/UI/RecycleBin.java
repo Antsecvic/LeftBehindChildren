@@ -103,7 +103,7 @@ public class RecycleBin extends JFrame {
 		};
 		myJlist.setModel(jListModel); 
 		myJlist.setBackground(Color.black);
-		myJlist.setForeground(Color.white);
+		myJlist.setForeground(Color.lightGray);
 		
 //		System.out.println("cishu");
 		

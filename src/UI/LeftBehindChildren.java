@@ -24,12 +24,14 @@ import java.awt.Toolkit;
 
 import javax.swing.JScrollPane;
 import javax.swing.ListModel;
+import javax.swing.Timer;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.Random;
 import java.awt.event.ActionEvent;
 
 public class LeftBehindChildren {
@@ -37,7 +39,33 @@ public class LeftBehindChildren {
 	private ListData listData = ListData.getInstance();
 	public static JFrame mainFrame;
 	public static Logger logger = LogManager.getLogger(LeftBehindChildren.class.getName());
-
+	private static JLabel lblNewLabel = new JLabel("");
+	
+	private static LeftBehindChildren thisClass = new LeftBehindChildren();
+	
+	private static ImageIcon[] icons = {new ImageIcon(LeftBehindChildren.class.getResource("/image/image_1.png")),
+			new ImageIcon(LeftBehindChildren.class.getResource("/image/image_2.png")),
+			new ImageIcon(LeftBehindChildren.class.getResource("/image/image_3.png"))};
+	private static int imageIndex = 1;
+	private static Thread imageThread = thisClass.new ImageThread();
+	
+	class ImageThread extends Thread 
+	{ 
+		@Override
+	    public void run() { 
+	    	while(true){
+				try {
+					//每隔3秒更换图片
+					sleep(3000);
+					lblNewLabel.setIcon(icons[(imageIndex++) % icons.length]);
+				} catch (InterruptedException e) {
+					// TODO 自动生成的 catch 块
+					e.printStackTrace();
+				}			
+			}
+	    }
+	}
+	
 	/**
 	 * Create the application.
 	 */
@@ -47,26 +75,23 @@ public class LeftBehindChildren {
 	/**
 	 * Launch the application.
 	 */
+	
 	public static void main(String[] args) {
 			
-		
-//		for(News news : newsList){
-//			System.out.println(news.getTitle());
-//		}
-		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					logger.info("查看首页");
-					new LeftBehindChildren();
-					LeftBehindChildren.mainFrame.setVisible(true);
+					logger.info("查看首页");					
+					LeftBehindChildren.mainFrame.setVisible(true);					
 				} catch (Exception e) {
 					logger.error("首页错误");
 					e.printStackTrace();
 				}
 			}
 		});
+		imageThread.start();	
 	}
+	
 	
 	/**
 	 * Initialize the contents of the mainFrame.
@@ -85,8 +110,7 @@ public class LeftBehindChildren {
 		mainFrame.setTitle("留守儿童舆情调查软件");
 		mainFrame.setResizable(false);
 		
-		// 显示首页图片
-		JLabel lblNewLabel = new JLabel("");
+		// 显示首页图片		
 		lblNewLabel.setIcon(new ImageIcon(LeftBehindChildren.class.getResource("/image/image_1.png")));
 		lblNewLabel.setBackground(Color.WHITE);
 		lblNewLabel.setBounds(10, 0, 568, 325);
@@ -135,7 +159,7 @@ public class LeftBehindChildren {
 
         myJlist.setModel(jList1Model);            //设置数据
         myJlist.setBackground(Color.black);
-        myJlist.setForeground(Color.white);
+        myJlist.setForeground(Color.lightGray);
         
         //鼠标监听器
         myJlist.addMouseListener(new MouseAdapter() {
@@ -148,7 +172,7 @@ public class LeftBehindChildren {
                         logger.info("首页点击打开未分类新闻--"+listData.notClassifiedNews.get(index).getTitle());
         				NewsContent newsContent = new NewsContent(listData.notClassifiedNews,index);
         				newsContent.setVisible(true);
-                        LeftBehindChildren.mainFrame.dispose();
+                        LeftBehindChildren.mainFrame.dispose();                        
                     }
                     if(e.isMetaDown()) {
 //                		设置右键菜单
@@ -227,7 +251,7 @@ public class LeftBehindChildren {
 		
         myJlist2.setModel(jList1Model2);            //设置数据
         myJlist2.setBackground(Color.black);
-        myJlist2.setForeground(Color.white);
+        myJlist2.setForeground(Color.lightGray);
         
       //鼠标监听器
         myJlist2.addMouseListener(new MouseAdapter() {

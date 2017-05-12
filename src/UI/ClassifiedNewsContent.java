@@ -76,7 +76,8 @@ public class ClassifiedNewsContent extends JFrame{
 	//初始化界面和按钮
 	public void initialize(){	
 		setTitle("新闻内容");
-		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setResizable(false);
 //		setBounds(300, 50, 1000, 700);
 		setLocation((int)(Toolkit.getDefaultToolkit().getScreenSize().
                 getWidth()-1000)/2,(int)(Toolkit.getDefaultToolkit().getScreenSize().
@@ -151,10 +152,16 @@ public class ClassifiedNewsContent extends JFrame{
 		scrollPane_1.setBounds(611, 72, 400, 1);
 		contentPane.add(scrollPane_1);
 		
-		Label label = new Label("为此文章选择标签");
-		label.setBounds(611, 51, 103, 23);
-		label.setForeground(Color.white);
-		contentPane.add(label);
+//		Label label = new Label("为此文章选择标签");
+//		label.setBounds(611, 51, 103, 23);
+//		label.setForeground(Color.white);
+//		contentPane.add(label);
+		
+		//显示日期
+		Label date = new Label(newsList.get(position).getDate());
+		date.setBounds(900, 51, 150, 23);
+		date.setForeground(Color.white);
+		contentPane.add(date);
 		
 		//显示报纸类别（三种报纸）
 		Label label_1 = new Label("报纸类别");
