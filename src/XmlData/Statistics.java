@@ -9,7 +9,7 @@ public class Statistics {
 	private ListData listData;
 	private Map<String,Integer> sum = new HashMap<String,Integer>();
 
-	private int[] type = new int[4];
+	public int[] type = new int[4];
 	private int[] theme = new int[9];
 	private int[] source = new int[8];
 	private int[] showing = new int[5];

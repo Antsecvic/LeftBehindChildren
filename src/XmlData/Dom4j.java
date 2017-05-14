@@ -234,7 +234,7 @@ public class Dom4j implements XmlDocument {
 		} 
 	}
 	// 解析EncodedContent，使其成为可读字符串
-	  private String decodeContent(String encodedContent) {
+	  public String decodeContent(String encodedContent) {
 	    byte[] b = null;
 	    BASE64Decoder decoder = new BASE64Decoder();
 
