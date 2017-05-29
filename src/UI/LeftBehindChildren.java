@@ -56,6 +56,7 @@ public class LeftBehindChildren {
 	public static Logger logger = LogManager.getLogger(LeftBehindChildren.class.getName());
 	private static JLabel lblNewLabel = new JLabel("");
 	private static String filePath;
+	private static boolean openFileTag = false;
 	
 	private static LeftBehindChildren thisClass = new LeftBehindChildren();
 	
@@ -136,9 +137,9 @@ public class LeftBehindChildren {
 		
 		// 显示文字“新闻 尚未分类”
 		Label label = new Label("\u65B0\u95FB  \u5C1A\u672A\u5206\u7C7B");
-		label.setFont(new Font("Dialog", Font.BOLD, 20));
+		label.setFont(new Font("Dialog", Font.BOLD, 18));
 		label.setForeground(SystemColor.activeCaptionBorder);
-		label.setBounds(10, 326, 174, 23);
+		label.setBounds(10, 326, 130, 23);
 		mainFrame.getContentPane().add(label);
 		
 		// 用做水平分割线
@@ -227,7 +228,7 @@ public class LeftBehindChildren {
 		// 显示文字“新闻 已分类”
 		Label label_1 = new Label("\u65B0\u95FB  \u5DF2\u5206\u7C7B");
 		label_1.setForeground(SystemColor.activeCaptionBorder);
-		label_1.setFont(new Font("Dialog", Font.BOLD, 20));
+		label_1.setFont(new Font("Dialog", Font.BOLD, 18));
 		label_1.setBounds(600, 10, 174, 23);
 		mainFrame.getContentPane().add(label_1);
 		
@@ -357,18 +358,127 @@ public class LeftBehindChildren {
 			  
 			public void windowClosing(WindowEvent e) {  
 				super.windowClosing(e);  
-				@SuppressWarnings("unused")
-				SaveToXml saveToXml = new SaveToXml(filePath);
+				if(filePath!=null){
+					//文件有确定的目录
+					SaveToXml saveToXml = new SaveToXml(filePath);
+					logger.info("关闭并保存文件"+filePath);
+				}else{
+					//列表有多个文件，没有确定目录
+					SaveToXml saveToXml = new SaveToXml();
+					logger.info("关闭三报新闻");
+				}
+				
 			}
 		});
+		
+		
+		JButton encodeToSave = new JButton("加密保存");
+		encodeToSave.setBackground(Color.black);
+		encodeToSave.setForeground(Color.white);
+		encodeToSave.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				SaveToXml saveToXml = new SaveToXml(filePath);
+				FileNameExtensionFilter filter=new FileNameExtensionFilter("*.xml","xml");  
+		        JFileChooser fc=new JFileChooser();  
+		        fc.setFileFilter(filter);  
+		        fc.setMultiSelectionEnabled(false);  
+		        int result=fc.showSaveDialog(null);  
+		        if (result==JFileChooser.APPROVE_OPTION) {  
+		        	boolean ifEncoded = false;
+		            File file=fc.getSelectedFile();  
+		            if (!file.getPath().endsWith(".xml")) {  
+		                file=new File(file.getPath()+".xml");  
+		            }  
+					try{
+						SetPassword setPassword = new SetPassword(mainFrame,filePath,file);
+						setPassword.setVisible(true);
+						ifEncoded = setPassword.ifEncoded();
+					}catch(Exception e){
+						e.printStackTrace();
+					}
+		            System.out.println("file path="+file.getPath()); 
+		            try {  
+		                if (!file.exists()&&ifEncoded) {//文件不存在 则创建一个  
+		                    file.createNewFile();  
+		                }  
+		            } catch (IOException e) {  
+		                System.err.println("文件创建失败：");  
+		                logger.info("加密保存：文件创建失败");
+		                e.printStackTrace();  
+		            }
+		            logger.info("加密保存：保存文件路径为"+file.getPath());
+		        } 
+			}
+		});
+		encodeToSave.setBounds(320, 326, 90, 23);
+		mainFrame.getContentPane().add(encodeToSave);
+		
+		JButton merge = new JButton("合并文件");
+		merge.setBackground(Color.black);
+		merge.setForeground(Color.white);
+		merge.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				SaveToXml saveToXml = new SaveToXml(filePath);
+				// 打开文件选择窗口 
+				JFileChooser chooser = new JFileChooser(); 
+				chooser.setCurrentDirectory(new File(".")); 
+				chooser.setFileFilter(new javax.swing.filechooser.FileFilter() { 
+					public boolean accept(File f) { 
+						return f.getName().toLowerCase().endsWith(".xml") || f.isDirectory(); 
+					} 
+	
+					public String getDescription() { 
+						return "classify data"; 
+					} 
+				}); 
+				int r = chooser.showOpenDialog(new JFrame()); 
+				if (r == JFileChooser.APPROVE_OPTION) { 
+					File f=chooser.getSelectedFile();
+									
+					MergeFile mergeFile = new MergeFile(filePath,f);
+					Boolean ifMerge = mergeFile.merge();
+					logger.info("合并文件"+filePath+"和"+f.getPath());
+					if(ifMerge){
+						JOptionPane.showMessageDialog(null, "合并成功。", "合并文件", JOptionPane.INFORMATION_MESSAGE);
+						logger.info("合并成功");
+					}else{
+						JOptionPane.showMessageDialog(null, "合并失败。", "合并文件", JOptionPane.INFORMATION_MESSAGE);
+						logger.info("合并失败");
+					}
+					ListData.getInstance().importFile(filePath);
+					listData = ListData.getInstance();
+					ListModel<Object> jList1Model1 =  new DefaultComboBoxModel<>(listData.notClassifiedTitle.toArray());//重新绑定列表模型数据
+	        		myJlist.setModel(jList1Model1);//重新绑定列表模型
+	        		myJlist.updateUI();//更新列表
+	        		ListModel<Object> jList1Model3 =  new DefaultComboBoxModel<>(listData.classifiedTitle.toArray());//重新绑定列表模型数据
+	        		myJlist2.setModel(jList1Model3);//重新绑定列表模型
+	        		myJlist2.updateUI();//更新列表
+				} else { 
+				//没有选择文件 
+				} 
+			}
+		});
+		merge.setBounds(410, 326, 90, 23);
+		mainFrame.getContentPane().add(merge);
+		
+		if(!openFileTag){
+			encodeToSave.setEnabled(false);
+			merge.setEnabled(false);
+		}
+		
 		
 		JButton open = new JButton("打开文件");
 		open.setBackground(Color.black);
 		open.setForeground(Color.white);
 		open.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				logger.info("打开文件");
-
+				
+				if(openFileTag){
+					SaveToXml saveToXml = new SaveToXml(filePath);
+				}else{
+					SaveToXml saveToXml = new SaveToXml();
+				}
 				// 打开文件选择窗口 
 				JFileChooser chooser = new JFileChooser(); 
 				chooser.setCurrentDirectory(new File(".")); 
@@ -388,11 +498,9 @@ public class LeftBehindChildren {
 
 					PasswordDialog passwordDialog = new PasswordDialog(mainFrame,f);
 					passwordDialog.setVisible(true);
-					
-//					filePath = f.getPath();
+
 					filePath = passwordDialog.get();
-					System.out.println(filePath);
-//					updateList();
+					logger.info("打开文件："+filePath);
 					ListData.getInstance().importFile(filePath);
 					listData = ListData.getInstance();
 					System.out.println(listData.newsList.size());
@@ -403,93 +511,18 @@ public class LeftBehindChildren {
 	        		myJlist2.setModel(jList1Model3);//重新绑定列表模型
 	        		myJlist2.updateUI();//更新列表
 					
-					
+					openFileTag = true;
+	        		encodeToSave.setEnabled(true);
+	        		merge.setEnabled(true);
 				} else { 
 				//没有选择文件 
 				} 
 			}
 		});		
-		open.setBounds(200, 326, 93, 23);
+		open.setBounds(230, 326, 90, 23);
 		mainFrame.getContentPane().add(open);
 		
-		JButton encodeToSave = new JButton("加密保存");
-		encodeToSave.setBackground(Color.black);
-		encodeToSave.setForeground(Color.white);
-		encodeToSave.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				logger.info("加密保存");
-				SaveToXml saveToXml = new SaveToXml(filePath);
-				FileNameExtensionFilter filter=new FileNameExtensionFilter("*.xml","xml");  
-		        JFileChooser fc=new JFileChooser();  
-		        fc.setFileFilter(filter);  
-		        fc.setMultiSelectionEnabled(false);  
-		        int result=fc.showSaveDialog(null);  
-		        if (result==JFileChooser.APPROVE_OPTION) {  
-		            File file=fc.getSelectedFile();  
-		            if (!file.getPath().endsWith(".xml")) {  
-		                file=new File(file.getPath()+".xml");  
-		            }  
-					try{
-						SetPassword setPassword = new SetPassword(mainFrame,filePath,file);
-						setPassword.setVisible(true);
-					}catch(Exception e){
-						e.printStackTrace();
-					}
-		            System.out.println("file path="+file.getPath()); 
-		            try {  
-		                if (!file.exists()) {//文件不存在 则创建一个  
-		                    file.createNewFile();  
-		                }  
-		            } catch (IOException e) {  
-		                System.err.println("文件创建失败：");  
-		                e.printStackTrace();  
-		            }
-		        } 
-			}
-		});
-		encodeToSave.setBounds(300, 326, 93, 23);
-		mainFrame.getContentPane().add(encodeToSave);
 		
-		JButton merge = new JButton("合并文件");
-		merge.setBackground(Color.black);
-		merge.setForeground(Color.white);
-		merge.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				logger.info("合并文件");
-				SaveToXml saveToXml = new SaveToXml(filePath);
-				// 打开文件选择窗口 
-				JFileChooser chooser = new JFileChooser(); 
-				chooser.setCurrentDirectory(new File(".")); 
-				chooser.setFileFilter(new javax.swing.filechooser.FileFilter() { 
-					public boolean accept(File f) { 
-						return f.getName().toLowerCase().endsWith(".xml") || f.isDirectory(); 
-					} 
-	
-					public String getDescription() { 
-						return "classify data"; 
-					} 
-				}); 
-				chooser.setMultiSelectionEnabled(true);
-				int r = chooser.showOpenDialog(new JFrame()); 
-				if (r == JFileChooser.APPROVE_OPTION) { 
-					File[] f=chooser.getSelectedFiles();
-									
-					MergeFile mergeFile = new MergeFile(f);
-					Boolean ifMerge = mergeFile.merge();
-					
-					if(ifMerge){
-						JOptionPane.showMessageDialog(null, "合并成功。", "合并文件", JOptionPane.INFORMATION_MESSAGE);
-					}else{
-						JOptionPane.showMessageDialog(null, "合并失败。", "合并文件", JOptionPane.INFORMATION_MESSAGE);
-					}
-					
-				} else { 
-				//没有选择文件 
-				} 
-			}
-		});
-		merge.setBounds(400, 326, 93, 23);
-		mainFrame.getContentPane().add(merge);
 		
 		JButton train = new JButton("培训用户");
 		train.setBackground(Color.black);
@@ -512,17 +545,48 @@ public class LeftBehindChildren {
 				chooser.setMultiSelectionEnabled(true);
 				int r = chooser.showOpenDialog(new JFrame()); 
 				if (r == JFileChooser.APPROVE_OPTION) { 
-					File[] f=chooser.getSelectedFiles();
-									
+					File[] f=chooser.getSelectedFiles();				
 					TrainUser trainUser = new TrainUser(f);
 					JOptionPane.showMessageDialog(null, String.valueOf(trainUser.countOfSame()*100) + "%", "一致性", JOptionPane.INFORMATION_MESSAGE);
+					logger.info("文件一致性："+String.valueOf(trainUser.countOfSame()*100) + "%");
 				} else { 
 				//没有选择文件 
 				} 
 			}
 		});
-		train.setBounds(500, 326, 93, 23);
+		train.setBounds(500, 326, 90, 23);
 		mainFrame.getContentPane().add(train);
+		
+		JButton all = new JButton("三报新闻");
+		all.setBackground(Color.black);
+		all.setForeground(Color.white);
+		all.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				logger.info("显示三报新闻");	
+				//点击之前都会保存一次文件
+				if(openFileTag){
+					SaveToXml saveToXml = new SaveToXml(filePath);
+				}else{
+					SaveToXml saveToXml = new SaveToXml();
+				}
+				ListData.getInstance().importAllFile();
+				listData = ListData.getInstance();
+				ListModel<Object> jList1Model1 =  new DefaultComboBoxModel<>(listData.notClassifiedTitle.toArray());//重新绑定列表模型数据
+        		myJlist.setModel(jList1Model1);//重新绑定列表模型
+        		myJlist.updateUI();//更新列表
+        		ListModel<Object> jList1Model3 =  new DefaultComboBoxModel<>(listData.classifiedTitle.toArray());//重新绑定列表模型数据
+        		myJlist2.setModel(jList1Model3);//重新绑定列表模型
+        		myJlist2.updateUI();//更新列表
+        		//关闭软件时会检测这个filePath,判断是否有确定目录可以保存，这里有三个文件所以没有不需要filePath
+        		filePath = null;
+        		
+        		openFileTag = false;
+        		encodeToSave.setEnabled(false);
+        		merge.setEnabled(false);
+			}
+		});
+		all.setBounds(140, 326, 90, 23);
+		mainFrame.getContentPane().add(all);
 	}
 }
 

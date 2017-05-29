@@ -74,17 +74,7 @@ public class Dom4j implements XmlDocument {
 	
 	@SuppressWarnings("rawtypes")
 	public void modifyXml(News modifiedNews, String fileName){ 
-//		String fileName = null;
 		try { 
-//			if(modifiedNews.getLocation().contains("光明日报")) {
-//				fileName = "assets/guangming.xml";
-//			}else if(modifiedNews.getLocation().contains("南方日报")) {
-//				fileName = "assets/nanfangdaily.xml";
-//			}else if(modifiedNews.getLocation().contains("四川日报")) {
-//				fileName = "assets/sichuan.xml";
-//			}else {
-//				logger.error("新闻--"+modifiedNews.getTitle()+"找不到源xml文件");
-//			}
 			if(!fileName.equals(null)){
 				SAXReader sr = new SAXReader();
 				File f = new File(fileName);  
@@ -193,7 +183,6 @@ public class Dom4j implements XmlDocument {
 							temp[k]=node.getText();
 							k++;
 						}
-//						System.out.println(node.getName()+":"+node.getText()); 
 					} 
 					news.setTagIts(temp[0]);
 					news.setIsLoad(temp[1]);

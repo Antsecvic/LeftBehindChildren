@@ -52,6 +52,7 @@ public class PasswordDialog extends JDialog {
 						ListData.getInstance().importFile(desPath);
 						filePath = desPath;
 					}catch(Exception e1){
+						new File(desPath).delete();
 						e1.printStackTrace(); 
 					}
 				}else{
