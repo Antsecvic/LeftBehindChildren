@@ -50,12 +50,14 @@ public class NewsContent extends JFrame implements ActionListener{
 	private Choice choice_1;
 	private Choice choice_2;
 	private ListData listData = ListData.getInstance();
+	private String filePath;
 	
 	
 
-	public NewsContent(List<News> newsList,int position) {
+	public NewsContent(List<News> newsList,int position,String filePath) {
 		this.newsList = newsList;
 		this.position = position;
+		this.filePath = filePath;
 		tags = new Tags();
 		tags.setType("");
 		tags.setTheme("");
@@ -758,7 +760,7 @@ public class NewsContent extends JFrame implements ActionListener{
 				dispose();
 				ClassifiedNewsContent classifiedNewsContent = 
 						new ClassifiedNewsContent(listData.classifiedNews,
-								listData.findPosition(listData.classifiedNews, id));
+								listData.findPosition(listData.classifiedNews, id),filePath);
 				classifiedNewsContent.setVisible(true);				
 			}			
 		});
@@ -786,7 +788,7 @@ public class NewsContent extends JFrame implements ActionListener{
 					Dom4j dom4j = new Dom4j();
 					newsList.get(position).setTags(tags);
 					newsList.get(position).setTagIts("false");
-					dom4j.modifyXml(newsList.get(position));
+					dom4j.modifyXml(newsList.get(position),filePath);
 					listData.classifiedTitle.remove(newsList.get(position).getTitle());
 					listData.classifiedNews.remove(newsList.get(position));
 					typeGroup.clearSelection();
@@ -812,7 +814,7 @@ public class NewsContent extends JFrame implements ActionListener{
 					modifyList();
 				}
 				@SuppressWarnings("unused")
-				SaveToXml saveToXml = new SaveToXml();
+				SaveToXml saveToXml = new SaveToXml(filePath);
 			}
 		});	
 	}

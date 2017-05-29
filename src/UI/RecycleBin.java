@@ -43,11 +43,12 @@ public class RecycleBin extends JFrame {
 	private JPanel contentPane;
 	public static Logger logger = LogManager.getLogger(RecycleBin.class.getName());
 	private ListData listData = ListData.getInstance();
-	
+	private String filePath;
 	/**
 	 * Create the frame.
 	 */
-	public RecycleBin(List<News> deletedNews,List<String> deletedTitle) {
+	public RecycleBin(List<News> deletedNews,List<String> deletedTitle,String filePath) {
+		this.filePath = filePath;
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //		setBounds(300, 50, 1000, 700);
 		setTitle("ªÿ ’’æ");
@@ -166,7 +167,7 @@ public class RecycleBin extends JFrame {
 			public void windowClosing(WindowEvent e) {  
 				super.windowClosing(e);  
 				@SuppressWarnings("unused")
-				SaveToXml saveToXml = new SaveToXml();
+				SaveToXml saveToXml = new SaveToXml(filePath);
 			}
 		});
 	}

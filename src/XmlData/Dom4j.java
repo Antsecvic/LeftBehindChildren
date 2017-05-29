@@ -73,18 +73,18 @@ public class Dom4j implements XmlDocument {
 	
 	
 	@SuppressWarnings("rawtypes")
-	public void modifyXml(News modifiedNews){ 
-		String fileName = null;
+	public void modifyXml(News modifiedNews, String fileName){ 
+//		String fileName = null;
 		try { 
-			if(modifiedNews.getLocation().contains("光明日报")) {
-				fileName = "assets/guangming.xml";
-			}else if(modifiedNews.getLocation().contains("南方日报")) {
-				fileName = "assets/nanfangdaily.xml";
-			}else if(modifiedNews.getLocation().contains("四川日报")) {
-				fileName = "assets/sichuan.xml";
-			}else {
-				logger.error("新闻--"+modifiedNews.getTitle()+"找不到源xml文件");
-			}
+//			if(modifiedNews.getLocation().contains("光明日报")) {
+//				fileName = "assets/guangming.xml";
+//			}else if(modifiedNews.getLocation().contains("南方日报")) {
+//				fileName = "assets/nanfangdaily.xml";
+//			}else if(modifiedNews.getLocation().contains("四川日报")) {
+//				fileName = "assets/sichuan.xml";
+//			}else {
+//				logger.error("新闻--"+modifiedNews.getTitle()+"找不到源xml文件");
+//			}
 			if(!fileName.equals(null)){
 				SAXReader sr = new SAXReader();
 				File f = new File(fileName);  
@@ -159,79 +159,81 @@ public class Dom4j implements XmlDocument {
 	
 	@SuppressWarnings("unchecked")
 	public void parserXml(String fileName,List<News> newsList) { 
-		File inputXml=new File(fileName); 
-		SAXReader saxReader = new SAXReader(); 
-		try {
-			logger.info("解析"+fileName);
-			Document document = saxReader.read(inputXml); 
-			Element arrayOfNewsData = document.getRootElement(); 
-			for(Iterator<News> i = arrayOfNewsData.elementIterator(); i.hasNext();){ 
-				News news = new News();
-				Element newsData = (Element) i.next(); 
-				news.setNewsData(newsData.getText());
-				String[] temp = new String[21];
-				int k = 0;
-				for(Iterator<News> j = newsData.elementIterator(); j.hasNext();){ 
-					Element node=(Element) j.next(); 
-					if(node.getName().equals("Tags")){
-						for(Iterator<News> l = node.elementIterator();l.hasNext();){
-							Element tagNode = (Element)l.next();
-							temp[k] = tagNode.getText();
+		if(fileName != null && !fileName.equals("")){
+			File inputXml=new File(fileName); 
+			SAXReader saxReader = new SAXReader(); 
+			try {
+				logger.info("解析"+fileName);
+				Document document = saxReader.read(inputXml); 
+				Element arrayOfNewsData = document.getRootElement(); 
+				for(Iterator<News> i = arrayOfNewsData.elementIterator(); i.hasNext();){ 
+					News news = new News();
+					Element newsData = (Element) i.next(); 
+					news.setNewsData(newsData.getText());
+					String[] temp = new String[21];
+					int k = 0;
+					for(Iterator<News> j = newsData.elementIterator(); j.hasNext();){ 
+						Element node=(Element) j.next(); 
+						if(node.getName().equals("Tags")){
+							for(Iterator<News> l = node.elementIterator();l.hasNext();){
+								Element tagNode = (Element)l.next();
+								temp[k] = tagNode.getText();
+								k++;
+							}
+						}else if(node.getName().equals("TagIts")){
+//							System.out.println(node.getText().equals(""));
+							if(node.getText().equals("")){
+								temp[k]="";
+							}else{
+								temp[k]=node.getText();
+							}
 							k++;
 						}
-					}else if(node.getName().equals("TagIts")){
-//						System.out.println(node.getText().equals(""));
-						if(node.getText().equals("")){
-							temp[k]="";
-						}else{
+						else{
 							temp[k]=node.getText();
+							k++;
 						}
-						k++;
-					}
-					else{
-						temp[k]=node.getText();
-						k++;
-					}
-//					System.out.println(node.getName()+":"+node.getText()); 
+//						System.out.println(node.getName()+":"+node.getText()); 
+					} 
+					news.setTagIts(temp[0]);
+					news.setIsLoad(temp[1]);
+					news.setIsDeleted(temp[2]);
+					news.setMemo(temp[3]);
+					news.setTitle(temp[4]);
+					news.setDate(temp[5]);
+					news.setLocation(temp[6]);
+					news.setUrl(temp[7]);
+					news.setType(temp[8]);
+					news.setWordCount(temp[9]);
+					news.setID(temp[10]);
+					news.setTrueUrl(temp[11]);
+					
+					Tags tempTags = new Tags();
+					tempTags.setType(temp[12]);
+					tempTags.setTheme(temp[13]);
+					tempTags.setSource(temp[14]);
+					tempTags.setShowing(temp[15]);
+					tempTags.setReason(temp[16]);
+					tempTags.setMainBody(temp[17]);
+					tempTags.setHelpType(temp[18]);
+					tempTags.setGender(temp[19]);
+					news.setTags(tempTags);
+					
+					news.setEncodedContent(decodeContent(temp[20]));
+					
+					//IsLoad的作用尚不清楚，先注释掉
+//					if(news.getEncodedContent().equals("")){
+//						news.setIsLoad("false");
+//					}
+					
+					
+					newsList.add(news);
 				} 
-				news.setTagIts(temp[0]);
-				news.setIsLoad(temp[1]);
-				news.setIsDeleted(temp[2]);
-				news.setMemo(temp[3]);
-				news.setTitle(temp[4]);
-				news.setDate(temp[5]);
-				news.setLocation(temp[6]);
-				news.setUrl(temp[7]);
-				news.setType(temp[8]);
-				news.setWordCount(temp[9]);
-				news.setID(temp[10]);
-				news.setTrueUrl(temp[11]);
-				
-				Tags tempTags = new Tags();
-				tempTags.setType(temp[12]);
-				tempTags.setTheme(temp[13]);
-				tempTags.setSource(temp[14]);
-				tempTags.setShowing(temp[15]);
-				tempTags.setReason(temp[16]);
-				tempTags.setMainBody(temp[17]);
-				tempTags.setHelpType(temp[18]);
-				tempTags.setGender(temp[19]);
-				news.setTags(tempTags);
-				
-				news.setEncodedContent(decodeContent(temp[20]));
-				
-				//IsLoad的作用尚不清楚，先注释掉
-//				if(news.getEncodedContent().equals("")){
-//					news.setIsLoad("false");
-//				}
-				
-				
-				newsList.add(news);
+			} catch (DocumentException e) {
+				logger.error("解析"+fileName+"失败");
+				System.out.println(e.getMessage()); 
 			} 
-		} catch (DocumentException e) {
-			logger.error("解析"+fileName+"失败");
-			System.out.println(e.getMessage()); 
-		} 
+		}		
 	}
 	// 解析EncodedContent，使其成为可读字符串
 	  public String decodeContent(String encodedContent) {
@@ -263,9 +265,9 @@ public class Dom4j implements XmlDocument {
 	    return str;
 	  }
 	  	  
-	  public void modifyAll(List<News> listNews){
+	  public void modifyAll(List<News> listNews, String fileName){
 		  for(News news : listNews){
-			  modifyXml(news);
+			  modifyXml(news,fileName);
 		  }
 	  }
 }

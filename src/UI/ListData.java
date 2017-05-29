@@ -17,21 +17,25 @@ public class ListData {
 	private static ListData listData = new ListData();
 	
 	private ListData(){
-		init();
+//		init();
 	}
 	
 	public static ListData getInstance(){
 		return listData;
 	}
 	
-	public void init(){
+	public void importFile(String filename){
+		clear();
+//		List<News> newsList1 = new ArrayList<>();
 		Dom4j dom4j = new Dom4j();
-		dom4j.initXml("assets/guangming.xml");
-		dom4j.initXml("assets/nanfangdaily.xml");
-		dom4j.initXml("assets/sichuan.xml");
-		dom4j.parserXml("assets/guangming.xml",newsList);
-		dom4j.parserXml("assets/nanfangdaily.xml",newsList);
-		dom4j.parserXml("assets/sichuan.xml",newsList);
+		dom4j.initXml(filename);
+		dom4j.parserXml(filename,newsList);
+		
+//		for(News news : newsList){
+//			
+//		}
+		
+
 		for(News news : newsList){
 			if(!news.getIsDeleted().equals("true")){
 				if(!news.getTagIts().equals("true")){
@@ -47,6 +51,44 @@ public class ListData {
 			}
 		}
 	}
+	public void importFile(String filename,List<News> list){
+		Dom4j dom4j = new Dom4j();
+		dom4j.initXml(filename);
+		dom4j.parserXml(filename,list);
+	}
+	public void clear(){
+		newsList.clear();
+		notClassifiedNews.clear();
+		notClassifiedTitle.clear();
+		classifiedNews.clear();
+		classifiedTitle.clear();
+		deletedNews.clear();
+		deletedTitle.clear();
+	}
+	
+//	public void init(){
+//		Dom4j dom4j = new Dom4j();
+//		dom4j.initXml("assets/guangming.xml");
+//		dom4j.initXml("assets/nanfangdaily.xml");
+//		dom4j.initXml("assets/sichuan.xml");
+//		dom4j.parserXml("assets/guangming.xml",newsList);
+//		dom4j.parserXml("assets/nanfangdaily.xml",newsList);
+//		dom4j.parserXml("assets/sichuan.xml",newsList);
+//		for(News news : newsList){
+//			if(!news.getIsDeleted().equals("true")){
+//				if(!news.getTagIts().equals("true")){
+//					notClassifiedNews.add(news);
+//					notClassifiedTitle.add(news.getTitle());
+//				}else{
+//					classifiedNews.add(news);
+//					classifiedTitle.add(news.getTitle());
+//				}
+//			}else{
+//				deletedNews.add(news);
+//				deletedTitle.add(news.getTitle());
+//			}
+//		}
+//	}
 	public int findPosition(List<News> newsList,String id){
 		int position = 0;
 		for(;position < newsList.size();position++){

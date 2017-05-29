@@ -38,11 +38,12 @@ public class ClassifiedNewsContent extends JFrame{
 	private int position;
 	private Tags tags;
 	private ListData listData;
-	
+	private String filePath;
 
-	public ClassifiedNewsContent(List<News> newsList,int position) {
+	public ClassifiedNewsContent(List<News> newsList,int position,String filePath) {
 		this.newsList = newsList;
 		this.position = position;
+		this.filePath = filePath;
 		tags = new Tags();
 		listData = ListData.getInstance();
 		if(newsList.get(position).getTagIts().equals("true")){
@@ -301,7 +302,7 @@ public class ClassifiedNewsContent extends JFrame{
 				dispose();
 				NewsContent newsContent = 
 						new NewsContent(listData.notClassifiedNews,
-								listData.findPosition(listData.notClassifiedNews, id));
+								listData.findPosition(listData.notClassifiedNews, id),filePath);
 				newsContent.setVisible(true);
 			}			
 		});
@@ -310,7 +311,7 @@ public class ClassifiedNewsContent extends JFrame{
 			public void windowClosing(WindowEvent e) {  
 				super.windowClosing(e);  
 				@SuppressWarnings("unused")
-				SaveToXml saveToXml = new SaveToXml();
+				SaveToXml saveToXml = new SaveToXml(filePath);
 			}
 		});
 	}
@@ -318,7 +319,7 @@ public class ClassifiedNewsContent extends JFrame{
 		Dom4j dom4j = new Dom4j();
 		newsList.get(position).setTags(tags);
 		newsList.get(position).setTagIts("false");
-		dom4j.modifyXml(newsList.get(position));
+		dom4j.modifyXml(newsList.get(position),filePath);
 		listData.notClassifiedTitle.add(newsList.get(position).getTitle());
 		listData.notClassifiedNews.add(newsList.get(position));
 		listData.classifiedTitle.remove(newsList.get(position).getTitle());

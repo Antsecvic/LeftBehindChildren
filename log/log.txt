@@ -117,3 +117,1559 @@
 2017-05-14 14:06:52 CST INFO  UI.StatisticsBin$1 100 actionPerformed - 返回首页
 2017-05-14 14:06:53 CST INFO  UI.LeftBehindChildren$7 329 actionPerformed - 进入回收站
 2017-05-14 14:06:55 CST INFO  UI.RecycleBin$3 154 actionPerformed - 返回首页
+2017-05-28 08:20:56 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-28 08:20:56 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-28 08:20:57 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-28 08:20:58 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-28 08:20:59 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-28 08:20:59 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-28 08:21:00 CST INFO  UI.LeftBehindChildren$1 84 run - 查看首页
+2017-05-28 08:21:16 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-28 08:21:17 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-28 08:21:18 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-28 08:21:18 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-28 08:21:19 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-28 08:21:19 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-28 08:21:20 CST INFO  UI.LeftBehindChildren$1 84 run - 查看首页
+2017-05-28 08:22:04 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-28 08:22:05 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-28 08:22:05 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-28 08:22:06 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-28 08:22:06 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-28 08:22:07 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-28 08:22:08 CST INFO  UI.LeftBehindChildren$1 84 run - 查看首页
+2017-05-28 08:22:21 CST INFO  UI.LeftBehindChildren$3 172 mouseClicked - 首页点击打开未分类新闻--分成十个课题组走访八十三个村安徽大学百名学生撰写“新农村档案”
+2017-05-28 08:22:34 CST INFO  UI.NewsContent$19 707 actionPerformed - 返回首页
+2017-05-28 08:22:35 CST INFO  UI.LeftBehindChildren$5 265 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-28 08:22:39 CST INFO  UI.ClassifiedNewsContent$2 128 actionPerformed - 返回首页
+2017-05-28 08:22:40 CST INFO  UI.LeftBehindChildren$3 172 mouseClicked - 首页点击打开未分类新闻--加大经费保障提供重点扶持福建基础教育资源向农村倾斜
+2017-05-28 08:22:43 CST INFO  UI.NewsContent$19 707 actionPerformed - 返回首页
+2017-05-28 08:34:36 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-28 08:34:37 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-28 08:34:38 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-28 08:34:38 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-28 08:34:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-28 08:34:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-28 08:34:40 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 08:37:35 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-28 08:37:36 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-28 08:37:36 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-28 08:37:37 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-28 08:37:37 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-28 08:37:38 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-28 08:37:38 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 08:38:32 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-05-28 08:38:33 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-05-28 08:38:33 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-05-28 08:38:34 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/guangming.xml
+2017-05-28 08:38:34 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/nanfangdaily.xml
+2017-05-28 08:38:35 CST INFO  XmlData.Dom4j 165 parserXml - 解析assets/sichuan.xml
+2017-05-28 08:38:36 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 08:38:39 CST INFO  UI.LeftBehindChildren$2 135 actionPerformed - 打开文件
+2017-05-28 08:38:49 CST INFO  UI.LeftBehindChildren$2 135 actionPerformed - 打开文件
+2017-05-28 08:49:38 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 08:49:40 CST INFO  UI.LeftBehindChildren$2 135 actionPerformed - 打开文件
+2017-05-28 08:50:04 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 08:50:06 CST INFO  UI.LeftBehindChildren$2 135 actionPerformed - 打开文件
+2017-05-28 08:50:24 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 08:50:24 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 08:52:04 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 08:52:05 CST INFO  UI.LeftBehindChildren$2 135 actionPerformed - 打开文件
+2017-05-28 08:52:09 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 08:52:10 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 08:55:03 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 08:55:04 CST INFO  UI.LeftBehindChildren$3 161 actionPerformed - 打开文件
+2017-05-28 08:55:08 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 08:55:09 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 08:57:18 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 08:57:19 CST INFO  UI.LeftBehindChildren$2 135 actionPerformed - 打开文件
+2017-05-28 08:57:23 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-28 08:57:24 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-28 09:02:42 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:02:44 CST INFO  UI.LeftBehindChildren$2 135 actionPerformed - 打开文件
+2017-05-28 09:05:34 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:05:35 CST INFO  UI.LeftBehindChildren$3 161 actionPerformed - 打开文件
+2017-05-28 09:05:40 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 09:05:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 09:05:46 CST INFO  UI.LeftBehindChildren$4 217 mouseClicked - 首页点击打开未分类新闻--全国十大助人为乐模范候选人 A43郑琦
+2017-05-28 09:05:49 CST INFO  UI.NewsContent$19 707 actionPerformed - 返回首页
+2017-05-28 09:06:06 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:06:08 CST INFO  UI.LeftBehindChildren$3 161 actionPerformed - 打开文件
+2017-05-28 09:06:13 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-28 09:06:14 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-28 09:09:27 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:09:29 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:09:33 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\sichuan.xml 初始化xml数据
+2017-05-28 09:09:34 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\sichuan.xml
+2017-05-28 09:09:42 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:09:45 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 09:09:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 09:10:08 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:10:09 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:10:19 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 09:10:19 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 09:10:20 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:10:27 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 09:10:28 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 09:10:41 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:12:01 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:12:02 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:12:07 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:13:03 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:13:04 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:13:53 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:13:54 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:14:59 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:15:01 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:18:01 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:56:55 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:56:57 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:57:02 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 09:57:02 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 09:57:41 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:57:43 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:57:49 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 09:57:49 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 09:58:26 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:58:35 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:58:36 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:58:39 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 09:58:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 09:58:59 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 09:59:00 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:59:04 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 09:59:04 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 09:59:05 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:59:08 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 09:59:08 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 09:59:09 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 09:59:13 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 09:59:13 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 10:00:49 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 10:01:02 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 10:01:03 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 10:01:15 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 10:01:15 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 10:01:20 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 10:04:36 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 10:04:37 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 10:04:56 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-28 10:04:57 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-28 10:05:01 CST INFO  UI.LeftBehindChildren$3 176 mouseClicked - 首页点击打开未分类新闻--广东将探索政校分开、管办分离
+2017-05-28 10:05:03 CST INFO  UI.NewsContent$19 707 actionPerformed - 返回首页
+2017-05-28 10:05:04 CST INFO  UI.LeftBehindChildren$3 176 mouseClicked - 首页点击打开未分类新闻--关爱小屋广东站正式挂牌
+2017-05-28 10:05:07 CST INFO  UI.NewsContent$21 754 actionPerformed - 完成分类新闻--关爱小屋广东站正式挂牌
+2017-05-28 10:05:08 CST INFO  UI.ClassifiedNewsContent$2 128 actionPerformed - 返回首页
+2017-05-28 10:05:43 CST ERROR XmlData.Dom4j 86 modifyXml - 新闻--关爱小屋广东站正式挂牌找不到源xml文件
+2017-05-28 10:05:43 CST ERROR XmlData.Dom4j 155 modifyXml - null 关爱小屋广东站正式挂牌插入标签失败
+2017-05-28 10:27:46 CST INFO  UI.LeftBehindChildren$1 88 run - 查看首页
+2017-05-28 10:27:48 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 10:27:53 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 10:27:53 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 10:27:55 CST INFO  UI.LeftBehindChildren$9 356 actionPerformed - 打开文件
+2017-05-28 10:28:03 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 10:28:03 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 10:28:22 CST INFO  UI.LeftBehindChildren$3 176 mouseClicked - 首页点击打开未分类新闻--关爱留守儿童宝马车主捐赠图书1.4万余册
+2017-05-28 10:28:25 CST INFO  UI.NewsContent$20 727 actionPerformed - 点击下一篇打开未分类新闻--疏导孩子的心理 家长你慢慢来
+2017-05-28 10:28:26 CST INFO  UI.NewsContent$20 727 actionPerformed - 点击下一篇打开未分类新闻--关爱留守儿童宝马车主捐赠图书1.4万余册
+2017-05-28 10:28:27 CST INFO  UI.NewsContent$20 727 actionPerformed - 点击下一篇打开未分类新闻--疏导孩子的心理 家长你慢慢来
+2017-05-28 10:28:28 CST INFO  UI.NewsContent$19 707 actionPerformed - 返回首页
+2017-05-28 11:58:59 CST INFO  UI.LeftBehindChildren$1 92 run - 查看首页
+2017-05-28 11:59:05 CST INFO  UI.LeftBehindChildren$10 401 actionPerformed - 培训用户
+2017-05-28 11:59:11 CST INFO  UI.LeftBehindChildren$10 401 actionPerformed - 培训用户
+2017-05-28 11:59:17 CST INFO  UI.LeftBehindChildren$10 401 actionPerformed - 培训用户
+2017-05-28 11:59:25 CST INFO  UI.LeftBehindChildren$10 401 actionPerformed - 培训用户
+2017-05-28 11:59:47 CST INFO  UI.LeftBehindChildren$10 401 actionPerformed - 培训用户
+2017-05-28 12:00:10 CST INFO  UI.LeftBehindChildren$10 401 actionPerformed - 培训用户
+2017-05-28 12:00:25 CST INFO  UI.LeftBehindChildren$10 401 actionPerformed - 培训用户
+2017-05-28 12:01:24 CST INFO  UI.LeftBehindChildren$10 401 actionPerformed - 培训用户
+2017-05-28 12:01:43 CST INFO  UI.LeftBehindChildren$10 401 actionPerformed - 培训用户
+2017-05-28 12:01:54 CST INFO  UI.LeftBehindChildren$10 401 actionPerformed - 培训用户
+2017-05-28 12:09:59 CST INFO  UI.LeftBehindChildren$9 360 actionPerformed - 打开文件
+2017-05-28 12:18:36 CST INFO  UI.LeftBehindChildren$1 92 run - 查看首页
+2017-05-28 12:18:40 CST INFO  UI.LeftBehindChildren$9 360 actionPerformed - 打开文件
+2017-05-28 12:18:51 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 12:18:51 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 12:18:53 CST INFO  UI.LeftBehindChildren$9 360 actionPerformed - 打开文件
+2017-05-28 12:37:46 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:37:49 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:37:54 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\NewFile.xml 初始化xml数据
+2017-05-28 12:37:55 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\NewFile.xml
+2017-05-28 12:37:55 CST INFO  UI.LeftBehindChildren$3 181 mouseClicked - 首页点击打开未分类新闻--关爱留守儿童宝马车主捐赠图书1.4万余册
+2017-05-28 12:38:12 CST INFO  UI.NewsContent$21 754 actionPerformed - 完成分类新闻--关爱留守儿童宝马车主捐赠图书1.4万余册
+2017-05-28 12:38:15 CST INFO  UI.ClassifiedNewsContent$2 128 actionPerformed - 返回首页
+2017-05-28 12:38:16 CST INFO  UI.LeftBehindChildren$3 181 mouseClicked - 首页点击打开未分类新闻--疏导孩子的心理 家长你慢慢来
+2017-05-28 12:38:28 CST INFO  UI.NewsContent$21 754 actionPerformed - 完成分类新闻--疏导孩子的心理 家长你慢慢来
+2017-05-28 12:38:29 CST INFO  UI.ClassifiedNewsContent$2 128 actionPerformed - 返回首页
+2017-05-28 12:38:35 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:38:43 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user2\NewFile.xml 初始化xml数据
+2017-05-28 12:38:43 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user2\NewFile.xml
+2017-05-28 12:38:43 CST INFO  UI.LeftBehindChildren$3 181 mouseClicked - 首页点击打开未分类新闻--关爱留守儿童宝马车主捐赠图书1.4万余册
+2017-05-28 12:38:52 CST INFO  UI.NewsContent$21 754 actionPerformed - 完成分类新闻--关爱留守儿童宝马车主捐赠图书1.4万余册
+2017-05-28 12:38:54 CST INFO  UI.ClassifiedNewsContent$3 144 actionPerformed - 点击下一篇打开已分类新闻--疏导孩子的心理 家长你慢慢来
+2017-05-28 12:38:57 CST INFO  UI.ClassifiedNewsContent$1 115 actionPerformed - 点击上一篇打开已分类新闻--关爱留守儿童宝马车主捐赠图书1.4万余册
+2017-05-28 12:38:58 CST INFO  UI.ClassifiedNewsContent$2 128 actionPerformed - 返回首页
+2017-05-28 12:38:59 CST INFO  UI.LeftBehindChildren$3 181 mouseClicked - 首页点击打开未分类新闻--疏导孩子的心理 家长你慢慢来
+2017-05-28 12:39:11 CST INFO  UI.NewsContent$21 754 actionPerformed - 完成分类新闻--疏导孩子的心理 家长你慢慢来
+2017-05-28 12:39:15 CST INFO  UI.ClassifiedNewsContent$2 128 actionPerformed - 返回首页
+2017-05-28 12:39:24 CST INFO  UI.LeftBehindChildren$10 402 actionPerformed - 培训用户
+2017-05-28 12:39:55 CST ERROR XmlData.Dom4j 86 modifyXml - 新闻--关爱留守儿童宝马车主捐赠图书1.4万余册找不到源xml文件
+2017-05-28 12:39:55 CST ERROR XmlData.Dom4j 155 modifyXml - null 关爱留守儿童宝马车主捐赠图书1.4万余册插入标签失败
+2017-05-28 12:39:55 CST ERROR XmlData.Dom4j 86 modifyXml - 新闻--疏导孩子的心理 家长你慢慢来找不到源xml文件
+2017-05-28 12:39:55 CST ERROR XmlData.Dom4j 155 modifyXml - null 疏导孩子的心理 家长你慢慢来插入标签失败
+2017-05-28 12:39:55 CST ERROR XmlData.Dom4j 86 modifyXml - 新闻--关爱留守儿童宝马车主捐赠图书1.4万余册找不到源xml文件
+2017-05-28 12:39:55 CST ERROR XmlData.Dom4j 155 modifyXml - null 关爱留守儿童宝马车主捐赠图书1.4万余册插入标签失败
+2017-05-28 12:39:55 CST ERROR XmlData.Dom4j 86 modifyXml - 新闻--疏导孩子的心理 家长你慢慢来找不到源xml文件
+2017-05-28 12:39:55 CST ERROR XmlData.Dom4j 155 modifyXml - null 疏导孩子的心理 家长你慢慢来插入标签失败
+2017-05-28 12:42:20 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:42:21 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:42:26 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\NewFile.xml 初始化xml数据
+2017-05-28 12:42:27 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\NewFile.xml
+2017-05-28 12:42:37 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:42:40 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:42:44 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 12:42:45 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 12:42:51 CST INFO  UI.LeftBehindChildren$3 181 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-28 12:42:57 CST INFO  UI.NewsContent$21 754 actionPerformed - 完成分类新闻--和谐社会视野下的教育公平
+2017-05-28 12:43:00 CST INFO  UI.ClassifiedNewsContent$2 128 actionPerformed - 返回首页
+2017-05-28 12:43:09 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:43:10 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:43:14 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 12:43:15 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 12:43:52 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:43:53 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:44:00 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\NewFile.xml 初始化xml数据
+2017-05-28 12:44:00 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\NewFile.xml
+2017-05-28 12:44:05 CST INFO  UI.LeftBehindChildren$3 181 mouseClicked - 首页点击打开未分类新闻--疏导孩子的心理 家长你慢慢来
+2017-05-28 12:44:26 CST INFO  UI.NewsContent$21 754 actionPerformed - 完成分类新闻--疏导孩子的心理 家长你慢慢来
+2017-05-28 12:44:28 CST INFO  UI.ClassifiedNewsContent$2 128 actionPerformed - 返回首页
+2017-05-28 12:44:30 CST INFO  UI.LeftBehindChildren$3 181 mouseClicked - 首页点击打开未分类新闻--关爱留守儿童宝马车主捐赠图书1.4万余册
+2017-05-28 12:44:45 CST INFO  UI.NewsContent$21 754 actionPerformed - 完成分类新闻--关爱留守儿童宝马车主捐赠图书1.4万余册
+2017-05-28 12:44:47 CST INFO  UI.ClassifiedNewsContent$2 128 actionPerformed - 返回首页
+2017-05-28 12:44:54 CST ERROR XmlData.Dom4j 86 modifyXml - 新闻--疏导孩子的心理 家长你慢慢来找不到源xml文件
+2017-05-28 12:44:54 CST ERROR XmlData.Dom4j 155 modifyXml - null 疏导孩子的心理 家长你慢慢来插入标签失败
+2017-05-28 12:44:54 CST ERROR XmlData.Dom4j 86 modifyXml - 新闻--关爱留守儿童宝马车主捐赠图书1.4万余册找不到源xml文件
+2017-05-28 12:44:54 CST ERROR XmlData.Dom4j 155 modifyXml - null 关爱留守儿童宝马车主捐赠图书1.4万余册插入标签失败
+2017-05-28 12:44:58 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:45:08 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:45:13 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\NewFile.xml 初始化xml数据
+2017-05-28 12:45:14 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\NewFile.xml
+2017-05-28 12:45:15 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:45:19 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml 初始化xml数据
+2017-05-28 12:45:19 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\NewFile.xml
+2017-05-28 12:49:27 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:49:28 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:49:35 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 12:49:35 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 12:49:37 CST INFO  UI.LeftBehindChildren$5 274 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 12:49:39 CST INFO  UI.ClassifiedNewsContent$4 290 actionPerformed - 重置已分类新闻--青少年“身边最让我感动的人”评选揭晓--的标签
+2017-05-28 12:49:43 CST INFO  UI.NewsContent$19 707 actionPerformed - 返回首页
+2017-05-28 12:49:45 CST INFO  UI.LeftBehindChildren$5 274 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-28 12:49:46 CST INFO  UI.ClassifiedNewsContent$4 290 actionPerformed - 重置已分类新闻--确保农民工子女享受国家政策--的标签
+2017-05-28 12:49:47 CST INFO  UI.NewsContent$19 707 actionPerformed - 返回首页
+2017-05-28 12:50:39 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:50:40 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:50:45 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 12:50:45 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 12:51:07 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:51:08 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:51:13 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 12:51:13 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 12:51:14 CST INFO  UI.LeftBehindChildren$5 274 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 12:51:15 CST INFO  UI.ClassifiedNewsContent$4 290 actionPerformed - 重置已分类新闻--青少年“身边最让我感动的人”评选揭晓--的标签
+2017-05-28 12:51:17 CST INFO  UI.NewsContent$19 707 actionPerformed - 返回首页
+2017-05-28 12:51:18 CST INFO  UI.LeftBehindChildren$5 274 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-28 12:51:19 CST INFO  UI.ClassifiedNewsContent$4 290 actionPerformed - 重置已分类新闻--确保农民工子女享受国家政策--的标签
+2017-05-28 12:51:20 CST INFO  UI.NewsContent$19 707 actionPerformed - 返回首页
+2017-05-28 12:51:28 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:51:30 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:51:33 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 12:51:33 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 12:51:45 CST INFO  UI.LeftBehindChildren$5 274 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 12:52:05 CST INFO  UI.ClassifiedNewsContent$2 128 actionPerformed - 返回首页
+2017-05-28 12:52:54 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:52:57 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 12:52:58 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 12:53:08 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:53:15 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:53:16 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:53:20 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 12:53:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 12:53:24 CST INFO  UI.LeftBehindChildren$5 274 mouseClicked - 首页点击打开已分类新闻--和谐社会视野下的教育公平
+2017-05-28 12:53:27 CST INFO  UI.ClassifiedNewsContent$4 290 actionPerformed - 重置已分类新闻--和谐社会视野下的教育公平--的标签
+2017-05-28 12:53:29 CST INFO  UI.NewsContent$19 707 actionPerformed - 返回首页
+2017-05-28 12:53:36 CST INFO  UI.LeftBehindChildren$1 93 run - 查看首页
+2017-05-28 12:53:37 CST INFO  UI.LeftBehindChildren$9 361 actionPerformed - 打开文件
+2017-05-28 12:53:41 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 12:53:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 15:00:37 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:00:38 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:00:43 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 15:00:44 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 15:00:59 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:01:04 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-28 15:01:05 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-28 15:01:31 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:01:32 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:01:36 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 15:01:37 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 15:02:13 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:02:17 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:02:25 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 15:02:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 15:02:29 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:02:34 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:02:39 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 15:02:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 15:02:41 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:02:45 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\sichuan.xml 初始化xml数据
+2017-05-28 15:02:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\sichuan.xml
+2017-05-28 15:02:51 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--绵阳师范学院：以师德建设助推学校跨越发展
+2017-05-28 15:02:55 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 15:02:56 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:03:01 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:03:01 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:03:03 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:03:05 CST INFO  UI.ClassifiedNewsContent$4 291 actionPerformed - 重置已分类新闻--青少年“身边最让我感动的人”评选揭晓--的标签
+2017-05-28 15:03:06 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 15:03:09 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:03:10 CST INFO  UI.ClassifiedNewsContent$4 291 actionPerformed - 重置已分类新闻--确保农民工子女享受国家政策--的标签
+2017-05-28 15:03:10 CST ERROR XmlData.Dom4j 155 modifyXml - null 确保农民工子女享受国家政策插入标签失败
+2017-05-28 15:03:16 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:03:18 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:03:23 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:03:23 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:03:27 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:03:29 CST INFO  UI.ClassifiedNewsContent$4 291 actionPerformed - 重置已分类新闻--确保农民工子女享受国家政策--的标签
+2017-05-28 15:03:30 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 15:03:34 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:03:35 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:03:39 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:03:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:03:41 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:03:43 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 15:03:56 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:04:01 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml 初始化xml数据
+2017-05-28 15:04:01 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml
+2017-05-28 15:04:02 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:04:05 CST INFO  UI.ClassifiedNewsContent$4 291 actionPerformed - 重置已分类新闻--青少年“身边最让我感动的人”评选揭晓--的标签
+2017-05-28 15:04:13 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:04:13 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:04:14 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:04:18 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml 初始化xml数据
+2017-05-28 15:04:18 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml
+2017-05-28 15:04:24 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:04:26 CST INFO  UI.ClassifiedNewsContent$4 291 actionPerformed - 重置已分类新闻--确保农民工子女享受国家政策--的标签
+2017-05-28 15:04:29 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 15:04:39 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:04:41 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:04:46 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:04:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:04:47 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:05:05 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:05:07 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:05:09 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:05:22 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:05:23 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:05:25 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:05:30 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml 初始化xml数据
+2017-05-28 15:05:30 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml
+2017-05-28 15:05:31 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:05:44 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:05:46 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:05:47 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:06:00 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:06:01 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:06:34 CST ERROR XmlData.Dom4j 155 modifyXml - null 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 15:06:34 CST ERROR XmlData.Dom4j 155 modifyXml - null 确保农民工子女享受国家政策插入标签失败
+2017-05-28 15:06:42 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:06:43 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:06:48 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml 初始化xml数据
+2017-05-28 15:06:48 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml
+2017-05-28 15:06:50 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:07:02 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:07:03 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:07:05 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:07:16 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:07:23 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:07:25 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:07:30 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:07:30 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:07:31 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:07:35 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml 初始化xml数据
+2017-05-28 15:07:35 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml
+2017-05-28 15:09:00 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:09:01 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:09:07 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:09:07 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:09:10 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:09:17 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:09:19 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:09:25 CST ERROR XmlData.Dom4j 157 modifyXml - null 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 15:10:20 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:10:21 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 15:10:26 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:10:26 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:10:27 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:10:32 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:10:33 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:10:34 CST ERROR XmlData.Dom4j 157 modifyXml - null 确保农民工子女享受国家政策插入标签失败
+2017-05-28 15:12:18 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:12:20 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 15:12:24 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:12:24 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:12:26 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:12:32 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:12:33 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:12:33 CST ERROR XmlData.Dom4j 157 modifyXml - null 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 15:15:16 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:15:17 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 15:15:21 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 15:15:22 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 15:15:24 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-28 15:15:29 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--和谐社会视野下的教育公平
+2017-05-28 15:15:30 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 陈至立强调全面推进保障机制改革提高农村义务教育水平插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 确保农民工子女享受国家政策插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 不能忽视农村留守儿童插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 对农村“留守儿童”问题的理性思考插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 好政策播种新希望——记湖北省农村教师资助行动计划插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 农村留守儿童教育亟待加强插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 17部委领导慰问在京流动人口子女和农村留守儿童插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 江苏“七彩夏日”点亮精彩暑假插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 中国人民公安大学治安系教授王太元：就地解决还是增加留守儿童插入标签失败
+2017-05-28 15:15:32 CST ERROR XmlData.Dom4j 157 modifyXml - null 和谐社会视野下的教育公平插入标签失败
+2017-05-28 15:15:52 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:15:53 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 15:15:57 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 15:15:58 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 15:16:00 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-28 15:16:03 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 陈至立强调全面推进保障机制改革提高农村义务教育水平插入标签失败
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 确保农民工子女享受国家政策插入标签失败
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 不能忽视农村留守儿童插入标签失败
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 对农村“留守儿童”问题的理性思考插入标签失败
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 好政策播种新希望——记湖北省农村教师资助行动计划插入标签失败
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 农村留守儿童教育亟待加强插入标签失败
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 17部委领导慰问在京流动人口子女和农村留守儿童插入标签失败
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 江苏“七彩夏日”点亮精彩暑假插入标签失败
+2017-05-28 15:16:06 CST ERROR XmlData.Dom4j 157 modifyXml - null 中国人民公安大学治安系教授王太元：就地解决还是增加留守儿童插入标签失败
+2017-05-28 15:17:49 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:17:50 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 15:17:55 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:17:56 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:17:56 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:17:59 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 15:26:36 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:26:37 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 15:26:41 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 15:26:41 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 15:26:52 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--和谐社会视野下的教育公平
+2017-05-28 15:26:56 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 陈至立强调全面推进保障机制改革提高农村义务教育水平插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 确保农民工子女享受国家政策插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 不能忽视农村留守儿童插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 对农村“留守儿童”问题的理性思考插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 好政策播种新希望——记湖北省农村教师资助行动计划插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 农村留守儿童教育亟待加强插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 17部委领导慰问在京流动人口子女和农村留守儿童插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 江苏“七彩夏日”点亮精彩暑假插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 中国人民公安大学治安系教授王太元：就地解决还是增加留守儿童插入标签失败
+2017-05-28 15:26:57 CST ERROR XmlData.Dom4j 157 modifyXml - null 和谐社会视野下的教育公平插入标签失败
+2017-05-28 15:27:10 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:27:11 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 15:27:15 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 15:27:16 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 15:29:06 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:29:07 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:29:12 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 15:29:12 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 15:29:14 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:29:18 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:29:18 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:29:19 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:29:22 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 15:29:27 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:29:29 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:29:35 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:29:35 CST INFO  XmlData.Dom4j 167 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:32:01 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:32:02 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:32:08 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:32:08 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:32:09 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:32:15 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:32:16 CST INFO  UI.ClassifiedNewsContent$4 291 actionPerformed - 重置已分类新闻--确保农民工子女享受国家政策--的标签
+2017-05-28 15:32:24 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:32:25 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:32:26 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:32:30 CST INFO  UI.ClassifiedNewsContent$4 291 actionPerformed - 重置已分类新闻--青少年“身边最让我感动的人”评选揭晓--的标签
+2017-05-28 15:32:40 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 15:32:44 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:32:46 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:32:50 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml 初始化xml数据
+2017-05-28 15:32:50 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml
+2017-05-28 15:32:51 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:33:09 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:33:12 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:33:13 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:33:22 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:33:24 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:33:27 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:33:31 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:33:31 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:33:33 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:33:36 CST INFO  UI.ClassifiedNewsContent$4 291 actionPerformed - 重置已分类新闻--青少年“身边最让我感动的人”评选揭晓--的标签
+2017-05-28 15:33:44 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:33:45 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:35:10 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 15:35:40 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml 初始化xml数据
+2017-05-28 15:35:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user2\1.xml
+2017-05-28 15:35:48 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 15:37:11 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:37:12 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:37:19 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 15:37:19 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 15:37:20 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:37:30 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 15:37:32 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:37:33 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:37:40 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--确保农民工子女享受国家政策
+2017-05-28 15:37:41 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-28 15:38:09 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:38:11 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 15:38:18 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:38:18 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:38:18 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 15:38:18 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 15:40:16 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:40:17 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 15:40:24 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:40:24 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:40:24 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 15:40:24 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 15:41:56 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:42:04 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:42:05 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:42:08 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 15:42:16 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:42:16 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:42:16 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 15:42:16 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 15:42:18 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 15:43:23 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:43:24 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 15:43:34 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:43:34 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:43:34 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 15:43:34 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 15:43:59 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:44:00 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 15:44:05 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:44:05 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:44:05 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 15:44:05 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 15:44:44 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:44:46 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 15:44:51 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:44:51 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:44:51 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 15:44:51 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 15:45:51 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:45:52 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 15:45:58 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:45:58 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:45:58 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 15:45:58 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 15:49:02 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 15:49:03 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 15:49:10 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 15:49:10 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 15:49:10 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 15:49:10 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 16:43:01 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 16:43:06 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 16:43:25 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-28 16:43:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\guangming.xml
+2017-05-28 16:47:00 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 16:47:31 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 16:50:28 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 17:33:15 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 17:33:36 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 17:37:32 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 17:37:33 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 17:37:40 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 17:37:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 17:37:41 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 17:37:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 17:39:37 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 17:39:43 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 17:39:43 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 17:39:45 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 17:39:52 CST INFO  UI.ClassifiedNewsContent$4 291 actionPerformed - 重置已分类新闻--青少年“身边最让我感动的人”评选揭晓--的标签
+2017-05-28 17:39:57 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 17:40:18 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 17:40:20 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 17:40:27 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 17:40:27 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 17:40:27 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 17:40:27 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 18:00:26 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:00:28 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 18:00:31 CST INFO  UI.LeftBehindChildren$11 444 actionPerformed - 培训用户
+2017-05-28 18:00:39 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 18:00:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 18:00:40 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 18:00:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 18:03:54 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:04:16 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:04:17 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 18:04:30 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 18:04:30 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 18:04:30 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 18:04:30 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 18:09:04 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:09:05 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 18:09:14 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 18:09:14 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 18:09:14 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 18:09:14 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 18:13:21 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:13:22 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 18:13:28 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 18:13:28 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 18:13:28 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 18:13:28 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 18:15:42 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:15:46 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 18:15:54 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 18:15:54 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 18:15:58 CST INFO  UI.LeftBehindChildren$3 182 mouseClicked - 首页点击打开未分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-05-28 18:16:00 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 18:16:04 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...
+2017-05-28 18:16:08 CST INFO  UI.ClassifiedNewsContent$4 291 actionPerformed - 重置已分类新闻--全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...--的标签
+2017-05-28 18:16:09 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-28 18:16:19 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:16:20 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 18:16:26 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 18:16:27 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 18:16:27 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 18:16:27 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 18:22:19 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:22:34 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:22:35 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 18:22:41 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 18:22:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 18:22:41 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 18:22:41 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 18:24:26 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 18:24:37 CST INFO  UI.LeftBehindChildren$11 444 actionPerformed - 培训用户
+2017-05-28 18:24:40 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 18:26:33 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:26:34 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 18:26:42 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 18:26:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 18:26:42 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml 初始化xml数据
+2017-05-28 18:26:42 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\2.xml
+2017-05-28 18:42:56 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 18:44:56 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 19:03:27 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:03:30 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:03:38 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 19:03:38 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 19:04:46 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:04:48 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:05:05 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\test.xml 初始化xml数据
+2017-05-28 19:05:05 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\test.xml 初始化失败
+2017-05-28 19:05:05 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\test.xml
+2017-05-28 19:05:05 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\test.xml失败
+2017-05-28 19:05:16 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:05:22 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 19:05:23 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 19:06:27 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:06:29 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:06:34 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml 初始化xml数据
+2017-05-28 19:06:35 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user1\1.xml
+2017-05-28 19:06:37 CST INFO  UI.LeftBehindChildren$10 404 actionPerformed - 培训用户
+2017-05-28 19:23:31 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:23:32 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:23:38 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 19:23:38 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-28 19:23:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 19:23:39 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-28 19:24:33 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:24:36 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 19:24:36 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-28 19:24:36 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 19:24:36 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-28 19:25:38 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:25:46 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:25:50 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 19:25:50 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 19:25:55 CST INFO  UI.LeftBehindChildren$10 410 actionPerformed - 培训用户
+2017-05-28 19:26:23 CST ERROR XmlData.Dom4j 155 modifyXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 19:26:23 CST ERROR XmlData.Dom4j 155 modifyXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 确保农民工子女享受国家政策插入标签失败
+2017-05-28 19:26:23 CST ERROR XmlData.Dom4j 155 modifyXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-28 19:26:27 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:26:28 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:26:32 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 19:26:32 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-28 19:26:32 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 19:26:32 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-28 19:29:15 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:29:16 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:29:37 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:29:43 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 19:29:43 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 19:29:45 CST INFO  UI.LeftBehindChildren$10 410 actionPerformed - 培训用户
+2017-05-28 19:31:22 CST ERROR XmlData.Dom4j 155 modifyXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 19:31:22 CST ERROR XmlData.Dom4j 155 modifyXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 确保农民工子女享受国家政策插入标签失败
+2017-05-28 19:31:22 CST ERROR XmlData.Dom4j 155 modifyXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-28 19:31:37 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:31:38 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:31:43 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 19:31:43 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-28 19:31:43 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 19:31:43 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-28 19:32:35 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:32:38 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 19:32:38 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 19:32:41 CST INFO  UI.LeftBehindChildren$10 410 actionPerformed - 培训用户
+2017-05-28 19:34:24 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:34:25 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:34:38 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 19:34:38 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 19:36:36 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:37:08 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:37:17 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:37:21 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 19:37:21 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-28 19:37:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 19:37:21 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-28 19:39:22 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:41:16 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:45:01 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:57:32 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:57:34 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:58:00 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:58:01 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:58:08 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 19:58:08 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 19:59:27 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 19:59:30 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 19:59:35 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 19:59:35 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 20:01:28 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:01:28 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:01:29 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:01:33 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 20:01:33 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 20:02:18 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:02:19 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:02:23 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 20:02:23 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 20:03:29 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:03:32 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:03:35 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 20:03:35 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 20:04:35 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:04:36 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:04:40 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 20:04:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 20:05:08 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:05:11 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:05:16 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 20:05:16 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 20:05:31 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:05:33 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:05:39 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 20:05:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 20:13:26 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:13:31 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:13:35 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 20:13:35 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 20:14:43 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:14:44 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:14:48 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 20:14:48 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 20:23:35 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:23:36 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:23:44 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:23:44 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 20:24:15 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:24:17 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:24:26 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:24:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 20:25:23 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:25:24 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:25:29 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:25:29 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 20:26:19 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:26:20 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:26:26 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:26:26 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 20:27:03 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:27:05 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:27:11 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化xml数据
+2017-05-28 20:27:11 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化失败
+2017-05-28 20:27:11 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml
+2017-05-28 20:27:11 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml失败
+2017-05-28 20:28:04 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:28:11 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:28:27 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化xml数据
+2017-05-28 20:28:27 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化失败
+2017-05-28 20:28:27 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml
+2017-05-28 20:28:27 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml失败
+2017-05-28 20:29:06 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:30:46 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:30:48 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:30:54 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:30:54 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 20:30:55 CST INFO  UI.LeftBehindChildren$5 275 mouseClicked - 首页点击打开已分类新闻--确保农民工子女享受国家政策
+2017-05-28 20:30:57 CST ERROR XmlData.Dom4j 155 modifyXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 20:30:57 CST ERROR XmlData.Dom4j 155 modifyXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 确保农民工子女享受国家政策插入标签失败
+2017-05-28 20:30:57 CST ERROR XmlData.Dom4j 155 modifyXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-28 20:31:09 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:31:13 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:32:40 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:32:45 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:32:51 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:32:52 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 20:33:33 CST INFO  UI.LeftBehindChildren$1 94 run - 查看首页
+2017-05-28 20:33:34 CST INFO  UI.LeftBehindChildren$9 362 actionPerformed - 打开文件
+2017-05-28 20:33:40 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:33:40 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 20:33:40 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 20:33:40 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 20:42:50 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 20:42:52 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 20:43:03 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:43:03 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 20:44:38 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 20:44:40 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 20:44:46 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:44:46 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 20:50:01 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 20:50:02 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 20:50:09 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:50:09 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 20:56:49 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 20:56:50 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 20:57:18 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 20:57:18 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:00:05 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:00:07 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:00:13 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:00:13 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:17:23 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:17:24 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:17:30 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:17:30 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:17:53 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:17:55 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:18:01 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:18:01 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:19:01 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:19:04 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:19:08 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\1.xml 初始化xml数据
+2017-05-28 21:19:08 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\1.xml 初始化失败
+2017-05-28 21:19:08 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\1.xml
+2017-05-28 21:19:08 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\1.xml失败
+2017-05-28 21:19:11 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:19:31 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:19:31 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 21:19:31 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:19:31 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 21:20:04 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:20:13 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\2.xml 初始化xml数据
+2017-05-28 21:20:14 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\2.xml
+2017-05-28 21:20:18 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:20:21 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\1.xml 初始化xml数据
+2017-05-28 21:20:21 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\1.xml 初始化失败
+2017-05-28 21:20:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\1.xml
+2017-05-28 21:20:21 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\1.xml失败
+2017-05-28 21:26:09 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:26:10 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:26:18 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:26:18 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 21:26:18 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:26:18 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 21:41:08 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:41:10 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:41:23 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:41:28 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:41:28 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 21:41:28 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:41:28 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 21:41:39 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:41:43 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\2.xml 初始化xml数据
+2017-05-28 21:41:43 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\2.xml 初始化失败
+2017-05-28 21:41:43 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\2.xml
+2017-05-28 21:41:43 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\2.xml失败
+2017-05-28 21:42:22 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:42:23 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:42:29 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:42:29 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:43:15 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:43:16 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:43:21 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:43:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:43:41 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:43:43 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:43:53 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:43:53 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:43:54 CST INFO  UI.LeftBehindChildren$11 456 actionPerformed - 培训用户
+2017-05-28 21:44:55 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:44:56 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:45:03 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:45:03 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:57:09 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 21:57:10 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:57:19 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:57:19 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 21:57:43 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:58:16 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 21:58:21 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 21:58:21 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:00:26 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 22:00:27 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 22:00:34 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:00:34 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:10:45 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 22:10:47 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 22:10:59 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:10:59 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:12:16 CST ERROR XmlData.Dom4j 155 modifyXml - null 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 22:12:16 CST ERROR XmlData.Dom4j 155 modifyXml - null 确保农民工子女享受国家政策插入标签失败
+2017-05-28 22:12:16 CST ERROR XmlData.Dom4j 155 modifyXml - null 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-28 22:12:19 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 22:12:20 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 22:12:30 CST INFO  XmlData.Dom4j 36 initXml - null 初始化xml数据
+2017-05-28 22:12:30 CST ERROR XmlData.Dom4j 69 initXml - null 初始化失败
+2017-05-28 22:13:39 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:13:39 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:13:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:13:39 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:13:39 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:13:39 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:13:39 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:13:39 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:13:43 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 22:13:45 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 22:13:49 CST INFO  XmlData.Dom4j 36 initXml - null 初始化xml数据
+2017-05-28 22:13:49 CST ERROR XmlData.Dom4j 69 initXml - null 初始化失败
+2017-05-28 22:16:08 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:16:08 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:16:08 CST INFO  XmlData.Dom4j 165 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:16:08 CST ERROR XmlData.Dom4j 232 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:16:12 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 22:16:14 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 22:16:19 CST INFO  XmlData.Dom4j 36 initXml - null 初始化xml数据
+2017-05-28 22:16:19 CST ERROR XmlData.Dom4j 69 initXml - null 初始化失败
+2017-05-28 22:16:35 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:16:35 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:21:04 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 22:21:17 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:21:17 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:21:24 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:21:24 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:21:24 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:21:24 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:22:20 CST INFO  UI.LeftBehindChildren$1 95 run - 查看首页
+2017-05-28 22:22:23 CST INFO  UI.LeftBehindChildren$9 363 actionPerformed - 打开文件
+2017-05-28 22:22:30 CST INFO  XmlData.Dom4j 36 initXml - null 初始化xml数据
+2017-05-28 22:22:30 CST ERROR XmlData.Dom4j 69 initXml - null 初始化失败
+2017-05-28 22:22:32 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:22:32 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:22:32 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:22:32 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:31:50 CST INFO  UI.LeftBehindChildren$1 96 run - 查看首页
+2017-05-28 22:31:51 CST INFO  UI.LeftBehindChildren$9 366 actionPerformed - 打开文件
+2017-05-28 22:31:56 CST INFO  XmlData.Dom4j 36 initXml - null 初始化xml数据
+2017-05-28 22:31:56 CST ERROR XmlData.Dom4j 69 initXml - null 初始化失败
+2017-05-28 22:32:08 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:32:08 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:33:31 CST INFO  UI.LeftBehindChildren$1 96 run - 查看首页
+2017-05-28 22:33:43 CST INFO  UI.LeftBehindChildren$9 366 actionPerformed - 打开文件
+2017-05-28 22:33:50 CST INFO  XmlData.Dom4j 36 initXml - null 初始化xml数据
+2017-05-28 22:33:50 CST ERROR XmlData.Dom4j 69 initXml - null 初始化失败
+2017-05-28 22:33:59 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:33:59 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:34:02 CST ERROR XmlData.Dom4j 155 modifyXml - null 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 22:34:02 CST ERROR XmlData.Dom4j 155 modifyXml - null 确保农民工子女享受国家政策插入标签失败
+2017-05-28 22:34:02 CST ERROR XmlData.Dom4j 155 modifyXml - null 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-28 22:34:07 CST ERROR XmlData.Dom4j 155 modifyXml - null 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 22:34:07 CST ERROR XmlData.Dom4j 155 modifyXml - null 确保农民工子女享受国家政策插入标签失败
+2017-05-28 22:34:07 CST ERROR XmlData.Dom4j 155 modifyXml - null 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-28 22:51:00 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 22:51:01 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 22:51:05 CST INFO  XmlData.Dom4j 36 initXml - null 初始化xml数据
+2017-05-28 22:51:05 CST ERROR XmlData.Dom4j 69 initXml - null 初始化失败
+2017-05-28 22:51:08 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:51:08 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:51:08 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:51:08 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:52:48 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 22:52:50 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 22:52:57 CST INFO  XmlData.Dom4j 36 initXml - null 初始化xml数据
+2017-05-28 22:52:57 CST ERROR XmlData.Dom4j 69 initXml - null 初始化失败
+2017-05-28 22:53:09 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:53:09 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:53:12 CST ERROR XmlData.Dom4j 155 modifyXml - null 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-28 22:53:12 CST ERROR XmlData.Dom4j 155 modifyXml - null 确保农民工子女享受国家政策插入标签失败
+2017-05-28 22:53:12 CST ERROR XmlData.Dom4j 155 modifyXml - null 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-28 22:54:37 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 22:54:39 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 22:54:44 CST INFO  XmlData.Dom4j 36 initXml - null 初始化xml数据
+2017-05-28 22:54:44 CST ERROR XmlData.Dom4j 69 initXml - null 初始化失败
+2017-05-28 22:54:58 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:54:58 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:54:58 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:54:58 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:55:09 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 22:55:10 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 22:55:15 CST INFO  XmlData.Dom4j 36 initXml - null 初始化xml数据
+2017-05-28 22:55:15 CST ERROR XmlData.Dom4j 69 initXml - null 初始化失败
+2017-05-28 22:55:25 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:55:25 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:55:37 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 22:55:41 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:55:41 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:55:51 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:55:51 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:55:51 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:55:51 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:55:58 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 22:56:11 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:56:11 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:56:11 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:56:11 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:56:19 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:56:19 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:56:19 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:56:19 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:56:30 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 22:56:39 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:56:39 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-28 22:56:39 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:56:39 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-28 22:56:43 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:56:43 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:56:48 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 22:56:58 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:56:58 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 22:57:09 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 22:57:09 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:36:39 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 23:36:41 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 23:36:50 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:36:50 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:37:00 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:37:00 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:38:14 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 23:38:17 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 23:38:21 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:38:21 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:38:25 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:38:25 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:42:14 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 23:42:16 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 23:42:23 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:42:23 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:42:34 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:42:34 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:43:25 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 23:43:27 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 23:43:32 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:43:32 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:43:37 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:43:37 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:44:44 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 23:44:46 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 23:44:50 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:44:50 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:44:54 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:44:54 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:46:15 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 23:46:17 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 23:46:26 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:46:26 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:46:34 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:46:34 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:46:34 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:46:34 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:52:03 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 23:52:07 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 23:52:12 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:52:12 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:52:16 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:52:16 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:52:16 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-28 23:52:16 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-28 23:52:35 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 23:52:43 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 23:52:43 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 23:52:48 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 23:52:48 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-28 23:52:48 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 23:52:48 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-28 23:52:48 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-28 23:52:48 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-28 23:52:48 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-28 23:52:48 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-28 23:59:35 CST INFO  UI.LeftBehindChildren$1 97 run - 查看首页
+2017-05-28 23:59:37 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-28 23:59:46 CST INFO  UI.LeftBehindChildren$9 367 actionPerformed - 打开文件
+2017-05-29 00:16:58 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 00:17:00 CST INFO  UI.LeftBehindChildren$10 428 actionPerformed - 加密保存
+2017-05-29 00:17:19 CST INFO  UI.LeftBehindChildren$10 428 actionPerformed - 加密保存
+2017-05-29 00:23:25 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 00:24:20 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 00:24:21 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 00:24:32 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-29 00:24:32 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-29 00:24:32 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-29 00:24:32 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-29 00:25:25 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 00:25:27 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 00:25:36 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-29 00:25:36 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-29 00:25:42 CST INFO  UI.LeftBehindChildren$10 428 actionPerformed - 加密保存
+2017-05-29 00:27:23 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 00:27:36 CST INFO  XmlData.Dom4j 36 initXml - C:\Users\John\Desktop\TEST.xml 初始化xml数据
+2017-05-29 00:27:36 CST ERROR XmlData.Dom4j 69 initXml - C:\Users\John\Desktop\TEST.xml 初始化失败
+2017-05-29 00:27:36 CST INFO  XmlData.Dom4j 166 parserXml - 解析C:\Users\John\Desktop\TEST.xml
+2017-05-29 00:27:36 CST ERROR XmlData.Dom4j 233 parserXml - 解析C:\Users\John\Desktop\TEST.xml失败
+2017-05-29 00:32:58 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 00:33:00 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 00:33:03 CST INFO  UI.LeftBehindChildren$10 428 actionPerformed - 加密保存
+2017-05-29 00:34:12 CST INFO  UI.LeftBehindChildren$11 467 actionPerformed - 培训用户
+2017-05-29 00:40:18 CST INFO  UI.LeftBehindChildren$10 428 actionPerformed - 加密保存
+2017-05-29 08:45:28 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 08:45:31 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 08:45:39 CST INFO  UI.LeftBehindChildren$10 428 actionPerformed - 加密保存
+2017-05-29 08:45:45 CST INFO  UI.LeftBehindChildren$11 467 actionPerformed - 培训用户
+2017-05-29 08:45:48 CST INFO  UI.LeftBehindChildren$12 508 actionPerformed - 培训用户
+2017-05-29 08:46:20 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 08:46:21 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 08:56:13 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 08:56:15 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 08:56:19 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-29 08:56:20 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-29 08:57:24 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 08:57:26 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 08:57:30 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-29 08:57:30 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-29 08:57:30 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-29 08:57:30 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-29 08:57:34 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 08:57:37 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-29 08:57:37 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-29 08:57:42 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 08:57:46 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-29 08:57:46 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-29 08:58:30 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 08:58:31 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 08:58:36 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-29 08:58:36 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-29 09:10:24 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:10:25 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:10:51 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化xml数据
+2017-05-29 09:10:51 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化失败
+2017-05-29 09:10:51 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml
+2017-05-29 09:10:51 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml失败
+2017-05-29 09:10:55 CST INFO  UI.LeftBehindChildren$6 329 actionPerformed - 进入统计站，进行三报相关新闻总数量统计
+2017-05-29 09:11:29 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:11:30 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:11:38 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化xml数据
+2017-05-29 09:11:38 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化失败
+2017-05-29 09:11:38 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml
+2017-05-29 09:11:38 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml失败
+2017-05-29 09:14:49 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:14:50 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:14:56 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化xml数据
+2017-05-29 09:14:56 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化失败
+2017-05-29 09:14:56 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml
+2017-05-29 09:14:56 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml失败
+2017-05-29 09:21:56 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:21:58 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:22:07 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化xml数据
+2017-05-29 09:22:07 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化失败
+2017-05-29 09:22:07 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml
+2017-05-29 09:22:07 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml失败
+2017-05-29 09:22:18 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-29 09:22:18 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-29 09:22:18 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-29 09:22:18 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-29 09:25:21 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:25:22 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:25:39 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化xml数据
+2017-05-29 09:25:39 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml 初始化失败
+2017-05-29 09:25:39 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml
+2017-05-29 09:25:39 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\1.xml失败
+2017-05-29 09:25:45 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化xml数据
+2017-05-29 09:25:45 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\1.xml 初始化失败
+2017-05-29 09:25:45 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml
+2017-05-29 09:25:45 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\1.xml失败
+2017-05-29 09:32:10 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:32:11 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:32:17 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\2.xml 初始化xml数据
+2017-05-29 09:32:17 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\2.xml
+2017-05-29 09:32:21 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\2.xml 初始化xml数据
+2017-05-29 09:32:21 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\2.xml
+2017-05-29 09:32:34 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:32:38 CST INFO  UI.LeftBehindChildren$10 429 actionPerformed - 加密保存
+2017-05-29 09:33:45 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:33:53 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:33:58 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:33:58 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:33:58 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:33:58 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:34:03 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\encoded_2.xml 初始化xml数据
+2017-05-29 09:34:03 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\encoded_2.xml
+2017-05-29 09:36:09 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:36:10 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:36:16 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:36:16 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:36:16 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:36:16 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:36:24 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:36:24 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:36:24 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:36:24 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:42:30 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:42:31 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:42:32 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:42:59 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:42:59 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:42:59 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:42:59 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:43:01 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:43:01 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:43:01 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:43:01 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:43:15 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:43:16 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:43:21 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:43:21 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:43:21 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:43:21 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:43:29 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:43:29 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:43:29 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:43:29 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:44:59 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:45:00 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:45:05 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:45:05 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:45:05 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:45:05 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:45:28 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:45:29 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:45:33 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-29 09:45:33 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-29 09:45:33 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-29 09:45:33 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-29 09:45:35 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-29 09:45:35 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-29 09:45:35 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-05-29 09:45:35 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml失败
+2017-05-29 09:45:37 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:45:54 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:45:54 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:45:54 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:45:54 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:47:18 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:47:19 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:48:14 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:48:16 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:48:26 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:48:26 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:48:26 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:48:26 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:48:27 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:48:27 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:48:27 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:48:27 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:49:59 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:49:59 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:50:00 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:50:13 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:50:13 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:50:13 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:50:13 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:51:07 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:51:08 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:51:19 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:51:19 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:51:19 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:51:19 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:51:23 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:51:23 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:51:23 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:51:23 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:52:33 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:52:35 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:52:41 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:52:41 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:52:41 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:52:41 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:52:42 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:52:42 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:52:42 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:52:42 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:54:55 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:54:56 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:55:18 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:55:18 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:55:18 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:55:18 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:55:46 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:55:52 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:55:53 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:56:11 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:56:11 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:56:11 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:56:11 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:56:51 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:57:01 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:57:11 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:57:11 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:57:11 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:57:11 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:57:11 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:57:11 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:57:11 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:57:11 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:57:17 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:57:24 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 09:57:24 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 09:57:24 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:57:24 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:57:24 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:57:24 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:57:56 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:58:05 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:58:05 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:58:05 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:58:05 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:58:05 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:58:05 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:58:05 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:58:05 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:58:55 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:58:56 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:59:06 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 09:59:06 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 09:59:06 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:59:06 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:59:06 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:59:06 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 09:59:40 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 09:59:41 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 09:59:56 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 09:59:56 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 09:59:56 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 09:59:56 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:03:26 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:06:18 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:06:18 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:06:18 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:06:18 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:06:18 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:06:18 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:06:18 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:06:18 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:06:21 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:06:23 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:06:37 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:06:37 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:06:37 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:06:37 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:06:37 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:06:37 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:06:37 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:06:37 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:09:06 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:09:11 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:09:23 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:09:23 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:09:23 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:09:23 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:09:23 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:09:23 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:09:23 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:09:23 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:15:10 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:15:13 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:15:17 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:15:17 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:15:17 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:15:17 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:19:30 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:19:31 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:19:37 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:19:37 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:19:37 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:19:37 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:19:39 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:19:39 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:19:39 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:19:39 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:21:35 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:21:36 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:21:42 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:21:42 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:21:42 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:21:42 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:21:42 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:21:42 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:21:42 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:21:42 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:21:49 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:21:55 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:21:55 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:21:55 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:21:55 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:21:55 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:21:55 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:21:55 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:21:55 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:24:34 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:24:35 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:24:55 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:24:55 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:24:55 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:24:55 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:24:55 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:24:55 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:38:41 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:39:12 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:39:12 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:39:12 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:39:12 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:39:12 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:39:12 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:39:12 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:39:12 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:45:40 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:45:50 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:46:01 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:46:01 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:46:01 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:46:01 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:46:01 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:46:01 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:46:01 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:46:01 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:46:11 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:46:20 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:46:20 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:46:20 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:46:20 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:46:37 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:46:49 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\2.xml 初始化xml数据
+2017-05-29 10:46:49 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\2.xml
+2017-05-29 10:46:50 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:47:11 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\2.xml 初始化xml数据
+2017-05-29 10:47:11 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\2.xml
+2017-05-29 10:47:21 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:47:28 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:47:29 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:47:38 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:47:38 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:47:38 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:47:38 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:47:48 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:48:00 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:48:00 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:48:00 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:48:00 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:49:46 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:49:47 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:49:54 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:49:54 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:49:54 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:49:54 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:49:59 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:50:06 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:50:06 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:50:15 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:50:17 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:50:22 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:50:22 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:50:36 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 10:50:37 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:50:46 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:50:46 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:50:46 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:50:46 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:50:46 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:50:46 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:50:46 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:50:46 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:50:57 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:51:05 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:51:05 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:51:05 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:51:05 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:51:05 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化xml数据
+2017-05-29 10:51:05 CST ERROR XmlData.Dom4j 69 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml 初始化失败
+2017-05-29 10:51:05 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml
+2017-05-29 10:51:05 CST ERROR XmlData.Dom4j 233 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\2.xml失败
+2017-05-29 10:51:06 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 10:51:15 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:51:15 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:51:15 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 10:51:15 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 10:51:26 CST INFO  UI.LeftBehindChildren$10 422 actionPerformed - 加密保存
+2017-05-29 10:51:31 CST INFO  UI.LeftBehindChildren$11 461 actionPerformed - 培训用户
+2017-05-29 10:51:34 CST INFO  UI.LeftBehindChildren$10 422 actionPerformed - 加密保存
+2017-05-29 10:51:42 CST INFO  UI.LeftBehindChildren$12 502 actionPerformed - 培训用户
+2017-05-29 10:51:44 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:02:26 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 11:02:28 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:02:30 CST INFO  UI.LeftBehindChildren$10 422 actionPerformed - 加密保存
+2017-05-29 11:02:38 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:02:45 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\2.xml 初始化xml数据
+2017-05-29 11:02:45 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\2.xml
+2017-05-29 11:02:45 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\2.xml 初始化xml数据
+2017-05-29 11:02:45 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\2.xml
+2017-05-29 11:02:48 CST INFO  UI.LeftBehindChildren$3 190 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-29 11:02:50 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-29 11:02:52 CST INFO  UI.LeftBehindChildren$10 422 actionPerformed - 加密保存
+2017-05-29 11:03:29 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:03:45 CST INFO  XmlData.Dom4j 36 initXml - C:\Users\John\Desktop\马乙凯.xml 初始化xml数据
+2017-05-29 11:03:45 CST ERROR XmlData.Dom4j 69 initXml - C:\Users\John\Desktop\马乙凯.xml 初始化失败
+2017-05-29 11:03:45 CST INFO  XmlData.Dom4j 166 parserXml - 解析C:\Users\John\Desktop\马乙凯.xml
+2017-05-29 11:03:45 CST ERROR XmlData.Dom4j 233 parserXml - 解析C:\Users\John\Desktop\马乙凯.xml失败
+2017-05-29 11:03:52 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:04:06 CST INFO  XmlData.Dom4j 36 initXml - C:\Users\John\Desktop\decoded_马乙凯.xml 初始化xml数据
+2017-05-29 11:04:06 CST INFO  XmlData.Dom4j 166 parserXml - 解析C:\Users\John\Desktop\decoded_马乙凯.xml
+2017-05-29 11:04:06 CST INFO  XmlData.Dom4j 36 initXml - C:\Users\John\Desktop\decoded_马乙凯.xml 初始化xml数据
+2017-05-29 11:04:06 CST INFO  XmlData.Dom4j 166 parserXml - 解析C:\Users\John\Desktop\decoded_马乙凯.xml
+2017-05-29 11:05:14 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 11:05:15 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:05:18 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:05:33 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 11:05:33 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 11:05:33 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml 初始化xml数据
+2017-05-29 11:05:33 CST INFO  XmlData.Dom4j 166 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\user\encoded\decoded_2.xml
+2017-05-29 11:05:34 CST INFO  UI.LeftBehindChildren$10 422 actionPerformed - 加密保存
+2017-05-29 11:06:02 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:06:16 CST INFO  XmlData.Dom4j 36 initXml - C:\Users\John\Desktop\decoded_马乙凯.xml 初始化xml数据
+2017-05-29 11:06:16 CST INFO  XmlData.Dom4j 166 parserXml - 解析C:\Users\John\Desktop\decoded_马乙凯.xml
+2017-05-29 11:06:16 CST INFO  XmlData.Dom4j 36 initXml - C:\Users\John\Desktop\decoded_马乙凯.xml 初始化xml数据
+2017-05-29 11:06:16 CST INFO  XmlData.Dom4j 166 parserXml - 解析C:\Users\John\Desktop\decoded_马乙凯.xml
+2017-05-29 11:06:26 CST INFO  UI.LeftBehindChildren$3 190 mouseClicked - 首页点击打开未分类新闻--确保农民工子女享受国家政策
+2017-05-29 11:06:30 CST INFO  UI.NewsContent$21 756 actionPerformed - 完成分类新闻--确保农民工子女享受国家政策
+2017-05-29 11:06:31 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-05-29 11:08:48 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 11:12:04 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 11:12:38 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
