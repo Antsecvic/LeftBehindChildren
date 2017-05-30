@@ -17,11 +17,13 @@ public class SetPassword extends JDialog {
 	private File f;	
 	private String password;
 	private String filePath;
+	private boolean ifEncoded;
 	
 	public SetPassword(JFrame frame,String filePath,File f){
 		super(frame,"…Ë÷√Œƒº˛√‹¬Î",true);
 		this.f = f;
 		this.filePath = filePath;
+		this.ifEncoded = false;
 		initComponents();	
 	}
 	
@@ -46,6 +48,7 @@ public class SetPassword extends JDialog {
 					CipherUtil cipherUtil = new CipherUtil();
 					try{
 						cipherUtil.encrypt(filePath, f.getPath(), password);
+						ifEncoded = true;
 					}catch(Exception e1){
 						e1.printStackTrace(); 
 					}
@@ -57,8 +60,11 @@ public class SetPassword extends JDialog {
 	    addWindowListener(new WindowAdapter() {  			  
 			public void windowClosing(WindowEvent e) { 
 				super.windowClosing(e);
+				ifEncoded = false;
 			}
 		});
 	}
-
+	public boolean ifEncoded(){
+		return ifEncoded;
+	}
 }
