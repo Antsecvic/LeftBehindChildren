@@ -13,6 +13,7 @@ public class MergeFile {
 	private List<List<News>> listOfList = new ArrayList<>();
 	public MergeFile(File[] f){
 		this.f = f;
+		System.out.print(f.length);
 	}
 	public boolean merge(){
 		if(f.length>=2){
@@ -38,10 +39,12 @@ public class MergeFile {
 					f[1].delete();
 					return true;
 				}else{
+					System.out.print(false);
 					return false;
 				}
 			}			
 		}
+		System.out.print(true);
 		return false;
 	}
 }

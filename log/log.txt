@@ -1673,3 +1673,282 @@
 2017-05-29 11:08:48 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
 2017-05-29 11:12:04 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
 2017-05-29 11:12:38 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:37:09 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 11:37:29 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:38:09 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 11:38:11 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 11:38:12 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 11:38:13 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 11:38:33 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:39:26 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 11:39:28 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 11:39:54 CST INFO  UI.LeftBehindChildren$10 420 actionPerformed - 加密保存
+2017-05-29 11:40:47 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:41:34 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml 初始化xml数据
+2017-05-29 11:41:34 CST ERROR XmlData.Dom4j 69 initXml - D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml 初始化失败
+2017-05-29 11:41:34 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml
+2017-05-29 11:41:34 CST ERROR XmlData.Dom4j 233 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml失败
+2017-05-29 11:41:40 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:41:52 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml 初始化xml数据
+2017-05-29 11:41:52 CST ERROR XmlData.Dom4j 69 initXml - D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml 初始化失败
+2017-05-29 11:41:52 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml
+2017-05-29 11:41:52 CST ERROR XmlData.Dom4j 233 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml失败
+2017-05-29 11:42:24 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:42:34 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 11:42:36 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 11:42:57 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:43:13 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\sichuan.xml 初始化xml数据
+2017-05-29 11:43:14 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\sichuan.xml
+2017-05-29 11:43:41 CST INFO  UI.LeftBehindChildren$6 329 actionPerformed - 进入统计站，进行三报相关新闻总数量统计
+2017-05-29 11:43:56 CST INFO  UI.StatisticsBin$3 178 actionPerformed - 农民工子女无法城市读书统计
+2017-05-29 11:43:58 CST INFO  UI.StatisticsBin$4 212 actionPerformed - 新闻类型统计
+2017-05-29 11:43:59 CST INFO  UI.StatisticsBin$5 245 actionPerformed - 报道主题统计
+2017-05-29 11:43:59 CST INFO  UI.StatisticsBin$6 283 actionPerformed - 新闻报道来源统计
+2017-05-29 11:44:00 CST INFO  UI.StatisticsBin$7 319 actionPerformed - 媒介呈现形象统计
+2017-05-29 11:44:02 CST INFO  UI.StatisticsBin$8 352 actionPerformed - 新闻主体统计
+2017-05-29 11:44:02 CST INFO  UI.StatisticsBin$10 417 actionPerformed - 新闻具体种类统计
+2017-05-29 11:44:03 CST INFO  UI.StatisticsBin$2 144 actionPerformed - 三报相关新闻总数量统计
+2017-05-29 11:44:09 CST INFO  UI.StatisticsBin$1 100 actionPerformed - 返回首页
+2017-05-29 11:44:10 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:44:18 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 11:44:19 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 11:44:21 CST INFO  UI.LeftBehindChildren$6 329 actionPerformed - 进入统计站，进行三报相关新闻总数量统计
+2017-05-29 11:44:23 CST INFO  UI.StatisticsBin$3 178 actionPerformed - 农民工子女无法城市读书统计
+2017-05-29 11:44:24 CST INFO  UI.StatisticsBin$4 212 actionPerformed - 新闻类型统计
+2017-05-29 11:44:58 CST INFO  UI.StatisticsBin$1 100 actionPerformed - 返回首页
+2017-05-29 11:45:03 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 11:45:19 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 11:45:20 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 11:46:14 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 11:46:22 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 11:46:24 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 11:46:53 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:46:59 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 11:47:00 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 11:47:05 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 11:47:41 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 11:47:46 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 11:47:52 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 11:47:53 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 11:47:54 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 11:48:11 CST INFO  XmlData.Dom4j 36 initXml - D:\ch72\团队项目\任务六\LeftBehindChildren-master\assets\guangming.xml 初始化xml数据
+2017-05-29 11:48:12 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\ch72\团队项目\任务六\LeftBehindChildren-master\assets\guangming.xml
+2017-05-29 11:50:08 CST INFO  UI.LeftBehindChildren$10 420 actionPerformed - 加密保存
+2017-05-29 12:00:52 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 12:01:09 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 12:01:09 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 12:01:11 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 12:01:19 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 12:01:20 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 12:01:31 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 12:02:04 CST INFO  XmlData.Dom4j 36 initXml - D:\ch72\团队项目\任务六\LeftBehindChildren-master\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 12:02:05 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\ch72\团队项目\任务六\LeftBehindChildren-master\assets\nanfangdaily.xml
+2017-05-29 12:02:42 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 12:03:58 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 12:04:44 CST INFO  XmlData.Dom4j 36 initXml - D:\ch72\团队项目\任务六\LeftBehindChildren-master\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 12:04:45 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\ch72\团队项目\任务六\LeftBehindChildren-master\assets\nanfangdaily.xml
+2017-05-29 12:04:46 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 12:04:54 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-05-29 12:04:54 CST ERROR XmlData.Dom4j 69 initXml - D:\eclipse\LeftBehindChildren\assets\1.xml 初始化失败
+2017-05-29 12:04:54 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\1.xml
+2017-05-29 12:04:54 CST ERROR XmlData.Dom4j 233 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\1.xml失败
+2017-05-29 12:04:54 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\2.xml 初始化xml数据
+2017-05-29 12:04:54 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\2.xml
+2017-05-29 12:05:15 CST INFO  UI.LeftBehindChildren$12 499 actionPerformed - 培训用户
+2017-05-29 12:05:40 CST INFO  XmlData.Dom4j 36 initXml - D:\ch72\团队项目\任务六\LeftBehindChildren-master\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 12:05:40 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\ch72\团队项目\任务六\LeftBehindChildren-master\assets\nanfangdaily.xml
+2017-05-29 12:06:08 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 12:06:20 CST INFO  UI.LeftBehindChildren$3 190 mouseClicked - 首页点击打开未分类新闻--一份提案催生政府新举措
+2017-05-29 12:06:23 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-29 12:06:24 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:06:32 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 12:06:32 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 12:06:36 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 12:09:09 CST INFO  UI.LeftBehindChildren$10 420 actionPerformed - 加密保存
+2017-05-29 12:09:59 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:10:18 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_2.xml 初始化xml数据
+2017-05-29 12:10:18 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_2.xml
+2017-05-29 12:10:19 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_2.xml 初始化xml数据
+2017-05-29 12:10:19 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_2.xml
+2017-05-29 12:11:06 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:13:02 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:13:11 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 12:13:12 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 12:13:15 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:13:58 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 12:13:59 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 12:13:59 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 12:13:59 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 12:14:00 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:14:07 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml 初始化xml数据
+2017-05-29 12:14:07 CST ERROR XmlData.Dom4j 69 initXml - D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml 初始化失败
+2017-05-29 12:14:07 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml
+2017-05-29 12:14:07 CST ERROR XmlData.Dom4j 233 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\decoded_nanfangdaily.xml失败
+2017-05-29 12:14:52 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:28:20 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:28:33 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 12:28:33 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 12:31:02 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:33:13 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:35:03 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:35:15 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 12:35:15 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 12:35:15 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 12:35:16 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 12:36:10 CST INFO  UI.LeftBehindChildren$10 420 actionPerformed - 加密保存
+2017-05-29 12:37:23 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:37:32 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\sichuan.xml 初始化xml数据
+2017-05-29 12:37:33 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\sichuan.xml
+2017-05-29 12:37:34 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\sichuan.xml 初始化xml数据
+2017-05-29 12:37:36 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\sichuan.xml
+2017-05-29 12:37:37 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:37:56 CST INFO  XmlData.Dom4j 36 initXml - D:\project\guangming.xml 初始化xml数据
+2017-05-29 12:37:56 CST ERROR XmlData.Dom4j 69 initXml - D:\project\guangming.xml 初始化失败
+2017-05-29 12:37:56 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\guangming.xml
+2017-05-29 12:37:56 CST ERROR XmlData.Dom4j 233 parserXml - 解析D:\project\guangming.xml失败
+2017-05-29 12:38:07 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:38:29 CST INFO  XmlData.Dom4j 36 initXml - D:\project\guangming.xml 初始化xml数据
+2017-05-29 12:38:29 CST ERROR XmlData.Dom4j 69 initXml - D:\project\guangming.xml 初始化失败
+2017-05-29 12:38:29 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\guangming.xml
+2017-05-29 12:38:29 CST ERROR XmlData.Dom4j 233 parserXml - 解析D:\project\guangming.xml失败
+2017-05-29 12:38:50 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:38:56 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 12:38:57 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 12:38:57 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 12:38:58 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 12:39:08 CST INFO  UI.LeftBehindChildren$10 420 actionPerformed - 加密保存
+2017-05-29 12:39:47 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:39:53 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 12:39:54 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 12:39:56 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 12:39:57 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 12:39:59 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:40:23 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 12:40:24 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 12:40:25 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 12:40:25 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 12:43:05 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:43:11 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 12:43:12 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 12:43:12 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 12:43:13 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 12:43:15 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 12:57:35 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:58:04 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 12:58:05 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 12:58:05 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 12:58:06 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 12:58:16 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:58:32 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 12:58:33 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 12:58:33 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 12:58:34 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 12:58:57 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 12:59:14 CST INFO  UI.LeftBehindChildren$3 190 mouseClicked - 首页点击打开未分类新闻--高校：新农村建设的生力军——华中师大服务新农村侧记
+2017-05-29 12:59:17 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-29 12:59:19 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 12:59:47 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 12:59:48 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 12:59:48 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 12:59:49 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 12:59:50 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:00:13 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:00:25 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:00:33 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 13:00:35 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 13:00:36 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 13:00:37 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 13:00:42 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:00:56 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 13:00:57 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 13:00:58 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 13:00:58 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 13:01:02 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:01:41 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:01:47 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 13:01:48 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 13:01:48 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 13:01:49 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 13:01:51 CST INFO  UI.LeftBehindChildren$3 190 mouseClicked - 首页点击打开未分类新闻--创新实践教学强化素质教育阜阳师院精心培养新型“未来教师”
+2017-05-29 13:01:53 CST INFO  UI.NewsContent$19 709 actionPerformed - 返回首页
+2017-05-29 13:01:54 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:02:19 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:04:13 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:07:48 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 13:07:52 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:07:59 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 13:08:01 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 13:08:02 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 13:08:02 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 13:08:07 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:11:19 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 13:11:23 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:11:29 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 13:11:31 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 13:11:32 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 13:11:33 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 13:11:35 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:12:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 陈至立强调全面推进保障机制改革提高农村义务教育水平插入标签失败
+2017-05-29 13:12:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-29 13:12:39 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 确保农民工子女享受国家政策插入标签失败
+2017-05-29 13:12:39 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-29 13:12:39 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 不能忽视农村留守儿童插入标签失败
+2017-05-29 13:12:39 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 对农村“留守儿童”问题的理性思考插入标签失败
+2017-05-29 13:12:39 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 对农村“留守儿童”问题的理性思考插入标签失败
+2017-05-29 13:12:40 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 好政策播种新希望——记湖北省农村教师资助行动计划插入标签失败
+2017-05-29 13:12:40 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 17部委领导慰问在京流动人口子女和农村留守儿童插入标签失败
+2017-05-29 13:12:41 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 江苏“七彩夏日”点亮精彩暑假插入标签失败
+2017-05-29 13:12:41 CST ERROR XmlData.Dom4j 155 modifyXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 中国人民公安大学治安系教授王太元：就地解决还是增加留守儿童插入标签失败
+2017-05-29 13:13:10 CST INFO  UI.LeftBehindChildren$1 100 run - 查看首页
+2017-05-29 13:13:13 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:13:18 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 13:13:20 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 13:13:22 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 13:13:22 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 13:13:24 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:14:53 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:15:12 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\guangming.xml 初始化xml数据
+2017-05-29 13:15:13 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\guangming.xml
+2017-05-29 13:15:13 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:15:48 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 13:15:49 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 13:15:49 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 13:15:50 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 13:15:55 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:15:58 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:17:31 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:17:39 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 13:17:41 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 13:17:42 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
+2017-05-29 13:17:43 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-05-29 13:17:47 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:18:04 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 13:18:05 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 13:18:06 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 13:18:07 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 13:18:10 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:18:29 CST INFO  XmlData.Dom4j 36 initXml - D:\project\guangming.xml 初始化xml数据
+2017-05-29 13:18:29 CST ERROR XmlData.Dom4j 69 initXml - D:\project\guangming.xml 初始化失败
+2017-05-29 13:18:29 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\guangming.xml
+2017-05-29 13:18:29 CST ERROR XmlData.Dom4j 233 parserXml - 解析D:\project\guangming.xml失败
+2017-05-29 13:18:29 CST INFO  XmlData.Dom4j 36 initXml - D:\project\guangming.xml 初始化xml数据
+2017-05-29 13:18:29 CST ERROR XmlData.Dom4j 69 initXml - D:\project\guangming.xml 初始化失败
+2017-05-29 13:18:29 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\guangming.xml
+2017-05-29 13:18:29 CST ERROR XmlData.Dom4j 233 parserXml - 解析D:\project\guangming.xml失败
+2017-05-29 13:18:41 CST INFO  UI.LeftBehindChildren$9 370 actionPerformed - 打开文件
+2017-05-29 13:19:15 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 13:19:16 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 13:19:16 CST INFO  XmlData.Dom4j 36 initXml - D:\project\decoded_guangming.xml 初始化xml数据
+2017-05-29 13:19:17 CST INFO  XmlData.Dom4j 166 parserXml - 解析D:\project\decoded_guangming.xml
+2017-05-29 13:19:26 CST INFO  UI.LeftBehindChildren$11 458 actionPerformed - 合并文件
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 陈至立强调全面推进保障机制改革提高农村义务教育水平插入标签失败
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 青少年“身边最让我感动的人”评选揭晓插入标签失败
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 确保农民工子女享受国家政策插入标签失败
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 全国政协十届四次会议举行第三次全体会议贾庆林出席12位委员围绕科教文衞等社会事业...插入标签失败
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 不能忽视农村留守儿童插入标签失败
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 对农村“留守儿童”问题的理性思考插入标签失败
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 好政策播种新希望——记湖北省农村教师资助行动计划插入标签失败
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 农村留守儿童教育亟待加强插入标签失败
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 17部委领导慰问在京流动人口子女和农村留守儿童插入标签失败
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 江苏“七彩夏日”点亮精彩暑假插入标签失败
+2017-05-29 13:39:38 CST ERROR XmlData.Dom4j 155 modifyXml - D:\project\decoded_guangming.xml 中国人民公安大学治安系教授王太元：就地解决还是增加留守儿童插入标签失败
