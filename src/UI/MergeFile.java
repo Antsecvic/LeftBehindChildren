@@ -12,8 +12,21 @@ public class MergeFile {
 	private File f;
 	private String filePath;
 	public MergeFile(String filePath,File f){
-		this.f = f;
-		this.filePath = filePath;
+		System.out.print(f.getPath());
+		System.out.print(filePath);
+		if(f.getPath().contains("LeftBehindChildren\\assets\\guangming.xml")){
+			this.filePath = "assets/guangming.xml";
+			this.f = new File(filePath);
+		}else if(f.getPath().contains("LeftBehindChildren\\assets\\nanfangdaily.xml")){
+			this.filePath = "assets/nanfangdaily.xml";
+			this.f = new File(filePath);
+		}else if(f.getPath().contains("LeftBehindChildren\\assets\\sichuan.xml")){
+			this.filePath = "assets/sichuan.xml";
+			this.f = new File(filePath);
+		}else{
+			this.f = f;
+			this.filePath = filePath;
+		}
 	}
 	public boolean merge(){
 		if(f!=null&&filePath!=null){
@@ -41,5 +54,8 @@ public class MergeFile {
 			}	
 		}				
 		return false;
+	}
+	public String filepath(){
+		return filePath;		
 	}
 }

@@ -28877,9 +28877,9 @@
     <EncodedContent/> 
   </NewsData>  
   <NewsData> 
-    <TagIts/>  
+    <TagIts>true</TagIts>  
     <IsLoad>true</IsLoad>  
-    <IsDeleted/>  
+    <IsDeleted></IsDeleted>  
     <Memo/>  
     <Title>你好，2016</Title>  
     <Date>2015-12-31</Date>  
@@ -28890,14 +28890,14 @@
     <ID>news:03kj^201512313181896(S:193916318)</ID>  
     <TrueUrl>http://epaper.gmw.cn/gmrb/html/2015-12/31/nw.D110000gmrb_20151231_5-01.htm?div=-1</TrueUrl>  
     <Tags> 
-      <Type/>  
-      <Theme/>  
-      <Source/>  
-      <Showing/>  
-      <Reason/>  
-      <MainBody/>  
-      <HelpType/>  
-      <Gender/> 
+      <Type>其他</Type>  
+      <Theme>其他</Theme>  
+      <Source>其他</Source>  
+      <Showing>其他</Showing>  
+      <Reason></Reason>  
+      <MainBody></MainBody>  
+      <HelpType></HelpType>  
+      <Gender></Gender> 
     </Tags>  
     <EncodedContent/> 
   </NewsData> 

@@ -446,6 +446,7 @@ public class LeftBehindChildren {
 						JOptionPane.showMessageDialog(null, "合并失败。", "合并文件", JOptionPane.INFORMATION_MESSAGE);
 						logger.info("合并失败");
 					}
+					filePath = mergeFile.filepath();
 					ListData.getInstance().importFile(filePath);
 					listData = ListData.getInstance();
 					ListModel<Object> jList1Model1 =  new DefaultComboBoxModel<>(listData.notClassifiedTitle.toArray());//重新绑定列表模型数据
