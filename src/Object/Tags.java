@@ -1,4 +1,4 @@
-package XmlData;
+package Object;
 
 public class Tags {
 	private String type;

@@ -34,6 +34,10 @@ import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.select.Elements;
 
+import Object.ListData;
+import Object.News;
+import Object.Tags;
+
 import javax.swing.JRadioButton;
 
 public class NewsContent extends JFrame implements ActionListener{

@@ -12,6 +12,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPasswordField;
 
+import Util.CipherUtil;
+
 public class SetPassword extends JDialog {
 	
 	private File f;	

@@ -3212,3 +3212,71 @@
 2017-06-01 21:29:30 CST INFO  XmlData.Dom4j 36 initXml - D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml 初始化xml数据
 2017-06-01 21:29:31 CST INFO  XmlData.Dom4j 156 parserXml - 解析D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
 2017-06-01 21:29:52 CST INFO  UI.LeftBehindChildren$8 364 windowClosing - 关闭并保存文件D:\eclipse\LeftBehindChildren\assets\nanfangdaily.xml
+2017-06-03 18:57:50 CST INFO  UI.LeftBehindChildren$1 101 run - 查看首页
+2017-06-03 18:58:04 CST INFO  UI.LeftBehindChildren$13 566 actionPerformed - 显示三报新闻
+2017-06-03 18:58:04 CST INFO  XmlData.Dom4j 36 initXml - assets/guangming.xml 初始化xml数据
+2017-06-03 18:58:05 CST INFO  XmlData.Dom4j 36 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-06-03 18:58:06 CST INFO  XmlData.Dom4j 36 initXml - assets/sichuan.xml 初始化xml数据
+2017-06-03 18:58:07 CST INFO  XmlData.Dom4j 156 parserXml - 解析assets/guangming.xml
+2017-06-03 18:58:07 CST INFO  XmlData.Dom4j 156 parserXml - 解析assets/nanfangdaily.xml
+2017-06-03 18:58:08 CST INFO  XmlData.Dom4j 156 parserXml - 解析assets/sichuan.xml
+2017-06-03 18:59:10 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-06-03 18:59:10 CST INFO  XmlData.Dom4j 156 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-06-03 18:59:10 CST INFO  UI.LeftBehindChildren$11 504 actionPerformed - 打开文件：E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-06-03 18:59:10 CST INFO  XmlData.Dom4j 36 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-06-03 18:59:10 CST INFO  XmlData.Dom4j 156 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-06-03 18:59:12 CST INFO  UI.LeftBehindChildren$5 284 mouseClicked - 首页点击打开已分类新闻--青少年“身边最让我感动的人”评选揭晓
+2017-06-03 18:59:20 CST INFO  UI.ClassifiedNewsContent$2 129 actionPerformed - 返回首页
+2017-06-03 18:59:37 CST INFO  UI.LeftBehindChildren$9 409 actionPerformed - 加密保存：保存文件路径为C:\Users\John\Desktop\2.xml
+2017-06-03 18:59:58 CST INFO  XmlData.Dom4j 36 initXml - C:\Users\John\Desktop\decoded_2.xml 初始化xml数据
+2017-06-03 18:59:58 CST INFO  XmlData.Dom4j 156 parserXml - 解析C:\Users\John\Desktop\decoded_2.xml
+2017-06-03 18:59:58 CST INFO  UI.LeftBehindChildren$11 504 actionPerformed - 打开文件：C:\Users\John\Desktop\decoded_2.xml
+2017-06-03 18:59:58 CST INFO  XmlData.Dom4j 36 initXml - C:\Users\John\Desktop\decoded_2.xml 初始化xml数据
+2017-06-03 18:59:58 CST INFO  XmlData.Dom4j 156 parserXml - 解析C:\Users\John\Desktop\decoded_2.xml
+2017-06-03 19:00:28 CST INFO  UI.LeftBehindChildren$12 533 actionPerformed - 培训用户
+2017-06-03 19:00:37 CST INFO  UI.LeftBehindChildren$12 533 actionPerformed - 培训用户
+2017-06-03 19:02:18 CST INFO  UI.LeftBehindChildren$8 364 windowClosing - 关闭并保存文件C:\Users\John\Desktop\decoded_2.xml
+2017-06-05 18:51:59 CST INFO  UI.LeftBehindChildren$1 101 run - 查看首页
+2017-06-05 18:52:03 CST INFO  UI.LeftBehindChildren$8 368 windowClosing - 关闭三报新闻
+2017-06-05 19:15:29 CST INFO  UI.LeftBehindChildren$1 102 run - 查看首页
+2017-06-05 19:15:30 CST INFO  UI.LeftBehindChildren$8 369 windowClosing - 关闭三报新闻
+2017-06-05 19:16:27 CST INFO  UI.LeftBehindChildren$1 102 run - 查看首页
+2017-06-05 19:16:30 CST INFO  UI.LeftBehindChildren$13 567 actionPerformed - 显示三报新闻
+2017-06-05 19:16:30 CST INFO  XmlData.Dom4j 38 initXml - assets/guangming.xml 初始化xml数据
+2017-06-05 19:16:31 CST INFO  XmlData.Dom4j 38 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-06-05 19:16:32 CST INFO  XmlData.Dom4j 38 initXml - assets/sichuan.xml 初始化xml数据
+2017-06-05 19:16:33 CST INFO  XmlData.Dom4j 158 parserXml - 解析assets/guangming.xml
+2017-06-05 19:16:33 CST INFO  XmlData.Dom4j 158 parserXml - 解析assets/nanfangdaily.xml
+2017-06-05 19:16:34 CST INFO  XmlData.Dom4j 158 parserXml - 解析assets/sichuan.xml
+2017-06-05 19:16:53 CST INFO  UI.LeftBehindChildren$8 369 windowClosing - 关闭三报新闻
+2017-06-05 20:04:37 CST INFO  UI.LeftBehindChildren$1 102 run - 查看首页
+2017-06-05 20:04:41 CST INFO  UI.LeftBehindChildren$13 567 actionPerformed - 显示三报新闻
+2017-06-05 20:04:41 CST INFO  XmlData.Dom4j 38 initXml - assets/guangming.xml 初始化xml数据
+2017-06-05 20:04:41 CST INFO  XmlData.Dom4j 38 initXml - assets/nanfangdaily.xml 初始化xml数据
+2017-06-05 20:04:42 CST INFO  XmlData.Dom4j 38 initXml - assets/sichuan.xml 初始化xml数据
+2017-06-05 20:04:42 CST INFO  XmlData.Dom4j 158 parserXml - 解析assets/guangming.xml
+2017-06-05 20:04:43 CST INFO  XmlData.Dom4j 158 parserXml - 解析assets/nanfangdaily.xml
+2017-06-05 20:04:44 CST INFO  XmlData.Dom4j 158 parserXml - 解析assets/sichuan.xml
+2017-06-05 20:05:28 CST INFO  XmlData.Dom4j 38 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-06-05 20:05:28 CST INFO  XmlData.Dom4j 158 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-06-05 20:05:28 CST INFO  UI.LeftBehindChildren$11 505 actionPerformed - 打开文件：E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-06-05 20:05:28 CST INFO  XmlData.Dom4j 38 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-06-05 20:05:28 CST INFO  XmlData.Dom4j 158 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-06-05 20:05:40 CST INFO  UI.LeftBehindChildren$9 410 actionPerformed - 加密保存：保存文件路径为C:\Users\John\Desktop\2.xml
+2017-06-05 20:06:01 CST INFO  UI.LeftBehindChildren$9 410 actionPerformed - 加密保存：保存文件路径为C:\Users\John\Desktop\2.xml
+2017-06-05 20:06:33 CST INFO  XmlData.Dom4j 38 initXml - C:\Users\John\Desktop\decoded_2.xml 初始化xml数据
+2017-06-05 20:06:33 CST INFO  XmlData.Dom4j 158 parserXml - 解析C:\Users\John\Desktop\decoded_2.xml
+2017-06-05 20:06:33 CST INFO  UI.LeftBehindChildren$11 505 actionPerformed - 打开文件：C:\Users\John\Desktop\decoded_2.xml
+2017-06-05 20:06:33 CST INFO  XmlData.Dom4j 38 initXml - C:\Users\John\Desktop\decoded_2.xml 初始化xml数据
+2017-06-05 20:06:33 CST INFO  XmlData.Dom4j 158 parserXml - 解析C:\Users\John\Desktop\decoded_2.xml
+2017-06-05 20:07:03 CST INFO  XmlData.Dom4j 38 initXml - E:\Java\workspace\LeftBehindChildren\assets\1.xml 初始化xml数据
+2017-06-05 20:07:03 CST INFO  XmlData.Dom4j 158 parserXml - 解析E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-06-05 20:07:03 CST INFO  XmlData.Dom4j 38 initXml - C:\Users\John\Desktop\decoded_2.xml 初始化xml数据
+2017-06-05 20:07:03 CST INFO  XmlData.Dom4j 158 parserXml - 解析C:\Users\John\Desktop\decoded_2.xml
+2017-06-05 20:07:03 CST INFO  UI.LeftBehindChildren$10 442 actionPerformed - 合并文件C:\Users\John\Desktop\decoded_2.xml和E:\Java\workspace\LeftBehindChildren\assets\1.xml
+2017-06-05 20:07:04 CST INFO  UI.LeftBehindChildren$10 445 actionPerformed - 合并成功
+2017-06-05 20:07:04 CST INFO  XmlData.Dom4j 38 initXml - C:\Users\John\Desktop\decoded_2.xml 初始化xml数据
+2017-06-05 20:07:04 CST INFO  XmlData.Dom4j 158 parserXml - 解析C:\Users\John\Desktop\decoded_2.xml
+2017-06-05 20:11:56 CST INFO  UI.LeftBehindChildren$8 365 windowClosing - 关闭并保存文件C:\Users\John\Desktop\decoded_2.xml
+2017-06-05 20:20:12 CST INFO  UI.LeftBehindChildren$1 102 run - 查看首页
+2017-06-05 20:20:13 CST INFO  UI.LeftBehindChildren$8 369 windowClosing - 关闭三报新闻

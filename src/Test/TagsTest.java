@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import XmlData.Tags;
+import Object.Tags;
 
 public class TagsTest {
 

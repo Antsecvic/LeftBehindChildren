@@ -4,7 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import XmlData.Statistics;
+import Util.Statistics;
+
 
 public class StatisticsTest {
 

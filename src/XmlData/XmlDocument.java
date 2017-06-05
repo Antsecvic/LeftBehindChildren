@@ -2,6 +2,8 @@ package XmlData;
 
 import java.util.List;
 
+import Object.News;
+
 /**  
 *  
 * 定义XML文档建立与解析的接口  

@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;
 
-import XmlData.Statistics;
+import Util.Statistics;
 
 import javax.swing.JButton;
 import java.awt.event.ActionListener;

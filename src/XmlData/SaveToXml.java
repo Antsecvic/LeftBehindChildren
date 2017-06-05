@@ -1,7 +1,7 @@
 package XmlData;
 
-import UI.CipherUtil;
-import UI.ListData;
+import Object.ListData;
+import Object.News;
 
 public class SaveToXml {
 	private ListData listData;

@@ -1,10 +1,9 @@
-package UI;
+package Object;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import XmlData.Dom4j;
-import XmlData.News;
 
 public class ListData {
 	public List<News> newsList = new ArrayList<>();
@@ -91,6 +90,6 @@ public class ListData {
 				return position;
 			}
 		}
-		return -1;
+		return 0;
 	}
 }

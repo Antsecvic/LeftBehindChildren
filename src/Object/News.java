@@ -1,4 +1,4 @@
-package XmlData;
+package Object;
 
 import java.io.Serializable;
 

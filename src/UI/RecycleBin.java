@@ -8,8 +8,8 @@ import javax.swing.border.EmptyBorder;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-//import XmlData.Dom4j;
-import XmlData.News;
+import Object.ListData;
+import Object.News;
 import XmlData.SaveToXml;
 
 import javax.swing.JList;

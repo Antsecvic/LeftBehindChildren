@@ -23,10 +23,11 @@ import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.select.Elements;
 
+import Object.ListData;
+import Object.News;
+import Object.Tags;
 import XmlData.Dom4j;
-import XmlData.News;
 import XmlData.SaveToXml;
-import XmlData.Tags;
 
 @SuppressWarnings("serial")
 public class ClassifiedNewsContent extends JFrame{

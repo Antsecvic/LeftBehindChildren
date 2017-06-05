@@ -12,6 +12,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPasswordField;
 
+import Object.ListData;
+import Util.CipherUtil;
+
 
 public class PasswordDialog extends JDialog {
 	

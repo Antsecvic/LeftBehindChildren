@@ -1,12 +1,13 @@
-package UI;
+package Util;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import XmlData.News;
-import XmlData.Tags;
+import Object.ListData;
+import Object.News;
+import Object.Tags;
 
 public class TrainUser {
 	private int count;

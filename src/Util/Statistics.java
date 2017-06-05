@@ -1,9 +1,10 @@
-package XmlData;
+package Util;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import UI.ListData;
+import Object.ListData;
+import Object.News;
 
 public class Statistics {
 	private ListData listData;

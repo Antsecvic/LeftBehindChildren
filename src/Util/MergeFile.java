@@ -1,12 +1,13 @@
-package UI;
+package Util;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import Object.ListData;
+import Object.News;
 import XmlData.Dom4j;
-import XmlData.News;
 
 public class MergeFile {
 	private File f;
